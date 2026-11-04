@@ -74,7 +74,7 @@ Khi in, mọi ý hiện ở trạng thái cuối, animation tắt, các nút tư
 - **Ghi chú người nói:** `<aside class="notes">...</aside>` ở cuối section.
 - **Morph:** tiêu đề, logo, footer và các khối có class `blk` (theo thứ tự) tự ghép đôi giữa hai slide liền nhau. Muốn hai phần tử cụ thể ghép với nhau thì cho cùng `data-id`, ví dụ `data-id="steps"` ở thanh 5 bước, `data-id="chain"` ở mục lục và slide tổng kết.
 - **Số liệu biểu đồ** nằm ở đầu `app.js` (biến `D`). Sửa số trong bảng HTML thì sửa cả ở đây.
-- **Bìa:** thay `[Họ và tên] – [MSSV]` và `Nhóm [..]` trong `index.html` (slide 01) và ở slide tài liệu tham khảo.
+- **Bìa:** tên nhóm và danh sách thành viên (họ tên, MSSV) nằm ở slide 01 trong `index.html`; tên nhóm còn xuất hiện ở slide tài liệu tham khảo.
 
 ## Component dùng lại từ Spider UI
 
