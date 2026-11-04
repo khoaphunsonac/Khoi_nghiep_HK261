@@ -19,7 +19,7 @@ LTV = Σ (t = 0 → 5)  Lợi nhuận gộp(t) / (1 + i)^t
 
 - **Dự án:** LTV = **24.996.592 ₫** (làm tròn 25 triệu) cho một khách mua cả phô mai và whey. Whey đóng góp khoảng 83%.
 - **Ý nghĩa:** cho biết doanh nghiệp được phép chi tối đa bao nhiêu để có một khách mà vẫn có lời.
-- Slide 14–16.
+- Slide 15–17.
 
 ### COCA: Chi phí để có được một khách hàng
 *Cost of Customer Acquisition, còn gọi là CAC.*
@@ -32,14 +32,14 @@ COCA(t) = [TMSE(t) − IBSE(t)] / NC(t)
 
 - **COCA càng nhỏ càng tốt.** Chỉ số này thay đổi theo thời gian và không phải thước đo duy nhất của hiệu quả tiếp thị.
 - **Dự án:** 3,6 triệu (năm 1) → 1,91 triệu (năm 2–3) → 1,4 triệu (năm 4–5).
-- Slide 18–19.
+- Slide 19–20.
 
 ### Tỷ số LTV : COCA
 Một khách mang về gấp bao nhiêu lần chi phí để có được khách đó. Nhà đầu tư mạo hiểm David Skok khuyến cáo một mô hình kinh doanh bền vững cần đạt **LTV : COCA ≥ 3 : 1**.
 
 - Dưới 3 : 1: chi quá nhiều để có khách, khó có lãi.
 - **Dự án:** 6,94 : 1 (thời điểm 1) → 13,06 : 1 → **17,86 : 1** (thời điểm 3).
-- Slide 20.
+- Slide 21.
 
 ### NPV: Giá trị hiện tại ròng
 *Net Present Value.*
@@ -54,7 +54,7 @@ NPV = Σ (t = 0 → N)  CF(t) / (1 + r)^t
 - **NPV < 0:** chưa đạt mức kỳ vọng.
 - Trong Excel: `=CF0 + NPV(r; CF1:CFN)`.
 - **Dự án** (r = 12%): **3.124,7 triệu** nếu chỉ tính 5 năm hoạt động; **23.302,0 triệu** nếu cộng giá trị sau cuối CFT.
-- Slide 22, 29–30.
+- Slide 23, 30–31.
 
 ### IRR: Suất sinh lợi nội tại
 *Internal Rate of Return.*
@@ -68,7 +68,7 @@ Mức chiết khấu làm cho NPV đúng bằng 0, tức tỷ suất lợi nhu�
 - **IRR ≥ r:** khả thi về tài chính.
 - Không giải tay được, phải thử dần hoặc dùng hàm `IRR()` trong Excel.
 - **Dự án:** **64,46%** (5 năm) hoặc 121,19% (gồm CFT), đều lớn hơn r = 12%.
-- Slide 22, 29.
+- Slide 23, 30.
 
 ### PP: Thời gian hoàn vốn
 *Payback Period.*
@@ -83,7 +83,7 @@ PP = Năm t + (Chi phí còn phải thu hồi / Dòng tiền năm t+1)
 - **Phân số:** phần lẻ của năm.
 - **PP ≤ thời gian hoàn vốn yêu cầu:** dự án được xem là phù hợp.
 - **Dự án:** PP = 2 + 174,0 / 1.300,6 ≈ **2,13 năm** (khoảng 2 năm 2 tháng), nhỏ hơn yêu cầu 3 năm.
-- Slide 23, 30.
+- Slide 24, 31.
 
 ---
 
@@ -138,7 +138,7 @@ CFT     = CF(N+1) / (r − g)        (chỉ có nghĩa khi r > g)
 
 - **Dự án:** CF6 = 2.370,6 × 1,05 = 2.489,13 triệu; CFT = 2.489,13 / 7% = **35.559,0 triệu**.
 - CFT chiếm khoảng 87% NPV, nên nhóm trình bày thêm kết quả không gồm CFT cho thận trọng.
-- Slide 28.
+- Slide 29.
 
 ### CF phân tích
 Dòng tiền dùng để tính NPV và IRR: vốn đầu tư năm 0, dòng tiền hoạt động các năm, và cộng CFT vào năm cuối.

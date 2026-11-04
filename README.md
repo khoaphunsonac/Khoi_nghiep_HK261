@@ -6,12 +6,12 @@ Bộ slide HTML trình bày chủ đề 3.1 của môn Khởi nghiệp (GVHD TS.
 
 | Đường dẫn | Nội dung |
 |---|---|
-| `slides/index.html` | 33 slide (Reveal.js 5.1.0) |
+| `slides/index.html` | 34 slide (Reveal.js 5.1.0) |
 | `slides/style.css` | Màu Bách Khoa, bố cục, các component |
 | `slides/app.js` | Footer, mục lục phần, hiệu ứng morph, component, biểu đồ |
 | `slides/lib/reveal/` | Reveal.js và plugin ghi chú, đã tải về để chạy offline |
 | `slides/assets/` | Logo trường, font, ảnh Unsplash (`img/photo/`), minh họa unDraw (`img/undraw/`) |
-| `Slides_3.1_Phan_tich_tai_chinh.pdf` | Bản PDF để nộp, 33 trang |
+| `Slides_3.1_Phan_tich_tai_chinh.pdf` | Bản PDF để nộp, 34 trang |
 | `Kich_ban_thuyet_trinh.md` | Kịch bản cho 5 người nói, khoảng 19 phút, kèm phần hỏi đáp |
 | `Thuat_ngu.md` | Định nghĩa các thuật ngữ: LTV, COCA, NPV, IRR, PP, CFT, chiết khấu, các mô hình doanh thu và cách định giá… |
 | `Noi_dung_seminar.txt` | Chữ trên từng slide, ghi chú người nói, các chỗ đã sửa, tài liệu tham khảo |
@@ -36,10 +36,10 @@ Một số slide có phần tương tác bằng chuột:
 - Slide 05: rê chuột lên từng mô hình doanh thu để mở ra.
 - Slide 10: nút Đến sớm / Đến sau làm nổi một nhóm khách.
 - Slide 12: bấm vào một thẻ giá để kéo nó lên.
-- Slide 14: nút *Ví dụ trong bài giảng* mở bảng LTV mẫu của thầy.
-- Slide 16: các tab Phô mai / Whey / Cả hai.
-- Slide 29: công tắc *Gồm CFT* và nút *Đối chiếu ví dụ*.
-- Slide 30: kéo thanh trượt (hoặc bấm vào rồi dùng ← →) để đổi suất chiết khấu r.
+- Slide 15: nút *Ví dụ trong bài giảng* mở bảng LTV mẫu của thầy.
+- Slide 17: các tab Phô mai / Whey / Cả hai.
+- Slide 30: công tắc *Gồm CFT* và nút *Đối chiếu ví dụ*.
+- Slide 31: kéo thanh trượt (hoặc bấm vào rồi dùng ← →) để đổi suất chiết khấu r.
 
 ## Mang sang máy khác
 
@@ -74,7 +74,7 @@ Khi in, mọi ý hiện ở trạng thái cuối, animation tắt, các nút tư
 - **Ghi chú người nói:** `<aside class="notes">...</aside>` ở cuối section.
 - **Morph:** tiêu đề, logo, footer và các khối có class `blk` (theo thứ tự) tự ghép đôi giữa hai slide liền nhau. Muốn hai phần tử cụ thể ghép với nhau thì cho cùng `data-id`, ví dụ `data-id="steps"` ở thanh 5 bước, `data-id="chain"` ở mục lục và slide tổng kết.
 - **Số liệu biểu đồ** nằm ở đầu `app.js` (biến `D`). Sửa số trong bảng HTML thì sửa cả ở đây.
-- **Bìa:** tên nhóm và danh sách thành viên (họ tên, MSSV) nằm ở slide 01 trong `index.html`; slide 33 (cảm ơn) cũng có danh sách này.
+- **Bìa:** tên nhóm và danh sách thành viên (họ tên, MSSV) nằm ở slide 01 trong `index.html`; slide 34 (cảm ơn) cũng có danh sách này.
 
 ## Component dùng lại từ Spider UI
 
@@ -97,6 +97,6 @@ npx vercel deploy --prod --yes
 
 ## Slide cảm ơn (Signature)
 
-Slide 33 dùng component Signature: chữ viết tay hiện dần theo nét. Bản gốc của Spider UI nạp font bằng opentype.js lúc chạy; ở đây các nét chữ đã được tính sẵn bằng font Dancing Script (giấy phép OFL, đủ dấu tiếng Việt) và nhúng thẳng vào `index.html` để chạy offline. Muốn đổi câu chữ thì cần tạo lại nét chữ: chạy opentype.js với font Dancing Script và câu mới, rồi thay các thẻ `<svg class="sig">` trong slide 33.
+Slide 34 dùng component Signature: chữ viết tay hiện dần theo nét. Bản gốc của Spider UI nạp font bằng opentype.js lúc chạy; ở đây các nét chữ đã được tính sẵn bằng font Dancing Script (giấy phép OFL, đủ dấu tiếng Việt) và nhúng thẳng vào `index.html` để chạy offline. Muốn đổi câu chữ thì cần tạo lại nét chữ: chạy opentype.js với font Dancing Script và câu mới, rồi thay các thẻ `<svg class="sig">` trong slide 34.
 
 Danh mục tài liệu tham khảo không còn trên slide, vẫn có trong `Noi_dung_seminar.txt`.

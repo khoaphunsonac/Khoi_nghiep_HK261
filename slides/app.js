@@ -208,7 +208,8 @@
   // Fan Cards
   $$('[data-fan]').forEach(fan => {
     const cards = $$('.fcard', fan);
-    const X = [-375, -125, 125, 375], R = [-7, -2.5, 2.5, 7], Y = [22, 4, 4, 22];
+    const n = cards.length, mid = (n - 1) / 2;
+    const X = cards.map((_, i) => (i - mid) * 260), R = cards.map((_, i) => (i - mid) * (n > 3 ? 4.7 : 5)), Y = cards.map((_, i) => Math.abs(i - mid) * 12 + 4);
     fan._sel = -1;
     fan._set = k => {
       fan._sel = k;
@@ -465,6 +466,25 @@
     lg(374, C.bk2, '6 6', 'Hệ số PV 1/(1,15)ᵗ');
     el('rect', { x: 60, y: 346, width: 26, height: 14, fill: C.tint }, svg);
     el('text', { x: 94, y: 358, class: 'lb' }, svg, 'Tích của hai hệ số');
+  });
+
+  // So sánh mua lẻ và combo
+  (charts.combobar || []).forEach(svg => {
+    const x0 = 120, W = 460, max = 1000000;
+    [['Mua lẻ', [[120000, C.cheese], [850000, C.bk]], '970.000 ₫'], ['Combo', [[820000, C.pos]], '820.000 ₫']].forEach((row, i) => {
+      const y = 14 + i * 58;
+      el('text', { x: 0, y: y + 26, class: 'lb' }, svg, row[0]);
+      let x = x0;
+      row[1].forEach(([v, c], k) => {
+        const w = v / max * W;
+        const r = el('rect', { x, y: y + 6, width: w, height: 32, rx: 6, fill: c, class: 'bar-grow' }, svg);
+        r.style.transformOrigin = '0 50%'; r.style.setProperty('--i', i + k * 0.3);
+        x += w + 2;
+      });
+      el('text', { x: x + 8, y: y + 28, class: 'vl', fill: i ? C.pos : C.ink }, svg, row[2]);
+    });
+    const xs = x0 + 820000 / max * W;
+    el('line', { x1: xs, x2: xs, y1: 14, y2: 108, stroke: C.pos, 'stroke-width': 1.5, 'stroke-dasharray': '4 4' }, svg);
   });
 
   // LTV stacked bars

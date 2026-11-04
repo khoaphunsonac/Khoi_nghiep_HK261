@@ -17,11 +17,11 @@ TS. Đào Hồng Hải
 NHÓM · HỌC KỲ
 Nhóm 5 · HK261
 THÀNH VIÊN
-1. Đặng Hải Minh Tâm – 2213010
-2. Nguyễn Văn Quyến – 2412953
-3. Nguyễn Ngọc Mỹ Đình – 2410774
-4. Mai Nguyễn Quốc Bình – 2513896
-5. Trần Đăng Khoa – 2211648
+Đặng Hải Minh Tâm – 2213010
+Nguyễn Văn Quyến – 2412953
+Nguyễn Ngọc Mỹ Đình – 2410774
+Mai Nguyễn Quốc Bình – 2513896
+Trần Đăng Khoa – 2211648
 
 Ghi chú người nói: Chào thầy và các bạn. Nhóm trình bày chủ đề 3.1 Phân tích tài chính, áp dụng cho dự án phô mai tươi và whey protein. Bài đi đúng thứ tự năm phần trong bài giảng.
 
@@ -110,8 +110,8 @@ Khách hàng đến sớm và đến sau là ai, và khung giá linh hoạt cho 
 SLIDE 08 · Phần 2 · Khung giá ban đầu · Nguồn [1]
 ----------------------------------------------------------------------
 Mỗi dòng doanh thu có cơ chế giá khác nhau
-Giá cố địnhgiá niêm yết; theo tính năng, phân khúc khách hàng, khối lượng sản phẩm
-Giá linh hoạtthương lượng, đấu giá, giá thị trường, theo tồn kho và thời gian
+Giá cố định giá niêm yết; theo tính năng, phân khúc khách hàng, khối lượng sản phẩm
+Giá linh hoạt thương lượng, đấu giá, giá thị trường, theo tồn kho và thời gian
 Một số gợi ý khi định giá
 Định giá theo giá trị sản phẩm mang lại cho khách hàng, không dựa vào chi phí.
 Dùng thông tin về đơn vị ra quyết định mua và quy trình có khách trả tiền để chọn các điểm giá cơ bản.
@@ -126,11 +126,11 @@ Ghi chú người nói: Dải ngang cho thấy hai đầu của cơ chế giá. 
 SLIDE 09 · Phần 2 · Khung giá ban đầu · Nguồn [1]
 ----------------------------------------------------------------------
 Định giá cho năm nhóm khách hàng công nghệ
-Tín đồ công nghệMua sản phẩm đầu tiên, yêu công nghệ và sẽ mua bất kỳ thứ gì.
-Người tiếp nhận sớmKhông nhạy cảm giá, muốn món hàng đặc biệt, kỳ vọng được quan tâm và dịch vụ bổ sung.
-Số đông chấp nhận sớmGiúp doanh nghiệp có quy mô thật; đây là điểm giá mọi người nghĩ tới khi bàn chiến lược giá.
-Số đông chấp nhận trễĐến sau, khi chiến lược giá đã rõ; thích kế hoạch rõ ràng, chắc chắn.
-Người “bảo thủ”Được tính đến sau cùng trong quá trình.
+Tín đồ công nghệ Mua sản phẩm đầu tiên, yêu công nghệ và sẽ mua bất kỳ thứ gì.
+Người tiếp nhận sớm Không nhạy cảm giá, muốn món hàng đặc biệt, kỳ vọng được quan tâm và dịch vụ bổ sung.
+Số đông chấp nhận sớm Giúp doanh nghiệp có quy mô thật; đây là điểm giá mọi người nghĩ tới khi bàn chiến lược giá.
+Số đông chấp nhận trễ Đến sau, khi chiến lược giá đã rõ; thích kế hoạch rõ ràng, chắc chắn.
+Người “bảo thủ” Được tính đến sau cùng trong quá trình.
 
 Ghi chú người nói: Đường cong chia thị trường thành năm nhóm theo thời điểm chấp nhận sản phẩm. Nhóm bên trái ít nhạy cảm giá, càng sang phải càng cần giá rõ ràng và cạnh tranh.
 
@@ -182,28 +182,40 @@ Phân phối trực tiếp tại phòng tập
 Mã ưu đãi affiliate
 Cho học viên và người theo dõi của PT, KOL
 −10%
-Combo dinh dưỡng phô mai + whey
-Mua lẻ 120.000 + 850.000 = 970.000 VNĐ, tiết kiệm 150.000 VNĐ
-820.000 ₫
 Gói sachet 30g dùng thử
 Cho khách đến sau, giảm rào cản thử nghiệm ban đầu
 35.000 ₫
 
-Ghi chú người nói: Giá niêm yết 850 nghìn một hũ 1 kg nằm dưới khoảng 900 nghìn đến 1,2 triệu của whey nhập khẩu, đồng thời khẳng định độ tinh khiết tự nhiên. Bốn chính sách giá linh hoạt lần lượt được rút ra: đại lý, affiliate, combo, sachet.
+Ghi chú người nói: Giá niêm yết 850 nghìn một hũ 1 kg nằm dưới khoảng 900 nghìn đến 1,2 triệu của whey nhập khẩu, đồng thời khẳng định độ tinh khiết tự nhiên. Ba chính sách giá linh hoạt riêng cho whey lần lượt được rút ra: đại lý, affiliate, sachet. Combo với phô mai trình bày ở slide sau.
 
 ======================================================================
-SLIDE 13 · Phần 3 · LTV · Nguồn [1]
+SLIDE 13 · Phần 2 · Khung giá ban đầu · Nguồn [3]
+----------------------------------------------------------------------
+Combo phô mai + whey: mua cả hai rẻ hơn 150.000 ₫
+Phô mai tươi hộp 250 g 120.000 ₫
++
+Whey protein hũ 1 kg 850.000 ₫
+=
+Mua lẻ 970.000 ₫
+820.000 ₫ / set
+Tiết kiệm 150.000 ₫ · ≈ 15,5%
+Định giá gói (bundling): kích cầu tiêu dùng cả hai sản phẩm, đưa người mua whey sang dùng thử phô mai và ngược lại.
+
+Ghi chú người nói: Combo gồm một hộp phô mai 250 gam và một hũ whey 1 ký. Mua lẻ tổng 970 nghìn, mua combo 820 nghìn, rẻ hơn 150 nghìn, khoảng 15,5 phần trăm. Mục đích là kích cầu dùng cả hai sản phẩm của cùng một nguồn sữa.
+
+======================================================================
+SLIDE 14 · Phần 3 · LTV · Nguồn [1]
 ----------------------------------------------------------------------
 PHẦN 3
 Ước tính giá trị trọn đời của một khách hàng
 Một khách hàng dùng cả phô mai và whey mang lại bao nhiêu lợi nhuận gộp trong 5 năm đầu?
 
 ======================================================================
-SLIDE 14 · Phần 3 · LTV · Nguồn [1]
+SLIDE 15 · Phần 3 · LTV · Nguồn [1]
 ----------------------------------------------------------------------
 LTV: lợi nhuận gộp trong suốt vòng đời khách hàng
-Lifetime Value (LTV, CLV, CLTV) là lợi nhuận gộp mỗi khách hàng mang đến trong suốt vòng đời. Với công ty khởi nghiệp, LTV tính trong 5 năm đầu.
-LTV = 5 Σt=0 Lợi nhuận gộpt (1 + i)t
+Lifetime Value (LTV, CLV, CLTV) là lợi nhuận gộp mỗi khách hàng mang đến trong suốt vòng đời. Với công ty khởi nghiệp, LTV tính trong 5 năm đầu .
+LTV = 5 Σ t=0 Lợi nhuận gộpt (1 + i)t
 Tỷ lệ duy trì tích lũy = rt, với r là tỷ lệ duy trì mỗi năm
 Hệ số giá trị hiện tại = 1/(1 + i)t, i là suất sinh lợi tối thiểu
 Giá trị hiện tại của 1 đồng lợi nhuận theo năm
@@ -219,7 +231,7 @@ Giá trị hiện tại | $7,137.50 | $765.00 | $459.00 | $275.40 | $165.24 | $4
 Ghi chú người nói: Biểu đồ bên phải là hệ số 1/(1+i)^t với i bằng 15%, đúng mức nhóm dùng ở phần 3. Một đồng lợi nhuận năm thứ 5 chỉ còn khoảng 50 xu hôm nay. Nút "Ví dụ trong bài giảng" mở bảng mẫu của thầy, LTV 9.264,65 đô.
 
 ======================================================================
-SLIDE 15 · Phần 3 · LTV · Nguồn [3]
+SLIDE 16 · Phần 3 · LTV · Nguồn [3]
 ----------------------------------------------------------------------
 Giả định tính LTV cho hai dòng sản phẩm
 Phô mai tươi · FMCG
@@ -235,7 +247,7 @@ Tỷ lệ duy trì tích lũy rt và hệ số hiện tại 1/(1,15)t
 Ghi chú người nói: Năm 0 giữ 100% khách, mỗi năm sau còn 80%, nên đến năm 5 còn 32,77%. Đường xanh nhạt là hệ số chiết khấu. Hai yếu tố cùng kéo giá trị các năm sau xuống, nên năm đầu đóng góp nhiều nhất vào LTV.
 
 ======================================================================
-SLIDE 16 · Phần 3 · LTV · Nguồn [3]
+SLIDE 17 · Phần 3 · LTV · Nguồn [3]
 ----------------------------------------------------------------------
 LTV của một khách hàng ≈ 25 triệu đồng
 VNĐ | Năm 0 | Năm 1 | Năm 2 | Năm 3 | Năm 4 | Năm 5
@@ -253,14 +265,14 @@ LTV = tổng giá trị hiện tại 6 cột 24.996.592 VNĐ
 Ghi chú người nói: Bảng giữ đúng số trong báo cáo. Cột biểu đồ là giá trị hiện tại từng năm, tách phần phô mai và whey. Whey chiếm khoảng 83% LTV vì giá trị tiêu dùng năm gấp 3,5 lần phô mai và biên lợi nhuận cao hơn. Có thể bấm từng tab để tách riêng.
 
 ======================================================================
-SLIDE 17 · Phần 4 · COCA · Nguồn [1]
+SLIDE 18 · Phần 4 · COCA · Nguồn [1]
 ----------------------------------------------------------------------
 PHẦN 4
 Ước tính chi phí để có được một khách hàng
 COCA thay đổi thế nào qua ba giai đoạn, và tỷ số LTV : COCA có vượt chuẩn 3 : 1 không?
 
 ======================================================================
-SLIDE 18 · Phần 4 · COCA · Nguồn [1], [6]
+SLIDE 19 · Phần 4 · COCA · Nguồn [1], [6]
 ----------------------------------------------------------------------
 COCA và chuẩn LTV : COCA ≥ 3 : 1
 Cost of Customer Acquisition (COCA, CAC) là chi phí cần bỏ ra cho nghiên cứu, tiếp thị, quảng cáo để thuyết phục một khách hàng dùng sản phẩm.
@@ -268,12 +280,12 @@ COCA(t) = TMSE(t) − IBSE(t) NC(t)
 TMSE tổng chi phí tiếp thị và bán hàng
 IBSE chi phí hỗ trợ khách hàng đã có
 NC số khách hàng mới trong kỳ
-COCA càng nhỏ càng tốt, luôn biến đổi và không phải chỉ số duy nhất đo hiệu quả tiếp thị. David Skok khuyến cáo LTV : COCA ≥ 3 : 1.
+COCA càng nhỏ càng tốt , luôn biến đổi và không phải chỉ số duy nhất đo hiệu quả tiếp thị. David Skok khuyến cáo LTV : COCA ≥ 3 : 1 .
 
 Ghi chú người nói: Đồ thị dựa theo hình minh họa của bài giảng: lúc đầu COCA cao hơn LTV, doanh nghiệp đốt tiền ở vùng đỏ. Doanh nghiệp bền vững thì COCA giảm xuống dưới LTV rồi chững lại. LTV có thể tăng nhờ bán thêm cho khách hiện tại. Ví dụ Associated Gas trong bài giảng có COCA giảm từ 394 nghìn đô năm 1 còn 147,5 nghìn đô năm 3.
 
 ======================================================================
-SLIDE 19 · Phần 4 · COCA · Nguồn [3]
+SLIDE 20 · Phần 4 · COCA · Nguồn [3]
 ----------------------------------------------------------------------
 COCA giảm qua ba giai đoạn phát triển
 VNĐ | Thâm nhậpNăm 1 | Tăng trưởngNăm 2–3 | Ổn địnhNăm 4–5
@@ -289,39 +301,39 @@ Tăng trưởng: thương hiệu có độ phủ, có hiệu ứng truyền mi�
 Ghi chú người nói: Mỗi cột là tổng chi phí tiếp thị và bán hàng. Phần nhạt là chi phí chăm sóc khách cũ, bị trừ ra. Phần đậm chia cho số khách mới ra COCA. Chi phí tăng gần gấp đôi nhưng khách mới tăng hơn ba lần, nên COCA giảm từ 3,6 triệu xuống 1,4 triệu.
 
 ======================================================================
-SLIDE 20 · Phần 4 · COCA · Nguồn [3]
+SLIDE 21 · Phần 4 · COCA · Nguồn [3]
 ----------------------------------------------------------------------
 Tỷ số LTV : COCA tại thời điểm 3 đạt 17,86 : 1
 LTV từ phần 3 ≈ 25.000.000 VNĐ
 COCA tại thời điểm 3 1.400.000 VNĐ
 LTV : COCA3 = 25.000.000 1.400.000 ≈ 17,86 : 1
-Ngay cả ở thời điểm 1, khi COCA cao nhất (3,6 triệu), tỷ số là 6,94 : 1, vẫn vượt xa chuẩn tối thiểu 3 : 1.
+Ngay cả ở thời điểm 1, khi COCA cao nhất (3,6 triệu), tỷ số là 6,94 : 1 , vẫn vượt xa chuẩn tối thiểu 3 : 1.
 
 Ghi chú người nói: Đây là đồ thị phần 4 yêu cầu: LTV và COCA trên trục thời gian, ba thời điểm. Đường đứt là mức COCA tối đa theo chuẩn 3:1, tức LTV chia 3, khoảng 8,33 triệu. COCA của dự án luôn nằm dưới đường này. Tỷ số ở thời điểm 2 nhóm tính thêm từ cùng số liệu là 13,06:1.
 
 ======================================================================
-SLIDE 21 · Phần 5 · Khả thi tài chính · Nguồn [1], [2]
+SLIDE 22 · Phần 5 · Khả thi tài chính · Nguồn [1], [2]
 ----------------------------------------------------------------------
 PHẦN 5
 Phân tích khả thi tài chính qua NPV, IRR, PP
 Với vốn 1,2 tỷ đồng, xưởng phô mai và whey có sinh lời đủ mức kỳ vọng 12%/năm không?
 
 ======================================================================
-SLIDE 22 · Phần 5 · Khả thi tài chính · Nguồn [1], [2]
+SLIDE 23 · Phần 5 · Khả thi tài chính · Nguồn [1], [2]
 ----------------------------------------------------------------------
 NPV và IRR: hai mặt của cùng một dòng tiền
 Giá trị hiện tại ròng · NPV
-NPV = N Σt=0 CFt (1 + r)t
+NPV = N Σ t=0 CFt (1 + r)t
 Tổng giá trị hiện tại của toàn bộ dòng tiền từ t = 0 đến N, chiết khấu theo suất sinh lợi yêu cầu r. Excel có hàm NPV.
 Suất sinh lợi nội tại · IRR
-0 = N Σt=0 CFt (1 + IRR)t
+0 = N Σ t=0 CFt (1 + IRR)t
 Khả năng sinh lời theo %/năm. IRR = 12% nghĩa là khoản đầu tư tạo tỷ suất 12% mỗi năm. Excel có hàm IRR.
 Đường NPV theo suất chiết khấu, ví dụ phần mềm của bài giảng
 
 Ghi chú người nói: Đồ thị dùng dòng tiền ví dụ khởi nghiệp phần mềm của thầy: âm 500, âm 160, 24, 266,4, 437 và 7.691,9 triệu. Tại r bằng 12%, NPV là 4.208,2 triệu. Đường cắt trục 0 tại 73,77%, chính là IRR. NPV dương khi r nhỏ hơn IRR, nên hai tiêu chí luôn đi cùng nhau.
 
 ======================================================================
-SLIDE 23 · Phần 5 · Khả thi tài chính · Nguồn [1]
+SLIDE 24 · Phần 5 · Khả thi tài chính · Nguồn [1]
 ----------------------------------------------------------------------
 Thời gian hoàn vốn PP
 Thời gian cần thiết để thu hồi đủ vốn đầu tư ban đầu. Excel không có sẵn hàm PP.
@@ -335,18 +347,18 @@ Dòng tiền tích lũy của ví dụ phần mềm (triệu đồng)
 Ghi chú người nói: Cột là dòng tiền tích lũy chưa gồm giá trị sau cuối. Năm 3 còn âm 369,6 triệu, năm 4 thu 437 triệu, nên vốn về đủ sau 3 năm cộng 369,6 chia 437, bằng 3,85 năm.
 
 ======================================================================
-SLIDE 24 · Phần 5 · Khả thi tài chính · Nguồn [1]
+SLIDE 25 · Phần 5 · Khả thi tài chính · Nguồn [1]
 ----------------------------------------------------------------------
 Quy trình 5 bước phân tích khả thi tài chính
-1Nhận diện chi phí và lợi ích
+1 Nhận diện chi phí và lợi ích
 Liệt kê mọi chi phí một lần, chi phí định kỳ và doanh thu dự kiến. Chú ý chi phí chìm và chi phí cơ hội.
-2Gán giá trị
+2 Gán giá trị
 Lượng hóa từng hạng mục cho năm thứ nhất.
-3Xác định dòng tiền
+3 Xác định dòng tiền
 Lặp lại bước 2 cho các năm sau theo giả định tăng trưởng, thêm đầu tư năm 0 và giá trị sau cuối.
-4Tính chỉ tiêu
+4 Tính chỉ tiêu
 NPV, IRR, PP trên dòng tiền phân tích.
-5Phân tích kết quả
+5 Phân tích kết quả
 Đối chiếu với tiêu chí để đánh giá tính khả thi.
 Chi phí chìm: khoản đã chi, không thu hồi được. Không đưa vào dòng tiền dự án.
 Chi phí cơ hội: lợi ích bỏ lỡ khi chọn phương án này thay vì phương án khác.
@@ -354,7 +366,7 @@ Chi phí cơ hội: lợi ích bỏ lỡ khi chọn phương án này thay vì p
 Ghi chú người nói: Thanh tiến trình này sẽ đi theo suốt phần phần 5, mỗi slide sáng lên một bước.
 
 ======================================================================
-SLIDE 25 · Phần 5 · Khả thi tài chính · Nguồn [3], [5]
+SLIDE 26 · Phần 5 · Khả thi tài chính · Nguồn [3], [5]
 ----------------------------------------------------------------------
 Bước 1 · Nhận diện chi phí và lợi ích của xưởng
 STT | Hạng mục chi phí & lợi ích | Loại
@@ -371,7 +383,7 @@ Chi phí cơ hội: 1,2 tỷ vốn nếu đầu tư nơi khác cũng sinh lời;
 Ghi chú người nói: Bảng theo đúng mẫu slide 28 của bài giảng. Hai ghi chú bên phải là phần nhóm bổ sung để áp dụng hai khái niệm chi phí chìm và chi phí cơ hội vào dự án; lô MVP 100 hũ lấy từ báo cáo khả thi sản phẩm.
 
 ======================================================================
-SLIDE 26 · Phần 5 · Khả thi tài chính · Nguồn [3]
+SLIDE 27 · Phần 5 · Khả thi tài chính · Nguồn [3]
 ----------------------------------------------------------------------
 Bước 2 · Gán giá trị cho năm thứ nhất
 Hạng mục · triệu đồng | Năm 1
@@ -389,7 +401,7 @@ Cơ cấu 2.700 triệu chi phí năm 1
 Ghi chú người nói: Diện tích mỗi ô tỷ lệ với chi phí. Nguyên liệu chiếm 41%, lương nhân viên 27%, hai khoản này đã gần 70% chi phí. Doanh thu 3.000 trừ 2.700 cho dòng tiền hoạt động năm 1 là 300 triệu.
 
 ======================================================================
-SLIDE 27 · Phần 5 · Khả thi tài chính · Nguồn [3]
+SLIDE 28 · Phần 5 · Khả thi tài chính · Nguồn [3]
 ----------------------------------------------------------------------
 Bước 3 · Dòng tiền dự báo 5 năm
 Triệu đồng | Năm 1 | Năm 2 | Năm 3 | Năm 4 | Năm 5
@@ -407,7 +419,7 @@ Chi phí +12%, +12%, +10%, +10%
 Ghi chú người nói: Doanh thu tăng nhanh hơn chi phí mỗi năm, nên khoảng cách giữa hai cột, tức dòng tiền hoạt động, nới rộng từ 300 triệu năm 1 lên 2.370,6 triệu năm 5.
 
 ======================================================================
-SLIDE 28 · Phần 5 · Khả thi tài chính · Nguồn [1], [3]
+SLIDE 29 · Phần 5 · Khả thi tài chính · Nguồn [1], [3]
 ----------------------------------------------------------------------
 Bước 3 (tt) · Giá trị sau cuối CFT tại năm 5
 Suất chiết khấu r = 12%/năm Tăng trưởng vĩnh viễn g = 5%/năm
@@ -422,7 +434,7 @@ CF phân tích năm 5 = CF5 + CFT
 Ghi chú người nói: Sau năm 5, dòng tiền được giả định tăng 5% mỗi năm mãi mãi. Thay vì cộng vô hạn cột, công thức Gordon gom chúng thành một giá trị duy nhất đặt tại năm 5: 35.559 triệu. Đây là cách làm giống slide 31 của bài giảng.
 
 ======================================================================
-SLIDE 29 · Phần 5 · Khả thi tài chính · Nguồn [1], [3]
+SLIDE 30 · Phần 5 · Khả thi tài chính · Nguồn [1], [3]
 ----------------------------------------------------------------------
 Bước 4 · Tính NPV, IRR và PP
 Triệu đồng | Năm 0 | Năm 1 | Năm 2 | Năm 3 | Năm 4 | Năm 5
@@ -448,7 +460,7 @@ PP | 3,85 năm | 2,13 năm
 Ghi chú người nói: Bài giảng tính NPV và IRR trên dòng CF phân tích có cộng giá trị sau cuối. Báo cáo nhóm lấy kết quả chính là 5 năm hoạt động, không gồm CFT. Nhóm trình bày cả hai: theo bài giảng NPV 23.302 triệu, IRR 121,19%; bản thận trọng NPV 3.124,7 triệu, IRR 64,46%. PP tính trên dòng tích lũy không gồm CFT, giống bài giảng: 2,13 năm.
 
 ======================================================================
-SLIDE 30 · Phần 5 · Khả thi tài chính · Nguồn [3]
+SLIDE 31 · Phần 5 · Khả thi tài chính · Nguồn [3]
 ----------------------------------------------------------------------
 Bước 4 (tt) · Hoàn vốn và độ nhạy của NPV
 Dòng tiền tích lũy, không gồm CFT (triệu đồng)
@@ -460,7 +472,7 @@ NPV chỉ 5 năm 3.124,7
 Ghi chú người nói: Bên trái: dòng tích lũy chuyển từ âm sang dương trong năm 3, tại khoảng 2,13 năm. Bên phải là phần nhóm bổ sung: kéo thanh trượt đổi suất chiết khấu từ 8% đến 20%. Ở r bằng 12%, giá trị sau cuối chiếm khoảng 87% NPV. Kể cả khi bỏ hẳn phần này, NPV 5 năm vẫn dương ở mọi mức r trên thanh trượt.
 
 ======================================================================
-SLIDE 31 · Phần 5 · Khả thi tài chính · Nguồn [1], [3], [4]
+SLIDE 32 · Phần 5 · Khả thi tài chính · Nguồn [1], [3], [4]
 ----------------------------------------------------------------------
 Bước 5 · Đối chiếu ba tiêu chí khả thi
 NPV ≥ 0 → khả thi
@@ -480,7 +492,7 @@ Kết luận: dự án phô mai tươi & whey protein đạt mức khả thi tà
 Ghi chú người nói: Mốc 3 năm lấy từ báo cáo khả thi thị trường: một tiêu chí kiểm tra TAM là đạt dòng tiền dương trong 3 năm. Nhóm đặt số liệu thận trọng làm con số chính trên thẻ và ghi kết quả gồm CFT bên dưới.
 
 ======================================================================
-SLIDE 32 · Tổng kết · Nguồn [3]
+SLIDE 33 · Tổng kết · Nguồn [3]
 ----------------------------------------------------------------------
 Tổng kết năm phần
 Phần 1 Bán trực tiếp + thuê bao Phô mai FMCG, whey subscription
@@ -494,14 +506,17 @@ Giá trị sau cuối chi phối NPV: nên trình nhà đầu tư cả kết qu�
 Ghi chú người nói: Chuỗi năm ô ở đầu bài giờ điền kết quả. Hai lưu ý cuối là điểm nhóm thấy khi đối chiếu các báo cáo: giá whey chưa thống nhất giữa các phần, và giá trị sau cuối chiếm phần lớn NPV.
 
 ======================================================================
-SLIDE 33 · Kết thúc
+SLIDE 34 · Kết thúc
 ----------------------------------------------------------------------
 Củm ơn thầy và các pạn đã xem (chữ viết tay hiện dần, component Signature của Spider UI)
 Nhóm 5 · HK261 · Phân tích tài chính dự án Phô mai tươi & Whey Protein
-Đặng Hải Minh Tâm 2213010 · Nguyễn Văn Quyến 2412953 · Nguyễn Ngọc Mỹ Đình 2410774 · Mai Nguyễn Quốc Bình 2513896 · Trần Đăng Khoa 2211648
+Đặng Hải Minh Tâm 2213010
+Nguyễn Văn Quyến 2412953
+Nguyễn Ngọc Mỹ Đình 2410774
+Mai Nguyễn Quốc Bình 2513896
+Trần Đăng Khoa 2211648
 
 Ghi chú người nói: Phần trình bày của nhóm đến đây là hết. Nhóm em cảm ơn thầy và các bạn đã lắng nghe, mời mọi người đặt câu hỏi.
-(Danh mục tài liệu tham khảo không còn trên slide, xem mục TÀI LIỆU THAM KHẢO bên dưới.)
 
 ======================================================================
 CÁC CHỖ ĐÃ KIỂM TRA / ĐIỀU CHỈNH SO VỚI BÁO CÁO GỐC
@@ -517,7 +532,7 @@ CÁC CHỖ ĐÃ KIỂM TRA / ĐIỀU CHỈNH SO VỚI BÁO CÁO GỐC
    Bổ sung: áp dụng chi phí chìm (hũ mẫu 200g, lô MVP 100 hũ, lấy từ báo cáo khả thi sản phẩm) và chi phí cơ hội (phản ánh qua r = 12%).
    Bổ sung: độ nhạy NPV theo r từ 8% đến 20% (NPV 5 năm thấp nhất 2.175,5 triệu ở r = 20%); CFT chiếm 86,6% NPV ở r = 12%.
    Mốc PP yêu cầu 3 năm lấy từ checklist TAM của báo cáo khả thi thị trường.
-5. Phát hiện chưa thống nhất: báo cáo thị trường và sản phẩm dùng giá whey 500.000 ₫/kg, phần 2–5 dùng 850.000 ₫/kg. Slide giữ 850.000 và nêu ở slide 32.
+5. Phát hiện chưa thống nhất: báo cáo thị trường và sản phẩm dùng giá whey 500.000 ₫/kg, phần 2–5 dùng 850.000 ₫/kg. Slide giữ 850.000 và nêu ở slide 33.
 6. Bài giảng không ghi tỷ lệ % của 5 nhóm khách hàng, nên đường cong ở slide 09–10 chỉ đặt tên nhóm, không ghi %.
 
 ======================================================================
