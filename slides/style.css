@@ -536,3 +536,5 @@ html.print-pdf .reveal .controls, html.print-pdf .reveal .progress { display: no
 .s-div .d-list li { padding: 8px 0; font-size: 16px; }
 .s-div .d-list.two { display: grid; grid-template-columns: 1fr 1fr; column-gap: 28px; }
 .s-div .d-list.two li { font-size: 14.5px; padding: 6px 0; }
+.cv-meta .mem .avatar.ph { width: 32px; height: 32px; flex: none; background-repeat: no-repeat; background-color: #fff; border: 2px solid rgba(255,255,255,.6); box-sizing: content-box; }
+.cv-meta .mem { gap: 7px 28px; }
