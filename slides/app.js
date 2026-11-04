@@ -66,12 +66,10 @@
     const logo = document.createElement('img');
     logo.className = 's-logo'; logo.src = 'assets/img/logo-bk.png'; logo.alt = '';
     s.appendChild(logo);
-    const src = (s.dataset.src || '').split(',').filter(Boolean).map(k => '[' + REFS[k.trim()] + ']').join(', ');
     const f = document.createElement('div');
     f.className = 's-foot';
     f.innerHTML = '<span class="f-school">Trường Đại học Bách Khoa, ĐHQG-HCM</span>' +
       '<span class="f-part">' + (s.dataset.part || '') + '</span>' +
-      '<span class="f-src">' + (src ? 'Nguồn ' + src : '') + '</span>' +
       '<span class="f-n">' + s.dataset.n + ' / ' + total + '</span>';
     s.appendChild(f);
   });
@@ -88,10 +86,7 @@
       li.innerHTML = '<b>' + t.dataset.n + '</b><span>' + (h ? h.textContent : '') + '</span>';
       ol.appendChild(li);
     }
-    // họa tiết khối lục giác theo logo
-    const svg = el('svg', { class: 'hexes', viewBox: '0 0 760 200', 'aria-hidden': 'true' });
-    hexField(svg, 760, 200, 34, true);
-    s.insertBefore(svg, s.firstChild);
+    if (ol.children.length > 5) ol.classList.add('two');
   });
 
   /* họa tiết khối lập phương isometric giống logo */
@@ -286,7 +281,7 @@
     const svg = el('svg', { class: 'strk', viewBox: '0 0 400 300', preserveAspectRatio: 'none', 'aria-hidden': 'true' });
     const d = 'M-20 250 C 60 180, 120 300, 190 210 S 300 60, 420 120';
     const d2 = 'M-30 60 C 80 10, 140 140, 230 90 S 350 -10, 430 40';
-    [[d, C.bk2, 0.35], [d2, '#5C8FE6', 0.22]].forEach(([p, c, o]) => {
+    [[d, C.tint, 1], [d2, C.paper, 1]].forEach(([p, c, o]) => {
       const path = el('path', { d: p, stroke: c, 'stroke-width': 24, opacity: o }, svg);
       path.style.transition = 'stroke-dashoffset 1.5s cubic-bezier(.65,0,.35,1), stroke-width 1.5s cubic-bezier(.65,0,.35,1)';
     });

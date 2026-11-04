@@ -1,6 +1,6 @@
 # Seminar 3.1 Phân tích tài chính: Phô mai tươi & Whey Protein
 
-Bộ slide HTML trình bày chủ đề 3.1 của môn Khởi nghiệp (GVHD TS. Đào Hồng Hải, HK261). Bố cục đi theo năm bài tập trong báo cáo *Mô hình kinh doanh* của nhóm. Bài tập 5 được dựng lại theo đúng quy trình 5 bước trong bài giảng.
+Bộ slide HTML trình bày chủ đề 3.1 của môn Khởi nghiệp (GVHD TS. Đào Hồng Hải, HK261). Bố cục đi theo năm phần trong báo cáo *Mô hình kinh doanh* của nhóm. Phần 5 được dựng lại theo đúng quy trình 5 bước trong bài giảng.
 
 ## Trong thư mục có gì
 
@@ -10,7 +10,7 @@ Bộ slide HTML trình bày chủ đề 3.1 của môn Khởi nghiệp (GVHD TS.
 | `slides/style.css` | Màu Bách Khoa, bố cục, các component |
 | `slides/app.js` | Footer, mục lục phần, hiệu ứng morph, component, biểu đồ |
 | `slides/lib/reveal/` | Reveal.js và plugin ghi chú, đã tải về để chạy offline |
-| `slides/assets/` | Logo trường, font Be Vietnam Pro và JetBrains Mono |
+| `slides/assets/` | Logo trường, font, ảnh Unsplash (`img/photo/`), minh họa unDraw (`img/undraw/`) |
 | `Slides_3.1_Phan_tich_tai_chinh.pdf` | Bản PDF để nộp, 33 trang |
 | `Kich_ban_thuyet_trinh.md` | Kịch bản cho 5 người nói, khoảng 19 phút, kèm phần hỏi đáp |
 | `Noi_dung_seminar.txt` | Chữ trên từng slide, ghi chú người nói, các chỗ đã sửa, tài liệu tham khảo |
@@ -67,7 +67,7 @@ Khi in, mọi ý hiện ở trạng thái cuối, animation tắt, các nút tư
 ## Quy ước khi sửa
 
 - **Số slide** (`data-n`) và footer do `app.js` tự đánh. Thêm hay bớt slide thì không phải sửa số bằng tay.
-- **Footer:** mỗi `<section>` có `data-part` (tên phần) và `data-src` (số nguồn, ví dụ `data-src="1,3"` ra *Nguồn [1], [3]*).
+- **Footer:** lấy tên phần từ `data-part` của mỗi `<section>`. Footer không ghi nguồn; `data-src` chỉ dùng để ghi nguồn từng slide trong `Noi_dung_seminar.txt`.
 - **Slide chia phần** có `data-divider="N"`. Mục lục bên phải tự lấy tiêu đề các slide đến phần sau.
 - **Ý hiện dần:** thêm `class="fragment up"`. Mỗi fragment là một lần bấm, nên nhớ sửa số `(bấm)` trong kịch bản.
 - **Ghi chú người nói:** `<aside class="notes">...</aside>` ở cuối section.
@@ -78,6 +78,13 @@ Khi in, mọi ý hiện ở trạng thái cuối, animation tắt, các nút tư
 ## Component dùng lại từ Spider UI
 
 Spider UI là thư viện React. Các component dưới đây được viết lại bằng HTML, CSS, JS thuần để chạy cùng Reveal.js mà không cần build: Badge, Avatar, Rich Button, Switch, Toggle, Discrete Tabs, Stepper, Elastic Slider, Modal, Drawer, Progressive Blur, Accordion Reveal, Card Stroke, Fan Cards, Pricing, Underline Hover, Text Roll, Wave Text, Dia Text Reveal, Scramble Text.
+
+## Ảnh và minh họa
+
+Tất cả đã tải về máy, không cần mạng khi trình chiếu.
+
+- **Ảnh Unsplash** (Unsplash License, miễn phí, không bắt buộc ghi công): Eiliv Aceron (sữa), Eric Prouzet (quầy phô mai), Alex Saks (whey), Jakub Klucký (phòng gym), Walls.io (họp nhóm), Jakub Żerdzicki (máy tính).
+- **Minh họa unDraw** (giấy phép unDraw, miễn phí): màu nhấn đã đổi từ tím mặc định sang xanh `#1488DB` của trường. Muốn đổi minh họa khác thì tải SVG ở undraw.co, thay `#6c63ff` bằng `#1488DB` rồi bỏ vào `slides/assets/img/undraw/`.
 
 ## Deploy
 

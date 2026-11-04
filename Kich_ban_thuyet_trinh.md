@@ -19,21 +19,21 @@ Kịch bản chia cho 5 người nói. Thời gian tính theo khoảng 150 chữ
 
 ### Slide 01 · Bìa · 22 giây · 0 lần bấm
 
-Chào thầy và các bạn. Nhóm em trình bày chủ đề 3.1, phân tích tài chính, áp dụng cho dự án phô mai tươi và whey protein. Bài đi theo đúng năm bài tập trong bài giảng của thầy: từ mô hình doanh thu, khung giá, LTV, COCA, đến NPV, IRR và thời gian hoàn vốn.
+Chào thầy và các bạn. Nhóm em trình bày chủ đề 3.1, phân tích tài chính, áp dụng cho dự án phô mai tươi và whey protein. Bài đi theo đúng năm phần trong bài giảng của thầy: từ mô hình doanh thu, khung giá, LTV, COCA, đến NPV, IRR và thời gian hoàn vốn.
 
 ### Slide 02 · Nội dung trình bày · 40 giây · 6 lần bấm
 
-Năm bài tập này không đứng riêng. Số liệu bài trước là đầu vào của bài sau.
-(bấm) Bài 1 chọn cách tạo ra dòng tiền.
-(bấm) Bài 2 đặt giá cho phô mai và whey.
-(bấm) Bài 3 dùng chính các mức giá đó để tính LTV.
-(bấm) Bài 4 tính COCA rồi so với LTV.
-(bấm) Bài 5 gom toàn bộ chi phí, doanh thu của xưởng để tính NPV, IRR, PP.
+Năm phần này không đứng riêng. Số liệu phần trước là đầu vào của phần sau.
+(bấm) Phần 1 chọn cách tạo ra dòng tiền.
+(bấm) Phần 2 đặt giá cho phô mai và whey.
+(bấm) Phần 3 dùng chính các mức giá đó để tính LTV.
+(bấm) Phần 4 tính COCA rồi so với LTV.
+(bấm) Phần 5 gom toàn bộ chi phí, doanh thu của xưởng để tính NPV, IRR, PP.
 (bấm) Điểm chung của dự án là một nguồn sữa cho hai sản phẩm: làm phô mai sẽ tách ra nước whey, và nhóm chế biến nước whey đó thành bột whey protein.
 
 ### Slide 03 · Phần 1 · 11 giây · 0 lần bấm
 
-Phần đầu tiên trả lời hai câu hỏi của bài tập 1: dự án có thể kiếm tiền theo những cách nào, và nhóm chọn cách nào.
+Phần đầu tiên trả lời hai câu hỏi của phần 1: dự án có thể kiếm tiền theo những cách nào, và nhóm chọn cách nào.
 
 ### Slide 04 · Mô hình doanh thu quản lý các dòng doanh thu · 43 giây · 5 lần bấm
 
@@ -67,7 +67,7 @@ Phần tiếp theo, bạn Người 2 sẽ trình bày cách nhóm đặt giá.
 
 ### Slide 07 · Phần 2 · 12 giây · 0 lần bấm
 
-Cảm ơn bạn. Bài tập 2 hỏi: khách hàng đến sớm và đến sau của dự án là ai, và khung giá ban đầu thế nào cho linh hoạt.
+Cảm ơn bạn. Phần 2 hỏi: khách hàng đến sớm và đến sau của dự án là ai, và khung giá ban đầu thế nào cho linh hoạt.
 
 ### Slide 08 · Cơ chế giá · 46 giây · 6 lần bấm
 
@@ -119,7 +119,7 @@ Những mức giá này sẽ là đầu vào cho bài LTV. Mời Người 3.
 
 ### Slide 13 · Phần 3 · 11 giây · 0 lần bấm
 
-Cảm ơn bạn. Câu hỏi của bài tập 3: một khách dùng cả phô mai và whey mang lại bao nhiêu lợi nhuận gộp trong 5 năm đầu.
+Cảm ơn bạn. Câu hỏi của phần 3: một khách dùng cả phô mai và whey mang lại bao nhiêu lợi nhuận gộp trong 5 năm đầu.
 
 ### Slide 14 · LTV là gì · 46 giây · 3 lần bấm
 
@@ -145,7 +145,7 @@ Cột bên phải là giá trị hiện tại từng năm, phần vàng là phô
 
 ### Slide 17 · Phần 4 · 10 giây · 0 lần bấm
 
-Có LTV rồi, câu hỏi tiếp theo là để có một khách như vậy thì tốn bao nhiêu. Đó là bài tập 4, COCA.
+Có LTV rồi, câu hỏi tiếp theo là để có một khách như vậy thì tốn bao nhiêu. Đó là phần 4, COCA.
 
 ### Slide 18 · COCA và chuẩn 3 : 1 · 47 giây · 3 lần bấm
 
@@ -163,7 +163,7 @@ Giai đoạn thâm nhập: 540 triệu cho 150 khách, COCA 3,6 triệu. Giai đ
 
 ### Slide 20 · Tỷ số LTV : COCA · 36 giây · 4 lần bấm
 
-Đây là đồ thị bài tập 4 yêu cầu, LTV và COCA trên ba thời điểm.
+Đây là đồ thị phần 4 yêu cầu, LTV và COCA trên ba thời điểm.
 (bấm) LTV khoảng 25 triệu.
 (bấm) COCA ở thời điểm 3 là 1,4 triệu.
 (bấm) Chia ra được 17,86 trên 1.
@@ -176,7 +176,7 @@ Phần cuối là đánh giá khả thi tài chính cả dự án. Mời Ngườ
 
 ### Slide 21 · Phần 5 · 11 giây · 0 lần bấm
 
-Cảm ơn bạn. Bài tập 5 hỏi: bỏ 1,2 tỷ đồng xây xưởng, dự án có sinh lời đủ mức kỳ vọng 12 phần trăm mỗi năm không.
+Cảm ơn bạn. Phần 5 hỏi: bỏ 1,2 tỷ đồng xây xưởng, dự án có sinh lời đủ mức kỳ vọng 12 phần trăm mỗi năm không.
 
 ### Slide 22 · NPV và IRR · 42 giây · 3 lần bấm
 
@@ -195,7 +195,7 @@ PP là thời gian để thu đủ vốn ban đầu. Excel không có hàm PP, p
 
 ### Slide 24 · Quy trình 5 bước · 39 giây · 6 lần bấm
 
-Bài giảng đưa ra năm bước, và phần còn lại của bài tập 5 đi đúng năm bước này. Thanh tiến trình phía trên sẽ đi theo suốt phần này.
+Bài giảng đưa ra năm bước, và phần còn lại của phần 5 đi đúng năm bước này. Thanh tiến trình phía trên sẽ đi theo suốt phần này.
 (bấm) Bước 1, nhận diện chi phí và lợi ích.
 (bấm) Bước 2, gán giá trị.
 (bấm) Bước 3, xác định dòng tiền.
@@ -258,7 +258,7 @@ Bên phải là phần nhóm thêm. Ở r 12 phần trăm, giá trị sau cuối
 
 Chuỗi năm ô ở đầu bài giờ có kết quả. Mô hình là bán trực tiếp cộng thuê bao. Giá 120 nghìn cho phô mai, 850 nghìn cho whey. LTV khoảng 25 triệu. Tỷ số LTV trên COCA 17,86. Và dự án khả thi, NPV 3.124,7 triệu.
 Có hai điểm nhóm muốn nói thẳng.
-(bấm) Giá whey chưa thống nhất: báo cáo thị trường và sản phẩm dùng 500 nghìn một ký, còn bài tập 2 đến 5 dùng 850 nghìn. Nhóm sẽ chốt lại một mức.
+(bấm) Giá whey chưa thống nhất: báo cáo thị trường và sản phẩm dùng 500 nghìn một ký, còn phần 2 đến 5 dùng 850 nghìn. Nhóm sẽ chốt lại một mức.
 (bấm) Giá trị sau cuối chiếm phần lớn NPV, nên khi gọi vốn, nhóm sẽ đưa cả kết quả 5 năm để nhà đầu tư không thấy con số quá lạc quan.
 
 ### Slide 33 · Tài liệu tham khảo · 17 giây · 0 lần bấm
@@ -276,13 +276,13 @@ Nhóm trình bày cả hai (slide 29). Theo cách bài giảng, NPV là 23.302 t
 Đây là giả định trong báo cáo nhóm (slide 15). Mức 80% là thận trọng cho sản phẩm mới. Nếu duy trì cao hơn, LTV chỉ tăng thêm và tỷ số LTV : COCA càng vượt chuẩn (slide 20).
 
 **3. Giá whey 850 nghìn có mâu thuẫn với báo cáo thị trường 500 nghìn không?**
-Có, nhóm nêu ở slide 32. Bài tập 2 đến 5 dùng 850 nghìn để định vị dưới hàng nhập khẩu (slide 12). Nếu hạ về 500 nghìn, doanh thu whey và LTV giảm, cần tính lại bài tập 3 đến 5.
+Có, nhóm nêu ở slide 32. Phần 2 đến 5 dùng 850 nghìn để định vị dưới hàng nhập khẩu (slide 12). Nếu hạ về 500 nghìn, doanh thu whey và LTV giảm, cần tính lại phần 3 đến 5.
 
 **4. Suất chiết khấu 12% lấy từ đâu?**
-Bài tập 5 dùng r = 12% và g = 5%, giống ví dụ phần mềm của bài giảng (slide 28). Slide 30 cho thấy NPV 5 năm vẫn dương khi r tăng tới 20%.
+Phần 5 dùng r = 12% và g = 5%, giống ví dụ phần mềm của bài giảng (slide 28). Slide 30 cho thấy NPV 5 năm vẫn dương khi r tăng tới 20%.
 
 **5. Tại sao LTV dùng i = 15% còn NPV dùng r = 12%?**
-Hai bài tập tính hai thứ khác nhau theo báo cáo nhóm: LTV là lợi nhuận một khách (slide 15), NPV là dòng tiền cả dự án (slide 29). Nhóm có thể thống nhất về một mức nếu thầy yêu cầu; với i = 12%, LTV sẽ cao hơn chút.
+Hai phần tính hai thứ khác nhau theo báo cáo nhóm: LTV là lợi nhuận một khách (slide 15), NPV là dòng tiền cả dự án (slide 29). Nhóm có thể thống nhất về một mức nếu thầy yêu cầu; với i = 12%, LTV sẽ cao hơn chút.
 
 **6. COCA tính như thế nào khi chưa có dữ liệu thật?**
 Đây là số dự báo theo ba giai đoạn, theo đúng cách bài giảng hướng dẫn ở ví dụ Associated Gas (slide 19). Khi có dữ liệu bán hàng thật, nhóm sẽ thay vào công thức COCA(t) (slide 18).
