@@ -13,6 +13,7 @@ Bộ slide HTML trình bày chủ đề 3.1 của môn Khởi nghiệp (GVHD TS.
 | `slides/assets/` | Logo trường, font, ảnh Unsplash (`img/photo/`), minh họa unDraw (`img/undraw/`) |
 | `Slides_3.1_Phan_tich_tai_chinh.pdf` | Bản PDF để nộp, 33 trang |
 | `Kich_ban_thuyet_trinh.md` | Kịch bản cho 5 người nói, khoảng 19 phút, kèm phần hỏi đáp |
+| `Thuat_ngu.md` | Định nghĩa các thuật ngữ: LTV, COCA, NPV, IRR, PP, CFT, chiết khấu, các mô hình doanh thu và cách định giá… |
 | `Noi_dung_seminar.txt` | Chữ trên từng slide, ghi chú người nói, các chỗ đã sửa, tài liệu tham khảo |
 | `export_pdf.sh` | Lệnh xuất lại PDF |
 
