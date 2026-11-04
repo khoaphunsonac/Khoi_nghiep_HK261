@@ -1,0 +1,847 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Phân tích tài chính · Phô mai tươi &amp; Whey Protein</title>
+<link rel="icon" href="assets/img/logo-bk.png">
+<link rel="stylesheet" href="lib/reveal/reset.css">
+<link rel="stylesheet" href="lib/reveal/reveal.css">
+<link rel="stylesheet" href="assets/fonts.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Bộ icon SVG dùng chung (nét 1.8, bo tròn) -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="i-store" viewBox="0 0 24 24"><path d="M4 10v10h16V10"/><path d="M2.5 10 4.5 4h15l2 6z"/><path d="M9 20v-6h6v6"/></symbol>
+    <symbol id="i-repeat" viewBox="0 0 24 24"><path d="m17 2 4 4-4 4"/><path d="M3 11V9a3 3 0 0 1 3-3h15"/><path d="m7 22-4-4 4-4"/><path d="M21 13v2a3 3 0 0 1-3 3H3"/></symbol>
+    <symbol id="i-factory" viewBox="0 0 24 24"><path d="M2 20h20"/><path d="M3 20V9l6 4V9l6 4V5h6v15"/></symbol>
+    <symbol id="i-network" viewBox="0 0 24 24"><circle cx="12" cy="5" r="2.5"/><circle cx="5" cy="19" r="2.5"/><circle cx="19" cy="19" r="2.5"/><path d="M12 7.5V12m0 0-5.2 5M12 12l5.2 5"/></symbol>
+    <symbol id="i-milk" viewBox="0 0 24 24"><path d="M8 2h8"/><path d="M9 2v3L6.5 9v11a2 2 0 0 0 2 2h7a2 2 0 0 0 2-2V9L15 5V2"/><path d="M6.5 13h11"/></symbol>
+    <symbol id="i-cheese" viewBox="0 0 24 24"><path d="M3 18 21 9v9z"/><path d="M3 18 14.5 5 21 9"/><circle cx="15" cy="14.5" r="1.4"/><circle cx="9.5" cy="16" r="1"/></symbol>
+    <symbol id="i-jar" viewBox="0 0 24 24"><rect x="6" y="2.5" width="12" height="4" rx="1"/><path d="M7 6.5h10a1 1 0 0 1 1 1V20a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2V7.5a1 1 0 0 1 1-1z"/><path d="M6 12h12"/></symbol>
+    <symbol id="i-users" viewBox="0 0 24 24"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20a6.5 6.5 0 0 1 13 0"/><path d="M16 4.5a3.5 3.5 0 0 1 0 7"/><path d="M18 14a6 6 0 0 1 3.5 6"/></symbol>
+    <symbol id="i-tag" viewBox="0 0 24 24"><path d="M3 12V3h9l9 9-9 9z"/><circle cx="7.5" cy="7.5" r="1.5"/></symbol>
+    <symbol id="i-percent" viewBox="0 0 24 24"><path d="M19 5 5 19"/><circle cx="6.5" cy="6.5" r="2.5"/><circle cx="17.5" cy="17.5" r="2.5"/></symbol>
+    <symbol id="i-gift" viewBox="0 0 24 24"><rect x="3" y="8" width="18" height="4" rx="1"/><path d="M12 8v13"/><path d="M19 12v9H5v-9"/><path d="M12 8C10 3 6.5 4 7.5 7c.5 1 4.5 1 4.5 1s4 0 4.5-1C17.5 4 14 3 12 8"/></symbol>
+    <symbol id="i-up" viewBox="0 0 24 24"><path d="m22 7-8.5 8.5-5-5L2 17"/><path d="M16 7h6v6"/></symbol>
+    <symbol id="i-down" viewBox="0 0 24 24"><path d="m22 17-8.5-8.5-5 5L2 7"/><path d="M16 17h6v-6"/></symbol>
+    <symbol id="i-calc" viewBox="0 0 24 24"><rect x="4" y="2" width="16" height="20" rx="2"/><path d="M8 6h8"/><path d="M8 11h.01M12 11h.01M16 11h.01M8 15h.01M12 15h.01M16 15h.01M8 18.5h8"/></symbol>
+    <symbol id="i-coins" viewBox="0 0 24 24"><circle cx="9" cy="9" r="6"/><path d="M18.1 10.4a6 6 0 1 1-7.7 7.7"/><path d="M8 7h1.5v4"/></symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></symbol>
+    <symbol id="i-ok" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="m8.5 12 2.5 2.5 5-5"/></symbol>
+    <symbol id="i-layers" viewBox="0 0 24 24"><path d="m12 2 10 5-10 5L2 7z"/><path d="m2 17 10 5 10-5"/><path d="m2 12 10 5 10-5"/></symbol>
+    <symbol id="i-target" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1"/></symbol>
+    <symbol id="i-truck" viewBox="0 0 24 24"><path d="M3 6h11v10H3z"/><path d="M14 9h4l3 3v4h-7"/><circle cx="7" cy="18" r="2"/><circle cx="17" cy="18" r="2"/></symbol>
+    <symbol id="i-gym" viewBox="0 0 24 24"><path d="M6.5 6.5v11M17.5 6.5v11M3.5 9v6M20.5 9v6M6.5 12h11"/></symbol>
+    <symbol id="i-home" viewBox="0 0 24 24"><path d="M3 10.5 12 3l9 7.5"/><path d="M5 9.5V21h14V9.5"/><path d="M10 21v-6h4v6"/></symbol>
+    <symbol id="i-mega" viewBox="0 0 24 24"><path d="M3 11v3a1 1 0 0 0 1 1h3l7 4V6l-7 4H4a1 1 0 0 0-1 1z"/><path d="M18 9a4 4 0 0 1 0 6"/></symbol>
+    <symbol id="i-book" viewBox="0 0 24 24"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20V3H6.5A2.5 2.5 0 0 0 4 5.5z"/><path d="M4 19.5A2.5 2.5 0 0 0 6.5 22H20v-5"/></symbol>
+    <symbol id="i-file" viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/></symbol>
+    <symbol id="i-globe" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M3 12h18"/><path d="M12 3a14 14 0 0 1 0 18 14 14 0 0 1 0-18"/></symbol>
+    <symbol id="i-x" viewBox="0 0 24 24"><path d="M18 6 6 18M6 6l12 12"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></symbol>
+    <symbol id="i-panel" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M15 3v18"/></symbol>
+    <symbol id="i-table" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M3 15h18M9 3v18"/></symbol>
+    <symbol id="i-wallet" viewBox="0 0 24 24"><path d="M20 7V5a1 1 0 0 0-1-1H5a2 2 0 0 0 0 4h15v12H5a2 2 0 0 1-2-2V6"/><path d="M16 14h.01"/></symbol>
+    <symbol id="i-inf" viewBox="0 0 24 24"><path d="M12 12c-2-2.7-4-4-6-4a4 4 0 0 0 0 8c2 0 4-1.3 6-4zm0 0c2 2.7 4 4 6 4a4 4 0 0 0 0-8c-2 0-4 1.3-6 4z"/></symbol>
+    <symbol id="i-scale" viewBox="0 0 24 24"><path d="M12 3v18M5 21h14M3 7h18"/><path d="m6 7-3 7a3 3 0 0 0 6 0zM18 7l-3 7a3 3 0 0 0 6 0z"/></symbol>
+    <symbol id="i-package" viewBox="0 0 24 24"><path d="m3 7 9-4 9 4v10l-9 4-9-4z"/><path d="m3 7 9 4 9-4M12 11v10"/></symbol>
+    <symbol id="i-flask" viewBox="0 0 24 24"><path d="M9 3h6M10 3v6L4.5 19a1.5 1.5 0 0 0 1.3 2h12.4a1.5 1.5 0 0 0 1.3-2L14 9V3"/><path d="M7 15h10"/></symbol>
+    <symbol id="i-snow" viewBox="0 0 24 24"><path d="M12 2v20M4.9 6l14.2 12M19.1 6 4.9 18"/><path d="m9 4 3 2 3-2M9 20l3-2 3 2"/></symbol>
+  </defs>
+</svg>
+
+<div class="reveal">
+<div class="slides">
+
+<!-- ============ 01 · BÌA ============ -->
+<section class="s s-cover" data-part="Bìa" data-src="">
+  <div class="cv-band"></div>
+  <div class="cv-top">
+    <img src="assets/img/logo-bk.png" alt="Logo Trường Đại học Bách Khoa">
+    <div>
+      <div class="u1">ĐẠI HỌC QUỐC GIA TP. HỒ CHÍ MINH</div>
+      <div class="u2">TRƯỜNG ĐẠI HỌC BÁCH KHOA</div>
+    </div>
+  </div>
+  <div class="cv-art" aria-hidden="true">
+    <svg id="cvHex" viewBox="0 0 470 552" width="470" height="552"></svg>
+    <div class="pblur" data-pblur="bottom" style="bottom:0;height:46%"></div>
+  </div>
+  <div class="cv-chip"><span>Bài tập 1 → 5:</span><span class="troll" data-roll="Mô hình|Khung giá|LTV|COCA|NPV · IRR · PP"></span></div>
+  <div class="cv-main">
+    <div class="cv-course">Môn Khởi nghiệp · Chủ đề 3.1 Phân tích tài chính</div>
+    <h1 class="cv-title">Phân tích tài chính dự án Phô mai tươi &amp; Whey Protein</h1>
+    <p class="cv-sub">Từ mô hình doanh thu, khung giá, LTV, COCA đến đánh giá khả thi qua NPV, IRR và thời gian hoàn vốn</p>
+  </div>
+  <div class="cv-meta">
+    <div style="padding-left:56px">
+      <div class="lbl">GIẢNG VIÊN HƯỚNG DẪN</div>
+      <div class="val">TS. Đào Hồng Hải</div>
+      <div class="lbl" style="margin-top:14px">NHÓM · HỌC KỲ</div>
+      <div class="val">Nhóm [..] · HK261</div>
+    </div>
+    <div>
+      <div class="lbl">THÀNH VIÊN</div>
+      <ul class="mem">
+        <li><span class="avatar">1</span>[Họ và tên] – [MSSV]</li>
+        <li><span class="avatar">2</span>[Họ và tên] – [MSSV]</li>
+        <li><span class="avatar">3</span>[Họ và tên] – [MSSV]</li>
+        <li><span class="avatar">4</span>[Họ và tên] – [MSSV]</li>
+        <li><span class="avatar">5</span>[Họ và tên] – [MSSV]</li>
+      </ul>
+    </div>
+  </div>
+  <aside class="notes">Chào thầy và các bạn. Nhóm trình bày chủ đề 3.1 Phân tích tài chính, áp dụng cho dự án phô mai tươi và whey protein. Bài đi đúng thứ tự năm bài tập trong bài giảng.</aside>
+</section>
+
+<!-- ============ 02 · MỤC LỤC ============ -->
+<section class="s" data-part="Mục lục" data-src="1,3" data-title="Nội dung trình bày">
+  <div class="s-head"><h2 class="s-title">Nội dung trình bày</h2></div>
+  <div class="s-body">
+    <p class="lead blk" style="max-width:860px">Năm bài tập nối tiếp nhau: số liệu của bài trước là đầu vào của bài sau.</p>
+    <div class="chain blk" data-id="chain" style="margin-top:34px">
+      <a class="chain-n fragment up" data-goto="p1"><span class="cn-i"><svg class="ic ic-lg"><use href="#i-layers"/></svg></span><span class="cn-k">Bài tập 1</span><span class="uhover"><span class="cn-t">Mô hình doanh thu</span><svg viewBox="0 0 100 10" preserveAspectRatio="none"><path d="M1 6 Q 25 1 50 5 T 99 4" pathLength="1"/></svg></span><span class="cn-d">Chọn cách tạo dòng tiền</span></a>
+      <a class="chain-n fragment up" data-goto="p2"><span class="cn-i"><svg class="ic ic-lg"><use href="#i-tag"/></svg></span><span class="cn-k">Bài tập 2</span><span class="uhover"><span class="cn-t">Khung giá ban đầu</span><svg viewBox="0 0 100 10" preserveAspectRatio="none"><path d="M1 6 Q 25 1 50 5 T 99 4" pathLength="1"/></svg></span><span class="cn-d">Giá phô mai và whey</span></a>
+      <a class="chain-n fragment up" data-goto="p3"><span class="cn-i"><svg class="ic ic-lg"><use href="#i-users"/></svg></span><span class="cn-k">Bài tập 3</span><span class="uhover"><span class="cn-t">Giá trị trọn đời LTV</span><svg viewBox="0 0 100 10" preserveAspectRatio="none"><path d="M1 6 Q 25 1 50 5 T 99 4" pathLength="1"/></svg></span><span class="cn-d">Dùng giá của bài tập 2</span></a>
+      <a class="chain-n fragment up" data-goto="p4"><span class="cn-i"><svg class="ic ic-lg"><use href="#i-mega"/></svg></span><span class="cn-k">Bài tập 4</span><span class="uhover"><span class="cn-t">Chi phí có khách COCA</span><svg viewBox="0 0 100 10" preserveAspectRatio="none"><path d="M1 6 Q 25 1 50 5 T 99 4" pathLength="1"/></svg></span><span class="cn-d">So với LTV của bài tập 3</span></a>
+      <a class="chain-n fragment up" data-goto="p5"><span class="cn-i"><svg class="ic ic-lg"><use href="#i-calc"/></svg></span><span class="cn-k">Bài tập 5</span><span class="uhover"><span class="cn-t">NPV · IRR · PP</span><svg viewBox="0 0 100 10" preserveAspectRatio="none"><path d="M1 6 Q 25 1 50 5 T 99 4" pathLength="1"/></svg></span><span class="cn-d">Khả thi tài chính 5 năm</span></a>
+    </div>
+    <div class="blk toc-foot fragment up">
+      <div><span class="badge badge-cheese"><svg class="ic"><use href="#i-cheese"/></svg>Phô mai tươi</span> <span class="badge"><svg class="ic"><use href="#i-jar"/></svg>Whey Protein</span></div>
+      <p class="small" style="max-width:720px">Dự án tận dụng nước whey tách ra khi làm phô mai để chế biến thành bột whey protein, nên hai dòng sản phẩm dùng chung một nguồn sữa.</p>
+    </div>
+  </div>
+  <aside class="notes">Mũi tên giữa các ô thể hiện sự phụ thuộc. Giá ở bài 2 được dùng để tính LTV ở bài 3. LTV ở bài 3 được đem so với COCA ở bài 4. Cuối cùng bài 5 gom chi phí và doanh thu của cả xưởng để tính NPV, IRR, PP.</aside>
+</section>
+
+<!-- ============ PHẦN 1 ============ -->
+<section class="s s-div" id="p1" data-part="Phần 1 · Mô hình doanh thu" data-src="1" data-divider="1">
+  <div class="d-n">PHẦN 1 · BÀI TẬP 1</div>
+  <h2 class="d-t wave" data-wave>Lựa chọn mô hình doanh thu</h2>
+  <p class="d-q"><span class="dia" data-dia>Những mô hình doanh thu nào khả dĩ với dự án, và nhóm chọn mô hình nào?</span></p>
+  <ol class="d-list"></ol>
+</section>
+
+<section class="s" data-part="Phần 1 · Mô hình doanh thu" data-src="1">
+  <div class="s-head"><h2 class="s-title">Mô hình doanh thu quản lý các dòng doanh thu</h2></div>
+  <div class="s-body grid col-5-7">
+    <div class="blk stack">
+      <p class="lead">Mô hình doanh thu (revenue model) giúp quản lý các dòng doanh thu (revenue stream) bên trong một mô hình kinh doanh.</p>
+      <div class="h4" style="margin-top:22px">Một số cách tạo dòng doanh thu</div>
+      <ul class="dots" style="font-size:18px">
+        <li class="fragment up">Bán hoặc cho thuê sản phẩm</li>
+        <li class="fragment up">Phí sử dụng dịch vụ, phí thuê bao dịch vụ</li>
+        <li class="fragment up">Cấp phép quyền sử dụng tài sản trí tuệ, nhượng quyền</li>
+        <li class="fragment up">Phí môi giới, quảng cáo</li>
+      </ul>
+    </div>
+    <div class="blk quad fragment up" data-id="quad">
+      <div class="q q1"><div class="qh"><svg class="ic"><use href="#i-users"/></svg>Khách hàng</div><ul><li>Điều gì quan trọng với đơn vị ra quyết định mua?</li><li>Thích trả một lần hay nhiều lần?</li></ul></div>
+      <div class="q q2"><div class="qh"><svg class="ic"><use href="#i-target"/></svg>Tuyên bố giá trị</div><ul><li>Sản phẩm mang lại bao nhiêu giá trị?</li><li>Khi nào nhận được, rủi ro không nhận được?</li></ul></div>
+      <div class="q q3"><div class="qh"><svg class="ic"><use href="#i-scale"/></svg>Cạnh tranh</div><ul><li>Đối thủ dùng mô hình doanh thu nào?</li><li>Họ mắc kẹt ở đâu, có thể phá vỡ ngành?</li></ul></div>
+      <div class="q q4"><div class="qh"><svg class="ic"><use href="#i-truck"/></svg>Vận hành</div><ul><li>Chu trình bán hàng, chi phí có một khách?</li><li>Giá trị trọn đời, nhà phân phối, dòng tiền?</li></ul></div>
+      <div class="q-core"><svg class="ic"><use href="#i-coins"/></svg><span>Mô hình<br>doanh thu</span></div>
+    </div>
+  </div>
+  <aside class="notes">Bên phải là bốn góc nhìn bài giảng gợi ý khi chọn mô hình doanh thu. Mỗi góc đều có thêm câu hỏi "các cân nhắc khác", nhóm lược bớt cho gọn.</aside>
+</section>
+
+<section class="s" data-part="Phần 1 · Mô hình doanh thu" data-src="3">
+  <div class="s-head"><h2 class="s-title">Bốn mô hình doanh thu khả dĩ cho phô mai và whey</h2></div>
+  <div class="s-body">
+    <div class="acc blk" data-acc>
+      <div class="acc-row" data-acc-row>
+        <div class="acc-head"><svg class="ic"><use href="#i-store"/></svg><span class="t">Bán sản phẩm trực tiếp</span><span class="badges"><span class="badge badge-outline">B2C</span><span class="badge badge-outline">B2B</span><span class="badge badge-solid badge-dot">Nhóm chọn</span></span></div>
+        <div class="acc-body">
+          <p><b>Phô mai:</b> bán lẻ cho người tiêu dùng qua cửa hàng, website; bán buôn cho nhà hàng, tiệm bánh, khách sạn, siêu thị.<br><b>Whey:</b> hũ hoặc túi bột đạm, nước uống bổ sung đạm đóng chai cho người tập, phòng gym.</p>
+          <svg class="flow-mini" viewBox="0 0 300 84"><g class="fm"><rect x="2" y="26" width="78" height="32" rx="8"/><text x="41" y="47">Xưởng</text><rect x="218" y="4" width="80" height="30" rx="8"/><text x="258" y="24">B2C</text><rect x="218" y="50" width="80" height="30" rx="8"/><text x="258" y="70">B2B</text><path class="flow-dash" d="M80 42 C150 42 150 19 218 19"/><path class="flow-dash" d="M80 42 C150 42 150 65 218 65"/></g></svg>
+        </div>
+      </div>
+      <div class="acc-row" data-acc-row>
+        <div class="acc-head"><svg class="ic"><use href="#i-repeat"/></svg><span class="t">Phí thuê bao định kỳ</span><span class="badges"><span class="badge badge-outline">1 · 3 · 6 tháng</span><span class="badge badge-solid badge-dot">Nhóm chọn</span></span></div>
+        <div class="acc-body">
+          <p>Gói giao whey protein định kỳ 1, 3 hoặc 6 tháng; hộp phô mai tươi giao hằng tuần hoặc hằng tháng cho gia đình, người ăn kiêng và sống lành mạnh.</p>
+          <svg class="flow-mini" viewBox="0 0 300 84"><g class="fm"><rect x="2" y="26" width="78" height="32" rx="8"/><text x="41" y="47">Xưởng</text><rect x="218" y="26" width="80" height="32" rx="8"/><text x="258" y="47">Khách</text><path class="flow-dash" d="M80 34 C130 4 170 4 218 34"/><path class="flow-dash" d="M218 50 C170 80 130 80 80 50"/><text x="150" y="13" class="fm-s">giao hàng</text><text x="150" y="80" class="fm-s">trả phí kỳ</text></g></svg>
+        </div>
+      </div>
+      <div class="acc-row" data-acc-row>
+        <div class="acc-head"><svg class="ic"><use href="#i-factory"/></svg><span class="t">Bán sỉ nguyên liệu B2B</span><span class="badges"><span class="badge badge-outline">Bulk / OEM</span></span></div>
+        <div class="acc-body">
+          <p>Bán nguyên liệu whey đạm thô hoặc phô mai nguyên khối cho các nhà máy chế biến thực phẩm, bánh kẹo.</p>
+          <svg class="flow-mini" viewBox="0 0 300 84"><g class="fm"><rect x="2" y="26" width="78" height="32" rx="8"/><text x="41" y="47">Xưởng</text><rect x="200" y="26" width="98" height="32" rx="8"/><text x="249" y="47">Nhà máy</text><path class="flow-dash" d="M80 42 H200"/><text x="140" y="34" class="fm-s">khối lớn</text></g></svg>
+        </div>
+      </div>
+      <div class="acc-row" data-acc-row>
+        <div class="acc-head"><svg class="ic"><use href="#i-network"/></svg><span class="t">Nhượng quyền thương mại</span><span class="badges"><span class="badge badge-outline">Franchising</span></span></div>
+        <div class="acc-body">
+          <p>Khi chuỗi cửa hàng phô mai tươi và thực phẩm dinh dưỡng đã có chỗ đứng, nhượng quyền mô hình cửa hàng cho các bên đầu tư khác.</p>
+          <svg class="flow-mini" viewBox="0 0 300 84"><g class="fm"><rect x="2" y="26" width="90" height="32" rx="8"/><text x="47" y="47">Thương hiệu</text><rect x="218" y="2" width="80" height="24" rx="7"/><rect x="218" y="30" width="80" height="24" rx="7"/><rect x="218" y="58" width="80" height="24" rx="7"/><text x="258" y="19" class="fm-s">Cửa hàng</text><text x="258" y="47" class="fm-s">Cửa hàng</text><text x="258" y="75" class="fm-s">Cửa hàng</text><path class="flow-dash" d="M92 42 C160 42 150 14 218 14"/><path class="flow-dash" d="M92 42 H218"/><path class="flow-dash" d="M92 42 C160 42 150 70 218 70"/></g></svg>
+        </div>
+      </div>
+    </div>
+    <span class="fragment" data-acc-step="0"></span><span class="fragment" data-acc-step="1"></span><span class="fragment" data-acc-step="2"></span><span class="fragment" data-acc-step="3"></span>
+  </div>
+  <aside class="notes">Lần lượt mở từng mô hình. Hai mô hình đầu có nhãn "Nhóm chọn", phần lý do ở slide sau.</aside>
+</section>
+
+<section class="s" data-part="Phần 1 · Mô hình doanh thu" data-src="3,5" data-sim>
+  <div class="s-head"><h2 class="s-title">Chọn bán trực tiếp kết hợp thuê bao định kỳ</h2></div>
+  <div class="s-body">
+    <svg class="chart vchain blk" viewBox="0 0 1168 230" aria-label="Chuỗi giá trị từ sữa tươi đến phô mai và whey protein">
+      <defs><marker id="arw" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 10 5 0 10z" fill="#1488DB"/></marker></defs>
+      <g class="vc-node"><rect x="0" y="80" width="170" height="70" rx="14"/><use href="#i-milk" x="16" y="101" width="28" height="28" class="vc-ic"/><text x="56" y="112" class="vc-t">Sữa tươi</text><text x="56" y="132" class="vc-s">nguyên chất</text></g>
+      <path class="flow-dash vc-l" d="M170 115 H250" marker-end="url(#arw)"/>
+      <g class="vc-node"><rect x="252" y="80" width="170" height="70" rx="14"/><use href="#i-flask" x="268" y="101" width="28" height="28" class="vc-ic"/><text x="308" y="112" class="vc-t">Đông tụ</text><text x="308" y="132" class="vc-s">tách sữa</text></g>
+      <path class="flow-dash vc-l" d="M422 105 C480 105 470 40 540 40" marker-end="url(#arw)"/>
+      <path class="flow-dash vc-l" d="M422 125 C480 125 470 190 540 190" marker-end="url(#arw)"/>
+      <g class="vc-node vc-cheese"><rect x="542" y="6" width="210" height="68" rx="14"/><use href="#i-cheese" x="558" y="26" width="28" height="28" class="vc-ic"/><text x="598" y="36" class="vc-t">Phô mai tươi</text><text x="598" y="57" class="vc-s">sản phẩm chính</text></g>
+      <g class="vc-node vc-whey"><rect x="542" y="156" width="210" height="68" rx="14"/><use href="#i-milk" x="558" y="176" width="28" height="28" class="vc-ic"/><text x="598" y="186" class="vc-t">Nước whey</text><text x="598" y="207" class="vc-s">phụ phẩm</text></g>
+      <path class="flow-dash vc-l" d="M752 190 H818" marker-end="url(#arw)"/>
+      <g class="vc-node"><rect x="820" y="156" width="150" height="68" rx="14"/><use href="#i-snow" x="834" y="176" width="26" height="26" class="vc-ic"/><text x="868" y="186" class="vc-t">Cô đặc</text><text x="868" y="207" class="vc-s">sấy lạnh</text></g>
+      <path class="flow-dash vc-l" d="M970 190 H994" marker-end="url(#arw)"/>
+      <g class="vc-node vc-whey"><rect x="996" y="156" width="172" height="68" rx="14"/><use href="#i-jar" x="1010" y="176" width="26" height="26" class="vc-ic"/><text x="1044" y="186" class="vc-t">Whey Protein</text><text x="1044" y="207" class="vc-s">giá trị cao</text></g>
+    </svg>
+    <div class="grid col-2" style="margin-top:22px;gap:22px">
+      <div class="panel blk fragment up lane-cheese">
+        <div class="h3"><svg class="ic"><use href="#i-cheese"/></svg> Phô mai · bán đứt theo giao dịch</div>
+        <p style="font-size:17px;margin-top:8px;color:var(--ink-2)">Thực phẩm tiêu dùng nhanh (FMCG), bán B2C và B2B tạo dòng tiền quay vòng nhanh.</p>
+      </div>
+      <div class="panel blk fragment up">
+        <div class="h3"><svg class="ic"><use href="#i-repeat"/></svg> Whey · gói thuê bao</div>
+        <p style="font-size:17px;margin-top:8px;color:var(--ink-2)">Người tập gym dùng đều mỗi tháng. Subscription giúp dự báo dòng tiền, tăng LTV và giảm COCA theo thời gian.</p>
+      </div>
+    </div>
+    <div class="verdict blk fragment up" style="margin-top:18px"><svg class="ic"><use href="#i-up"/></svg><span>Biến phụ phẩm whey thành dòng sản phẩm giá trị cao giúp tối ưu chuỗi giá trị và tăng tối đa biên lợi nhuận gộp tổng thể.</span></div>
+  </div>
+  <aside class="notes">Lý do thứ nhất nằm ở sơ đồ: khi đông tụ sữa làm phô mai sẽ tách ra nước whey. Thay vì bỏ đi, nhóm cô đặc, sấy lạnh thành bột whey protein. Lý do thứ hai là sự kết hợp: phô mai thu hồi vốn nhanh, whey theo thuê bao cho dòng tiền ổn định.</aside>
+</section>
+
+<!-- ============ PHẦN 2 ============ -->
+<section class="s s-div" id="p2" data-part="Phần 2 · Khung giá ban đầu" data-src="1" data-divider="2">
+  <div class="d-n">PHẦN 2 · BÀI TẬP 2</div>
+  <h2 class="d-t wave" data-wave>Thiết lập khung giá ban đầu</h2>
+  <p class="d-q"><span class="dia" data-dia>Khách hàng đến sớm và đến sau là ai, và khung giá linh hoạt cho từng nhóm ra sao?</span></p>
+  <ol class="d-list"></ol>
+</section>
+
+<section class="s" data-part="Phần 2 · Khung giá ban đầu" data-src="1">
+  <div class="s-head"><h2 class="s-title">Mỗi dòng doanh thu có cơ chế giá khác nhau</h2></div>
+  <div class="s-body">
+    <div class="spectrum blk" data-id="spectrum">
+      <div class="sp-bar"></div>
+      <div class="sp-end l"><b>Giá cố định</b><span>giá niêm yết; theo tính năng, phân khúc khách hàng, khối lượng sản phẩm</span></div>
+      <div class="sp-end r"><b>Giá linh hoạt</b><span>thương lượng, đấu giá, giá thị trường, theo tồn kho và thời gian</span></div>
+    </div>
+    <div class="h4 blk" style="margin-top:26px">Một số gợi ý khi định giá</div>
+    <div class="tips blk">
+      <div class="tip fragment up"><svg class="ic"><use href="#i-target"/></svg><p>Định giá theo <b>giá trị</b> sản phẩm mang lại cho khách hàng, không dựa vào chi phí.</p></div>
+      <div class="tip fragment up"><svg class="ic"><use href="#i-users"/></svg><p>Dùng thông tin về đơn vị ra quyết định mua và quy trình có khách trả tiền để chọn các điểm giá cơ bản.</p></div>
+      <div class="tip fragment up"><svg class="ic"><use href="#i-scale"/></svg><p>Hiểu sản phẩm thay thế theo góc nhìn khách hàng và giá họ sẵn sàng trả cho từng thứ.</p></div>
+      <div class="tip fragment up"><svg class="ic"><use href="#i-layers"/></svg><p>Mỗi nhóm khách chấp nhận một mức giá, nên cần chiến lược giá đa dạng hướng tới nhóm mang lợi nhuận cao.</p></div>
+      <div class="tip fragment up"><svg class="ic"><use href="#i-down"/></svg><p>Định giá cao rồi giảm, đừng định giá quá thấp để rồi phải tăng giá.</p></div>
+      <div class="tip fragment up"><svg class="ic"><use href="#i-gift"/></svg><p>Giá linh hoạt cho người thử nghiệm sớm và khách hàng “dẫn đường” có ảnh hưởng trong ngành.</p></div>
+    </div>
+  </div>
+  <aside class="notes">Dải ngang cho thấy hai đầu của cơ chế giá. Sáu gợi ý bên dưới là của bài giảng, nhóm dùng lại toàn bộ khi lập giá ở các slide sau.</aside>
+</section>
+
+<section class="s" data-part="Phần 2 · Khung giá ban đầu" data-src="1">
+  <div class="s-head"><h2 class="s-title">Định giá cho năm nhóm khách hàng công nghệ</h2></div>
+  <div class="s-body">
+    <svg class="chart blk" id="adopt1" data-id="curve" viewBox="0 0 1168 250" data-chart="adopt" data-mode="all"></svg>
+    <div class="seg5 blk">
+      <div class="fragment up"><b>Tín đồ công nghệ</b><span>Mua sản phẩm đầu tiên, yêu công nghệ và sẽ mua bất kỳ thứ gì.</span></div>
+      <div class="fragment up"><b>Người tiếp nhận sớm</b><span>Không nhạy cảm giá, muốn món hàng đặc biệt, kỳ vọng được quan tâm và dịch vụ bổ sung.</span></div>
+      <div class="fragment up"><b>Số đông chấp nhận sớm</b><span>Giúp doanh nghiệp có quy mô thật; đây là điểm giá mọi người nghĩ tới khi bàn chiến lược giá.</span></div>
+      <div class="fragment up"><b>Số đông chấp nhận trễ</b><span>Đến sau, khi chiến lược giá đã rõ; thích kế hoạch rõ ràng, chắc chắn.</span></div>
+      <div class="fragment up"><b>Người “bảo thủ”</b><span>Được tính đến sau cùng trong quá trình.</span></div>
+    </div>
+  </div>
+  <aside class="notes">Đường cong chia thị trường thành năm nhóm theo thời điểm chấp nhận sản phẩm. Nhóm bên trái ít nhạy cảm giá, càng sang phải càng cần giá rõ ràng và cạnh tranh.</aside>
+</section>
+
+<section class="s" data-part="Phần 2 · Khung giá ban đầu" data-src="3">
+  <div class="s-head"><h2 class="s-title">Khách hàng đến sớm và khách hàng đến sau của dự án</h2></div>
+  <div class="s-body">
+    <div class="toggle-group no-print" data-toggle-group style="position:absolute;right:0;top:-6px;z-index:2" role="group" aria-label="Làm nổi bật nhóm khách hàng">
+      <button class="toggle" aria-pressed="false" data-v="early">Đến sớm</button>
+      <button class="toggle" aria-pressed="false" data-v="late">Đến sau</button>
+    </div>
+    <svg class="chart blk" id="adopt2" data-id="curve" viewBox="0 0 1168 170" data-chart="adopt" data-mode="split"></svg>
+    <div class="grid col-2 blk" style="gap:26px;margin-top:8px">
+      <div class="who who-early fragment up">
+        <div class="who-h"><span class="badge badge-solid">Đến sớm</span><span class="badge badge-pos">Ít nhạy cảm giá</span></div>
+        <ul class="dots">
+          <li><b>Người tập gym, vận động viên:</b> hiểu dinh dưỡng, cần đạm whey tự nhiên cao.</li>
+          <li><b>Người Eat Clean, Healthy, Keto:</b> ưu tiên phô mai tươi artisanal không phụ gia.</li>
+          <li><b>KOL, PT, influencer sức khỏe:</b> nhóm “dẫn đường” ảnh hưởng mạnh tới cộng đồng.</li>
+        </ul>
+        <p class="small" style="margin-top:8px">Sẵn sàng trả giá cao hơn cho sản phẩm tốt, an toàn; muốn dùng thử sớm, góp ý và chia sẻ trải nghiệm.</p>
+      </div>
+      <div class="who who-late fragment up">
+        <div class="who-h"><span class="badge">Đến sau</span><span class="badge badge-neg">Nhạy cảm giá hơn</span></div>
+        <ul class="dots">
+          <li><b>Hộ gia đình nội thành, bà nội trợ:</b> mua phô mai cho bữa ăn gia đình và trẻ em.</li>
+          <li><b>Người tiêu dùng phổ thông, người mới tập:</b> chỉ mua khi thương hiệu đã uy tín, có mặt ở siêu thị, phòng tập, sàn TMĐT.</li>
+          <li><b>Đối tác B2B:</b> nhà hàng, tiệm bánh, chuỗi cà phê mua số lượng lớn.</li>
+        </ul>
+        <p class="small" style="margin-top:8px">Chú trọng tiện lợi, chứng nhận chất lượng và giá cạnh tranh với hàng nhập khẩu.</p>
+      </div>
+    </div>
+  </div>
+  <aside class="notes">Đường cong ở slide trước được tô lại: phần trái là nhóm đến sớm của dự án, phần phải là nhóm đến sau. Hai nhóm khác nhau rõ nhất ở độ nhạy cảm giá, đây là cơ sở cho khung giá linh hoạt.</aside>
+</section>
+
+<section class="s" data-part="Phần 2 · Khung giá ban đầu" data-src="3">
+  <div class="s-head"><h2 class="s-title">Khung giá phô mai tươi: niêm yết cao, linh hoạt theo đối tượng</h2></div>
+  <div class="s-body grid col-5-7" style="gap:34px">
+    <div class="pricing blk">
+      <div class="plan feat fragment up"><div class="pn"><svg class="ic"><use href="#i-tag"/></svg>Giá niêm yết cố định</div><div class="pp">120.000 <small>VNĐ / hộp 250g</small></div><div class="pd">Định vị phân khúc phô mai tươi nguyên chất cao cấp</div></div>
+      <div class="plan fragment up"><div class="pn"><svg class="ic"><use href="#i-gift"/></svg>Khách hàng đến sớm <span class="badge badge-pos">−20%</span></div><div class="pp">96.000 <small>VNĐ / hộp</small></div><div class="pd">Hoặc tặng hũ nhỏ dùng thử cho 500 đơn đầu tiên để thu review</div></div>
+      <div class="plan fragment up"><div class="pn"><svg class="ic"><use href="#i-repeat"/></svg>Thuê bao tuần / tháng <span class="badge badge-pos">≈ −20%</span></div><div class="pp">95.000 <small>VNĐ / hộp</small></div><div class="pd">Giữ chân khách lâu dài, tạo dòng tiền ổn định</div></div>
+      <div class="plan fragment up"><div class="pn"><svg class="ic"><use href="#i-factory"/></svg>B2B nhà hàng, tiệm bánh</div><div class="pp">320.000 <small>₫/kg · 5–19 kg</small></div><div class="pd">Từ 20 kg: <b>280.000 ₫/kg</b> (chiết khấu số lượng)</div></div>
+    </div>
+    <div class="blk">
+      <div class="h4">Giá quy đổi theo kg của từng mức giá</div>
+      <svg class="chart" viewBox="0 0 640 300" data-chart="perkg" style="margin-top:6px"></svg>
+      <div style="display:flex;gap:8px;flex-wrap:wrap;margin-top:10px">
+        <span class="badge badge-outline">Định giá theo giá trị</span><span class="badge badge-outline">Cao trước, chiết khấu sau</span><span class="badge badge-outline">Cố định + linh hoạt</span>
+      </div>
+    </div>
+  </div>
+  <aside class="notes">Bảng giá bên trái lấy nguyên từ báo cáo nhóm. Biểu đồ bên phải chỉ đổi mọi mức giá về cùng đơn vị VNĐ trên kg (hộp 250g nhân 4) để thấy giá B2B 5–19 kg là 320 nghìn, từ 20 kg là 280 nghìn, thấp hơn giá lẻ quy đổi 480 nghìn.</aside>
+</section>
+
+<section class="s" data-part="Phần 2 · Khung giá ban đầu" data-src="3">
+  <div class="s-head"><h2 class="s-title">Khung giá whey protein: neo dưới hàng nhập khẩu</h2></div>
+  <div class="s-body">
+    <svg class="chart blk" viewBox="0 0 1168 132" data-chart="wheyrange"></svg>
+    <div class="fan blk" data-fan>
+      <div class="fcard" style="background:var(--bk);color:#fff"><div class="ft">Giá đại sứ, đại lý cho PT, phòng gym, KOL</div><div class="fs">Phân phối trực tiếp tại phòng tập</div><div class="fp">−25–30%</div></div>
+      <div class="fcard" style="background:#fff;color:var(--ink)"><div class="ft">Mã ưu đãi affiliate</div><div class="fs">Cho học viên và người theo dõi của PT, KOL</div><div class="fp" style="color:var(--bk)">−10%</div></div>
+      <div class="fcard" style="background:var(--cheese-tint);color:var(--cheese-ink)"><div class="ft">Combo dinh dưỡng phô mai + whey</div><div class="fs">Mua lẻ 120.000 + 850.000 = 970.000 VNĐ, tiết kiệm 150.000 VNĐ</div><div class="fp">820.000 ₫</div></div>
+      <div class="fcard" style="background:#0E66AD;color:#fff"><div class="ft">Gói sachet 30g dùng thử</div><div class="fs">Cho khách đến sau, giảm rào cản thử nghiệm ban đầu</div><div class="fp">35.000 ₫</div></div>
+    </div>
+    <span class="fragment" data-fan-step="0"></span><span class="fragment" data-fan-step="1"></span><span class="fragment" data-fan-step="2"></span><span class="fragment" data-fan-step="3"></span>
+  </div>
+  <aside class="notes">Giá niêm yết 850 nghìn một hũ 1 kg nằm dưới khoảng 900 nghìn đến 1,2 triệu của whey nhập khẩu, đồng thời khẳng định độ tinh khiết tự nhiên. Bốn chính sách giá linh hoạt lần lượt được rút ra: đại lý, affiliate, combo, sachet.</aside>
+</section>
+
+<!-- ============ PHẦN 3 ============ -->
+<section class="s s-div" id="p3" data-part="Phần 3 · LTV" data-src="1" data-divider="3">
+  <div class="d-n">PHẦN 3 · BÀI TẬP 3</div>
+  <h2 class="d-t wave" data-wave>Ước tính giá trị trọn đời của một khách hàng</h2>
+  <p class="d-q"><span class="dia" data-dia>Một khách hàng dùng cả phô mai và whey mang lại bao nhiêu lợi nhuận gộp trong 5 năm đầu?</span></p>
+  <ol class="d-list"></ol>
+</section>
+
+<section class="s" data-part="Phần 3 · LTV" data-src="1">
+  <div class="s-head"><h2 class="s-title">LTV: lợi nhuận gộp trong suốt vòng đời khách hàng</h2></div>
+  <div class="s-body grid col-5-7" style="gap:36px">
+    <div class="blk stack">
+      <p class="lead">Lifetime Value (LTV, CLV, CLTV) là lợi nhuận gộp mỗi khách hàng mang đến trong suốt vòng đời. Với công ty khởi nghiệp, LTV tính trong <b>5 năm đầu</b>.</p>
+      <div class="formula fragment up" style="margin-top:18px"><span>LTV =</span><span class="sum"><span>5</span><b>Σ</b><span>t=0</span></span><span class="frac"><span>Lợi nhuận gộp<sub>t</sub></span><span>(1 + i)<sup>t</sup></span></span></div>
+      <ul class="dots fragment up" style="font-size:16.5px;margin-top:16px">
+        <li>Tỷ lệ duy trì tích lũy = r<sup>t</sup>, với r là tỷ lệ duy trì mỗi năm</li>
+        <li>Hệ số giá trị hiện tại = 1/(1 + i)<sup>t</sup>, i là suất sinh lợi tối thiểu</li>
+      </ul>
+      <div class="fragment up" style="margin-top:16px"><button class="rich-btn ghost no-print" data-open="mLtv"><svg class="ic"><use href="#i-table"/></svg>Ví dụ trong bài giảng</button></div>
+    </div>
+    <div class="blk">
+      <div class="h4">Giá trị hiện tại của 1 đồng lợi nhuận theo năm</div>
+      <svg class="chart" viewBox="0 0 640 330" data-chart="discount" style="margin-top:8px"></svg>
+    </div>
+  </div>
+  <div class="overlay" data-overlay="mLtv"></div>
+  <div class="modal" id="mLtv" role="dialog" aria-modal="true" aria-labelledby="mLtvT">
+    <button class="x-btn" data-close aria-label="Đóng"><svg class="ic"><use href="#i-x"/></svg></button>
+    <div class="h3" id="mLtvT">Ví dụ bài giảng: doanh nghiệp sản xuất, LTV = $9,264.65</div>
+    <p class="small" style="margin:6px 0 12px">Giá sản phẩm $10,000; phí bảo trì 15%/năm sau 6 tháng bảo hành; biên lợi nhuận gộp 65% và 85%; duy trì 90%/năm; 75% mua sản phẩm tiếp theo; suất sinh lợi tối thiểu 50%.</p>
+    <table class="tbl tbl-compact">
+      <thead><tr><th></th><th>Năm 0</th><th>Năm 1</th><th>Năm 2</th><th>Năm 3</th><th>Năm 4</th><th>Năm 5</th></tr></thead>
+      <tbody>
+        <tr><td>Lợi nhuận sản phẩm</td><td>$6,500</td><td></td><td></td><td></td><td></td><td>$3,198</td></tr>
+        <tr><td>Lợi nhuận bảo trì</td><td>$637.50</td><td>$1,147.50</td><td>$1,032.75</td><td>$929.48</td><td>$836.53</td><td>$313.70</td></tr>
+        <tr class="tot"><td>Tổng lợi nhuận</td><td>$7,137.50</td><td>$1,147.50</td><td>$1,032.75</td><td>$929.48</td><td>$836.53</td><td>$3,512.19</td></tr>
+        <tr><td>Hệ số PV (i = 50%)</td><td>1.00</td><td>0.67</td><td>0.44</td><td>0.30</td><td>0.20</td><td>0.13</td></tr>
+        <tr class="hl"><td>Giá trị hiện tại</td><td>$7,137.50</td><td>$765.00</td><td>$459.00</td><td>$275.40</td><td>$165.24</td><td>$462.51</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <aside class="notes">Biểu đồ bên phải là hệ số 1/(1+i)^t với i bằng 15%, đúng mức nhóm dùng ở bài tập 3. Một đồng lợi nhuận năm thứ 5 chỉ còn khoảng 50 xu hôm nay. Nút "Ví dụ trong bài giảng" mở bảng mẫu của thầy, LTV 9.264,65 đô.</aside>
+</section>
+
+<section class="s" data-part="Phần 3 · LTV" data-src="3">
+  <div class="s-head"><h2 class="s-title">Giả định tính LTV cho hai dòng sản phẩm</h2></div>
+  <div class="s-body grid col-5-7" style="gap:34px">
+    <div class="blk stack">
+      <div class="panel fragment up" style="border-color:#EED9A8">
+        <div class="h3" style="color:var(--cheese-ink)"><svg class="ic"><use href="#i-cheese"/></svg> Phô mai tươi · FMCG</div>
+        <p class="mono" style="font-size:16px;margin-top:8px">2 hộp × 120.000 = 240.000 ₫/tháng<br>→ 2.880.000 ₫/năm</p>
+        <div style="margin-top:8px"><span class="badge badge-cheese">Biên lợi nhuận gộp 50%</span></div>
+      </div>
+      <div class="panel fragment up">
+        <div class="h3 bk"><svg class="ic"><use href="#i-jar"/></svg> Whey protein · thuê bao</div>
+        <p class="mono" style="font-size:16px;margin-top:8px">1 hũ × 850.000 = 850.000 ₫/tháng<br>→ 10.200.000 ₫/năm</p>
+        <div style="margin-top:8px"><span class="badge">Biên lợi nhuận gộp 70%</span></div>
+        <p class="small" style="margin-top:6px">Biên cao do tận dụng phụ phẩm nước whey từ quy trình đông tụ phô mai.</p>
+      </div>
+      <div class="fragment up" style="display:flex;gap:8px;flex-wrap:wrap"><span class="badge badge-outline">Duy trì r = 80%/năm</span><span class="badge badge-outline">Suất sinh lợi tối thiểu i = 15%</span><span class="badge badge-outline">Vòng đời 5 năm</span></div>
+    </div>
+    <div class="blk">
+      <div class="h4">Tỷ lệ duy trì tích lũy r<sup>t</sup> và hệ số hiện tại 1/(1,15)<sup>t</sup></div>
+      <svg class="chart" viewBox="0 0 640 380" data-chart="retention" style="margin-top:8px"></svg>
+    </div>
+  </div>
+  <aside class="notes">Năm 0 giữ 100% khách, mỗi năm sau còn 80%, nên đến năm 5 còn 32,77%. Đường xanh nhạt là hệ số chiết khấu. Hai yếu tố cùng kéo giá trị các năm sau xuống, nên năm đầu đóng góp nhiều nhất vào LTV.</aside>
+</section>
+
+<section class="s" data-part="Phần 3 · LTV" data-src="3">
+  <div class="s-head"><h2 class="s-title">LTV của một khách hàng ≈ 25 triệu đồng</h2></div>
+  <div class="s-body">
+    <div class="grid" style="grid-template-columns:770px 1fr;gap:26px">
+      <div class="blk">
+        <table class="tbl tbl-ltv">
+          <thead><tr><th>VNĐ</th><th>Năm 0</th><th>Năm 1</th><th>Năm 2</th><th>Năm 3</th><th>Năm 4</th><th>Năm 5</th></tr></thead>
+          <tbody>
+            <tr><td>Tỷ lệ duy trì tích lũy</td><td>100%</td><td>80%</td><td>64%</td><td>51,2%</td><td>40,96%</td><td>32,77%</td></tr>
+            <tr class="sub"><td>Doanh thu phô mai</td><td>2.880.000</td><td>2.304.000</td><td>1.843.200</td><td>1.474.560</td><td>1.179.648</td><td>943.718</td></tr>
+            <tr class="sub"><td>LN gộp phô mai (50%)</td><td>1.440.000</td><td>1.152.000</td><td>921.600</td><td>737.280</td><td>589.824</td><td>471.859</td></tr>
+            <tr class="sub"><td>Doanh thu whey</td><td>10.200.000</td><td>8.160.000</td><td>6.528.000</td><td>5.222.400</td><td>4.177.920</td><td>3.342.336</td></tr>
+            <tr class="sub"><td>LN gộp whey (70%)</td><td>7.140.000</td><td>5.712.000</td><td>4.569.600</td><td>3.655.680</td><td>2.924.544</td><td>2.339.635</td></tr>
+            <tr class="tot"><td>Tổng lợi nhuận gộp</td><td>8.580.000</td><td>6.864.000</td><td>5.491.200</td><td>4.392.960</td><td>3.514.368</td><td>2.811.494</td></tr>
+            <tr><td>Hệ số PV (i = 15%)</td><td>1,0000</td><td>0,8696</td><td>0,7561</td><td>0,6575</td><td>0,5718</td><td>0,4972</td></tr>
+            <tr class="hl"><td>Giá trị hiện tại</td><td>8.580.000</td><td>5.968.934</td><td>4.151.896</td><td>2.888.371</td><td>2.009.516</td><td>1.397.875</td></tr>
+          </tbody>
+        </table>
+        <div class="verdict fragment up" style="margin-top:16px;background:var(--bk-tint);border-color:var(--bk-tint-2)"><svg class="ic" style="color:var(--bk)"><use href="#i-jar"/></svg><span>Whey đóng góp khoảng <b>83% LTV</b> (≈ 20,8 trong 25 triệu): giá trị tiêu dùng mỗi năm 10,2 triệu, gấp 3,5 lần phô mai, và biên lợi nhuận gộp 70%.</span></div>
+      </div>
+      <div class="blk">
+        <div class="dtabs" role="tablist" aria-label="Dòng sản phẩm" data-tabs="ltv">
+          <button class="dtab" role="tab" aria-selected="false" data-v="cheese" aria-label="Phô mai"><svg class="ic"><use href="#i-cheese"/></svg><span class="lbl">Phô mai</span></button>
+          <button class="dtab" role="tab" aria-selected="false" data-v="whey" aria-label="Whey"><svg class="ic"><use href="#i-jar"/></svg><span class="lbl">Whey</span></button>
+          <button class="dtab" role="tab" aria-selected="true" data-v="both" aria-label="Cả hai"><svg class="ic"><use href="#i-layers"/></svg><span class="lbl">Cả hai</span></button>
+        </div>
+        <svg class="chart" id="ltvBars" viewBox="0 0 470 340" data-chart="ltvbars" style="margin-top:10px"></svg>
+        <div class="kpi fragment up" style="margin-top:4px"><span class="k-l">LTV = tổng giá trị hiện tại 6 cột</span><span class="k-v" style="font-size:30px"><span data-scramble="24.996.592">24.996.592</span> <small>VNĐ</small></span></div>
+
+      </div>
+    </div>
+  </div>
+  <aside class="notes">Bảng giữ đúng số trong báo cáo. Cột biểu đồ là giá trị hiện tại từng năm, tách phần phô mai và whey. Whey chiếm khoảng 83% LTV vì giá trị tiêu dùng năm gấp 3,5 lần phô mai và biên lợi nhuận cao hơn. Có thể bấm từng tab để tách riêng.</aside>
+</section>
+
+<!-- ============ PHẦN 4 ============ -->
+<section class="s s-div" id="p4" data-part="Phần 4 · COCA" data-src="1" data-divider="4">
+  <div class="d-n">PHẦN 4 · BÀI TẬP 4</div>
+  <h2 class="d-t wave" data-wave>Ước tính chi phí để có được một khách hàng</h2>
+  <p class="d-q"><span class="dia" data-dia>COCA thay đổi thế nào qua ba giai đoạn, và tỷ số LTV : COCA có vượt chuẩn 3 : 1 không?</span></p>
+  <ol class="d-list"></ol>
+</section>
+
+<section class="s" data-part="Phần 4 · COCA" data-src="1,6">
+  <div class="s-head"><h2 class="s-title">COCA và chuẩn LTV : COCA ≥ 3 : 1</h2></div>
+  <div class="s-body grid col-5-7" style="gap:34px">
+    <div class="blk stack">
+      <p style="font-size:18px;color:var(--ink-2)">Cost of Customer Acquisition (COCA, CAC) là chi phí cần bỏ ra cho nghiên cứu, tiếp thị, quảng cáo để thuyết phục một khách hàng dùng sản phẩm.</p>
+      <div class="formula fragment up" style="margin-top:12px"><span>COCA(t) =</span><span class="frac"><span>TMSE(t) − IBSE(t)</span><span>NC(t)</span></span></div>
+      <ul class="fragment up" style="font-size:15.5px;margin-top:12px;color:var(--ink-2)">
+        <li><b class="mono">TMSE</b> tổng chi phí tiếp thị và bán hàng</li>
+        <li><b class="mono">IBSE</b> chi phí hỗ trợ khách hàng đã có</li>
+        <li><b class="mono">NC</b> số khách hàng mới trong kỳ</li>
+      </ul>
+      <div class="panel-tint fragment up" style="margin-top:14px;font-size:16px">COCA <b>càng nhỏ càng tốt</b>, luôn biến đổi và không phải chỉ số duy nhất đo hiệu quả tiếp thị. David Skok khuyến cáo <b class="mono">LTV : COCA ≥ 3 : 1</b>.</div>
+    </div>
+    <div class="blk">
+      <svg class="chart" viewBox="0 0 640 410" data-chart="cocaconcept"></svg>
+    </div>
+  </div>
+  <aside class="notes">Đồ thị dựa theo hình minh họa của bài giảng: lúc đầu COCA cao hơn LTV, doanh nghiệp đốt tiền ở vùng đỏ. Doanh nghiệp bền vững thì COCA giảm xuống dưới LTV rồi chững lại. LTV có thể tăng nhờ bán thêm cho khách hiện tại. Ví dụ Associated Gas trong bài giảng có COCA giảm từ 394 nghìn đô năm 1 còn 147,5 nghìn đô năm 3.</aside>
+</section>
+
+<section class="s" data-part="Phần 4 · COCA" data-src="3">
+  <div class="s-head"><h2 class="s-title">COCA giảm qua ba giai đoạn phát triển</h2></div>
+  <div class="s-body grid col-7-5" style="gap:30px">
+    <div class="blk">
+      <table class="tbl">
+        <thead><tr><th>VNĐ</th><th>Thâm nhập<br>Năm 1</th><th>Tăng trưởng<br>Năm 2–3</th><th>Ổn định<br>Năm 4–5</th></tr></thead>
+        <tbody>
+          <tr><td>Tổng chi phí MKT &amp; bán hàng (TMSE)</td><td>600.000.000</td><td>850.000.000</td><td>1.100.000.000</td></tr>
+          <tr><td>Chi phí chăm sóc KH cũ (IBSE)</td><td>60.000.000</td><td>180.000.000</td><td>400.000.000</td></tr>
+          <tr class="tot"><td>Chi phí thu hút KH mới</td><td>540.000.000</td><td>670.000.000</td><td>700.000.000</td></tr>
+          <tr><td>Số khách hàng mới (NC)</td><td>150</td><td>350</td><td>500</td></tr>
+          <tr class="hl"><td>COCA / 1 khách mới</td><td>3.600.000</td><td>1.914.286</td><td>1.400.000</td></tr>
+        </tbody>
+      </table>
+      <div class="stages fragment up">
+        <div><b>Thâm nhập:</b> quảng cáo, phát mẫu thử tại phòng gym, hội thảo cao; khách mới còn khiêm tốn.</div>
+        <div><b>Tăng trưởng:</b> thương hiệu có độ phủ, có hiệu ứng truyền miệng; COCA giảm rõ.</div>
+        <div><b>Ổn định:</b> kênh bán và cộng đồng healthy chững lại; COCA tiệm cận tối ưu.</div>
+      </div>
+    </div>
+    <div class="blk">
+      <svg class="chart" viewBox="0 0 470 420" data-chart="cocabars"></svg>
+    </div>
+  </div>
+  <aside class="notes">Mỗi cột là tổng chi phí tiếp thị và bán hàng. Phần nhạt là chi phí chăm sóc khách cũ, bị trừ ra. Phần đậm chia cho số khách mới ra COCA. Chi phí tăng gần gấp đôi nhưng khách mới tăng hơn ba lần, nên COCA giảm từ 3,6 triệu xuống 1,4 triệu.</aside>
+</section>
+
+<section class="s" data-part="Phần 4 · COCA" data-src="3">
+  <div class="s-head"><h2 class="s-title">Tỷ số LTV : COCA tại thời điểm 3 đạt 17,86 : 1</h2></div>
+  <div class="s-body grid col-7-5" style="gap:34px">
+    <div class="blk"><svg class="chart" viewBox="0 0 700 470" data-chart="ltvcoca"></svg></div>
+    <div class="blk stack">
+      <div class="kpi fragment up"><span class="k-l">LTV từ bài tập 3</span><span class="k-v">≈ 25.000.000 <small>VNĐ</small></span></div>
+      <div class="kpi fragment up"><span class="k-l">COCA tại thời điểm 3</span><span class="k-v">1.400.000 <small>VNĐ</small></span></div>
+      <div class="formula fragment up" style="font-size:19px"><span>LTV : COCA<sub>3</sub> =</span><span class="frac"><span>25.000.000</span><span>1.400.000</span></span><span>≈ <b>17,86 : 1</b></span></div>
+      <div class="verdict fragment up"><svg class="ic"><use href="#i-ok"/></svg><span>Ngay cả ở thời điểm 1, khi COCA cao nhất (3,6 triệu), tỷ số là <b>6,94 : 1</b>, vẫn vượt xa chuẩn tối thiểu 3 : 1.</span></div>
+    </div>
+  </div>
+  <aside class="notes">Đây là đồ thị bài tập 4 yêu cầu: LTV và COCA trên trục thời gian, ba thời điểm. Đường đứt là mức COCA tối đa theo chuẩn 3:1, tức LTV chia 3, khoảng 8,33 triệu. COCA của dự án luôn nằm dưới đường này. Tỷ số ở thời điểm 2 nhóm tính thêm từ cùng số liệu là 13,06:1.</aside>
+</section>
+
+<!-- ============ PHẦN 5 ============ -->
+<section class="s s-div" id="p5" data-part="Phần 5 · Khả thi tài chính" data-src="1,2" data-divider="5">
+  <div class="d-n">PHẦN 5 · BÀI TẬP 5</div>
+  <h2 class="d-t wave" data-wave>Phân tích khả thi tài chính qua NPV, IRR, PP</h2>
+  <p class="d-q"><span class="dia" data-dia>Với vốn 1,2 tỷ đồng, xưởng phô mai và whey có sinh lời đủ mức kỳ vọng 12%/năm không?</span></p>
+  <ol class="d-list"></ol>
+</section>
+
+<section class="s" data-part="Phần 5 · Khả thi tài chính" data-src="1,2">
+  <div class="s-head"><h2 class="s-title">NPV và IRR: hai mặt của cùng một dòng tiền</h2></div>
+  <div class="s-body grid col-5-7" style="gap:34px">
+    <div class="blk stack">
+      <div class="h4">Giá trị hiện tại ròng · NPV</div>
+      <div class="formula" style="font-size:19px"><span>NPV =</span><span class="sum"><span>N</span><b>Σ</b><span>t=0</span></span><span class="frac"><span>CF<sub>t</sub></span><span>(1 + r)<sup>t</sup></span></span></div>
+      <p class="small">Tổng giá trị hiện tại của toàn bộ dòng tiền từ t = 0 đến N, chiết khấu theo suất sinh lợi yêu cầu r. Excel có hàm NPV.</p>
+      <div class="h4 fragment up" style="margin-top:18px">Suất sinh lợi nội tại · IRR</div>
+      <div class="formula fragment up" style="font-size:19px"><span>0 =</span><span class="sum"><span>N</span><b>Σ</b><span>t=0</span></span><span class="frac"><span>CF<sub>t</sub></span><span>(1 + IRR)<sup>t</sup></span></span></div>
+      <p class="small fragment up">Khả năng sinh lời theo %/năm. IRR = 12% nghĩa là khoản đầu tư tạo tỷ suất 12% mỗi năm. Excel có hàm IRR.</p>
+    </div>
+    <div class="blk">
+      <div class="h4">Đường NPV theo suất chiết khấu, ví dụ phần mềm của bài giảng</div>
+      <svg class="chart" viewBox="0 0 640 380" data-chart="npvprofile" style="margin-top:8px"></svg>
+    </div>
+  </div>
+  <aside class="notes">Đồ thị dùng dòng tiền ví dụ khởi nghiệp phần mềm của thầy: âm 500, âm 160, 24, 266,4, 437 và 7.691,9 triệu. Tại r bằng 12%, NPV là 4.208,2 triệu. Đường cắt trục 0 tại 73,77%, chính là IRR. NPV dương khi r nhỏ hơn IRR, nên hai tiêu chí luôn đi cùng nhau.</aside>
+</section>
+
+<section class="s" data-part="Phần 5 · Khả thi tài chính" data-src="1">
+  <div class="s-head"><h2 class="s-title">Thời gian hoàn vốn PP</h2></div>
+  <div class="s-body grid col-5-7" style="gap:34px">
+    <div class="blk stack">
+      <p class="lead">Thời gian cần thiết để thu hồi đủ vốn đầu tư ban đầu. Excel <b>không có</b> sẵn hàm PP.</p>
+      <div class="formula fragment up" style="font-size:18px;margin-top:14px;display:block">
+        <div>PP = Năm t</div>
+        <div style="margin-top:6px">&nbsp;&nbsp;&nbsp;+ <span class="frac"><span>chi phí còn phải thu hồi</span><span>dòng tiền năm t+1</span></span></div>
+      </div>
+      <ul class="dots fragment up" style="font-size:16.5px;margin-top:14px">
+        <li><b>Năm t:</b> năm ngay trước khi vốn được thu hồi đủ</li>
+        <li><b>Phân số:</b> phần lẻ của PP</li>
+      </ul>
+      <div class="panel-tint fragment up mono" style="font-size:16px;margin-top:14px">Ví dụ: PP = 3 + 369,6 / 437,0 = 3,85 năm</div>
+    </div>
+    <div class="blk">
+      <div class="h4">Dòng tiền tích lũy của ví dụ phần mềm (triệu đồng)</div>
+      <svg class="chart" viewBox="0 0 640 380" data-chart="pplecture" style="margin-top:8px"></svg>
+    </div>
+  </div>
+  <aside class="notes">Cột là dòng tiền tích lũy chưa gồm giá trị sau cuối. Năm 3 còn âm 369,6 triệu, năm 4 thu 437 triệu, nên vốn về đủ sau 3 năm cộng 369,6 chia 437, bằng 3,85 năm.</aside>
+</section>
+
+<section class="s" data-part="Phần 5 · Khả thi tài chính" data-src="1">
+  <div class="s-head"><h2 class="s-title">Quy trình 5 bước phân tích khả thi tài chính</h2></div>
+  <div class="s-body">
+    <div class="stepper blk" data-id="steps" data-stepper="0" style="margin-top:6px"></div>
+    <div class="steps5 blk">
+      <div class="fragment up" data-step-go="1"><b>1</b><h3>Nhận diện chi phí và lợi ích</h3><p>Liệt kê mọi chi phí một lần, chi phí định kỳ và doanh thu dự kiến. Chú ý chi phí chìm và chi phí cơ hội.</p></div>
+      <div class="fragment up" data-step-go="2"><b>2</b><h3>Gán giá trị</h3><p>Lượng hóa từng hạng mục cho năm thứ nhất.</p></div>
+      <div class="fragment up" data-step-go="3"><b>3</b><h3>Xác định dòng tiền</h3><p>Lặp lại bước 2 cho các năm sau theo giả định tăng trưởng, thêm đầu tư năm 0 và giá trị sau cuối.</p></div>
+      <div class="fragment up" data-step-go="4"><b>4</b><h3>Tính chỉ tiêu</h3><p>NPV, IRR, PP trên dòng tiền phân tích.</p></div>
+      <div class="fragment up" data-step-go="5"><b>5</b><h3>Phân tích kết quả</h3><p>Đối chiếu với tiêu chí để đánh giá tính khả thi.</p></div>
+    </div>
+    <div class="grid col-2 blk fragment up" style="margin-top:20px;gap:22px">
+      <div class="note"><svg class="ic"><use href="#i-clock"/></svg><span><b>Chi phí chìm:</b> khoản đã chi, không thu hồi được. Không đưa vào dòng tiền dự án.</span></div>
+      <div class="note"><svg class="ic"><use href="#i-scale"/></svg><span><b>Chi phí cơ hội:</b> lợi ích bỏ lỡ khi chọn phương án này thay vì phương án khác.</span></div>
+    </div>
+  </div>
+  <aside class="notes">Thanh tiến trình này sẽ đi theo suốt phần bài tập 5, mỗi slide sáng lên một bước.</aside>
+</section>
+
+<section class="s" data-part="Phần 5 · Khả thi tài chính" data-src="3,5">
+  <div class="s-head"><h2 class="s-title">Bước 1 · Nhận diện chi phí và lợi ích của xưởng</h2></div>
+  <div class="stepper stepper-mini" data-id="steps" data-stepper="1"></div>
+  <div class="s-body" style="top:170px">
+    <div class="grid col-7-5" style="gap:28px">
+      <table class="tbl blk tbl-compact tbl-text">
+        <thead><tr><th style="width:44px" class="c">STT</th><th>Hạng mục chi phí &amp; lợi ích</th><th>Loại</th></tr></thead>
+        <tbody>
+          <tr><td class="c">1</td><td><b>Đầu tư ban đầu:</b> máy đông tụ phô mai, máy vắt ly tâm, hệ thống cô đặc và sấy lạnh đạm whey, kho lạnh; giấy phép VSATTP, bảo hộ thương hiệu, thiết kế bao bì</td><td><span class="badge badge-neg">Một lần · năm 0</span></td></tr>
+          <tr><td class="c">2</td><td>Tiền thuê xưởng sản xuất &amp; cửa hàng giới thiệu sản phẩm</td><td><span class="badge badge-outline">Định kỳ</span></td></tr>
+          <tr><td class="c">3</td><td>Nguyên liệu: sữa tươi nguyên chất, men đông tụ, phụ gia tự nhiên, bao bì, hũ</td><td><span class="badge badge-outline">Định kỳ</span></td></tr>
+          <tr><td class="c">4</td><td>Lương nhân viên sản xuất, đóng gói, bán hàng</td><td><span class="badge badge-outline">Định kỳ</span></td></tr>
+          <tr><td class="c">5</td><td>Lương bộ phận quản lý &amp; R&amp;D</td><td><span class="badge badge-outline">Định kỳ</span></td></tr>
+          <tr><td class="c">6</td><td>Tiện ích &amp; tiếp thị: điện lạnh, nước, internet, vận chuyển lạnh, VPP, quảng cáo</td><td><span class="badge badge-outline">Định kỳ</span></td></tr>
+          <tr><td class="c">7</td><td><b>Doanh thu dự báo:</b> phô mai tươi (lẻ B2C, sỉ B2B); whey (hũ 1 kg, sachet, thuê bao)</td><td><span class="badge badge-pos">Lợi ích</span></td></tr>
+        </tbody>
+      </table>
+      <div class="stack">
+        <div class="note fragment up"><svg class="ic"><use href="#i-clock"/></svg><span><b>Chi phí chìm của nhóm:</b> chi phí làm hũ mẫu 200g và lô MVP 100 hũ đã bỏ ra trước khi lập dự án, nên không tính vào dòng tiền.</span></div>
+        <div class="note fragment up"><svg class="ic"><use href="#i-scale"/></svg><span><b>Chi phí cơ hội:</b> 1,2 tỷ vốn nếu đầu tư nơi khác cũng sinh lời; phần này được phản ánh qua suất chiết khấu yêu cầu r = 12%.</span></div>
+        <svg class="chart fragment up" viewBox="0 0 440 150" data-chart="costkinds"></svg>
+      </div>
+    </div>
+  </div>
+  <aside class="notes">Bảng theo đúng mẫu slide 28 của bài giảng. Hai ghi chú bên phải là phần nhóm bổ sung để áp dụng hai khái niệm chi phí chìm và chi phí cơ hội vào dự án; lô MVP 100 hũ lấy từ báo cáo khả thi sản phẩm.</aside>
+</section>
+
+<section class="s" data-part="Phần 5 · Khả thi tài chính" data-src="3">
+  <div class="s-head"><h2 class="s-title">Bước 2 · Gán giá trị cho năm thứ nhất</h2></div>
+  <div class="stepper stepper-mini" data-id="steps" data-stepper="2"></div>
+  <div class="s-body" style="top:170px">
+    <div class="grid col-2" style="gap:30px">
+      <div class="blk">
+        <table class="tbl tbl-compact">
+          <thead><tr><th>Hạng mục · triệu đồng</th><th>Năm 1</th></tr></thead>
+          <tbody>
+            <tr class="tot"><td>Tổng chi phí vận hành</td><td>2.700</td></tr>
+            <tr class="sub"><td>Thuê xưởng &amp; cửa hàng: 30 tr/tháng × 12</td><td>360</td></tr>
+            <tr class="sub"><td>Nguyên liệu sữa &amp; bao bì</td><td>1.100</td></tr>
+            <tr class="sub"><td>Lương nhân viên: 4 NV × 15 tr × 12</td><td>720</td></tr>
+            <tr class="sub"><td>Lương quản lý &amp; R&amp;D: 35 tr × 12</td><td>420</td></tr>
+            <tr class="sub"><td>Tiện ích, điện lạnh, tiếp thị &amp; VPP</td><td>100</td></tr>
+            <tr class="hl"><td>Doanh thu dự báo</td><td>3.000</td></tr>
+          </tbody>
+        </table>
+        <div class="grid col-2 fragment up" style="margin-top:16px;gap:16px">
+          <div class="kpi"><span class="k-l">Vốn đầu tư năm 0</span><span class="k-v neg">−1.200 <small>triệu</small></span></div>
+          <div class="kpi"><span class="k-l">Dòng tiền hoạt động năm 1</span><span class="k-v pos">+300 <small>triệu</small></span></div>
+        </div>
+      </div>
+      <div class="blk">
+        <div class="h4">Cơ cấu 2.700 triệu chi phí năm 1</div>
+        <svg class="chart" viewBox="0 0 560 360" data-chart="treemap" style="margin-top:8px"></svg>
+      </div>
+    </div>
+  </div>
+  <aside class="notes">Diện tích mỗi ô tỷ lệ với chi phí. Nguyên liệu chiếm 41%, lương nhân viên 27%, hai khoản này đã gần 70% chi phí. Doanh thu 3.000 trừ 2.700 cho dòng tiền hoạt động năm 1 là 300 triệu.</aside>
+</section>
+
+<section class="s" data-part="Phần 5 · Khả thi tài chính" data-src="3">
+  <div class="s-head"><h2 class="s-title">Bước 3 · Dòng tiền dự báo 5 năm</h2></div>
+  <div class="stepper stepper-mini" data-id="steps" data-stepper="3"></div>
+  <div class="s-body" style="top:170px">
+    <div class="grid col-7-5" style="gap:26px">
+      <div class="blk">
+        <table class="tbl tbl-compact">
+          <thead><tr><th>Triệu đồng</th><th>Năm 1</th><th>Năm 2</th><th>Năm 3</th><th>Năm 4</th><th>Năm 5</th></tr></thead>
+          <tbody>
+            <tr class="tot"><td>A · Doanh thu</td><td>3.000,0</td><td>3.750,0</td><td>4.687,5</td><td>5.625,0</td><td>6.468,7</td></tr>
+            <tr class="tot"><td>B · Tổng chi phí vận hành</td><td>2.700,0</td><td>3.024,0</td><td>3.386,9</td><td>3.725,6</td><td>4.098,1</td></tr>
+            <tr class="sub"><td>Thuê xưởng &amp; cửa hàng</td><td>360,0</td><td>403,2</td><td>451,6</td><td>496,7</td><td>546,4</td></tr>
+            <tr class="sub"><td>Nguyên liệu &amp; bao bì</td><td>1.100,0</td><td>1.232,0</td><td>1.379,8</td><td>1.517,8</td><td>1.669,6</td></tr>
+            <tr class="sub"><td>Lương nhân viên</td><td>720,0</td><td>806,4</td><td>903,2</td><td>993,5</td><td>1.092,8</td></tr>
+            <tr class="sub"><td>Lương quản lý &amp; R&amp;D</td><td>420,0</td><td>470,4</td><td>526,8</td><td>579,5</td><td>637,5</td></tr>
+            <tr class="sub"><td>Tiện ích &amp; tiếp thị</td><td>100,0</td><td>112,0</td><td>125,4</td><td>137,9</td><td>151,7</td></tr>
+            <tr class="hl"><td>C · Dòng tiền hoạt động (A − B)</td><td>+300,0</td><td>+726,0</td><td>+1.300,6</td><td>+1.899,4</td><td>+2.370,6</td></tr>
+          </tbody>
+        </table>
+        <div class="fragment up" style="display:flex;gap:8px;flex-wrap:wrap;margin-top:12px">
+          <span class="badge badge-pos"><svg class="ic"><use href="#i-up"/></svg>Doanh thu +25%, +25%, +20%, +15%</span>
+          <span class="badge badge-neg"><svg class="ic"><use href="#i-up"/></svg>Chi phí +12%, +12%, +10%, +10%</span>
+        </div>
+      </div>
+      <div class="blk"><svg class="chart" viewBox="0 0 470 400" data-chart="revcost"></svg></div>
+    </div>
+  </div>
+  <aside class="notes">Doanh thu tăng nhanh hơn chi phí mỗi năm, nên khoảng cách giữa hai cột, tức dòng tiền hoạt động, nới rộng từ 300 triệu năm 1 lên 2.370,6 triệu năm 5.</aside>
+</section>
+
+<section class="s" data-part="Phần 5 · Khả thi tài chính" data-src="1,3">
+  <div class="s-head"><h2 class="s-title">Bước 3 (tt) · Giá trị sau cuối CF<sub>T</sub> tại năm 5</h2></div>
+  <div class="stepper stepper-mini" data-id="steps" data-stepper="3"></div>
+  <div class="s-body" style="top:170px">
+    <div class="grid col-5-7" style="gap:30px">
+      <div class="blk stack">
+        <div style="display:flex;gap:8px;flex-wrap:wrap"><span class="badge badge-outline">Suất chiết khấu r = 12%/năm</span><span class="badge badge-outline">Tăng trưởng vĩnh viễn g = 5%/năm</span></div>
+        <div class="formula fragment up" style="font-size:17px;display:block"><div>CF<sub>6</sub> = CF<sub>5</sub> × (1 + g)</div><div style="margin-top:4px">= 2.370,6 × 1,05 = <b>2.489,13</b></div></div>
+        <div class="formula fragment up" style="font-size:17px;display:block"><div>CF<sub>T</sub> = CF<sub>6</sub> / (r − g)</div><div style="margin-top:4px">= 2.489,13 / 7% = <b>35.559,0</b></div></div>
+        <div class="formula fragment up" style="font-size:17px;display:block"><div>CF phân tích năm 5 = CF<sub>5</sub> + CF<sub>T</sub></div><div style="margin-top:4px">= 2.370,6 + 35.559,0 = <b>37.929,6</b></div></div>
+        <p class="small">Đơn vị: triệu đồng</p>
+      </div>
+      <div class="blk" style="position:relative"><svg class="chart" viewBox="0 0 640 400" data-chart="perpetuity"></svg></div>
+    </div>
+  </div>
+  <aside class="notes">Sau năm 5, dòng tiền được giả định tăng 5% mỗi năm mãi mãi. Thay vì cộng vô hạn cột, công thức Gordon gom chúng thành một giá trị duy nhất đặt tại năm 5: 35.559 triệu. Đây là cách làm giống slide 31 của bài giảng.</aside>
+</section>
+
+<section class="s" data-part="Phần 5 · Khả thi tài chính" data-src="1,3">
+  <div class="s-head"><h2 class="s-title">Bước 4 · Tính NPV, IRR và PP</h2></div>
+  <div class="stepper stepper-mini" data-id="steps" data-stepper="4"></div>
+  <div class="s-body" style="top:170px">
+    <div class="grid col-7-5" style="gap:26px">
+      <div class="blk">
+        <table class="tbl tbl-compact">
+          <thead><tr><th>Triệu đồng</th><th>Năm 0</th><th>Năm 1</th><th>Năm 2</th><th>Năm 3</th><th>Năm 4</th><th>Năm 5</th></tr></thead>
+          <tbody>
+            <tr><td>Chi phí đầu tư</td><td class="neg">−1.200,0</td><td>–</td><td>–</td><td>–</td><td>–</td><td>–</td></tr>
+            <tr><td>Dòng tiền hoạt động CF<sub>t</sub></td><td>–</td><td>+300,0</td><td>+726,0</td><td>+1.300,6</td><td>+1.899,4</td><td>+2.370,6</td></tr>
+            <tr><td>Giá trị sau cuối CF<sub>T</sub></td><td>–</td><td>–</td><td>–</td><td>–</td><td>–</td><td>+35.559,0</td></tr>
+            <tr class="tot"><td>CF phân tích</td><td>−1.200,0</td><td>+300,0</td><td>+726,0</td><td>+1.300,6</td><td>+1.899,4</td><td>+37.929,6</td></tr>
+            <tr><td>CF tích lũy (không CF<sub>T</sub>)</td><td class="neg">−1.200,0</td><td class="neg">−900,0</td><td class="neg">−174,0</td><td class="pos">+1.126,6</td><td class="pos">+3.026,0</td><td class="pos">+5.396,6</td></tr>
+          </tbody>
+        </table>
+        <table class="tbl tbl-compact fragment up" style="margin-top:14px" data-cmp>
+          <thead><tr><th>Chỉ tiêu</th><th data-col="with">Gồm CF<sub>T</sub> · cách bài giảng</th><th data-col="without">Chỉ 5 năm hoạt động</th></tr></thead>
+          <tbody>
+            <tr><td>NPV (r = 12%)</td><td data-col="with"><b>23.302,0</b></td><td data-col="without"><b>3.124,7</b></td></tr>
+            <tr><td>IRR</td><td data-col="with"><b>121,19%</b></td><td data-col="without"><b>64,46%</b></td></tr>
+            <tr><td>PP</td><td colspan="2" class="c"><b>2 + 174,0 / 1.300,6 ≈ 2,13 năm</b> (khoảng 2 năm 2 tháng)</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="blk">
+        <div style="display:flex;align-items:center;justify-content:space-between">
+          <button class="switch" role="switch" aria-checked="true" data-switch="cft"><span class="track"><span class="thumb"></span></span><span>Gồm CF<sub>T</sub></span></button>
+          <button class="rich-btn ghost no-print" data-open="dLec"><svg class="ic"><use href="#i-panel"/></svg>Đối chiếu ví dụ</button>
+        </div>
+        <svg class="chart" id="cfBars" viewBox="0 0 470 360" data-chart="cfbars" style="margin-top:10px"></svg>
+      </div>
+    </div>
+  </div>
+  <div class="overlay" data-overlay="dLec"></div>
+  <aside class="drawer" id="dLec" role="dialog" aria-modal="true" aria-labelledby="dLecT">
+    <span class="grab"></span>
+    <button class="x-btn" data-close aria-label="Đóng"><svg class="ic"><use href="#i-x"/></svg></button>
+    <div class="h3" id="dLecT">Ví dụ phần mềm của bài giảng</div>
+    <p class="small" style="margin:6px 0 14px">Đầu tư 500 triệu, cùng r = 12% và g = 5%.</p>
+    <table class="tbl tbl-compact">
+      <thead><tr><th>Chỉ tiêu</th><th>Bài giảng</th><th>Dự án nhóm</th></tr></thead>
+      <tbody>
+        <tr><td>Vốn năm 0</td><td>500</td><td>1.200</td></tr>
+        <tr><td>CF năm 1</td><td class="neg">−160,0</td><td class="pos">+300,0</td></tr>
+        <tr><td>CF<sub>T</sub> năm 5</td><td>7.211,2</td><td>35.559,0</td></tr>
+        <tr><td>NPV gồm CF<sub>T</sub></td><td>4.208,2</td><td>23.302,0</td></tr>
+        <tr><td>IRR gồm CF<sub>T</sub></td><td>73,77%</td><td>121,19%</td></tr>
+        <tr><td>PP</td><td>3,85 năm</td><td>2,13 năm</td></tr>
+      </tbody>
+    </table>
+  </aside>
+  <aside class="notes">Bài giảng tính NPV và IRR trên dòng CF phân tích có cộng giá trị sau cuối. Báo cáo nhóm lấy kết quả chính là 5 năm hoạt động, không gồm CFT. Nhóm trình bày cả hai: theo bài giảng NPV 23.302 triệu, IRR 121,19%; bản thận trọng NPV 3.124,7 triệu, IRR 64,46%. PP tính trên dòng tích lũy không gồm CFT, giống bài giảng: 2,13 năm.</aside>
+</section>
+
+<section class="s" data-part="Phần 5 · Khả thi tài chính" data-src="3" data-sim>
+  <div class="s-head"><h2 class="s-title">Bước 4 (tt) · Hoàn vốn và độ nhạy của NPV</h2></div>
+  <div class="stepper stepper-mini" data-id="steps" data-stepper="4"></div>
+  <div class="s-body" style="top:170px">
+    <div class="grid col-2" style="gap:30px">
+      <div class="blk">
+        <div class="h4">Dòng tiền tích lũy, không gồm CF<sub>T</sub> (triệu đồng)</div>
+        <svg class="chart" viewBox="0 0 560 380" data-chart="ppours" style="margin-top:8px"></svg>
+      </div>
+      <div class="blk">
+        <div class="h4">Cơ cấu NPV theo suất chiết khấu r</div>
+        <div class="eslider no-print" data-eslider data-min="8" data-max="20" data-step="0.5" data-val="12" style="margin-top:10px"><div class="fill"></div><div class="ticks"></div><div class="knob"></div><span class="lab">Suất chiết khấu r</span><span class="val">12,0%</span></div>
+        <svg class="chart" id="npvComp" viewBox="0 0 560 250" data-chart="npvcomp" style="margin-top:12px"></svg>
+        <div class="grid col-2" style="gap:14px;margin-top:6px">
+          <div class="kpi"><span class="k-l">NPV gồm CF<sub>T</sub></span><span class="k-v" style="font-size:26px" data-out="npvAll">23.302,0</span></div>
+          <div class="kpi"><span class="k-l">NPV chỉ 5 năm</span><span class="k-v" style="font-size:26px" data-out="npvOps">3.124,7</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <aside class="notes">Bên trái: dòng tích lũy chuyển từ âm sang dương trong năm 3, tại khoảng 2,13 năm. Bên phải là phần nhóm bổ sung: kéo thanh trượt đổi suất chiết khấu từ 8% đến 20%. Ở r bằng 12%, giá trị sau cuối chiếm khoảng 87% NPV. Kể cả khi bỏ hẳn phần này, NPV 5 năm vẫn dương ở mọi mức r trên thanh trượt.</aside>
+</section>
+
+<section class="s" data-part="Phần 5 · Khả thi tài chính" data-src="1,3,4">
+  <div class="s-head"><h2 class="s-title">Bước 5 · Đối chiếu ba tiêu chí khả thi</h2></div>
+  <div class="stepper stepper-mini" data-id="steps" data-stepper="5"></div>
+  <div class="s-body" style="top:170px">
+    <div class="crit blk">
+      <div class="cstroke fragment up" data-cstroke>
+        <div class="cs-in">
+          <div class="badge" style="background:rgba(255,255,255,.14);color:#fff">NPV ≥ 0 → khả thi</div>
+          <div class="cs-v"><span class="w"><span>3.124,7</span></span></div>
+          <div class="cs-u">triệu đồng, chỉ 5 năm hoạt động</div>
+          <p class="cs-p"><span class="w"><span>Gồm CF<sub>T</sub>: 23.302,0 triệu. Dự án vượt mức sinh lợi kỳ vọng r = 12%, tạo giá trị gia tăng ròng lớn.</span></span></p>
+        </div>
+      </div>
+      <div class="cstroke fragment up" data-cstroke>
+        <div class="cs-in">
+          <div class="badge" style="background:rgba(255,255,255,.14);color:#fff">IRR ≥ r → khả thi</div>
+          <div class="cs-v"><span class="w"><span>64,46%</span></span></div>
+          <div class="cs-u">so với r = 12%</div>
+          <p class="cs-p"><span class="w"><span>Gồm CF<sub>T</sub>: 121,19%. Suất sinh lợi vượt xa mức yêu cầu, chịu được biến động chi phí.</span></span></p>
+        </div>
+      </div>
+      <div class="cstroke fragment up" data-cstroke>
+        <div class="cs-in">
+          <div class="badge" style="background:rgba(255,255,255,.14);color:#fff">PP ≤ yêu cầu → phù hợp</div>
+          <div class="cs-v"><span class="w"><span>2,13 năm</span></span></div>
+          <div class="cs-u">so với 3 năm</div>
+          <p class="cs-p"><span class="w"><span>Thu hồi vốn sau khoảng 2 năm 2 tháng, giải tỏa rủi ro thanh khoản, sớm tái đầu tư mở rộng xưởng.</span></span></p>
+        </div>
+      </div>
+    </div>
+    <div class="verdict blk fragment up" style="margin-top:20px"><svg class="ic"><use href="#i-ok"/></svg><span><b>Kết luận:</b> dự án phô mai tươi &amp; whey protein đạt mức khả thi tài chính rất cao. Kết luận vững ngay cả khi bỏ giá trị sau cuối, vốn chiếm khoảng 87% NPV theo cách bài giảng.</span></div>
+  </div>
+  <aside class="notes">Mốc 3 năm lấy từ báo cáo khả thi thị trường: một tiêu chí kiểm tra TAM là đạt dòng tiền dương trong 3 năm. Nhóm đặt số liệu thận trọng làm con số chính trên thẻ và ghi kết quả gồm CFT bên dưới.</aside>
+</section>
+
+<section class="s" data-part="Tổng kết" data-src="3">
+  <div class="s-head"><h2 class="s-title">Tổng kết năm bài tập</h2></div>
+  <div class="s-body">
+    <div class="chain chain-end blk" data-id="chain">
+      <div class="chain-n"><span class="cn-i"><svg class="ic ic-lg"><use href="#i-layers"/></svg></span><span class="cn-k">Bài tập 1</span><span class="cn-t">Bán trực tiếp + thuê bao</span><span class="cn-d">Phô mai FMCG, whey subscription</span></div>
+      <div class="chain-n"><span class="cn-i"><svg class="ic ic-lg"><use href="#i-tag"/></svg></span><span class="cn-k">Bài tập 2</span><span class="cn-t">120.000 ₫ · 850.000 ₫</span><span class="cn-d">Hộp 250g và hũ 1 kg, giá linh hoạt theo nhóm</span></div>
+      <div class="chain-n"><span class="cn-i"><svg class="ic ic-lg"><use href="#i-users"/></svg></span><span class="cn-k">Bài tập 3</span><span class="cn-t">LTV ≈ 25 triệu</span><span class="cn-d">24.996.592 ₫ trong 5 năm, i = 15%</span></div>
+      <div class="chain-n"><span class="cn-i"><svg class="ic ic-lg"><use href="#i-mega"/></svg></span><span class="cn-k">Bài tập 4</span><span class="cn-t">17,86 : 1</span><span class="cn-d">COCA 3,6 → 1,4 triệu, luôn trên chuẩn 3 : 1</span></div>
+      <div class="chain-n"><span class="cn-i"><svg class="ic ic-lg"><use href="#i-calc"/></svg></span><span class="cn-k">Bài tập 5</span><span class="cn-t">Khả thi cao</span><span class="cn-d">NPV 3.124,7 tr · IRR 64,46% · PP 2,13 năm</span></div>
+    </div>
+    <div class="grid col-2 blk" style="margin-top:30px;gap:24px">
+      <div class="note fragment up"><svg class="ic"><use href="#i-scale"/></svg><span><b>Cần thống nhất giá whey:</b> báo cáo thị trường và sản phẩm dùng 500.000 ₫/kg, bài tập 2 đến 5 dùng 850.000 ₫/kg.</span></div>
+      <div class="note fragment up"><svg class="ic"><use href="#i-inf"/></svg><span><b>Giá trị sau cuối chi phối NPV:</b> nên trình nhà đầu tư cả kết quả 5 năm để tránh đánh giá quá lạc quan.</span></div>
+    </div>
+  </div>
+  <aside class="notes">Chuỗi năm ô ở đầu bài giờ điền kết quả. Hai lưu ý cuối là điểm nhóm thấy khi đối chiếu các báo cáo: giá whey chưa thống nhất giữa các phần, và giá trị sau cuối chiếm phần lớn NPV.</aside>
+</section>
+
+<section class="s" data-part="Tài liệu tham khảo" data-src="">
+  <div class="s-head"><h2 class="s-title">Tài liệu tham khảo</h2></div>
+  <div class="s-body grid col-2" style="gap:40px">
+    <div class="blk refs">
+      <div class="h4"><svg class="ic"><use href="#i-book"/></svg> Bài giảng &amp; giáo trình</div>
+      <ol>
+        <li><b>[1]</b> Đào Hồng Hải. <i>3.1 Phân tích tài chính</i>, bài giảng môn Khởi nghiệp. Trường Đại học Bách Khoa, ĐHQG-HCM.</li>
+        <li><b>[2]</b> Ross, S. A., Westerfield, R. W., Jaffe, J., &amp; Jordan, B. D. (2019). <i>Fundamentals of Corporate Finance</i> (12th ed.). McGraw-Hill/Irwin.</li>
+      </ol>
+      <div class="h4" style="margin-top:24px"><svg class="ic"><use href="#i-globe"/></svg> Nguồn trực tuyến</div>
+      <ol>
+        <li><b>[6]</b> Skok, D. <i>SaaS Metrics 2.0 – A Guide to Measuring and Improving What Matters</i>. forEntrepreneurs.com. Nguồn của chuẩn LTV : CAC ≥ 3 : 1 được bài giảng trích dẫn.</li>
+      </ol>
+    </div>
+    <div class="blk refs">
+      <div class="h4"><svg class="ic"><use href="#i-file"/></svg> Báo cáo của nhóm</div>
+      <ol>
+        <li><b>[3]</b> Nhóm [..]. <i>Mô hình kinh doanh</i>: bài tập 1–5 phân tích tài chính dự án phô mai tươi &amp; whey protein.</li>
+        <li><b>[4]</b> Nhóm [..]. <i>Phân tích khả thi thị trường</i>: phân khúc, thị trường tiền tiêu, TAM.</li>
+        <li><b>[5]</b> Nhóm [..]. <i>Phân tích khả thi sản phẩm</i>: kiểm tra ý tưởng, thiết kế sản phẩm mẫu, MVP.</li>
+      </ol>
+    </div>
+  </div>
+</section>
+
+</div>
+</div>
+
+<script src="lib/reveal/reveal.js"></script>
+<script src="lib/reveal/notes.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
