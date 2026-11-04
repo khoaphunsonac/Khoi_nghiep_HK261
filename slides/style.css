@@ -538,3 +538,22 @@ html.print-pdf .reveal .controls, html.print-pdf .reveal .progress { display: no
 .s-div .d-list.two li { font-size: 14.5px; padding: 6px 0; }
 .cv-meta .mem .avatar.ph { width: 32px; height: 32px; flex: none; background-repeat: no-repeat; background-color: #fff; border: 2px solid rgba(255,255,255,.6); box-sizing: content-box; }
 .cv-meta .mem { gap: 7px 28px; }
+
+/* ===== slide cảm ơn: Signature (Spider UI) ===== */
+.s-thanks .th-sig { position: absolute; left: 0; right: 0; top: 64px; display: flex; flex-direction: column; align-items: center; }
+.s-thanks .sig { display: block; overflow: visible; }
+.s-thanks .sig + .sig { margin-top: -78px; }
+.sig .sig-ink path { fill: var(--bk); }
+.sig .sm { fill: none; stroke: #fff; stroke-linecap: round; stroke-linejoin: round; stroke-dasharray: 1; stroke-dashoffset: 1; opacity: 0; }
+.slide-on .sig .sm { animation: sigDraw 1.5s ease-in-out forwards; animation-delay: calc(var(--d) * .18s + .2s); }
+@keyframes sigDraw { 0% { stroke-dashoffset: 1; opacity: 1; } 100% { stroke-dashoffset: 0; opacity: 1; } }
+html.print-pdf .sig .sm { stroke-dashoffset: 0; opacity: 1; }
+@media (prefers-reduced-motion: reduce) { .sig .sm { stroke-dashoffset: 0; opacity: 1; } }
+.s-thanks .th-meta { position: absolute; left: 56px; right: 56px; top: 450px; text-align: center; }
+.s-thanks .th-group { font-size: 16px; font-weight: 600; color: var(--ink-2); }
+.s-thanks .th-group::before { content: ''; display: block; width: 56px; height: 4px; border-radius: 2px; background: var(--bk-2); margin: 0 auto 16px; }
+.s-thanks .th-team { display: flex; justify-content: center; gap: 34px; margin-top: 22px; }
+.s-thanks .th-team li { display: flex; flex-direction: column; align-items: center; gap: 3px; }
+.s-thanks .th-team .avatar.ph { width: 60px; height: 60px; margin: 0 0 6px; border: 3px solid var(--surface); box-shadow: 0 0 0 1.5px var(--line), var(--shadow-1); background-repeat: no-repeat; background-color: #fff; }
+.s-thanks .th-team b { font-size: 14.5px; color: var(--ink); }
+.s-thanks .th-team span:not(.avatar) { font: 500 12.5px var(--mono); color: var(--ink-3); }

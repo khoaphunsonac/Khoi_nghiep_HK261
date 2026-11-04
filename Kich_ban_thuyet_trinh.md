@@ -10,8 +10,8 @@ Kịch bản chia cho 5 người nói. Thời gian tính theo khoảng 150 chữ
 | Người 2 | Phần 2 · Khung giá ban đầu | 07–12 | 3:33 |
 | Người 3 | Phần 3 · LTV, Phần 4 · COCA | 13–20 | 4:17 |
 | Người 4 | Phần 5 · Lý thuyết, Bước 1–3 | 21–27 | 3:54 |
-| Người 5 | Phần 5 · Bước 3 (tt)–5, tổng kết | 28–33 | 3:33 |
-| **Tổng** | 33 slide | 01–33 | **18:51** |
+| Người 5 | Phần 5 · Bước 3 (tt)–5, tổng kết | 28–33 | 3:26 |
+| **Tổng** | 33 slide | 01–33 | **18:44** |
 
 ---
 
@@ -261,9 +261,9 @@ Có hai điểm nhóm muốn nói thẳng.
 (bấm) Giá whey chưa thống nhất: báo cáo thị trường và sản phẩm dùng 500 nghìn một ký, còn phần 2 đến 5 dùng 850 nghìn. Nhóm sẽ chốt lại một mức.
 (bấm) Giá trị sau cuối chiếm phần lớn NPV, nên khi gọi vốn, nhóm sẽ đưa cả kết quả 5 năm để nhà đầu tư không thấy con số quá lạc quan.
 
-### Slide 33 · Tài liệu tham khảo · 17 giây · 0 lần bấm
+### Slide 33 · Cảm ơn · 10 giây · 0 lần bấm
 
-Đây là các tài liệu nhóm dùng: bài giảng của thầy, giáo trình Ross, bài viết của David Skok, và ba báo cáo của nhóm. Nhóm em xin cảm ơn thầy và các bạn đã lắng nghe, mời mọi người đặt câu hỏi.
+Phần trình bày của nhóm em đến đây là hết. Nhóm em cảm ơn thầy và các bạn đã lắng nghe, mời mọi người đặt câu hỏi.
 
 ---
 

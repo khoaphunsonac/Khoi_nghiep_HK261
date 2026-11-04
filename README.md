@@ -74,11 +74,11 @@ Khi in, mọi ý hiện ở trạng thái cuối, animation tắt, các nút tư
 - **Ghi chú người nói:** `<aside class="notes">...</aside>` ở cuối section.
 - **Morph:** tiêu đề, logo, footer và các khối có class `blk` (theo thứ tự) tự ghép đôi giữa hai slide liền nhau. Muốn hai phần tử cụ thể ghép với nhau thì cho cùng `data-id`, ví dụ `data-id="steps"` ở thanh 5 bước, `data-id="chain"` ở mục lục và slide tổng kết.
 - **Số liệu biểu đồ** nằm ở đầu `app.js` (biến `D`). Sửa số trong bảng HTML thì sửa cả ở đây.
-- **Bìa:** tên nhóm và danh sách thành viên (họ tên, MSSV) nằm ở slide 01 trong `index.html`; tên nhóm còn xuất hiện ở slide tài liệu tham khảo.
+- **Bìa:** tên nhóm và danh sách thành viên (họ tên, MSSV) nằm ở slide 01 trong `index.html`; slide 33 (cảm ơn) cũng có danh sách này.
 
 ## Component dùng lại từ Spider UI
 
-Spider UI là thư viện React. Các component dưới đây được viết lại bằng HTML, CSS, JS thuần để chạy cùng Reveal.js mà không cần build: Badge, Avatar, Rich Button, Switch, Toggle, Discrete Tabs, Stepper, Elastic Slider, Modal, Drawer, Progressive Blur, Accordion Reveal, Card Stroke, Fan Cards, Pricing, Underline Hover, Text Roll, Wave Text, Dia Text Reveal, Scramble Text.
+Spider UI là thư viện React. Các component dưới đây được viết lại bằng HTML, CSS, JS thuần để chạy cùng Reveal.js mà không cần build: Signature, Badge, Avatar, Rich Button, Switch, Toggle, Discrete Tabs, Stepper, Elastic Slider, Modal, Drawer, Progressive Blur, Accordion Reveal, Card Stroke, Fan Cards, Pricing, Underline Hover, Text Roll, Wave Text, Dia Text Reveal, Scramble Text.
 
 ## Ảnh và minh họa
 
@@ -94,3 +94,9 @@ Hiện chưa deploy. Muốn đưa lên Vercel thì chạy trong thư mục `slid
 ```bash
 npx vercel deploy --prod --yes
 ```
+
+## Slide cảm ơn (Signature)
+
+Slide 33 dùng component Signature: chữ viết tay hiện dần theo nét. Bản gốc của Spider UI nạp font bằng opentype.js lúc chạy; ở đây các nét chữ đã được tính sẵn bằng font Dancing Script (giấy phép OFL, đủ dấu tiếng Việt) và nhúng thẳng vào `index.html` để chạy offline. Muốn đổi câu chữ thì cần tạo lại nét chữ: chạy opentype.js với font Dancing Script và câu mới, rồi thay các thẻ `<svg class="sig">` trong slide 33.
+
+Danh mục tài liệu tham khảo không còn trên slide, vẫn có trong `Noi_dung_seminar.txt`.

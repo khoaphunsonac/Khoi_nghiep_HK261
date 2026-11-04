@@ -494,18 +494,14 @@ Giá trị sau cuối chi phối NPV: nên trình nhà đầu tư cả kết qu�
 Ghi chú người nói: Chuỗi năm ô ở đầu bài giờ điền kết quả. Hai lưu ý cuối là điểm nhóm thấy khi đối chiếu các báo cáo: giá whey chưa thống nhất giữa các phần, và giá trị sau cuối chiếm phần lớn NPV.
 
 ======================================================================
-SLIDE 33 · Tài liệu tham khảo
+SLIDE 33 · Kết thúc
 ----------------------------------------------------------------------
-Tài liệu tham khảo
-Bài giảng & giáo trình
-Đào Hồng Hải. 3.1 Phân tích tài chính, bài giảng môn Khởi nghiệp. Trường Đại học Bách Khoa, ĐHQG-HCM.
-Ross, S. A., Westerfield, R. W., Jaffe, J., & Jordan, B. D. (2019). Fundamentals of Corporate Finance (12th ed.). McGraw-Hill/Irwin.
-Nguồn trực tuyến
-Skok, D. SaaS Metrics 2.0 – A Guide to Measuring and Improving What Matters. forEntrepreneurs.com. Nguồn của chuẩn LTV : CAC ≥ 3 : 1 được bài giảng trích dẫn.
-Báo cáo của nhóm
-Nhóm 5. Mô hình kinh doanh: phần 1–5 phân tích tài chính dự án phô mai tươi & whey protein.
-Nhóm 5. Phân tích khả thi thị trường: phân khúc, thị trường tiền tiêu, TAM.
-Nhóm 5. Phân tích khả thi sản phẩm: kiểm tra ý tưởng, thiết kế sản phẩm mẫu, MVP.
+Củm ơn thầy và các pạn đã xem (chữ viết tay hiện dần, component Signature của Spider UI)
+Nhóm 5 · HK261 · Phân tích tài chính dự án Phô mai tươi & Whey Protein
+Đặng Hải Minh Tâm 2213010 · Nguyễn Văn Quyến 2412953 · Nguyễn Ngọc Mỹ Đình 2410774 · Mai Nguyễn Quốc Bình 2513896 · Trần Đăng Khoa 2211648
+
+Ghi chú người nói: Phần trình bày của nhóm đến đây là hết. Nhóm em cảm ơn thầy và các bạn đã lắng nghe, mời mọi người đặt câu hỏi.
+(Danh mục tài liệu tham khảo không còn trên slide, xem mục TÀI LIỆU THAM KHẢO bên dưới.)
 
 ======================================================================
 CÁC CHỖ ĐÃ KIỂM TRA / ĐIỀU CHỈNH SO VỚI BÁO CÁO GỐC
