@@ -114,8 +114,8 @@ Whey của nhóm niêm yết 850 nghìn một hũ 1 ký, đặt ngay dưới kho
 ### Slide 13 · Combo phô mai + whey · 36 giây · 3 lần bấm
 
 Ngoài giá riêng, nhóm có một gói kết hợp hai sản phẩm. Một hộp phô mai 250 gam giá 120 nghìn, cộng một hũ whey 1 ký giá 850 nghìn, mua lẻ là 970 nghìn.
-(bấm) Mua theo combo chỉ 820 nghìn một set.
-(bấm) Khách tiết kiệm 150 nghìn, khoảng 15,5 phần trăm.
+(bấm) Mua theo combo chỉ 880 nghìn một set.
+(bấm) Khách tiết kiệm 90 nghìn, khoảng 9,3 phần trăm.
 (bấm) Đây là cách định giá gói: kích cầu dùng cả hai sản phẩm, người mua whey sẽ thử phô mai và ngược lại.
 Những mức giá này sẽ là đầu vào cho phần LTV. Mời Người 3.
 

@@ -191,17 +191,17 @@ Ghi chú người nói: Giá niêm yết 850 nghìn một hũ 1 kg nằm dưới
 ======================================================================
 SLIDE 13 · Phần 2 · Khung giá ban đầu · Nguồn [3]
 ----------------------------------------------------------------------
-Combo phô mai + whey: mua cả hai rẻ hơn 150.000 ₫
+Combo phô mai + whey: mua cả hai rẻ hơn 90.000 ₫
 Phô mai tươi hộp 250 g 120.000 ₫
 +
 Whey protein hũ 1 kg 850.000 ₫
 =
 Mua lẻ 970.000 ₫
-820.000 ₫ / set
-Tiết kiệm 150.000 ₫ · ≈ 15,5%
+880.000 ₫ / set
+Tiết kiệm 90.000 ₫ · ≈ 9,3%
 Định giá gói (bundling): kích cầu tiêu dùng cả hai sản phẩm, đưa người mua whey sang dùng thử phô mai và ngược lại.
 
-Ghi chú người nói: Combo gồm một hộp phô mai 250 gam và một hũ whey 1 ký. Mua lẻ tổng 970 nghìn, mua combo 820 nghìn, rẻ hơn 150 nghìn, khoảng 15,5 phần trăm. Mục đích là kích cầu dùng cả hai sản phẩm của cùng một nguồn sữa.
+Ghi chú người nói: Combo gồm một hộp phô mai 250 gam và một hũ whey 1 ký. Mua lẻ tổng 970 nghìn, mua combo 880 nghìn, rẻ hơn 90 nghìn, khoảng 9,3 phần trăm. Mục đích là kích cầu dùng cả hai sản phẩm của cùng một nguồn sữa.
 
 ======================================================================
 SLIDE 14 · Phần 3 · LTV · Nguồn [1]
@@ -545,6 +545,7 @@ TÀI LIỆU THAM KHẢO
 [5] Nhóm. Phân tích khả thi sản phẩm.
 [6] Skok, D. SaaS Metrics 2.0 – A Guide to Measuring and Improving What Matters. forEntrepreneurs.com.
 7. Theo yêu cầu bản 2: đổi chữ "bài tập" thành "phần"; bỏ ghi "Nguồn [n]" ở footer slide (danh mục tài liệu vẫn giữ ở slide cuối và file này); bỏ icon trang trí; thay card nền màu đậm bằng card sáng; thêm ảnh Unsplash và minh họa unDraw.
+8. Giá combo phô mai + whey đổi từ 820.000 ₫ (báo cáo gốc) thành 880.000 ₫ theo yêu cầu của nhóm; mức tiết kiệm còn 90.000 ₫ (≈ 9,3%). Cần sửa lại trong báo cáo Mô hình kinh doanh cho khớp.
 
 ẢNH VÀ MINH HỌA (đều miễn phí, không bắt buộc ghi công)
 - Unsplash License: Eiliv Aceron (sữa), Eric Prouzet (2 ảnh quầy phô mai), Alex Saks (whey), Jakub Klucký (phòng gym), Walls.io (họp nhóm), Jakub Żerdzicki (máy tính, biểu đồ).

@@ -471,7 +471,7 @@
   // So sánh mua lẻ và combo
   (charts.combobar || []).forEach(svg => {
     const x0 = 120, W = 460, max = 1000000;
-    [['Mua lẻ', [[120000, C.cheese], [850000, C.bk]], '970.000 ₫'], ['Combo', [[820000, C.pos]], '820.000 ₫']].forEach((row, i) => {
+    [['Mua lẻ', [[120000, C.cheese], [850000, C.bk]], '970.000 ₫'], ['Combo', [[880000, C.pos]], '880.000 ₫']].forEach((row, i) => {
       const y = 14 + i * 58;
       el('text', { x: 0, y: y + 26, class: 'lb' }, svg, row[0]);
       let x = x0;
@@ -483,7 +483,7 @@
       });
       el('text', { x: x + 8, y: y + 28, class: 'vl', fill: i ? C.pos : C.ink }, svg, row[2]);
     });
-    const xs = x0 + 820000 / max * W;
+    const xs = x0 + 880000 / max * W;
     el('line', { x1: xs, x2: xs, y1: 14, y2: 108, stroke: C.pos, 'stroke-width': 1.5, 'stroke-dasharray': '4 4' }, svg);
   });
 

@@ -213,7 +213,7 @@ Lặp lại hằng tháng, quý hoặc năm. Dự án có 5 khoản: thuê xư�
 | **Định giá cao trước, giảm sau** | Niêm yết cao để định vị, sau đó chiết khấu linh hoạt | Bài giảng khuyên tránh định giá thấp rồi phải tăng giá |
 | **Giá neo** (Anchor price) | Mức giá tham chiếu để khách so sánh | Whey 850.000 ₫/kg, dưới hàng nhập 0,9–1,2 triệu |
 | **Giá theo khối lượng** (Volume pricing) | Mua càng nhiều đơn giá càng thấp | B2B: 320.000 ₫/kg (5–19 kg), 280.000 ₫/kg (từ 20 kg) |
-| **Combo** (Bundling) | Bán gộp nhiều sản phẩm với giá rẻ hơn mua lẻ | Phô mai + whey 820.000 ₫, tiết kiệm 150.000 ₫ |
+| **Combo** (Bundling) | Bán gộp nhiều sản phẩm với giá rẻ hơn mua lẻ | Phô mai + whey 880.000 ₫, tiết kiệm 90.000 ₫ |
 | **Tiếp thị liên kết** (Affiliate) | Người giới thiệu có mã giảm giá riêng cho người theo dõi | Mã giảm 10% cho học viên của PT, KOL |
 | **Sachet** | Gói nhỏ dùng một lần, giá thấp để dùng thử | Gói whey 30 g giá 35.000 ₫ |
 
