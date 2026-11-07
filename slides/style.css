@@ -81,7 +81,7 @@ body{overflow:hidden}
 .pageno i{margin:0 4px;font-style:normal}
 .progress{position:absolute;left:0;right:0;top:0;height:6px;background:var(--cream2)}
 .progress i{display:block;height:100%;width:0;background:var(--accent);transition:width .6s var(--ease),background .4s}
-body.on-title .brandmark{opacity:0}
+body.on-title .brandmark,body.on-title .pageno{opacity:0}
 .reveal .controls{color:var(--ink)}
 
 /* ---------- hũ whey (màu đặc) ---------- */
