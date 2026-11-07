@@ -3,948 +3,397 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Phân tích tài chính · Phô mai tươi &amp; Whey Protein</title>
+<title>MilkLoop · Pitch gọi vốn · Nhóm 5</title>
+<meta name="description" content="Bài pitch On-Stage dự án MilkLoop: whey protein và phô mai tươi từ cùng một mẻ sữa. Môn Khởi nghiệp HK261, Trường Đại học Bách Khoa, ĐHQG-HCM.">
 <link rel="icon" href="assets/img/logo-bk.png">
 <link rel="stylesheet" href="lib/reveal/reset.css">
 <link rel="stylesheet" href="lib/reveal/reveal.css">
 <link rel="stylesheet" href="assets/fonts.css">
 <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body data-theme="orange">
 
-<!-- Bộ icon SVG dùng chung (nét 1.8, bo tròn) -->
-<svg width="0" height="0" style="position:absolute" aria-hidden="true">
-  <defs>
-    <symbol id="i-store" viewBox="0 0 24 24"><path d="M4 10v10h16V10"/><path d="M2.5 10 4.5 4h15l2 6z"/><path d="M9 20v-6h6v6"/></symbol>
-    <symbol id="i-repeat" viewBox="0 0 24 24"><path d="m17 2 4 4-4 4"/><path d="M3 11V9a3 3 0 0 1 3-3h15"/><path d="m7 22-4-4 4-4"/><path d="M21 13v2a3 3 0 0 1-3 3H3"/></symbol>
-    <symbol id="i-factory" viewBox="0 0 24 24"><path d="M2 20h20"/><path d="M3 20V9l6 4V9l6 4V5h6v15"/></symbol>
-    <symbol id="i-network" viewBox="0 0 24 24"><circle cx="12" cy="5" r="2.5"/><circle cx="5" cy="19" r="2.5"/><circle cx="19" cy="19" r="2.5"/><path d="M12 7.5V12m0 0-5.2 5M12 12l5.2 5"/></symbol>
-    <symbol id="i-milk" viewBox="0 0 24 24"><path d="M8 2h8"/><path d="M9 2v3L6.5 9v11a2 2 0 0 0 2 2h7a2 2 0 0 0 2-2V9L15 5V2"/><path d="M6.5 13h11"/></symbol>
-    <symbol id="i-cheese" viewBox="0 0 24 24"><path d="M3 18 21 9v9z"/><path d="M3 18 14.5 5 21 9"/><circle cx="15" cy="14.5" r="1.4"/><circle cx="9.5" cy="16" r="1"/></symbol>
-    <symbol id="i-jar" viewBox="0 0 24 24"><rect x="6" y="2.5" width="12" height="4" rx="1"/><path d="M7 6.5h10a1 1 0 0 1 1 1V20a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2V7.5a1 1 0 0 1 1-1z"/><path d="M6 12h12"/></symbol>
-    <symbol id="i-users" viewBox="0 0 24 24"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20a6.5 6.5 0 0 1 13 0"/><path d="M16 4.5a3.5 3.5 0 0 1 0 7"/><path d="M18 14a6 6 0 0 1 3.5 6"/></symbol>
-    <symbol id="i-tag" viewBox="0 0 24 24"><path d="M3 12V3h9l9 9-9 9z"/><circle cx="7.5" cy="7.5" r="1.5"/></symbol>
-    <symbol id="i-percent" viewBox="0 0 24 24"><path d="M19 5 5 19"/><circle cx="6.5" cy="6.5" r="2.5"/><circle cx="17.5" cy="17.5" r="2.5"/></symbol>
-    <symbol id="i-gift" viewBox="0 0 24 24"><rect x="3" y="8" width="18" height="4" rx="1"/><path d="M12 8v13"/><path d="M19 12v9H5v-9"/><path d="M12 8C10 3 6.5 4 7.5 7c.5 1 4.5 1 4.5 1s4 0 4.5-1C17.5 4 14 3 12 8"/></symbol>
-    <symbol id="i-up" viewBox="0 0 24 24"><path d="m22 7-8.5 8.5-5-5L2 17"/><path d="M16 7h6v6"/></symbol>
-    <symbol id="i-down" viewBox="0 0 24 24"><path d="m22 17-8.5-8.5-5 5L2 7"/><path d="M16 17h6v-6"/></symbol>
-    <symbol id="i-calc" viewBox="0 0 24 24"><rect x="4" y="2" width="16" height="20" rx="2"/><path d="M8 6h8"/><path d="M8 11h.01M12 11h.01M16 11h.01M8 15h.01M12 15h.01M16 15h.01M8 18.5h8"/></symbol>
-    <symbol id="i-coins" viewBox="0 0 24 24"><circle cx="9" cy="9" r="6"/><path d="M18.1 10.4a6 6 0 1 1-7.7 7.7"/><path d="M8 7h1.5v4"/></symbol>
-    <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></symbol>
-    <symbol id="i-check" viewBox="0 0 24 24"><path d="M20 6 9 17l-5-5"/></symbol>
-    <symbol id="i-ok" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="m8.5 12 2.5 2.5 5-5"/></symbol>
-    <symbol id="i-layers" viewBox="0 0 24 24"><path d="m12 2 10 5-10 5L2 7z"/><path d="m2 17 10 5 10-5"/><path d="m2 12 10 5 10-5"/></symbol>
-    <symbol id="i-target" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1"/></symbol>
-    <symbol id="i-truck" viewBox="0 0 24 24"><path d="M3 6h11v10H3z"/><path d="M14 9h4l3 3v4h-7"/><circle cx="7" cy="18" r="2"/><circle cx="17" cy="18" r="2"/></symbol>
-    <symbol id="i-gym" viewBox="0 0 24 24"><path d="M6.5 6.5v11M17.5 6.5v11M3.5 9v6M20.5 9v6M6.5 12h11"/></symbol>
-    <symbol id="i-home" viewBox="0 0 24 24"><path d="M3 10.5 12 3l9 7.5"/><path d="M5 9.5V21h14V9.5"/><path d="M10 21v-6h4v6"/></symbol>
-    <symbol id="i-mega" viewBox="0 0 24 24"><path d="M3 11v3a1 1 0 0 0 1 1h3l7 4V6l-7 4H4a1 1 0 0 0-1 1z"/><path d="M18 9a4 4 0 0 1 0 6"/></symbol>
-    <symbol id="i-book" viewBox="0 0 24 24"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20V3H6.5A2.5 2.5 0 0 0 4 5.5z"/><path d="M4 19.5A2.5 2.5 0 0 0 6.5 22H20v-5"/></symbol>
-    <symbol id="i-file" viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/></symbol>
-    <symbol id="i-globe" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M3 12h18"/><path d="M12 3a14 14 0 0 1 0 18 14 14 0 0 1 0-18"/></symbol>
-    <symbol id="i-x" viewBox="0 0 24 24"><path d="M18 6 6 18M6 6l12 12"/></symbol>
-    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></symbol>
-    <symbol id="i-panel" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M15 3v18"/></symbol>
-    <symbol id="i-table" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M3 15h18M9 3v18"/></symbol>
-    <symbol id="i-wallet" viewBox="0 0 24 24"><path d="M20 7V5a1 1 0 0 0-1-1H5a2 2 0 0 0 0 4h15v12H5a2 2 0 0 1-2-2V6"/><path d="M16 14h.01"/></symbol>
-    <symbol id="i-inf" viewBox="0 0 24 24"><path d="M12 12c-2-2.7-4-4-6-4a4 4 0 0 0 0 8c2 0 4-1.3 6-4zm0 0c2 2.7 4 4 6 4a4 4 0 0 0 0-8c-2 0-4 1.3-6 4z"/></symbol>
-    <symbol id="i-scale" viewBox="0 0 24 24"><path d="M12 3v18M5 21h14M3 7h18"/><path d="m6 7-3 7a3 3 0 0 0 6 0zM18 7l-3 7a3 3 0 0 0 6 0z"/></symbol>
-    <symbol id="i-package" viewBox="0 0 24 24"><path d="m3 7 9-4 9 4v10l-9 4-9-4z"/><path d="m3 7 9 4 9-4M12 11v10"/></symbol>
-    <symbol id="i-flask" viewBox="0 0 24 24"><path d="M9 3h6M10 3v6L4.5 19a1.5 1.5 0 0 0 1.3 2h12.4a1.5 1.5 0 0 0 1.3-2L14 9V3"/><path d="M7 15h10"/></symbol>
-    <symbol id="i-snow" viewBox="0 0 24 24"><path d="M12 2v20M4.9 6l14.2 12M19.1 6 4.9 18"/><path d="m9 4 3 2 3-2M9 20l3-2 3 2"/></symbol>
-  </defs>
-</svg>
+<div class="bgdots" aria-hidden="true"></div>
+<div class="wipe" aria-hidden="true"><i></i><i></i></div>
 
 <div class="reveal">
 <div class="slides">
 
-<!-- ============ 01 · BÌA ============ -->
-<section class="s s-cover" data-part="Bìa" data-src="">
-  <div class="cv-band"></div>
-  <div class="cv-top">
-    <img src="assets/img/logo-bk.png" alt="Logo Trường Đại học Bách Khoa">
-    <div>
-      <div class="u1">ĐẠI HỌC QUỐC GIA TP. HỒ CHÍ MINH</div>
-      <div class="u2">TRƯỜNG ĐẠI HỌC BÁCH KHOA</div>
-    </div>
+<!-- ========================= 1. TIÊU ĐỀ ========================= -->
+<section data-theme="orange" data-n="1" id="s-title" class="s-title">
+  <div class="title-top">
+    <img src="assets/img/logo-bk.png" alt="Logo Trường Đại học Bách Khoa" class="t-logo">
+    <div class="t-school">Trường Đại học Bách Khoa, ĐHQG-HCM<br><span>Môn Khởi nghiệp · HK261 · GVHD TS. Đào Hồng Hải</span></div>
+    <span class="sticker s-o">On-Stage Pitch · Nhóm 5</span>
   </div>
-  <div class="cv-art" aria-hidden="true">
-    <img class="cv-ph1" src="assets/img/photo/cheese-variety.jpg" alt="">
-    <img class="cv-ph2" src="assets/img/photo/whey.jpg" alt="">
-    <div class="pblur" data-pblur="bottom" style="bottom:0;height:46%"></div>
+  <div class="title-main">
+    <p class="eyebrow" data-anim="fade-up">Whey protein &amp; phô mai tươi</p>
+    <h1 class="brand split-chars">MilkLoop</h1>
+    <p class="slogan"><span class="mark scramble" data-text="Một mẻ sữa, hai giá trị.">Một mẻ sữa, hai giá trị.</span></p>
+    <p class="lead" data-anim="fade-up">Whey nội địa <b class="c-o">650.000 ₫/kg</b>, minh bạch từng lô bằng mã QR, làm từ nước whey của chính xưởng phô mai.</p>
   </div>
-  <div class="cv-chip"><span>Phần 1 → 5:</span><span class="troll" data-roll="Mô hình|Khung giá|LTV|COCA|NPV · IRR · PP"></span></div>
-  <div class="cv-main">
-    <div class="cv-course">Môn Khởi nghiệp · Chủ đề 3.1 Phân tích tài chính</div>
-    <h1 class="cv-title">Phân tích tài chính dự án Phô mai tươi &amp; Whey Protein</h1>
-    <p class="cv-sub">Từ mô hình doanh thu, khung giá, LTV, COCA đến đánh giá khả thi qua NPV, IRR và thời gian hoàn vốn</p>
+  <div class="title-art">
+    <img src="assets/img/od/jumping.svg" alt="" class="doodle d-jump bob" data-anim="pop">
+    <div class="jar" data-anim="drop"><div class="jar-lid"></div><div class="jar-body"><div class="jar-label"><b>MilkLoop</b><span>WHEY 80</span><em>Sô-cô-la · 1 kg</em><i class="qr"></i></div></div></div>
+    <img src="assets/img/od/ice-cream.svg" alt="" class="doodle d-ice bob2" data-anim="pop">
   </div>
-  <div class="cv-meta">
-    <div style="padding-left:56px">
-      <div class="lbl">GIẢNG VIÊN HƯỚNG DẪN</div>
-      <div class="val">TS. Đào Hồng Hải</div>
-      <div class="lbl" style="margin-top:14px">NHÓM · HỌC KỲ</div>
-      <div class="val">Nhóm 5 · HK261</div>
-    </div>
-    <div>
-      <div class="lbl">THÀNH VIÊN</div>
-      <ul class="mem">
-        <li><span class="avatar ph" role="img" aria-label="Ảnh Đặng Hải Minh Tâm" style="background-image:url(assets/img/photo/danghaiminhtam.jpg);background-size:200% auto;background-position:46% 0%"></span>Đặng Hải Minh Tâm – 2213010</li>
-        <li><span class="avatar ph" role="img" aria-label="Ảnh Nguyễn Văn Quyến" style="background-image:url(assets/img/photo/nguyenvanquyen.jpg);background-size:100% auto;background-position:50% 50%"></span>Nguyễn Văn Quyến – 2412953</li>
-        <li><span class="avatar ph" role="img" aria-label="Ảnh Nguyễn Ngọc Mỹ Đình" style="background-image:url(assets/img/photo/nguyenngocmydinh.jpg);background-size:380% auto;background-position:47% 47%"></span>Nguyễn Ngọc Mỹ Đình – 2410774</li>
-        <li><span class="avatar ph" role="img" aria-label="Ảnh Mai Nguyễn Quốc Bình" style="background-image:url(assets/img/photo/mainguyenquocbinh.jpg);background-size:600% auto;background-position:47.6% 62.6%"></span>Mai Nguyễn Quốc Bình – 2513896</li>
-        <li><span class="avatar ph" role="img" aria-label="Ảnh Trần Đăng Khoa" style="background-image:url(assets/img/photo/trandangkhoa.jpg);background-size:350% auto;background-position:58% 41%"></span>Trần Đăng Khoa – 2211648</li>
-      </ul>
-    </div>
-  </div>
-  <aside class="notes">Chào thầy và các bạn. Nhóm trình bày chủ đề 3.1 Phân tích tài chính, áp dụng cho dự án phô mai tươi và whey protein. Bài đi đúng thứ tự năm phần trong bài giảng.</aside>
+  <p class="members" data-anim="fade-up">Đặng Hải Minh Tâm 2213010 · Nguyễn Văn Quyến 2412953 · Nguyễn Ngọc Mỹ Đình 2410774 · Mai Nguyễn Quốc Bình 2513896 · Trần Đăng Khoa 2211648</p>
+  <div class="marquee"><div class="track"><span>Một mẻ sữa · hai sản phẩm</span><span>WPC 80</span><span>COA từng lô</span><span>650.000 ₫/kg</span><span>Phô mai tươi trong ngày</span><span>Gói định kỳ 590.000 ₫</span><span>Một mẻ sữa · hai sản phẩm</span><span>WPC 80</span><span>COA từng lô</span><span>650.000 ₫/kg</span><span>Phô mai tươi trong ngày</span><span>Gói định kỳ 590.000 ₫</span></div></div>
+  <aside class="notes">Mở đầu: tên dự án, slogan, một câu giá trị. Cầm hũ mẫu trên tay.</aside>
 </section>
 
-<!-- ============ 02 · MỤC LỤC ============ -->
-<section class="s" data-part="Mục lục" data-src="1,3" data-title="Nội dung trình bày">
-  <div class="s-head"><h2 class="s-title">Nội dung trình bày</h2></div>
-  <div class="s-body">
-    <p class="lead blk" style="max-width:860px">Năm phần nối tiếp nhau: số liệu của phần trước là đầu vào của phần sau.</p>
-    <div class="chain blk" data-id="chain" style="margin-top:34px">
-      <a class="chain-n fragment up" data-goto="p1"><span class="cn-i"><img src="assets/img/photo/milk.jpg" alt=""></span><span class="cn-k">Phần 1</span><span class="uhover"><span class="cn-t">Mô hình kinh doanh</span><svg viewBox="0 0 100 10" preserveAspectRatio="none"><path d="M1 6 Q 25 1 50 5 T 99 4" pathLength="1"/></svg></span><span class="cn-d">BMC, VPC và chọn mô hình doanh thu</span></a>
-      <a class="chain-n fragment up" data-goto="p2"><span class="cn-i"><img src="assets/img/photo/cheese-case.jpg" alt=""></span><span class="cn-k">Phần 2</span><span class="uhover"><span class="cn-t">Khung giá ban đầu</span><svg viewBox="0 0 100 10" preserveAspectRatio="none"><path d="M1 6 Q 25 1 50 5 T 99 4" pathLength="1"/></svg></span><span class="cn-d">Giá phô mai và whey</span></a>
-      <a class="chain-n fragment up" data-goto="p3"><span class="cn-i"><img src="assets/img/photo/gym.jpg" alt=""></span><span class="cn-k">Phần 3</span><span class="uhover"><span class="cn-t">Giá trị trọn đời LTV</span><svg viewBox="0 0 100 10" preserveAspectRatio="none"><path d="M1 6 Q 25 1 50 5 T 99 4" pathLength="1"/></svg></span><span class="cn-d">Dùng giá của phần 2</span></a>
-      <a class="chain-n fragment up" data-goto="p4"><span class="cn-i"><img src="assets/img/photo/team.jpg" alt=""></span><span class="cn-k">Phần 4</span><span class="uhover"><span class="cn-t">Chi phí có khách COCA</span><svg viewBox="0 0 100 10" preserveAspectRatio="none"><path d="M1 6 Q 25 1 50 5 T 99 4" pathLength="1"/></svg></span><span class="cn-d">So với LTV của phần 3</span></a>
-      <a class="chain-n fragment up" data-goto="p5"><span class="cn-i"><img src="assets/img/photo/calculator.jpg" alt=""></span><span class="cn-k">Phần 5</span><span class="uhover"><span class="cn-t">NPV · IRR · PP</span><svg viewBox="0 0 100 10" preserveAspectRatio="none"><path d="M1 6 Q 25 1 50 5 T 99 4" pathLength="1"/></svg></span><span class="cn-d">Khả thi tài chính 5 năm</span></a>
-    </div>
-    <div class="blk toc-foot fragment up">
-      <div class="strip"><img src="assets/img/photo/cheese-variety.jpg" alt="Các loại phô mai tươi"><img src="assets/img/photo/whey.jpg" alt="Bột whey protein"></div>
-      <p class="small" style="max-width:720px">Dự án tận dụng nước whey tách ra khi làm phô mai để chế biến thành bột whey protein, nên hai dòng sản phẩm dùng chung một nguồn sữa.</p>
-    </div>
-  </div>
-  <aside class="notes">Mũi tên giữa các ô thể hiện sự phụ thuộc. Giá ở bài 2 được dùng để tính LTV ở bài 3. LTV ở bài 3 được đem so với COCA ở bài 4. Cuối cùng bài 5 gom chi phí và doanh thu của cả xưởng để tính NPV, IRR, PP.</aside>
-</section>
-
-<!-- ============ PHẦN 1 ============ -->
-<section class="s s-div" id="p1" data-part="Phần 1 · Mô hình kinh doanh" data-src="1" data-divider="1">
-  <div class="d-ph"><img src="assets/img/photo/milk.jpg" alt=""></div>
-  <div class="d-n">PHẦN 1</div>
-  <h2 class="d-t wave" data-wave>Mô hình kinh doanh và mô hình doanh thu</h2>
-  <p class="d-q"><span class="dia" data-dia>Doanh nghiệp tạo, chuyển giao và thu giá trị thế nào; từ đó chọn cách tạo dòng doanh thu nào?</span></p>
-  <ol class="d-list"></ol>
-</section>
-
-<section class="s" data-part="Phần 1 · Mô hình kinh doanh" data-src="7,8">
-  <div class="s-head"><h2 class="s-title">Khung mô hình kinh doanh (BMC)</h2></div>
-  <div class="s-body">
-    <p class="bm-type blk"><span class="badge badge-solid">Mô hình chuẩn</span> Kiểu <b>nhà sản xuất/bán lẻ</b> (Manufacturer/Retailer): nhóm tự sản xuất và tự bán, giống cách làm của Vinamilk.</p>
-    <div class="bmc blk" data-id="bmc">
-      <div class="bm kp fragment up"><h4>Đối tác chính</h4><ul><li>Trang trại sữa bò tươi</li><li>Phòng gym, PT gần trường</li><li>Đơn vị giao hàng</li></ul></div>
-      <div class="bm ka fragment up"><h4>Hoạt động chính</h4><ul><li>Làm phô mai tươi</li><li>Chế biến nước whey thành bột whey</li><li>Bán online và tại phòng gym</li></ul></div>
-      <div class="bm kr fragment up"><h4>Nguồn lực chính</h4><ul><li>Xưởng nhỏ, máy sấy, tủ lạnh</li><li>Quy trình tận dụng nước whey</li><li>Thành viên hiểu công nghệ thực phẩm</li></ul></div>
-      <div class="bm vp"><h4>Tuyên bố giá trị</h4><ul><li><b>Whey:</b> uống đều mỗi tháng mà không tốn như hàng nhập</li><li>Yên tâm hàng thật nhờ mã QR</li><li><b>Phô mai:</b> tươi trong ngày, giá sỉ ổn định</li></ul></div>
-      <div class="bm cr"><h4>Quan hệ khách hàng</h4><ul><li>Cộng đồng gym trên mạng xã hội</li><li>Gói mua định kỳ</li><li>Ưu đãi giới thiệu bạn bè</li></ul></div>
-      <div class="bm ch"><h4>Kênh</h4><ul><li><b>Biết đến:</b> TikTok, PT giới thiệu</li><li><b>Mua:</b> Shopee, TikTok Shop, quầy gym</li><li><b>Nhận:</b> giao tận nơi</li></ul></div>
-      <div class="bm cs"><h4>Phân khúc khách hàng</h4><ul><li><b>Chính:</b> sinh viên tập gym 18–26 tuổi, TP.HCM</li><li><b>Phụ:</b> tiệm bánh, quán ăn; hộ gia đình</li></ul></div>
-      <div class="bm co fragment up"><h4>Cơ cấu chi phí</h4><ul><li><b>Nguyên liệu sữa, bao bì</b> (lớn nhất)</li><li>Lương nhân viên</li><li>Thuê xưởng</li><li>Điện, vận chuyển, quảng cáo</li></ul></div>
-      <div class="bm rs fragment up"><h4>Dòng doanh thu</h4><ul><li>Bán lẻ phô mai, whey; bán sỉ phô mai</li><li>Gói mua định kỳ whey</li><li>Thanh toán: Momo, ZaloPay, COD</li></ul></div>
-    </div>
-  </div>
-  <aside class="notes">Đọc theo bài giảng: phía phải là ai (khách hàng, kênh, quan hệ), ở giữa là cái gì (tuyên bố giá trị), phía trái là làm thế nào (hoạt động, nguồn lực, đối tác), dưới cùng là chi phí và doanh thu. Câu chuyện: Minh, sinh viên năm 3 tập gym, biết đến whey của nhóm qua TikTok và PT, quét mã QR xem nguồn gốc, đặt hũ đầu tiên trên Shopee rồi đăng ký gói tháng. Cùng lúc tiệm bánh gần trường đặt phô mai theo kg mỗi tuần. Cả hai đi ra từ cùng một mẻ sữa.</aside>
-</section>
-
-<section class="s" data-part="Phần 1 · Mô hình kinh doanh" data-src="7,8">
-  <div class="s-head"><h2 class="s-title">Khung tuyên bố giá trị · Whey Protein</h2></div>
-  <div class="s-body">
-    <p class="vpc-seg blk">Khách hàng: <b>sinh viên tập gym tại TP.HCM</b> (phân khúc chính)</p>
-    <div class="vpc blk" data-id="vpc">
-      <div class="vpc-map fragment up">
-        <div class="vm-h">Bản đồ giá trị</div>
-        <div class="vm-sq">
-          <div class="vm-p"><h4>Sản phẩm</h4><ul><li>Hũ whey 1 kg</li><li>Gói nhỏ dùng thử 30 g</li></ul></div>
-          <div class="vm-g"><h4>Tạo lợi ích</h4><ul><li>Nhiều vị, tan nhanh</li><li>Giao nhanh trong thành phố</li></ul></div>
-          <div class="vm-r"><h4>Giảm nỗi đau</h4><ul><li>Giá thấp hơn hàng nhập khẩu</li><li>Mã QR xem nguồn gốc</li></ul></div>
-        </div>
-      </div>
-      <svg class="vpc-fit" viewBox="0 0 120 60" aria-hidden="true"><path d="M8 30 H100" /><path d="M92 20 L108 30 L92 40" /><text x="58" y="18" text-anchor="middle">khớp</text></svg>
-      <div class="vpc-prof">
-        <div class="vm-h">Hồ sơ khách hàng</div>
-        <div class="vp-circ">
-          <div class="vp-gn"><h4>Lợi ích mong muốn</h4><ul><li>Giá hợp túi tiền</li><li>Uống ngon, dễ tan</li></ul></div>
-          <div class="vp-pn"><h4>Nỗi đau</h4><ul><li>Whey nhập khẩu đắt</li><li>Sợ mua phải hàng giả</li></ul></div>
-          <div class="vp-jb"><h4>Công việc cần làm</h4><ul><li>Bổ sung đạm để tăng cơ sau khi tập</li></ul></div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <aside class="notes">Bên phải là hồ sơ khách hàng: việc họ cần làm, nỗi đau và lợi ích mong muốn. Bên trái là bản đồ giá trị của nhóm. Mỗi nỗi đau có một cách giảm tương ứng: whey đắt thì giá thấp hơn hàng nhập, sợ hàng giả thì có mã QR.</aside>
-</section>
-
-<section class="s" data-part="Phần 1 · Mô hình kinh doanh" data-src="7,8">
-  <div class="s-head"><h2 class="s-title">Khung tuyên bố giá trị · Phô mai tươi</h2></div>
-  <div class="s-body">
-    <p class="vpc-seg blk">Khách hàng: <b>tiệm bánh, quán ăn</b> mua phô mai theo kg</p>
-    <div class="vpc blk" data-id="vpc">
-      <div class="vpc-map fragment up">
-        <div class="vm-h">Bản đồ giá trị</div>
-        <div class="vm-sq">
-          <div class="vm-p"><h4>Sản phẩm</h4><ul><li>Phô mai tươi Mozzarella, Ricotta theo kg</li><li>Hộp 250 g cho khách lẻ</li></ul></div>
-          <div class="vm-g"><h4>Tạo lợi ích</h4><ul><li>Đặt hàng định kỳ theo tuần</li><li>Nguồn sữa rõ ràng, không phụ gia</li></ul></div>
-          <div class="vm-r"><h4>Giảm nỗi đau</h4><ul><li>Giá sỉ 320.000 ₫/kg; từ 20 kg còn 280.000 ₫/kg</li><li>Làm trong ngày, giao lạnh tận nơi</li></ul></div>
-        </div>
-      </div>
-      <svg class="vpc-fit" viewBox="0 0 120 60" aria-hidden="true"><path d="M8 30 H100" /><path d="M92 20 L108 30 L92 40" /><text x="58" y="18" text-anchor="middle">khớp</text></svg>
-      <div class="vpc-prof">
-        <div class="vm-h">Hồ sơ khách hàng</div>
-        <div class="vp-circ">
-          <div class="vp-gn"><h4>Lợi ích mong muốn</h4><ul><li>Giá ổn định, dễ tính giá vốn</li><li>Chất lượng đồng đều</li></ul></div>
-          <div class="vp-pn"><h4>Nỗi đau</h4><ul><li>Phô mai nhập khẩu đắt</li><li>Không tươi, giao chậm, hay hết hàng</li></ul></div>
-          <div class="vp-jb"><h4>Công việc cần làm</h4><ul><li>Có phô mai tươi đều đặn để làm bánh, pizza</li></ul></div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <aside class="notes">Bài giảng yêu cầu làm khung tuyên bố giá trị cho từng đối tượng khách hàng, nên phô mai có khung riêng cho khách B2B. Nỗi đau lớn nhất của quán là hàng không tươi và giao không đều, nên nhóm làm trong ngày và nhận đặt định kỳ theo tuần.</aside>
-</section>
-
-<section class="s" data-part="Phần 1 · Mô hình kinh doanh" data-src="4,7,8">
-  <div class="s-head"><h2 class="s-title">Bản đồ môi trường của mô hình</h2></div>
-  <div class="s-body">
-    <div class="envm blk">
-      <div class="ev ev-t fragment up"><h4>Các xu hướng chính</h4><ul><li>Văn hóa – xã hội: ăn uống lành mạnh</li><li>Công nghệ: mua qua TikTok Shop, Shopee</li><li>Luật định: an toàn thực phẩm với thực phẩm bổ sung</li></ul></div>
-      <div class="ev ev-l fragment up"><h4>Các lực lượng trong ngành</h4><ul><li>Đối thủ hiện tại: whey, phô mai nhập khẩu</li><li>Đối thủ mới: nhãn whey nội địa khác</li><li>Sản phẩm thay thế: ức gà, trứng, sữa</li><li>Nhà cung cấp: trang trại sữa</li></ul></div>
-      <div class="ev-c"><div class="mini-bmc"><i class="a"></i><i class="b"></i><i class="c"></i><i class="d"></i><i class="e"></i><i class="f"></i><i class="g"></i><i class="h"></i><i class="k"></i></div><span>Mô hình kinh doanh</span></div>
-      <div class="ev ev-r fragment up"><h4>Các lực lượng thị trường</h4><ul><li>Ngày càng nhiều bạn trẻ tập gym</li><li>Khách nhạy giá, dễ đổi nhãn hàng</li><li>Quy mô khoảng 725 tỷ ₫/năm ở TP.HCM</li></ul></div>
-      <div class="ev ev-b fragment up"><h4>Các lực lượng kinh tế vĩ mô</h4><ul><li>Giá sữa có thể tăng</li><li>Cần gọi vốn khoảng 1,2 tỷ ₫</li><li>Hạ tầng giao hàng lạnh</li><li>Thu nhập sinh viên hạn chế</li></ul></div>
-    </div>
-    <div class="env-adj blk fragment up"><b>Điều chỉnh mô hình:</b><span class="badge badge-outline">Giá dưới hàng nhập, có gói dùng thử</span><span class="badge badge-outline">Bán chủ yếu qua mạng xã hội</span><span class="badge badge-outline">Mua sữa ổn định từ một trang trại</span><span class="badge badge-outline">Đủ giấy tờ an toàn thực phẩm</span></div>
-  </div>
-  <aside class="notes">Bản đồ môi trường đặt mô hình kinh doanh ở giữa và bốn nhóm lực lượng bên ngoài xung quanh, theo đúng hình trong bài giảng. Từ đó nhóm điều chỉnh mô hình: giữ giá dưới hàng nhập vì khách nhạy giá, bán qua mạng xã hội để giảm chi phí, ổn định nguồn sữa, và làm đủ giấy tờ an toàn thực phẩm. Quy mô 725 tỷ lấy từ báo cáo khả thi thị trường.</aside>
-</section>
-
-<section class="s" data-part="Phần 1 · Mô hình doanh thu" data-src="1">
-  <div class="s-head"><h2 class="s-title">Mô hình doanh thu quản lý các dòng doanh thu</h2></div>
-  <div class="s-body grid col-5-7">
-    <div class="blk stack">
-      <p class="lead">Mô hình doanh thu (revenue model) giúp quản lý các dòng doanh thu (revenue stream) bên trong một mô hình kinh doanh.</p>
-      <div class="h4" style="margin-top:22px">Một số cách tạo dòng doanh thu</div>
-      <ul class="dots" style="font-size:18px">
-        <li class="fragment up">Bán hoặc cho thuê sản phẩm</li>
-        <li class="fragment up">Phí sử dụng dịch vụ, phí thuê bao dịch vụ</li>
-        <li class="fragment up">Cấp phép quyền sử dụng tài sản trí tuệ, nhượng quyền</li>
-        <li class="fragment up">Phí môi giới, quảng cáo</li>
-      </ul>
-      <img class="ill" src="assets/img/undraw/online-revenue.svg" alt="" style="height:170px;margin-top:26px">
-    </div>
-    <div class="blk quad fragment up" data-id="quad">
-      <div class="q q1"><div class="qh">Khách hàng</div><ul><li>Điều gì quan trọng với đơn vị ra quyết định mua?</li><li>Thích trả một lần hay nhiều lần?</li></ul></div>
-      <div class="q q2"><div class="qh">Tuyên bố giá trị</div><ul><li>Sản phẩm mang lại bao nhiêu giá trị?</li><li>Khi nào nhận được, rủi ro không nhận được?</li></ul></div>
-      <div class="q q3"><div class="qh">Cạnh tranh</div><ul><li>Đối thủ dùng mô hình doanh thu nào?</li><li>Họ mắc kẹt ở đâu, có thể phá vỡ ngành?</li></ul></div>
-      <div class="q q4"><div class="qh">Vận hành</div><ul><li>Chu trình bán hàng, chi phí có một khách?</li><li>Giá trị trọn đời, nhà phân phối, dòng tiền?</li></ul></div>
-      <div class="q-core"><span>Mô hình<br>doanh thu</span></div>
-    </div>
-  </div>
-  <aside class="notes">Bên phải là bốn góc nhìn bài giảng gợi ý khi chọn mô hình doanh thu. Mỗi góc đều có thêm câu hỏi "các cân nhắc khác", nhóm lược bớt cho gọn.</aside>
-</section>
-
-<section class="s" data-part="Phần 1 · Mô hình doanh thu" data-src="3">
-  <div class="s-head"><h2 class="s-title">Bốn mô hình doanh thu khả dĩ cho phô mai và whey</h2></div>
-  <div class="s-body">
-    <div class="acc blk" data-acc>
-      <div class="acc-row" data-acc-row>
-        <div class="acc-head"><span class="t">Bán sản phẩm trực tiếp</span><span class="badges"><span class="badge badge-outline">B2C</span><span class="badge badge-outline">B2B</span><span class="badge badge-solid badge-dot">Nhóm chọn</span></span></div>
-        <div class="acc-body">
-          <p><b>Phô mai:</b> bán lẻ cho người tiêu dùng qua cửa hàng, website; bán buôn cho nhà hàng, tiệm bánh, khách sạn, siêu thị.<br><b>Whey:</b> hũ hoặc túi bột đạm, nước uống bổ sung đạm đóng chai cho người tập, phòng gym.</p>
-          <svg class="flow-mini" viewBox="0 0 300 84"><g class="fm"><rect x="2" y="26" width="78" height="32" rx="8"/><text x="41" y="47">Xưởng</text><rect x="218" y="4" width="80" height="30" rx="8"/><text x="258" y="24">B2C</text><rect x="218" y="50" width="80" height="30" rx="8"/><text x="258" y="70">B2B</text><path class="flow-dash" d="M80 42 C150 42 150 19 218 19"/><path class="flow-dash" d="M80 42 C150 42 150 65 218 65"/></g></svg>
-        </div>
-      </div>
-      <div class="acc-row" data-acc-row>
-        <div class="acc-head"><span class="t">Phí thuê bao định kỳ</span><span class="badges"><span class="badge badge-outline">1 · 3 · 6 tháng</span><span class="badge badge-solid badge-dot">Nhóm chọn</span></span></div>
-        <div class="acc-body">
-          <p>Gói giao whey protein định kỳ 1, 3 hoặc 6 tháng; hộp phô mai tươi giao hằng tuần hoặc hằng tháng cho gia đình, người ăn kiêng và sống lành mạnh.</p>
-          <svg class="flow-mini" viewBox="0 0 300 84"><g class="fm"><rect x="2" y="26" width="78" height="32" rx="8"/><text x="41" y="47">Xưởng</text><rect x="218" y="26" width="80" height="32" rx="8"/><text x="258" y="47">Khách</text><path class="flow-dash" d="M80 34 C130 4 170 4 218 34"/><path class="flow-dash" d="M218 50 C170 80 130 80 80 50"/><text x="150" y="13" class="fm-s">giao hàng</text><text x="150" y="80" class="fm-s">trả phí kỳ</text></g></svg>
-        </div>
-      </div>
-      <div class="acc-row" data-acc-row>
-        <div class="acc-head"><span class="t">Bán sỉ nguyên liệu B2B</span><span class="badges"><span class="badge badge-outline">Bulk / OEM</span></span></div>
-        <div class="acc-body">
-          <p>Bán nguyên liệu whey đạm thô hoặc phô mai nguyên khối cho các nhà máy chế biến thực phẩm, bánh kẹo.</p>
-          <svg class="flow-mini" viewBox="0 0 300 84"><g class="fm"><rect x="2" y="26" width="78" height="32" rx="8"/><text x="41" y="47">Xưởng</text><rect x="200" y="26" width="98" height="32" rx="8"/><text x="249" y="47">Nhà máy</text><path class="flow-dash" d="M80 42 H200"/><text x="140" y="34" class="fm-s">khối lớn</text></g></svg>
-        </div>
-      </div>
-      <div class="acc-row" data-acc-row>
-        <div class="acc-head"><span class="t">Nhượng quyền thương mại</span><span class="badges"><span class="badge badge-outline">Franchising</span></span></div>
-        <div class="acc-body">
-          <p>Khi chuỗi cửa hàng phô mai tươi và thực phẩm dinh dưỡng đã có chỗ đứng, nhượng quyền mô hình cửa hàng cho các bên đầu tư khác.</p>
-          <svg class="flow-mini" viewBox="0 0 300 84"><g class="fm"><rect x="2" y="26" width="90" height="32" rx="8"/><text x="47" y="47">Thương hiệu</text><rect x="218" y="2" width="80" height="24" rx="7"/><rect x="218" y="30" width="80" height="24" rx="7"/><rect x="218" y="58" width="80" height="24" rx="7"/><text x="258" y="19" class="fm-s">Cửa hàng</text><text x="258" y="47" class="fm-s">Cửa hàng</text><text x="258" y="75" class="fm-s">Cửa hàng</text><path class="flow-dash" d="M92 42 C160 42 150 14 218 14"/><path class="flow-dash" d="M92 42 H218"/><path class="flow-dash" d="M92 42 C160 42 150 70 218 70"/></g></svg>
-        </div>
-      </div>
-    </div>
-    <span class="fragment" data-acc-step="0"></span><span class="fragment" data-acc-step="1"></span><span class="fragment" data-acc-step="2"></span><span class="fragment" data-acc-step="3"></span>
-  </div>
-  <aside class="notes">Lần lượt mở từng mô hình. Hai mô hình đầu có nhãn "Nhóm chọn", phần lý do ở slide sau.</aside>
-</section>
-
-<section class="s" data-part="Phần 1 · Mô hình doanh thu" data-src="3,5" data-sim>
-  <div class="s-head"><h2 class="s-title">Chọn bán trực tiếp kết hợp thuê bao định kỳ</h2></div>
-  <div class="s-body">
-    <svg class="chart vchain blk" viewBox="0 0 1168 230" aria-label="Chuỗi giá trị từ sữa tươi đến phô mai và whey protein">
-      <defs><marker id="arw" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 10 5 0 10z" fill="#1488DB"/></marker></defs>
-      <g class="vc-node"><rect x="0" y="80" width="170" height="70" rx="14"/><use href="#i-milk" x="16" y="101" width="28" height="28" class="vc-ic"/><text x="56" y="112" class="vc-t">Sữa tươi</text><text x="56" y="132" class="vc-s">nguyên chất</text></g>
-      <path class="flow-dash vc-l" d="M170 115 H250" marker-end="url(#arw)"/>
-      <g class="vc-node"><rect x="252" y="80" width="170" height="70" rx="14"/><use href="#i-flask" x="268" y="101" width="28" height="28" class="vc-ic"/><text x="308" y="112" class="vc-t">Đông tụ</text><text x="308" y="132" class="vc-s">tách sữa</text></g>
-      <path class="flow-dash vc-l" d="M422 105 C480 105 470 40 540 40" marker-end="url(#arw)"/>
-      <path class="flow-dash vc-l" d="M422 125 C480 125 470 190 540 190" marker-end="url(#arw)"/>
-      <g class="vc-node vc-cheese"><rect x="542" y="6" width="210" height="68" rx="14"/><use href="#i-cheese" x="558" y="26" width="28" height="28" class="vc-ic"/><text x="598" y="36" class="vc-t">Phô mai tươi</text><text x="598" y="57" class="vc-s">sản phẩm chính</text></g>
-      <g class="vc-node vc-whey"><rect x="542" y="156" width="210" height="68" rx="14"/><use href="#i-milk" x="558" y="176" width="28" height="28" class="vc-ic"/><text x="598" y="186" class="vc-t">Nước whey</text><text x="598" y="207" class="vc-s">phụ phẩm</text></g>
-      <path class="flow-dash vc-l" d="M752 190 H818" marker-end="url(#arw)"/>
-      <g class="vc-node"><rect x="820" y="156" width="150" height="68" rx="14"/><use href="#i-snow" x="834" y="176" width="26" height="26" class="vc-ic"/><text x="868" y="186" class="vc-t">Cô đặc</text><text x="868" y="207" class="vc-s">sấy lạnh</text></g>
-      <path class="flow-dash vc-l" d="M970 190 H994" marker-end="url(#arw)"/>
-      <g class="vc-node vc-whey"><rect x="996" y="156" width="172" height="68" rx="14"/><use href="#i-jar" x="1010" y="176" width="26" height="26" class="vc-ic"/><text x="1044" y="186" class="vc-t">Whey Protein</text><text x="1044" y="207" class="vc-s">giá trị cao</text></g>
+<!-- ========================= 2. CÔNG TY ========================= -->
+<section data-theme="mint" data-n="2" id="s-company">
+  <div class="kicker">02 · Chúng tôi là ai</div>
+  <h2 class="split-words">Một mẻ sữa, <span class="mark-m">hai sản phẩm</span> bán được</h2>
+  <p class="statement" data-anim="fade-up">MilkLoop bán
+    <span class="roll"><span>whey protein</span><span>phô mai tươi</span><span>whey protein</span></span>
+    cho
+    <span class="roll r2"><span>sinh viên tập gym</span><span>tiệm bánh, quán pizza</span><span>sinh viên tập gym</span></span>
+    tại TP.HCM, để họ có đạm chất lượng, rõ nguồn gốc, giá vừa túi tiền.</p>
+  <div class="flow">
+    <svg class="flow-lines" viewBox="0 0 1136 330" aria-hidden="true">
+      <path class="dash" d="M200 165 C 300 165, 330 70, 420 70"/>
+      <path class="dash" d="M200 165 C 300 165, 330 250, 420 250"/>
+      <path class="dash" d="M590 70 L 760 70"/>
+      <path class="dash" d="M590 250 L 760 250"/>
     </svg>
-    <div class="grid col-2" style="margin-top:22px;gap:22px">
-      <div class="panel blk fragment up lane-cheese">
-        <div class="h3">Phô mai · bán đứt theo giao dịch</div>
-        <p style="font-size:17px;margin-top:8px;color:var(--ink-2)">Thực phẩm tiêu dùng nhanh (FMCG), bán B2C và B2B tạo dòng tiền quay vòng nhanh.</p>
-      </div>
-      <div class="panel blk fragment up">
-        <div class="h3">Whey · gói thuê bao</div>
-        <p style="font-size:17px;margin-top:8px;color:var(--ink-2)">Người tập gym dùng đều mỗi tháng. Subscription giúp dự báo dòng tiền, tăng LTV và giảm COCA theo thời gian.</p>
-      </div>
-    </div>
-    <div class="verdict blk fragment up" style="margin-top:18px"><span>Biến phụ phẩm whey thành dòng sản phẩm giá trị cao giúp tối ưu chuỗi giá trị và tăng tối đa biên lợi nhuận gộp tổng thể.</span></div>
+    <figure class="fnode n-milk" data-anim="pop"><img src="assets/img/photo/milk.jpg" alt="Sữa bò tươi"><figcaption><b>Sữa bò tươi</b><span>trang trại Việt Nam</span></figcaption></figure>
+    <figure class="fnode n-cheese" data-anim="pop"><img src="assets/img/photo/cheese-variety.jpg" alt="Phô mai tươi"><figcaption><b>Phô mai tươi</b><span>Mozzarella, Ricotta</span></figcaption></figure>
+    <figure class="fnode n-whey" data-anim="pop"><img src="assets/img/photo/whey.jpg" alt="Bột whey"><figcaption><b>Bột whey WPC 80</b><span>sấy từ nước whey còn lại</span></figcaption></figure>
+    <figure class="fill n-shop" data-anim="pop"><img src="assets/img/ud/chef.svg" alt=""><figcaption><b>Tiệm bánh, quán pizza</b><span>dòng tiền nền B2B</span></figcaption></figure>
+    <figure class="fill n-gym" data-anim="pop"><img src="assets/img/ud/working-out.svg" alt=""><figcaption><b>Sinh viên tập gym</b><span>thị trường tiền tiêu</span></figcaption></figure>
   </div>
-  <aside class="notes">Lý do thứ nhất nằm ở sơ đồ: khi đông tụ sữa làm phô mai sẽ tách ra nước whey. Thay vì bỏ đi, nhóm cô đặc, sấy lạnh thành bột whey protein. Lý do thứ hai là sự kết hợp: phô mai thu hồi vốn nhanh, whey theo thuê bao cho dòng tiền ổn định.</aside>
+  <p class="vision" data-anim="fade-up"><span class="sticker s-m">Tầm nhìn năm 5</span>Thương hiệu whey nội địa được sinh viên TP.HCM chọn đầu tiên.</p>
+  <aside class="notes">Đọc câu mô tả công ty. Chỉ vào sơ đồ: một mẻ sữa ra hai sản phẩm.</aside>
 </section>
 
-<!-- ============ PHẦN 2 ============ -->
-<section class="s s-div" id="p2" data-part="Phần 2 · Khung giá ban đầu" data-src="1" data-divider="2">
-  <div class="d-ph"><img src="assets/img/photo/cheese-case.jpg" alt=""></div>
-  <div class="d-n">PHẦN 2</div>
-  <h2 class="d-t wave" data-wave>Thiết lập khung giá ban đầu</h2>
-  <p class="d-q"><span class="dia" data-dia>Khách hàng đến sớm và đến sau là ai, và khung giá linh hoạt cho từng nhóm ra sao?</span></p>
-  <ol class="d-list"></ol>
-</section>
-
-<section class="s" data-part="Phần 2 · Khung giá ban đầu" data-src="1">
-  <div class="s-head"><h2 class="s-title">Mỗi dòng doanh thu có cơ chế giá khác nhau</h2></div>
-  <div class="s-body">
-    <div class="spectrum blk" data-id="spectrum">
-      <div class="sp-bar"></div>
-      <div class="sp-end l"><b>Giá cố định</b><span>giá niêm yết; theo tính năng, phân khúc khách hàng, khối lượng sản phẩm</span></div>
-      <div class="sp-end r"><b>Giá linh hoạt</b><span>thương lượng, đấu giá, giá thị trường, theo tồn kho và thời gian</span></div>
-    </div>
-    <img class="ill" src="assets/img/undraw/pricing-page.svg" alt="" style="position:absolute;right:0;bottom:0;height:150px">
-    <div class="h4 blk" style="margin-top:26px">Một số gợi ý khi định giá</div>
-    <div class="tips blk">
-      <div class="tip fragment up"><p>Định giá theo <b>giá trị</b> sản phẩm mang lại cho khách hàng, không dựa vào chi phí.</p></div>
-      <div class="tip fragment up"><p>Dùng thông tin về đơn vị ra quyết định mua và quy trình có khách trả tiền để chọn các điểm giá cơ bản.</p></div>
-      <div class="tip fragment up"><p>Hiểu sản phẩm thay thế theo góc nhìn khách hàng và giá họ sẵn sàng trả cho từng thứ.</p></div>
-      <div class="tip fragment up"><p>Mỗi nhóm khách chấp nhận một mức giá, nên cần chiến lược giá đa dạng hướng tới nhóm mang lợi nhuận cao.</p></div>
-      <div class="tip fragment up"><p>Định giá cao rồi giảm, đừng định giá quá thấp để rồi phải tăng giá.</p></div>
-      <div class="tip fragment up"><p>Giá linh hoạt cho người thử nghiệm sớm và khách hàng “dẫn đường” có ảnh hưởng trong ngành.</p></div>
-    </div>
-  </div>
-  <aside class="notes">Dải ngang cho thấy hai đầu của cơ chế giá. Sáu gợi ý bên dưới là của bài giảng, nhóm dùng lại toàn bộ khi lập giá ở các slide sau.</aside>
-</section>
-
-<section class="s" data-part="Phần 2 · Khung giá ban đầu" data-src="1">
-  <div class="s-head"><h2 class="s-title">Định giá cho năm nhóm khách hàng công nghệ</h2></div>
-  <div class="s-body">
-    <svg class="chart blk" id="adopt1" data-id="curve" viewBox="0 0 1168 250" data-chart="adopt" data-mode="all"></svg>
-    <div class="seg5 blk">
-      <div class="fragment up"><b>Tín đồ công nghệ</b><span>Mua sản phẩm đầu tiên, yêu công nghệ và sẽ mua bất kỳ thứ gì.</span></div>
-      <div class="fragment up"><b>Người tiếp nhận sớm</b><span>Không nhạy cảm giá, muốn món hàng đặc biệt, kỳ vọng được quan tâm và dịch vụ bổ sung.</span></div>
-      <div class="fragment up"><b>Số đông chấp nhận sớm</b><span>Giúp doanh nghiệp có quy mô thật; đây là điểm giá mọi người nghĩ tới khi bàn chiến lược giá.</span></div>
-      <div class="fragment up"><b>Số đông chấp nhận trễ</b><span>Đến sau, khi chiến lược giá đã rõ; thích kế hoạch rõ ràng, chắc chắn.</span></div>
-      <div class="fragment up"><b>Người “bảo thủ”</b><span>Được tính đến sau cùng trong quá trình.</span></div>
-    </div>
-  </div>
-  <aside class="notes">Đường cong chia thị trường thành năm nhóm theo thời điểm chấp nhận sản phẩm. Nhóm bên trái ít nhạy cảm giá, càng sang phải càng cần giá rõ ràng và cạnh tranh.</aside>
-</section>
-
-<section class="s" data-part="Phần 2 · Khung giá ban đầu" data-src="3">
-  <div class="s-head"><h2 class="s-title">Khách hàng đến sớm và khách hàng đến sau của dự án</h2></div>
-  <div class="s-body">
-    <div class="toggle-group no-print" data-toggle-group style="position:absolute;right:0;top:-6px;z-index:2" role="group" aria-label="Làm nổi bật nhóm khách hàng">
-      <button class="toggle" aria-pressed="false" data-v="early">Đến sớm</button>
-      <button class="toggle" aria-pressed="false" data-v="late">Đến sau</button>
-    </div>
-    <svg class="chart blk" id="adopt2" data-id="curve" viewBox="0 0 1168 170" data-chart="adopt" data-mode="split"></svg>
-    <div class="grid col-2 blk" style="gap:26px;margin-top:8px">
-      <div class="who who-early fragment up">
-        <div class="who-h"><span class="badge badge-solid">Đến sớm</span><span class="badge badge-pos">Ít nhạy cảm giá</span></div>
-        <ul class="dots">
-          <li><b>Người tập gym, vận động viên:</b> hiểu dinh dưỡng, cần đạm whey tự nhiên cao.</li>
-          <li><b>Người Eat Clean, Healthy, Keto:</b> ưu tiên phô mai tươi artisanal không phụ gia.</li>
-          <li><b>KOL, PT, influencer sức khỏe:</b> nhóm “dẫn đường” ảnh hưởng mạnh tới cộng đồng.</li>
-        </ul>
-        <p class="small" style="margin-top:8px">Sẵn sàng trả giá cao hơn cho sản phẩm tốt, an toàn; muốn dùng thử sớm, góp ý và chia sẻ trải nghiệm.</p>
-      </div>
-      <div class="who who-late fragment up">
-        <div class="who-h"><span class="badge">Đến sau</span><span class="badge badge-neg">Nhạy cảm giá hơn</span></div>
-        <ul class="dots">
-          <li><b>Hộ gia đình nội thành, bà nội trợ:</b> mua phô mai cho bữa ăn gia đình và trẻ em.</li>
-          <li><b>Người tiêu dùng phổ thông, người mới tập:</b> chỉ mua khi thương hiệu đã uy tín, có mặt ở siêu thị, phòng tập, sàn TMĐT.</li>
-          <li><b>Đối tác B2B:</b> nhà hàng, tiệm bánh, chuỗi cà phê mua số lượng lớn.</li>
-        </ul>
-        <p class="small" style="margin-top:8px">Chú trọng tiện lợi, chứng nhận chất lượng và giá cạnh tranh với hàng nhập khẩu.</p>
-      </div>
-    </div>
-  </div>
-  <aside class="notes">Đường cong ở slide trước được tô lại: phần trái là nhóm đến sớm của dự án, phần phải là nhóm đến sau. Hai nhóm khác nhau rõ nhất ở độ nhạy cảm giá, đây là cơ sở cho khung giá linh hoạt.</aside>
-</section>
-
-<section class="s" data-part="Phần 2 · Khung giá ban đầu" data-src="3">
-  <div class="s-head"><h2 class="s-title">Khung giá phô mai tươi: niêm yết cao, linh hoạt theo đối tượng</h2></div>
-  <div class="s-body grid col-5-7" style="gap:34px">
-    <div class="pricing blk">
-      <div class="plan feat fragment up"><div class="pn">Giá niêm yết cố định</div><div class="pp">120.000 <small>VNĐ / hộp 250g</small></div><div class="pd">Định vị phân khúc phô mai tươi nguyên chất cao cấp</div></div>
-      <div class="plan fragment up"><div class="pn">Khách hàng đến sớm <span class="badge badge-pos">−20%</span></div><div class="pp">96.000 <small>VNĐ / hộp</small></div><div class="pd">Hoặc tặng hũ nhỏ dùng thử cho 500 đơn đầu tiên để thu review</div></div>
-      <div class="plan fragment up"><div class="pn">Thuê bao tuần / tháng <span class="badge badge-pos">≈ −20%</span></div><div class="pp">95.000 <small>VNĐ / hộp</small></div><div class="pd">Giữ chân khách lâu dài, tạo dòng tiền ổn định</div></div>
-      <div class="plan fragment up"><div class="pn">B2B nhà hàng, tiệm bánh</div><div class="pp">320.000 <small>₫/kg · 5–19 kg</small></div><div class="pd">Từ 20 kg: <b>280.000 ₫/kg</b> (chiết khấu số lượng)</div></div>
-    </div>
-    <div class="blk">
-      <div class="h4">Giá quy đổi theo kg của từng mức giá</div>
-      <svg class="chart" viewBox="0 0 640 300" data-chart="perkg" style="margin-top:6px"></svg>
-      <div style="display:flex;gap:8px;flex-wrap:wrap;margin-top:10px">
-        <span class="badge badge-outline">Định giá theo giá trị</span><span class="badge badge-outline">Cao trước, chiết khấu sau</span><span class="badge badge-outline">Cố định + linh hoạt</span>
-      </div>
-    </div>
-  </div>
-  <aside class="notes">Bảng giá bên trái lấy nguyên từ báo cáo nhóm. Biểu đồ bên phải chỉ đổi mọi mức giá về cùng đơn vị VNĐ trên kg (hộp 250g nhân 4) để thấy giá B2B 5–19 kg là 320 nghìn, từ 20 kg là 280 nghìn, thấp hơn giá lẻ quy đổi 480 nghìn.</aside>
-</section>
-
-<section class="s" data-part="Phần 2 · Khung giá ban đầu" data-src="3">
-  <div class="s-head"><h2 class="s-title">Khung giá whey protein: neo dưới hàng nhập khẩu</h2></div>
-  <div class="s-body">
-    <svg class="chart blk" viewBox="0 0 1168 132" data-chart="wheyrange"></svg>
-    <div class="fan blk" data-fan>
-      <div class="fcard"><div class="ft">Giá đại sứ, đại lý cho PT, phòng gym, KOL</div><div class="fs">Phân phối trực tiếp tại phòng tập</div><div class="fp">−25–30%</div></div>
-      <div class="fcard"><div class="ft">Mã ưu đãi affiliate</div><div class="fs">Cho học viên và người theo dõi của PT, KOL</div><div class="fp">−10%</div></div>
-      <div class="fcard"><div class="ft">Gói sachet 30g dùng thử</div><div class="fs">Cho khách đến sau, giảm rào cản thử nghiệm ban đầu</div><div class="fp">35.000 ₫</div></div>
-    </div>
-    <span class="fragment" data-fan-step="0"></span><span class="fragment" data-fan-step="1"></span><span class="fragment" data-fan-step="2"></span>
-  </div>
-  <aside class="notes">Giá niêm yết 850 nghìn một hũ 1 kg nằm dưới khoảng 900 nghìn đến 1,2 triệu của whey nhập khẩu, đồng thời khẳng định độ tinh khiết tự nhiên. Ba chính sách giá linh hoạt riêng cho whey lần lượt được rút ra: đại lý, affiliate, sachet. Combo với phô mai trình bày ở slide sau.</aside>
-</section>
-
-<section class="s" data-part="Phần 2 · Khung giá ban đầu" data-src="3">
-  <div class="s-head"><h2 class="s-title">Combo phô mai + whey: mua cả hai rẻ hơn 90.000 ₫</h2></div>
-  <div class="s-body">
-    <div class="combo blk" data-id="combo">
-      <figure class="cb-item"><img src="assets/img/photo/cheese-variety.jpg" alt="Phô mai tươi"><figcaption><b>Phô mai tươi</b><span>hộp 250 g</span><em>120.000 ₫</em></figcaption></figure>
-      <span class="cb-op">+</span>
-      <figure class="cb-item"><img src="assets/img/photo/whey.jpg" alt="Whey protein"><figcaption><b>Whey protein</b><span>hũ 1 kg</span><em>850.000 ₫</em></figcaption></figure>
-      <span class="cb-op">=</span>
-      <div class="cb-sum">
-        <div class="cb-old">Mua lẻ <s>970.000 ₫</s></div>
-        <div class="cb-new fragment up">880.000 <small>₫ / set</small></div>
-        <div class="cb-save fragment up"><span class="badge badge-pos">Tiết kiệm 90.000 ₫ · ≈ 9,3%</span></div>
-      </div>
-    </div>
-    <div class="grid blk" style="grid-template-columns:1.4fr 1fr;gap:30px;margin-top:30px;align-items:center">
-      <svg class="chart" viewBox="0 0 660 130" data-chart="combobar"></svg>
-      <div class="verdict fragment up"><span><b>Định giá gói (bundling):</b> kích cầu tiêu dùng cả hai sản phẩm, đưa người mua whey sang dùng thử phô mai và ngược lại.</span></div>
-    </div>
-  </div>
-  <aside class="notes">Combo gồm một hộp phô mai 250 gam và một hũ whey 1 ký. Mua lẻ tổng 970 nghìn, mua combo 880 nghìn, rẻ hơn 90 nghìn, khoảng 9,3 phần trăm. Mục đích là kích cầu dùng cả hai sản phẩm của cùng một nguồn sữa.</aside>
-</section>
-
-<!-- ============ PHẦN 3 ============ -->
-<section class="s s-div" id="p3" data-part="Phần 3 · LTV" data-src="1" data-divider="3">
-  <div class="d-ph"><img src="assets/img/photo/gym.jpg" alt=""></div>
-  <div class="d-n">PHẦN 3</div>
-  <h2 class="d-t wave" data-wave>Ước tính giá trị trọn đời của một khách hàng</h2>
-  <p class="d-q"><span class="dia" data-dia>Một khách hàng dùng cả phô mai và whey mang lại bao nhiêu lợi nhuận gộp trong 5 năm đầu?</span></p>
-  <ol class="d-list"></ol>
-</section>
-
-<section class="s" data-part="Phần 3 · LTV" data-src="1">
-  <div class="s-head"><h2 class="s-title">LTV: lợi nhuận gộp trong suốt vòng đời khách hàng</h2></div>
-  <div class="s-body grid col-5-7" style="gap:36px">
-    <div class="blk stack">
-      <p class="lead">Lifetime Value (LTV, CLV, CLTV) là lợi nhuận gộp mỗi khách hàng mang đến trong suốt vòng đời. Với công ty khởi nghiệp, LTV tính trong <b>5 năm đầu</b>.</p>
-      <div class="formula fragment up" style="margin-top:18px"><span>LTV =</span><span class="sum"><span>5</span><b>Σ</b><span>t=0</span></span><span class="frac"><span>Lợi nhuận gộp<sub>t</sub></span><span>(1 + i)<sup>t</sup></span></span></div>
-      <ul class="dots fragment up" style="font-size:16.5px;margin-top:16px">
-        <li>Tỷ lệ duy trì tích lũy = r<sup>t</sup>, với r là tỷ lệ duy trì mỗi năm</li>
-        <li>Hệ số giá trị hiện tại = 1/(1 + i)<sup>t</sup>, i là suất sinh lợi tối thiểu</li>
+<!-- ========================= 3. VẤN ĐỀ ========================= -->
+<section data-theme="rose" data-n="3" id="s-problem">
+  <div class="kicker">03 · Vấn đề</div>
+  <h2 class="split-words">Muốn đủ đạm, nhưng <span class="mark-r">whey chính hãng quá đắt</span></h2>
+  <div class="prob">
+    <div class="persona">
+      <img src="assets/img/ud/empty-wallet.svg" alt="" class="art bob" data-anim="slide-r">
+      <p class="p-name" data-anim="fade-up">Minh, 21 tuổi <span>· sinh viên năm 3, tập gym 5 buổi/tuần</span></p>
+      <ul class="pains" data-anim="stagger">
+        <li><i class="ic r">₫</i><span><b>Đắt:</b> whey chính hãng chiếm phần lớn tiền tiêu vặt tháng</span></li>
+        <li><i class="ic y">?</i><span><b>Sợ hàng giả:</b> hàng xách tay rẻ hơn nhưng không kiểm chứng được</span></li>
+        <li><i class="ic b">!</i><span><b>Thiếu đạm:</b> ức gà, trứng không đủ đạm sau buổi tập</span></li>
       </ul>
-      <div class="fragment up" style="margin-top:16px;display:flex;align-items:flex-end;justify-content:space-between"><button class="rich-btn ghost no-print" data-open="mLtv"><svg class="ic"><use href="#i-table"/></svg>Ví dụ trong bài giảng</button><img class="ill" src="assets/img/undraw/happy-customer.svg" alt="" style="height:150px;margin-right:30px"></div>
     </div>
-    <div class="blk">
-      <div class="h4">Giá trị hiện tại của 1 đồng lợi nhuận theo năm</div>
-      <svg class="chart" viewBox="0 0 640 330" data-chart="discount" style="margin-top:8px"></svg>
+    <div class="price-bars" data-anim="fade-up">
+      <div class="pb-title">Giá 1 kg whey <span>(nghìn ₫)</span></div>
+      <div class="pb-row"><span class="pb-l">ON Gold Standard</span><div class="pb-track"><i class="pb-fill r" style="--w:100%"></i></div><span class="pb-v"><b class="count" data-to="1009" data-to2="1278">1.009–1.278</b></span></div>
+      <div class="pb-row"><span class="pb-l">Hàng xách tay</span><div class="pb-track"><i class="pb-fill y" style="--w:70%"></i></div><span class="pb-v">rẻ hơn, <b class="sm">không rõ nguồn</b></span></div>
+      <div class="pb-row win"><span class="pb-l">MilkLoop</span><div class="pb-track"><i class="pb-fill m" style="--w:51%"></i></div><span class="pb-v"><b class="count" data-to="650">650</b></span></div>
+      <p class="src">ON 100% Whey Gold Standard 5 lbs (≈2,27 kg) giá 2.290.000–2.900.000 ₫ · wheytot.com, whey.vn, 11/2026</p>
     </div>
   </div>
-  <div class="overlay" data-overlay="mLtv"></div>
-  <div class="modal" id="mLtv" role="dialog" aria-modal="true" aria-labelledby="mLtvT">
-    <button class="x-btn" data-close aria-label="Đóng"><svg class="ic"><use href="#i-x"/></svg></button>
-    <div class="h3" id="mLtvT">Ví dụ bài giảng: doanh nghiệp sản xuất, LTV = $9,264.65</div>
-    <p class="small" style="margin:6px 0 12px">Giá sản phẩm $10,000; phí bảo trì 15%/năm sau 6 tháng bảo hành; biên lợi nhuận gộp 65% và 85%; duy trì 90%/năm; 75% mua sản phẩm tiếp theo; suất sinh lợi tối thiểu 50%.</p>
-    <table class="tbl tbl-compact">
-      <thead><tr><th></th><th>Năm 0</th><th>Năm 1</th><th>Năm 2</th><th>Năm 3</th><th>Năm 4</th><th>Năm 5</th></tr></thead>
-      <tbody>
-        <tr><td>Lợi nhuận sản phẩm</td><td>$6,500</td><td></td><td></td><td></td><td></td><td>$3,198</td></tr>
-        <tr><td>Lợi nhuận bảo trì</td><td>$637.50</td><td>$1,147.50</td><td>$1,032.75</td><td>$929.48</td><td>$836.53</td><td>$313.70</td></tr>
-        <tr class="tot"><td>Tổng lợi nhuận</td><td>$7,137.50</td><td>$1,147.50</td><td>$1,032.75</td><td>$929.48</td><td>$836.53</td><td>$3,512.19</td></tr>
-        <tr><td>Hệ số PV (i = 50%)</td><td>1.00</td><td>0.67</td><td>0.44</td><td>0.30</td><td>0.20</td><td>0.13</td></tr>
-        <tr class="hl"><td>Giá trị hiện tại</td><td>$7,137.50</td><td>$765.00</td><td>$459.00</td><td>$275.40</td><td>$165.24</td><td>$462.51</td></tr>
-      </tbody>
-    </table>
-  </div>
-  <aside class="notes">Biểu đồ bên phải là hệ số 1/(1+i)^t với i bằng 15%, đúng mức nhóm dùng ở phần 3. Một đồng lợi nhuận năm thứ 5 chỉ còn khoảng 50 xu hôm nay. Nút "Ví dụ trong bài giảng" mở bảng mẫu của thầy, LTV 9.264,65 đô.</aside>
+  <aside class="notes">Kể ngắn về Minh, rồi chỉ thanh giá: chính hãng 1 triệu trở lên mỗi kg.</aside>
 </section>
 
-<section class="s" data-part="Phần 3 · LTV" data-src="3">
-  <div class="s-head"><h2 class="s-title">Giả định tính LTV cho hai dòng sản phẩm</h2></div>
-  <div class="s-body grid col-5-7" style="gap:34px">
-    <div class="blk stack">
-      <div class="panel fragment up" style="border-color:#EED9A8">
-        <div class="h3" style="color:var(--cheese-ink)">Phô mai tươi · FMCG</div>
-        <p class="mono" style="font-size:16px;margin-top:8px">2 hộp × 120.000 = 240.000 ₫/tháng<br>→ 2.880.000 ₫/năm</p>
-        <div style="margin-top:8px"><span class="badge badge-cheese">Biên lợi nhuận gộp 50%</span></div>
-      </div>
-      <div class="panel fragment up">
-        <div class="h3 bk">Whey protein · thuê bao</div>
-        <p class="mono" style="font-size:16px;margin-top:8px">1 hũ × 850.000 = 850.000 ₫/tháng<br>→ 10.200.000 ₫/năm</p>
-        <div style="margin-top:8px"><span class="badge">Biên lợi nhuận gộp 70%</span></div>
-        <p class="small" style="margin-top:6px">Biên cao do tận dụng phụ phẩm nước whey từ quy trình đông tụ phô mai.</p>
-      </div>
-      <div class="fragment up" style="display:flex;gap:8px;flex-wrap:wrap"><span class="badge badge-outline">Duy trì r = 80%/năm</span><span class="badge badge-outline">Suất sinh lợi tối thiểu i = 15%</span><span class="badge badge-outline">Vòng đời 5 năm</span></div>
-    </div>
-    <div class="blk">
-      <div class="h4">Tỷ lệ duy trì tích lũy r<sup>t</sup> và hệ số hiện tại 1/(1,15)<sup>t</sup></div>
-      <svg class="chart" viewBox="0 0 640 380" data-chart="retention" style="margin-top:8px"></svg>
-    </div>
+<!-- ========================= 4. GIẢI PHÁP ========================= -->
+<section data-theme="mint" data-n="4" id="s-solution">
+  <div class="kicker">04 · Giải pháp <span class="sticker s-m live">DEMO hũ mẫu 200 g</span></div>
+  <h2 class="split-words">Whey nội địa <span class="mark-m">rẻ hơn 35–49%</span>, kiểm chứng từng lô</h2>
+  <div class="sol">
+    <ol class="feats" data-anim="stagger">
+      <li><i class="ic o">1</i><div><b>650.000 ₫/kg</b><span>gói định kỳ 590.000 ₫</span></div></li>
+      <li><i class="ic m">2</i><div><b>24 g đạm mỗi khẩu phần 30 g</b><span>bột WPC 80, hương sô-cô-la</span></div></li>
+      <li><i class="ic b">3</i><div><b>Phiếu COA của từng lô</b><span>quét mã QR trên hũ để xem</span></div></li>
+      <li><i class="ic y">4</i><div><b>Phô mai tươi trong ngày</b><span>320.000 ₫/kg, giao lạnh cho tiệm bánh</span></div></li>
+    </ol>
+    <div class="sol-jar"><div class="burst" aria-hidden="true"></div><div class="jar big wobble" data-anim="drop"><div class="jar-lid"></div><div class="jar-body"><div class="jar-label"><b>MilkLoop</b><span>WHEY 80</span><em>Sô-cô-la · 1 kg</em><i class="qr"></i></div></div></div></div>
+    <img src="assets/img/ud/qr-code-scan.svg" alt="" class="art sol-qr bob" data-anim="slide-l">
   </div>
-  <aside class="notes">Năm 0 giữ 100% khách, mỗi năm sau còn 80%, nên đến năm 5 còn 32,77%. Đường xanh nhạt là hệ số chiết khấu. Hai yếu tố cùng kéo giá trị các năm sau xuống, nên năm đầu đóng góp nhiều nhất vào LTV.</aside>
+  <aside class="notes">Đưa hũ mẫu cho hội đồng xem. Bốn điểm: giá, đạm, COA, phô mai.</aside>
 </section>
 
-<section class="s" data-part="Phần 3 · LTV" data-src="3">
-  <div class="s-head"><h2 class="s-title">Bảng ước tính LTV của một khách hàng</h2></div>
-  <div class="s-body">
-    <div class="grid" style="grid-template-columns:840px 1fr;gap:22px">
-      <table class="tbl tbl-one blk">
-        <thead><tr><th>VNĐ</th><th>Năm 0</th><th>Năm 1</th><th>Năm 2</th><th>Năm 3</th><th>Năm 4</th><th>Năm 5</th></tr></thead>
-        <tbody><tr class="grp"><td colspan="7">Phô mai tươi · 2 hộp × 120.000 ₫/tháng</td></tr><tr class="sub"><td>Giá trị tiêu dùng 1 KH/năm</td><td>2.880.000</td><td>2.880.000</td><td>2.880.000</td><td>2.880.000</td><td>2.880.000</td><td>2.880.000</td></tr><tr class="sub"><td>Tỷ lệ duy trì tích lũy (r<sup>t</sup>, r = 80%)</td><td>100%</td><td>80%</td><td>64%</td><td>51,2%</td><td>40,96%</td><td>32,77%</td></tr><tr class="sub"><td>Doanh thu điều chỉnh</td><td>2.880.000</td><td>2.304.000</td><td>1.843.200</td><td>1.474.560</td><td>1.179.648</td><td>943.718</td></tr><tr class="sub"><td>Tỷ lệ lợi nhuận gộp</td><td>50%</td><td>50%</td><td>50%</td><td>50%</td><td>50%</td><td>50%</td></tr><tr class=""><td>Lợi nhuận gộp phô mai</td><td>1.440.000</td><td>1.152.000</td><td>921.600</td><td>737.280</td><td>589.824</td><td>471.859</td></tr><tr class="grp"><td colspan="7">Whey Protein · 1 hũ × 850.000 ₫/tháng</td></tr><tr class="sub"><td>Giá trị tiêu dùng 1 KH/năm</td><td>10.200.000</td><td>10.200.000</td><td>10.200.000</td><td>10.200.000</td><td>10.200.000</td><td>10.200.000</td></tr><tr class="sub"><td>Tỷ lệ duy trì tích lũy (r<sup>t</sup>, r = 80%)</td><td>100%</td><td>80%</td><td>64%</td><td>51,2%</td><td>40,96%</td><td>32,77%</td></tr><tr class="sub"><td>Doanh thu điều chỉnh</td><td>10.200.000</td><td>8.160.000</td><td>6.528.000</td><td>5.222.400</td><td>4.177.920</td><td>3.342.336</td></tr><tr class="sub"><td>Tỷ lệ lợi nhuận gộp</td><td>70%</td><td>70%</td><td>70%</td><td>70%</td><td>70%</td><td>70%</td></tr><tr class=""><td>Lợi nhuận gộp whey</td><td>7.140.000</td><td>5.712.000</td><td>4.569.600</td><td>3.655.680</td><td>2.924.544</td><td>2.339.635</td></tr><tr class="grp"><td colspan="7">Tổng và chiết khấu</td></tr><tr class="tot"><td>Tổng lợi nhuận gộp</td><td>8.580.000</td><td>6.864.000</td><td>5.491.200</td><td>4.392.960</td><td>3.514.368</td><td>2.811.494</td></tr><tr class="sub"><td>Suất sinh lợi tối thiểu (i)</td><td>15%</td><td>15%</td><td>15%</td><td>15%</td><td>15%</td><td>15%</td></tr><tr class="sub"><td>Hệ số PV = 1/(1+i)<sup>t</sup></td><td>1,0000</td><td>0,8696</td><td>0,7561</td><td>0,6575</td><td>0,5718</td><td>0,4972</td></tr><tr class="hl"><td>Giá trị hiện tại (PV)</td><td>8.580.000</td><td>5.968.934</td><td>4.151.896</td><td>2.888.371</td><td>2.009.516</td><td>1.397.875</td></tr><tr class="ltv-tot"><td>LTV = tổng PV 6 năm</td><td colspan="6"><span data-scramble="24.996.592 VNĐ">24.996.592 VNĐ</span> <small>(≈ 25 triệu)</small></td></tr></tbody>
-      </table>
-      <div class="blk">
-        <div class="dtabs" role="tablist" aria-label="Dòng sản phẩm" data-tabs="ltv">
-          <button class="dtab" role="tab" aria-selected="false" data-v="cheese" aria-label="Phô mai"><svg class="ic"><use href="#i-cheese"/></svg><span class="lbl">Phô mai</span></button>
-          <button class="dtab" role="tab" aria-selected="false" data-v="whey" aria-label="Whey"><svg class="ic"><use href="#i-jar"/></svg><span class="lbl">Whey</span></button>
-          <button class="dtab" role="tab" aria-selected="true" data-v="both" aria-label="Cả hai"><svg class="ic"><use href="#i-layers"/></svg><span class="lbl">Cả hai</span></button>
-        </div>
-        <svg class="chart" id="ltvBars" viewBox="0 0 470 340" data-chart="ltvbars" style="margin-top:10px"></svg>
-        <p class="small fragment up" style="margin-top:10px">Whey đóng góp khoảng <b>83% LTV</b> (≈ 20,8 trong 25 triệu).</p>
+<!-- ========================= 5. THỊ TRƯỜNG ========================= -->
+<section data-theme="blue" data-n="5" id="s-market">
+  <div class="kicker">05 · Cơ hội thị trường</div>
+  <h2 class="split-words">Thị trường tiền tiêu: <span class="mark-b">gymer sinh viên TP.HCM</span></h2>
+  <div class="mkt">
+    <div class="circles">
+      <div class="cir tam" data-anim="pop"><span class="c-l">TAM</span><b><span class="count" data-to="811.3" data-d="1">811,3</span> tỷ</b></div>
+      <div class="cir sam" data-anim="pop"><span class="c-l">SAM</span><b><span class="count" data-to="243.4" data-d="1">243,4</span> tỷ</b></div>
+      <div class="cir som" data-anim="pop"><span class="c-l">SOM năm 5</span><b><span class="count" data-to="5.47" data-d="2">5,47</span> tỷ</b></div>
+    </div>
+    <div class="mkt-right">
+      <div class="mkt-stat" data-anim="fade-up"><img src="assets/img/ud/target-audience.svg" alt="" class="art"><div><b class="big"><span class="count" data-to="137448">137.448</span></b><span class="sub">người dùng cuối ở TP.HCM (trung bình cách tính từ trên xuống và từ dưới lên; dân số TCTK 2019)</span></div></div>
+      <div class="spark-box" data-anim="fade-up">
+        <div class="sc-t">SOM = doanh thu whey của dự án (tỷ ₫)</div>
+        <svg viewBox="0 0 470 150" class="spark" aria-label="SOM tăng từ 0,44 lên 5,47 tỷ đồng trong 5 năm">
+          <path class="draw line" d="M20 136 L110 118 L200 99 L290 79 L380 61"/>
+          <g class="pts"><circle cx="20" cy="136" r="6"/><circle cx="110" cy="118" r="6"/><circle cx="200" cy="99" r="6"/><circle cx="290" cy="79" r="6"/><circle cx="380" cy="61" r="9" class="last"/></g>
+          <text x="20" y="124" class="lb">0,44</text><text x="398" y="58" class="lb hi">5,47</text>
+          <text x="20" y="150" class="ax">N1</text><text x="110" y="150" class="ax">N2</text><text x="200" y="150" class="ax">N3</text><text x="290" y="150" class="ax">N4</text><text x="380" y="150" class="ax">N5</text>
+        </svg>
+        <div class="sc-f">chỉ <b>1,65% SAM</b> ở năm 5: không cần giành thị phần lớn</div>
       </div>
     </div>
   </div>
-  <aside class="notes">Toàn bộ phép tính LTV gộp vào một bảng như mẫu của thầy. Mỗi sản phẩm: giá trị tiêu dùng một năm nhân tỷ lệ duy trì tích lũy ra doanh thu điều chỉnh, nhân tỷ lệ lợi nhuận gộp ra lợi nhuận gộp. Cộng hai sản phẩm, nhân hệ số giá trị hiện tại với i bằng 15%, rồi cộng 6 năm ra LTV 24.996.592 đồng. Cột biểu đồ bên phải là giá trị hiện tại từng năm; whey chiếm khoảng 83%.</aside>
+  <aside class="notes">TAM 811 tỷ, SAM 243 tỷ ở các quận quanh cụm đại học. SOM là doanh thu whey thật của dự án.</aside>
 </section>
 
-<!-- ============ PHẦN 4 ============ -->
-<section class="s s-div" id="p4" data-part="Phần 4 · COCA" data-src="1" data-divider="4">
-  <div class="d-ph"><img src="assets/img/photo/team.jpg" alt=""></div>
-  <div class="d-n">PHẦN 4</div>
-  <h2 class="d-t wave" data-wave>Ước tính chi phí để có được một khách hàng</h2>
-  <p class="d-q"><span class="dia" data-dia>COCA thay đổi thế nào qua ba giai đoạn, và tỷ số LTV : COCA có vượt chuẩn 3 : 1 không?</span></p>
-  <ol class="d-list"></ol>
-</section>
-
-<section class="s" data-part="Phần 4 · COCA" data-src="1,6">
-  <div class="s-head"><h2 class="s-title">COCA và chuẩn LTV : COCA ≥ 3 : 1</h2></div>
-  <div class="s-body grid col-5-7" style="gap:34px">
-    <div class="blk stack">
-      <p style="font-size:18px;color:var(--ink-2)">Cost of Customer Acquisition (COCA, CAC) là chi phí cần bỏ ra cho nghiên cứu, tiếp thị, quảng cáo để thuyết phục một khách hàng dùng sản phẩm.</p>
-      <div class="formula fragment up" style="margin-top:12px"><span>COCA(t) =</span><span class="frac"><span>TMSE(t) − IBSE(t)</span><span>NC(t)</span></span></div>
-      <ul class="fragment up" style="font-size:15.5px;margin-top:12px;color:var(--ink-2)">
-        <li><b class="mono">TMSE</b> tổng chi phí tiếp thị và bán hàng</li>
-        <li><b class="mono">IBSE</b> chi phí hỗ trợ khách hàng đã có</li>
-        <li><b class="mono">NC</b> số khách hàng mới trong kỳ</li>
-      </ul>
-      <div class="panel-tint fragment up" style="margin-top:14px;font-size:16px">COCA <b>càng nhỏ càng tốt</b>, luôn biến đổi và không phải chỉ số duy nhất đo hiệu quả tiếp thị. David Skok khuyến cáo <b class="mono">LTV : COCA ≥ 3 : 1</b>.</div>
-      <img class="ill" src="assets/img/undraw/marketing-analysis.svg" alt="" style="height:120px;margin-top:18px">
-    </div>
-    <div class="blk">
-      <svg class="chart" viewBox="0 0 640 410" data-chart="cocaconcept"></svg>
-    </div>
+<!-- ========================= 6. THU HÚT KHÁCH ========================= -->
+<section data-theme="orange" data-n="6" id="s-customers">
+  <div class="kicker">06 · Thu hút &amp; giữ khách hàng</div>
+  <h2 class="split-words">Đi qua PT và cộng đồng, <span class="mark-o">giữ chân bằng gói định kỳ</span></h2>
+  <div class="journey">
+    <svg viewBox="0 0 1136 60" class="j-line" aria-hidden="true"><path class="dash" d="M120 30 H 1016"/><path class="arrowhead" d="M1004 18 L1022 30 L1004 42"/></svg>
+    <figure class="j-step" data-anim="pop"><img src="assets/img/ud/personal-trainer.svg" alt="" class="art"><figcaption><span class="j-n">1</span><b>PT, KOL, gymer lâu năm</b><span>dùng thử trước, làm đại lý 25–30%</span></figcaption></figure>
+    <figure class="j-step" data-anim="pop"><img src="assets/img/od/selfie.svg" alt="" class="art"><figcaption><span class="j-n">2</span><b>Sinh viên như Minh</b><span>tin nhờ phiếu COA và review của PT</span></figcaption></figure>
+    <figure class="j-step" data-anim="pop"><img src="assets/img/ud/online-shopping.svg" alt="" class="art"><figcaption><span class="j-n">3</span><b>Người mới tập, hộ gia đình</b><span>gói thử 30 g, combo, mua trên sàn</span></figcaption></figure>
   </div>
-  <aside class="notes">Đồ thị dựa theo hình minh họa của bài giảng: lúc đầu COCA cao hơn LTV, doanh nghiệp đốt tiền ở vùng đỏ. Doanh nghiệp bền vững thì COCA giảm xuống dưới LTV rồi chững lại. LTV có thể tăng nhờ bán thêm cho khách hiện tại. Ví dụ Associated Gas trong bài giảng có COCA giảm từ 394 nghìn đô năm 1 còn 147,5 nghìn đô năm 3.</aside>
+  <div class="kpi-row">
+    <div class="chips"><span>PT giới thiệu</span><span>TikTok</span><span>Quầy ở gym</span><span>Shopee</span><span>Fanpage</span></div>
+    <div class="kpi" data-anim="fade-up"><span class="k-t">Giữ chân</span><b>590.000 ₫</b><span class="k-s">gói định kỳ · thưởng giới thiệu 100.000 ₫</span></div>
+    <div class="kpi hot" data-anim="fade-up"><span class="k-t">LTV : COCA (thời điểm 3)</span><b><span class="count" data-to="5.7" data-d="1">5,7</span> : 1</b><span class="k-s">LTV 10,36 tr · COCA 2,45 → 1,82 tr · chuẩn ≥ 3 : 1</span></div>
+  </div>
+  <aside class="notes">Ba nhóm khách theo thứ tự. Nhấn LTV:COCA 5,7:1, trên chuẩn 3:1.</aside>
 </section>
 
-<section class="s" data-part="Phần 4 · COCA" data-src="3">
-  <div class="s-head"><h2 class="s-title">Bảng ước tính COCA qua ba giai đoạn</h2></div>
-  <div class="s-body grid col-7-5" style="gap:30px">
-    <div class="blk">
-      <table class="tbl">
-        <thead><tr><th>VNĐ</th><th>Thâm nhập<br>Năm 1</th><th>Tăng trưởng<br>Năm 2–3</th><th>Ổn định<br>Năm 4–5</th></tr></thead>
-        <tbody>
-          <tr><td>Tổng chi phí MKT &amp; bán hàng (TMSE)</td><td>600.000.000</td><td>850.000.000</td><td>1.100.000.000</td></tr>
-          <tr><td>Chi phí chăm sóc KH cũ (IBSE)</td><td>60.000.000</td><td>180.000.000</td><td>400.000.000</td></tr>
-          <tr class="tot"><td>Chi phí thu hút KH mới</td><td>540.000.000</td><td>670.000.000</td><td>700.000.000</td></tr>
-          <tr><td>Số khách hàng mới (NC)</td><td>150</td><td>350</td><td>500</td></tr>
-          <tr class="hl"><td>COCA / 1 khách mới</td><td>3.600.000</td><td>1.914.286</td><td>1.400.000</td></tr>
-          <tr><td>LTV (phần 3)</td><td>≈ 25.000.000</td><td>≈ 25.000.000</td><td>≈ 25.000.000</td></tr>
-          <tr class="tot"><td>Tỷ số LTV : COCA (chuẩn ≥ 3 : 1)</td><td>6,94 : 1</td><td>13,06 : 1</td><td>17,86 : 1</td></tr>
-        </tbody>
-      </table>
-      <div class="stages fragment up">
-        <div><b>Thâm nhập:</b> quảng cáo, phát mẫu thử tại phòng gym, hội thảo cao; khách mới còn khiêm tốn.</div>
-        <div><b>Tăng trưởng:</b> thương hiệu có độ phủ, có hiệu ứng truyền miệng; COCA giảm rõ.</div>
-        <div><b>Ổn định:</b> kênh bán và cộng đồng healthy chững lại; COCA tiệm cận tối ưu.</div>
+<!-- ========================= 7. CẠNH TRANH ========================= -->
+<section data-theme="blue" data-n="7" id="s-compete">
+  <div class="kicker">07 · Cạnh tranh &amp; khác biệt</div>
+  <h2 class="split-words">Chiếm khoảng trống <span class="mark-b">giá thấp + minh bạch cao</span></h2>
+  <div class="cmp">
+    <div class="pos-map" data-anim="fade-up">
+      <div class="gap-zone"><span>Khoảng trống</span></div>
+      <div class="axis-x">Giá / kg →</div><div class="axis-y">Minh bạch, kiểm định →</div>
+      <i class="dot cur lft" style="--x:88%;--y:14%"><em>Optimum Nutrition</em></i>
+      <i class="dot cur" style="--x:62%;--y:26%"><em>MyProtein</em></i>
+      <i class="dot cur" style="--x:80%;--y:40%"><em>Rule 1</em></i>
+      <i class="dot cur" style="--x:46%;--y:74%"><em>Hàng xách tay</em></i>
+      <i class="dot fut" style="--x:28%;--y:58%"><em>Whey nội địa khác</em></i>
+      <i class="dot fut" style="--x:52%;--y:9%"><em>Hãng sữa lớn</em></i>
+      <i class="dot us" style="--x:22%;--y:16%"><em>MilkLoop</em></i>
+    </div>
+    <div class="cmp-right">
+      <div class="forces" data-anim="fade-up">
+        <div class="k-t">5 áp lực cạnh tranh</div>
+        <div class="fr"><span>Đối thủ hiện tại</span><i class="meter" style="--v:90%"></i><b>Cao</b></div>
+        <div class="fr"><span>Khách hàng</span><i class="meter" style="--v:85%"></i><b>Cao</b></div>
+        <div class="fr"><span>Đối thủ tiềm năng</span><i class="meter m" style="--v:55%"></i><b>TB</b></div>
+        <div class="fr"><span>Sản phẩm thay thế</span><i class="meter m" style="--v:50%"></i><b>TB</b></div>
+        <div class="fr"><span>Nhà cung cấp</span><i class="meter m" style="--v:50%"></i><b>TB</b></div>
       </div>
-    </div>
-    <div class="blk">
-      <svg class="chart" viewBox="0 0 470 420" data-chart="cocabars"></svg>
-    </div>
-  </div>
-  <aside class="notes">Mỗi cột là tổng chi phí tiếp thị và bán hàng. Phần nhạt là chi phí chăm sóc khách cũ, bị trừ ra. Phần đậm chia cho số khách mới ra COCA. Chi phí tăng gần gấp đôi nhưng khách mới tăng hơn ba lần, nên COCA giảm từ 3,6 triệu xuống 1,4 triệu.</aside>
-</section>
-
-<section class="s" data-part="Phần 4 · COCA" data-src="3">
-  <div class="s-head"><h2 class="s-title">Tỷ số LTV : COCA tại thời điểm 3 đạt 17,86 : 1</h2></div>
-  <div class="s-body grid col-7-5" style="gap:34px">
-    <div class="blk"><svg class="chart" viewBox="0 0 700 470" data-chart="ltvcoca"></svg></div>
-    <div class="blk stack">
-      <div class="kpi fragment up"><span class="k-l">LTV từ phần 3</span><span class="k-v">≈ 25.000.000 <small>VNĐ</small></span></div>
-      <div class="kpi fragment up"><span class="k-l">COCA tại thời điểm 3</span><span class="k-v">1.400.000 <small>VNĐ</small></span></div>
-      <div class="formula fragment up" style="font-size:19px"><span>LTV : COCA<sub>3</sub> =</span><span class="frac"><span>25.000.000</span><span>1.400.000</span></span><span>≈ <b>17,86 : 1</b></span></div>
-      <div class="verdict fragment up"><span>Ngay cả ở thời điểm 1, khi COCA cao nhất (3,6 triệu), tỷ số là <b>6,94 : 1</b>, vẫn vượt xa chuẩn tối thiểu 3 : 1.</span></div>
-    </div>
-  </div>
-  <aside class="notes">Đây là đồ thị phần 4 yêu cầu: LTV và COCA trên trục thời gian, ba thời điểm. Đường đứt là mức COCA tối đa theo chuẩn 3:1, tức LTV chia 3, khoảng 8,33 triệu. COCA của dự án luôn nằm dưới đường này. Tỷ số ở thời điểm 2 nhóm tính thêm từ cùng số liệu là 13,06:1.</aside>
-</section>
-
-<!-- ============ PHẦN 5 ============ -->
-<section class="s s-div" id="p5" data-part="Phần 5 · Khả thi tài chính" data-src="1,2" data-divider="5">
-  <div class="d-ph"><img src="assets/img/photo/calculator.jpg" alt=""></div>
-  <div class="d-n">PHẦN 5</div>
-  <h2 class="d-t wave" data-wave>Phân tích khả thi tài chính qua NPV, IRR, PP</h2>
-  <p class="d-q"><span class="dia" data-dia>Với vốn 1,2 tỷ đồng, xưởng phô mai và whey có sinh lời đủ mức kỳ vọng 12%/năm không?</span></p>
-  <ol class="d-list"></ol>
-</section>
-
-<section class="s" data-part="Phần 5 · Khả thi tài chính" data-src="1,2">
-  <div class="s-head"><h2 class="s-title">NPV và IRR: hai mặt của cùng một dòng tiền</h2></div>
-  <div class="s-body grid col-5-7" style="gap:34px">
-    <div class="blk stack">
-      <div class="h4">Giá trị hiện tại ròng · NPV</div>
-      <div class="formula" style="font-size:19px"><span>NPV =</span><span class="sum"><span>N</span><b>Σ</b><span>t=0</span></span><span class="frac"><span>CF<sub>t</sub></span><span>(1 + r)<sup>t</sup></span></span></div>
-      <p class="small">Tổng giá trị hiện tại của toàn bộ dòng tiền từ t = 0 đến N, chiết khấu theo suất sinh lợi yêu cầu r. Excel có hàm NPV.</p>
-      <div class="h4 fragment up" style="margin-top:18px">Suất sinh lợi nội tại · IRR</div>
-      <div class="formula fragment up" style="font-size:19px"><span>0 =</span><span class="sum"><span>N</span><b>Σ</b><span>t=0</span></span><span class="frac"><span>CF<sub>t</sub></span><span>(1 + IRR)<sup>t</sup></span></span></div>
-      <p class="small fragment up">Khả năng sinh lời theo %/năm. IRR = 12% nghĩa là khoản đầu tư tạo tỷ suất 12% mỗi năm. Excel có hàm IRR.</p>
-      <img class="ill" src="assets/img/undraw/investment-data.svg" alt="" style="height:120px;margin-top:20px">
-    </div>
-    <div class="blk">
-      <div class="h4">Đường NPV theo suất chiết khấu, ví dụ phần mềm của bài giảng</div>
-      <svg class="chart" viewBox="0 0 640 380" data-chart="npvprofile" style="margin-top:8px"></svg>
-    </div>
-  </div>
-  <aside class="notes">Đồ thị dùng dòng tiền ví dụ khởi nghiệp phần mềm của thầy: âm 500, âm 160, 24, 266,4, 437 và 7.691,9 triệu. Tại r bằng 12%, NPV là 4.208,2 triệu. Đường cắt trục 0 tại 73,77%, chính là IRR. NPV dương khi r nhỏ hơn IRR, nên hai tiêu chí luôn đi cùng nhau.</aside>
-</section>
-
-<section class="s" data-part="Phần 5 · Khả thi tài chính" data-src="1">
-  <div class="s-head"><h2 class="s-title">Thời gian hoàn vốn PP</h2></div>
-  <div class="s-body grid col-5-7" style="gap:34px">
-    <div class="blk stack">
-      <p class="lead">Thời gian cần thiết để thu hồi đủ vốn đầu tư ban đầu. Excel <b>không có</b> sẵn hàm PP.</p>
-      <div class="formula fragment up" style="font-size:18px;margin-top:14px;display:block">
-        <div>PP = Năm t</div>
-        <div style="margin-top:6px">&nbsp;&nbsp;&nbsp;+ <span class="frac"><span>chi phí còn phải thu hồi</span><span>dòng tiền năm t+1</span></span></div>
-      </div>
-      <ul class="dots fragment up" style="font-size:16.5px;margin-top:14px">
-        <li><b>Năm t:</b> năm ngay trước khi vốn được thu hồi đủ</li>
-        <li><b>Phân số:</b> phần lẻ của PP</li>
-      </ul>
-      <div class="panel-tint fragment up mono" style="font-size:16px;margin-top:14px">Ví dụ: PP = 3 + 369,6 / 437,0 = 3,85 năm</div>
-      <img class="ill" src="assets/img/undraw/five-year-plan.svg" alt="" style="height:150px;margin-top:20px">
-    </div>
-    <div class="blk">
-      <div class="h4">Dòng tiền tích lũy của ví dụ phần mềm (triệu đồng)</div>
-      <svg class="chart" viewBox="0 0 640 380" data-chart="pplecture" style="margin-top:8px"></svg>
-    </div>
-  </div>
-  <aside class="notes">Cột là dòng tiền tích lũy chưa gồm giá trị sau cuối. Năm 3 còn âm 369,6 triệu, năm 4 thu 437 triệu, nên vốn về đủ sau 3 năm cộng 369,6 chia 437, bằng 3,85 năm.</aside>
-</section>
-
-<section class="s" data-part="Phần 5 · Khả thi tài chính" data-src="1">
-  <div class="s-head"><h2 class="s-title">Quy trình 5 bước phân tích khả thi tài chính</h2></div>
-  <div class="s-body">
-    <div class="stepper blk" data-id="steps" data-stepper="0" style="margin-top:6px"></div>
-    <div class="steps5 blk">
-      <div class="fragment up" data-step-go="1"><b>1</b><h3>Nhận diện chi phí và lợi ích</h3><p>Liệt kê mọi chi phí một lần, chi phí định kỳ và doanh thu dự kiến. Chú ý chi phí chìm và chi phí cơ hội.</p></div>
-      <div class="fragment up" data-step-go="2"><b>2</b><h3>Gán giá trị</h3><p>Lượng hóa từng hạng mục cho năm thứ nhất.</p></div>
-      <div class="fragment up" data-step-go="3"><b>3</b><h3>Xác định dòng tiền</h3><p>Lặp lại bước 2 cho các năm sau theo giả định tăng trưởng, thêm đầu tư năm 0 và giá trị sau cuối.</p></div>
-      <div class="fragment up" data-step-go="4"><b>4</b><h3>Tính chỉ tiêu</h3><p>NPV, IRR, PP trên dòng tiền phân tích.</p></div>
-      <div class="fragment up" data-step-go="5"><b>5</b><h3>Phân tích kết quả</h3><p>Đối chiếu với tiêu chí để đánh giá tính khả thi.</p></div>
-    </div>
-    <div class="grid blk fragment up" style="margin-top:20px;gap:22px;grid-template-columns:1fr 1fr 200px;align-items:center">
-      <div class="note"><span><b>Chi phí chìm:</b> khoản đã chi, không thu hồi được. Không đưa vào dòng tiền dự án.</span></div>
-      <div class="note"><span><b>Chi phí cơ hội:</b> lợi ích bỏ lỡ khi chọn phương án này thay vì phương án khác.</span></div>
-      <img class="ill" src="assets/img/undraw/complete-the-steps.svg" alt="" style="height:120px;justify-self:end">
-    </div>
-  </div>
-  <aside class="notes">Thanh tiến trình này sẽ đi theo suốt phần phần 5, mỗi slide sáng lên một bước.</aside>
-</section>
-
-<section class="s" data-part="Phần 5 · Khả thi tài chính" data-src="3,5">
-  <div class="s-head"><h2 class="s-title">Bước 1 · Nhận diện chi phí và lợi ích của xưởng</h2></div>
-  <div class="stepper stepper-mini" data-id="steps" data-stepper="1"></div>
-  <div class="s-body" style="top:170px">
-    <div class="grid col-7-5" style="gap:28px">
-      <table class="tbl blk tbl-compact tbl-text">
-        <thead><tr><th style="width:44px" class="c">STT</th><th>Hạng mục chi phí &amp; lợi ích</th><th>Loại</th></tr></thead>
-        <tbody>
-          <tr><td class="c">1</td><td><b>Đầu tư ban đầu:</b> máy đông tụ phô mai, máy vắt ly tâm, hệ thống cô đặc và sấy lạnh đạm whey, kho lạnh; giấy phép VSATTP, bảo hộ thương hiệu, thiết kế bao bì</td><td><span class="badge badge-neg">Một lần · năm 0</span></td></tr>
-          <tr><td class="c">2</td><td>Tiền thuê xưởng sản xuất &amp; cửa hàng giới thiệu sản phẩm</td><td><span class="badge badge-outline">Định kỳ</span></td></tr>
-          <tr><td class="c">3</td><td>Nguyên liệu: sữa tươi nguyên chất, men đông tụ, phụ gia tự nhiên, bao bì, hũ</td><td><span class="badge badge-outline">Định kỳ</span></td></tr>
-          <tr><td class="c">4</td><td>Lương nhân viên sản xuất, đóng gói, bán hàng</td><td><span class="badge badge-outline">Định kỳ</span></td></tr>
-          <tr><td class="c">5</td><td>Lương bộ phận quản lý &amp; R&amp;D</td><td><span class="badge badge-outline">Định kỳ</span></td></tr>
-          <tr><td class="c">6</td><td>Tiện ích &amp; tiếp thị: điện lạnh, nước, internet, vận chuyển lạnh, VPP, quảng cáo</td><td><span class="badge badge-outline">Định kỳ</span></td></tr>
-          <tr><td class="c">7</td><td><b>Doanh thu dự báo:</b> phô mai tươi (lẻ B2C, sỉ B2B); whey (hũ 1 kg, sachet, thuê bao)</td><td><span class="badge badge-pos">Lợi ích</span></td></tr>
-        </tbody>
-      </table>
-      <div class="stack">
-        <div class="note fragment up"><span><b>Chi phí chìm của nhóm:</b> chi phí làm hũ mẫu 200g và lô MVP 100 hũ đã bỏ ra trước khi lập dự án, nên không tính vào dòng tiền.</span></div>
-        <div class="note fragment up"><span><b>Chi phí cơ hội:</b> 1,2 tỷ vốn nếu đầu tư nơi khác cũng sinh lời; phần này được phản ánh qua suất chiết khấu yêu cầu r = 12%.</span></div>
-        <svg class="chart fragment up" viewBox="0 0 440 150" data-chart="costkinds"></svg>
+      <div class="cpm" data-anim="fade-up">
+        <img src="assets/img/ud/winner.svg" alt="" class="art bob">
+        <div><div class="k-t">Điểm CPM (thang 4)</div>
+        <div class="cpm-row"><b class="count" data-to="3.05" data-d="2">3,05</b><span class="arrow">→</span><b class="count hi" data-to="3.5" data-d="2">3,50</b></div>
+        <div class="k-s">hiện tại → khi có COA · nhập khẩu 3,15 · hãng sữa lớn 3,45</div></div>
       </div>
     </div>
   </div>
-  <aside class="notes">Bảng theo đúng mẫu slide 28 của bài giảng. Hai ghi chú bên phải là phần nhóm bổ sung để áp dụng hai khái niệm chi phí chìm và chi phí cơ hội vào dự án; lô MVP 100 hũ lấy từ báo cáo khả thi sản phẩm.</aside>
+  <aside class="notes">Góc trên bên trái đang trống. Điểm mới: gom nước whey phụ phẩm, công khai COA.</aside>
 </section>
 
-<section class="s" data-part="Phần 5 · Khả thi tài chính" data-src="3">
-  <div class="s-head"><h2 class="s-title">Bước 2 · Gán giá trị cho năm thứ nhất</h2></div>
-  <div class="stepper stepper-mini" data-id="steps" data-stepper="2"></div>
-  <div class="s-body" style="top:170px">
-    <div class="grid col-2" style="gap:30px">
-      <div class="blk">
-        <table class="tbl tbl-compact">
-          <thead><tr><th>Hạng mục · triệu đồng</th><th>Năm 1</th></tr></thead>
-          <tbody>
-            <tr class="tot"><td>Tổng chi phí vận hành</td><td>2.700</td></tr>
-            <tr class="sub"><td>Thuê xưởng &amp; cửa hàng: 30 tr/tháng × 12</td><td>360</td></tr>
-            <tr class="sub"><td>Nguyên liệu sữa &amp; bao bì</td><td>1.100</td></tr>
-            <tr class="sub"><td>Lương nhân viên: 4 NV × 15 tr × 12</td><td>720</td></tr>
-            <tr class="sub"><td>Lương quản lý &amp; R&amp;D: 35 tr × 12</td><td>420</td></tr>
-            <tr class="sub"><td>Tiện ích, điện lạnh, tiếp thị &amp; VPP</td><td>100</td></tr>
-            <tr class="hl"><td>Doanh thu dự báo</td><td>3.000</td></tr>
-          </tbody>
-        </table>
-        <div class="grid col-2 fragment up" style="margin-top:16px;gap:16px">
-          <div class="kpi"><span class="k-l">Vốn đầu tư năm 0</span><span class="k-v neg">−1.200 <small>triệu</small></span></div>
-          <div class="kpi"><span class="k-l">Dòng tiền hoạt động năm 1</span><span class="k-v pos">+300 <small>triệu</small></span></div>
-        </div>
+<!-- ========================= 8. MÔ HÌNH KINH DOANH ========================= -->
+<section data-theme="yellow" data-n="8" id="s-bmc">
+  <div class="kicker">08 · Mô hình kinh doanh</div>
+  <h2 class="split-words">Tự sản xuất, tự bán: <span class="mark-y">ba dòng doanh thu</span></h2>
+  <div class="bmc">
+    <div class="b kp" data-anim="flip"><b>Đối tác chính</b>Trang trại sữa · cơ sở bán nước whey · phòng gym, PT · giao lạnh</div>
+    <div class="b ka" data-anim="flip"><b>Hoạt động chính</b>Làm phô mai · sấy whey · kiểm nghiệm lô · bán online</div>
+    <div class="b kr" data-anim="flip"><b>Nguồn lực chính</b>Xưởng, máy sấy, kho lạnh · quy trình tận dụng whey</div>
+    <div class="b vp" data-anim="flip"><b>Giá trị</b>Whey 650.000 ₫/kg có COA · phô mai tươi trong ngày<img src="assets/img/ud/refreshing-beverage.svg" alt="" class="art-in bob"></div>
+    <div class="b cr" data-anim="flip"><b>Quan hệ</b>Cộng đồng gym · gói định kỳ · thưởng giới thiệu</div>
+    <div class="b ch" data-anim="flip"><b>Kênh</b>TikTok, PT · Shopee, Fanpage · quầy ở gym</div>
+    <div class="b cs" data-anim="flip"><b>Khách hàng</b>Sinh viên tập gym · tiệm bánh, quán pizza<img src="assets/img/od/running.svg" alt="" class="art-in bob2"></div>
+    <div class="b co" data-anim="flip"><b>Chi phí</b>Sữa, nước whey, bao bì · lương · MKT · phí sàn, giao hàng</div>
+    <div class="b rs" data-anim="flip"><b>Dòng doanh thu</b>
+      <span class="rev"><i class="o"></i>Whey: lẻ, gói định kỳ, đại lý</span>
+      <span class="rev"><i class="m"></i>Phô mai hộp cho khách whey</span>
+      <span class="rev"><i class="bl"></i>Phô mai sỉ B2B: dòng tiền nền</span>
+    </div>
+  </div>
+  <aside class="notes">Nhấn ô doanh thu: ba dòng, phô mai B2B chạy song song từ năm 1.</aside>
+</section>
+
+<!-- ========================= 9. CỘT MỐC ========================= -->
+<section data-theme="mint" data-n="9" id="s-milestones">
+  <div class="kicker">09 · Cột mốc</div>
+  <h2 class="split-words">Từ bản kế hoạch đến <span class="mark-m">hoàn vốn năm 5</span></h2>
+  <div class="timeline">
+    <img src="assets/img/ud/ready-set-go.svg" alt="" class="art tl-start" data-anim="slide-r">
+    <img src="assets/img/od/dancing.svg" alt="" class="art tl-end bob" data-anim="pop">
+    <svg viewBox="0 0 1180 40" class="tl-svg" aria-hidden="true"><path class="draw" d="M20 20 H 1160"/></svg>
+    <div class="ms now" style="--x:2%"><i class="flag"></i><b>HK261</b><span>Phân tích khả thi xong</span><em>đang ở đây</em></div>
+    <div class="ms" style="--x:16%"><i></i><b>Trước gọi vốn</b><span>Khảo sát ≥ 300 người, 20 phòng gym</span></div>
+    <div class="ms" style="--x:30%"><i></i><b>Năm 0</b><span>Gọi vốn · xưởng · MVP 100 hũ</span></div>
+    <div class="ms" style="--x:44%"><i></i><b>Năm 1</b><span>150 khách whey · 6 tiệm bánh</span></div>
+    <div class="ms" style="--x:58%"><i></i><b>Năm 3</b><span>Mở rộng máy sấy (400 tr)</span></div>
+    <div class="ms" style="--x:72%"><i></i><b>Năm 4</b><span>Dòng tiền dương</span></div>
+    <div class="ms goal" style="--x:86%"><i></i><b>Năm 5</b><span>Hoàn vốn · 1.127 khách · 22 tiệm</span></div>
+  </div>
+  <div class="ms-kpi" data-anim="stagger">
+    <div><span class="k-t">Khách whey đang dùng</span><b><span class="count" data-to="150">150</span> → <span class="count" data-to="1127">1.127</span></b></div>
+    <div><span class="k-t">Tiệm bánh B2B</span><b><span class="count" data-to="6">6</span> → <span class="count" data-to="22">22</span></b></div>
+    <div><span class="k-t">Nước whey tận dụng năm 5</span><b><span class="count" data-to="1.32" data-d="2">1,32</span> triệu lít</b></div>
+  </div>
+  <aside class="notes">Cờ cắm ở HK261. Việc tiếp theo là khảo sát kiểm chứng trước khi gọi vốn.</aside>
+</section>
+
+<!-- ========================= 10. TÀI CHÍNH ========================= -->
+<section data-theme="orange" data-n="10" id="s-finance">
+  <div class="kicker">10 · Tài chính <span class="src-in">Excel: Tai_chinh_Pho_mai_Whey.xlsx</span></div>
+  <h2 class="split-words">Doanh thu <span class="mark-o">1,4 → 9,5 tỷ</span>, dòng tiền dương từ năm 4</h2>
+  <div class="fin">
+    <div class="chart-box" data-anim="fade-up">
+      <div class="legend"><span><i class="o"></i>Doanh thu</span><span><i class="g"></i>Chi phí</span><span><i class="m"></i>Dòng tiền</span></div>
+      <svg viewBox="0 0 560 400" class="bars" id="finChart" aria-label="Doanh thu, chi phí, dòng tiền 5 năm"></svg>
+    </div>
+    <div class="fin-right">
+      <div class="kblock pos fragment fade-up">
+        <span class="k-t">Theo bài giảng (có giá trị sau cuối CFT)</span>
+        <div class="k-row"><div><span class="lab">NPV</span><b><span class="count" data-to="14460.9" data-d="1">14.460,9</span> tr</b></div><div><span class="lab">IRR</span><b><span class="count" data-to="73.07" data-d="2">73,07</span>%</b></div></div>
       </div>
-      <div class="blk">
-        <div class="h4">Cơ cấu 2.700 triệu chi phí năm 1</div>
-        <svg class="chart" viewBox="0 0 560 360" data-chart="treemap" style="margin-top:8px"></svg>
+      <div class="kblock neg fragment fade-up">
+        <span class="k-t">Chỉ 5 năm hoạt động (không CFT)</span>
+        <div class="k-row"><div><span class="lab">NPV</span><b><span class="count" data-to="-892.1" data-d="1">−892,1</span> tr</b></div><div><span class="lab">PP</span><b><span class="count" data-to="4.99" data-d="2">4,99</span> năm</b></div></div>
+      </div>
+      <div class="kblock up fragment fade-up">
+        <img src="assets/img/ud/growth-curve.svg" alt="" class="art-k">
+        <span class="k-t">Kịch bản KB2: 50% khách mua kèm phô mai, 8 → 32 tiệm</span>
+        <div class="k-row"><div><span class="lab">NPV 5 năm</span><b>+<span class="count" data-to="852.6" data-d="1">852,6</span> tr</b></div><div><span class="lab">IRR 5 năm</span><b><span class="count" data-to="22.18" data-d="2">22,18</span>%</b></div></div>
       </div>
     </div>
   </div>
-  <aside class="notes">Diện tích mỗi ô tỷ lệ với chi phí. Nguyên liệu chiếm 41%, lương nhân viên 27%, hai khoản này đã gần 70% chi phí. Doanh thu 3.000 trừ 2.700 cho dòng tiền hoạt động năm 1 là 300 triệu.</aside>
+  <aside class="notes">Bấm 1: NPV theo bài giảng. Bấm 2: con số 5 năm, nói thẳng là chưa hoàn vốn đủ trong 5 năm. Bấm 3: điều kiện để 5 năm có lãi.</aside>
 </section>
 
-<section class="s" data-part="Phần 5 · Khả thi tài chính" data-src="3">
-  <div class="s-head"><h2 class="s-title">Bước 3 · Dòng tiền dự báo 5 năm</h2></div>
-  <div class="stepper stepper-mini" data-id="steps" data-stepper="3"></div>
-  <div class="s-body" style="top:170px">
-    <div class="grid col-7-5" style="gap:26px">
-      <div class="blk">
-        <table class="tbl tbl-compact">
-          <thead><tr><th>Triệu đồng</th><th>Năm 1</th><th>Năm 2</th><th>Năm 3</th><th>Năm 4</th><th>Năm 5</th></tr></thead>
-          <tbody>
-            <tr class="tot"><td>A · Doanh thu</td><td>3.000,0</td><td>3.750,0</td><td>4.687,5</td><td>5.625,0</td><td>6.468,7</td></tr>
-            <tr class="tot"><td>B · Tổng chi phí vận hành</td><td>2.700,0</td><td>3.024,0</td><td>3.386,9</td><td>3.725,6</td><td>4.098,1</td></tr>
-            <tr class="sub"><td>Thuê xưởng &amp; cửa hàng</td><td>360,0</td><td>403,2</td><td>451,6</td><td>496,7</td><td>546,4</td></tr>
-            <tr class="sub"><td>Nguyên liệu &amp; bao bì</td><td>1.100,0</td><td>1.232,0</td><td>1.379,8</td><td>1.517,8</td><td>1.669,6</td></tr>
-            <tr class="sub"><td>Lương nhân viên</td><td>720,0</td><td>806,4</td><td>903,2</td><td>993,5</td><td>1.092,8</td></tr>
-            <tr class="sub"><td>Lương quản lý &amp; R&amp;D</td><td>420,0</td><td>470,4</td><td>526,8</td><td>579,5</td><td>637,5</td></tr>
-            <tr class="sub"><td>Tiện ích &amp; tiếp thị</td><td>100,0</td><td>112,0</td><td>125,4</td><td>137,9</td><td>151,7</td></tr>
-            <tr class="hl"><td>C · Dòng tiền hoạt động (A − B)</td><td>+300,0</td><td>+726,0</td><td>+1.300,6</td><td>+1.899,4</td><td>+2.370,6</td></tr>
-          </tbody>
-        </table>
-        <div class="fragment up" style="display:flex;gap:8px;flex-wrap:wrap;margin-top:12px">
-          <span class="badge badge-pos">Doanh thu +25%, +25%, +20%, +15%</span>
-          <span class="badge badge-neg">Chi phí +12%, +12%, +10%, +10%</span>
-        </div>
-      </div>
-      <div class="blk"><svg class="chart" viewBox="0 0 470 400" data-chart="revcost"></svg></div>
-    </div>
+<!-- ========================= 11. ĐỘI NGŨ ========================= -->
+<section data-theme="mint" data-n="11" id="s-team">
+  <div class="kicker">11 · Đội ngũ</div>
+  <h2 class="split-words">Năm người, <span class="mark-m">năm mảng</span> dự án cần ngay từ đầu</h2>
+  <div class="fan">
+    <figure class="fcard" style="--i:-2"><img src="assets/img/photo/danghaiminhtam.jpg" alt="Đặng Hải Minh Tâm"><figcaption><b>Đặng Hải Minh Tâm</b><span>CEO · điều phối, gọi vốn</span></figcaption></figure>
+    <figure class="fcard" style="--i:-1"><img src="assets/img/photo/nguyenvanquyen.jpg" alt="Nguyễn Văn Quyến"><figcaption><b>Nguyễn Văn Quyến</b><span>R&amp;D · quy trình, ATTP, COA</span></figcaption></figure>
+    <figure class="fcard" style="--i:0"><img src="assets/img/photo/nguyenngocmydinh.jpg" alt="Nguyễn Ngọc Mỹ Đình"><figcaption><b>Nguyễn Ngọc Mỹ Đình</b><span>Marketing · cộng đồng, KOL</span></figcaption></figure>
+    <figure class="fcard" style="--i:1"><img src="assets/img/photo/mainguyenquocbinh.jpg" alt="Mai Nguyễn Quốc Bình"><figcaption><b>Mai Nguyễn Quốc Bình</b><span>Vận hành · xưởng, cung ứng</span></figcaption></figure>
+    <figure class="fcard" style="--i:2"><img src="assets/img/photo/trandangkhoa.jpg" alt="Trần Đăng Khoa"><figcaption><b>Trần Đăng Khoa</b><span>Tài chính · mô hình, dữ liệu</span></figcaption></figure>
   </div>
-  <aside class="notes">Doanh thu tăng nhanh hơn chi phí mỗi năm, nên khoảng cách giữa hai cột, tức dòng tiền hoạt động, nới rộng từ 300 triệu năm 1 lên 2.370,6 triệu năm 5.</aside>
+  <div class="mentor" data-anim="fade-up"><img src="assets/img/ud/science.svg" alt="" class="art"><p><span class="sticker s-m">Cố vấn</span>Giảng viên công nghệ thực phẩm (quy trình sấy whey, hồ sơ ATTP) · mentor từ vườn ươm của trường</p></div>
+  <aside class="notes">Giới thiệu nhanh vai trò từng người, rồi cố vấn bù phần kinh nghiệm sản xuất.</aside>
 </section>
 
-<section class="s" data-part="Phần 5 · Khả thi tài chính" data-src="1,3">
-  <div class="s-head"><h2 class="s-title">Bước 3 (tt) · Giá trị sau cuối CF<sub>T</sub> tại năm 5</h2></div>
-  <div class="stepper stepper-mini" data-id="steps" data-stepper="3"></div>
-  <div class="s-body" style="top:170px">
-    <div class="grid col-5-7" style="gap:30px">
-      <div class="blk stack">
-        <div style="display:flex;gap:8px;flex-wrap:wrap"><span class="badge badge-outline">Suất chiết khấu r = 12%/năm</span><span class="badge badge-outline">Tăng trưởng vĩnh viễn g = 5%/năm</span></div>
-        <div class="formula fragment up" style="font-size:17px;display:block"><div>CF<sub>6</sub> = CF<sub>5</sub> × (1 + g)</div><div style="margin-top:4px">= 2.370,6 × 1,05 = <b>2.489,13</b></div></div>
-        <div class="formula fragment up" style="font-size:17px;display:block"><div>CF<sub>T</sub> = CF<sub>6</sub> / (r − g)</div><div style="margin-top:4px">= 2.489,13 / 7% = <b>35.559,0</b></div></div>
-        <div class="formula fragment up" style="font-size:17px;display:block"><div>CF phân tích năm 5 = CF<sub>5</sub> + CF<sub>T</sub></div><div style="margin-top:4px">= 2.370,6 + 35.559,0 = <b>37.929,6</b></div></div>
-        <p class="small">Đơn vị: triệu đồng</p>
-      </div>
-      <div class="blk" style="position:relative"><svg class="chart" viewBox="0 0 640 400" data-chart="perpetuity"></svg></div>
+<!-- ========================= 12. KÊU GỌI ========================= -->
+<section data-theme="orange" data-n="12" id="s-cta" class="s-cta">
+  <div class="kicker">12 · Kêu gọi hành động</div>
+  <h2 class="split-words">Cùng MilkLoop <span class="mark-o">đưa hũ whey đầu tiên ra thị trường</span></h2>
+  <div class="cta">
+    <div class="ask" data-anim="pop">
+      <span class="k-t">Nhà đầu tư thiên thần</span>
+      <div class="ask-big"><span class="count" data-to="2400">2.400</span><small> triệu ₫</small></div>
+      <div class="ask-eq">đổi <b class="pending">30%</b> cổ phần<sup class="pending">*</sup></div>
+      <div class="stack" aria-label="Cơ cấu vốn 3.050 triệu"><i style="--w:78.7%" class="o"></i><i style="--w:8.2%" class="m"></i><i style="--w:4.9%" class="bl"></i><i style="--w:8.2%" class="y"></i></div>
+      <div class="stack-l"><span><i class="o"></i>Thiên thần 2.400</span><span><i class="m"></i>Nhóm 250</span><span><i class="bl"></i>Tài trợ 150</span><span><i class="y"></i>Vay 250</span></div>
+      <span class="k-s">Tổng huy động 3.050 triệu ₫ · nhu cầu tối thiểu 2.773 triệu ₫</span>
     </div>
+    <div class="cta-mid">
+      <div class="use" data-anim="fade-up"><span class="k-t">Dùng vốn vào</span>
+        <div class="use-r"><b>1.200</b><span>xưởng, máy sấy, kho lạnh, giấy phép ATTP</span></div>
+        <div class="use-r"><b>1.573</b><span>bù dòng tiền âm năm 1–3, gồm mở rộng máy sấy</span></div>
+        <div class="use-r"><b>277</b><span>dự phòng</span></div>
+      </div>
+      <div class="asks" data-anim="fade-up"><span class="k-t">Xin hội đồng góp ý</span>
+        <ol><li>Nguồn nước whey khi mở rộng</li><li>Tỷ lệ giữ chân khách thực tế</li><li>Cách vượt tâm lý chuộng hàng ngoại</li></ol>
+      </div>
+    </div>
+    <img src="assets/img/ud/business-pitch.svg" alt="" class="art cta-art bob" data-anim="slide-l">
   </div>
-  <aside class="notes">Sau năm 5, dòng tiền được giả định tăng 5% mỗi năm mãi mãi. Thay vì cộng vô hạn cột, công thức Gordon gom chúng thành một giá trị duy nhất đặt tại năm 5: 35.559 triệu. Đây là cách làm giống slide 31 của bài giảng.</aside>
+  <p class="foot-note pending">* Mức cổ phần đang chờ nhóm duyệt.</p>
+  <div class="marquee end"><div class="track"><span>MilkLoop</span><span>Một mẻ sữa, hai giá trị</span><span>MilkLoop</span><span>Một mẻ sữa, hai giá trị</span><span>MilkLoop</span><span>Một mẻ sữa, hai giá trị</span><span>MilkLoop</span><span>Một mẻ sữa, hai giá trị</span></div></div>
+  <aside class="notes">Kết thúc bằng lời kêu gọi và ba điểm xin góp ý. Không cần slide cảm ơn.</aside>
 </section>
 
-<section class="s" data-part="Phần 5 · Khả thi tài chính" data-src="1,3">
-  <div class="s-head"><h2 class="s-title">Bước 4 · Bảng phân tích tài chính NPV, IRR, PP</h2></div>
-  <div class="stepper stepper-mini" data-id="steps" data-stepper="4"></div>
-  <div class="s-body" style="top:170px">
-    <div class="grid" style="grid-template-columns:790px 1fr;gap:22px">
-      <div class="blk">
-        <table class="tbl tbl-one tbl-npv">
-          <thead><tr><th>Triệu đồng</th><th>Năm 0</th><th>Năm 1</th><th>Năm 2</th><th>Năm 3</th><th>Năm 4</th><th>Năm 5</th></tr></thead>
-          <tbody>
-            <tr class="sub"><td>Doanh thu</td><td>–</td><td>3.000,0</td><td>3.750,0</td><td>4.687,5</td><td>5.625,0</td><td>6.468,7</td></tr>
-            <tr class="sub"><td>Chi phí vận hành</td><td>–</td><td>2.700,0</td><td>3.024,0</td><td>3.386,9</td><td>3.725,6</td><td>4.098,1</td></tr>
-            <tr><td>Chi phí đầu tư</td><td class="neg">−1.200,0</td><td>–</td><td>–</td><td>–</td><td>–</td><td>–</td></tr>
-            <tr><td>Dòng tiền hoạt động CF<sub>t</sub></td><td>–</td><td>+300,0</td><td>+726,0</td><td>+1.300,6</td><td>+1.899,4</td><td>+2.370,6</td></tr>
-            <tr><td>Giá trị sau cuối CF<sub>T</sub></td><td>–</td><td>–</td><td>–</td><td>–</td><td>–</td><td>+35.559,0</td></tr>
-            <tr class="tot"><td>CF phân tích</td><td>−1.200,0</td><td>+300,0</td><td>+726,0</td><td>+1.300,6</td><td>+1.899,4</td><td>+37.929,6</td></tr>
-            <tr><td>CF tích lũy (không CF<sub>T</sub>)</td><td class="neg">−1.200,0</td><td class="neg">−900,0</td><td class="neg">−174,0</td><td class="pos">+1.126,6</td><td class="pos">+3.026,0</td><td class="pos">+5.396,6</td></tr>
-            <tr class="sub"><td>Hệ số chiết khấu 1/(1,12)<sup>t</sup></td><td>1,0000</td><td>0,8929</td><td>0,7972</td><td>0,7118</td><td>0,6355</td><td>0,5674</td></tr>
-            <tr class="sub"><td>PV dòng tiền 5 năm</td><td>−1.200,0</td><td>+267,9</td><td>+578,8</td><td>+925,7</td><td>+1.207,1</td><td>+1.345,1</td></tr>
-            <tr class="sub"><td>PV của CF<sub>T</sub></td><td>–</td><td>–</td><td>–</td><td>–</td><td>–</td><td>+20.177,1</td></tr>
-          </tbody>
-        </table>
-        <table class="tbl tbl-compact fragment up" style="margin-top:14px" data-cmp>
-          <thead><tr><th>Chỉ tiêu</th><th data-col="with">Gồm CF<sub>T</sub> · cách bài giảng</th><th data-col="without">Chỉ 5 năm hoạt động</th></tr></thead>
-          <tbody>
-            <tr><td>NPV (r = 12%)</td><td data-col="with"><b>23.302,0</b></td><td data-col="without"><b>3.124,7</b></td></tr>
-            <tr><td>IRR</td><td data-col="with"><b>121,19%</b></td><td data-col="without"><b>64,46%</b></td></tr>
-            <tr><td>PP</td><td colspan="2" class="c"><b>2 + 174,0 / 1.300,6 ≈ 2,13 năm</b> (khoảng 2 năm 2 tháng)</td></tr>
-          </tbody>
-        </table>
-      </div>
-      <div class="blk">
-        <div style="display:flex;align-items:center;justify-content:space-between">
-          <button class="switch" role="switch" aria-checked="true" data-switch="cft"><span class="track"><span class="thumb"></span></span><span>Gồm CF<sub>T</sub></span></button>
-          <button class="rich-btn ghost no-print" data-open="dLec"><svg class="ic"><use href="#i-panel"/></svg>Đối chiếu ví dụ</button>
-        </div>
-        <svg class="chart" id="cfBars" viewBox="0 0 470 360" data-chart="cfbars" style="margin-top:10px"></svg>
-      </div>
+<!-- ========================= DỰ PHÒNG ========================= -->
+<section data-theme="blue" data-n="13" id="d-0" class="divider">
+  <div class="div-l">
+    <div class="kicker">Slide dự phòng</div>
+    <h2 class="split-chars huge">Hỏi &amp; đáp</h2>
+    <div class="d-list" data-anim="stagger">
+      <span>D1 · TAM, SAM</span><span>D2 · LTV</span><span>D3 · COCA</span><span>D4 · Dòng tiền &amp; NPV</span><span>D5 · Độ nhạy &amp; kịch bản</span><span>D6 · Nguồn nước whey</span><span>D7 · Số dư tiền &amp; vay</span><span>D8 · SWOT</span>
     </div>
   </div>
-  <div class="overlay" data-overlay="dLec"></div>
-  <aside class="drawer" id="dLec" role="dialog" aria-modal="true" aria-labelledby="dLecT">
-    <span class="grab"></span>
-    <button class="x-btn" data-close aria-label="Đóng"><svg class="ic"><use href="#i-x"/></svg></button>
-    <div class="h3" id="dLecT">Ví dụ phần mềm của bài giảng</div>
-    <p class="small" style="margin:6px 0 14px">Đầu tư 500 triệu, cùng r = 12% và g = 5%.</p>
-    <table class="tbl tbl-compact">
-      <thead><tr><th>Chỉ tiêu</th><th>Bài giảng</th><th>Dự án nhóm</th></tr></thead>
-      <tbody>
-        <tr><td>Vốn năm 0</td><td>500</td><td>1.200</td></tr>
-        <tr><td>CF năm 1</td><td class="neg">−160,0</td><td class="pos">+300,0</td></tr>
-        <tr><td>CF<sub>T</sub> năm 5</td><td>7.211,2</td><td>35.559,0</td></tr>
-        <tr><td>NPV gồm CF<sub>T</sub></td><td>4.208,2</td><td>23.302,0</td></tr>
-        <tr><td>IRR gồm CF<sub>T</sub></td><td>73,77%</td><td>121,19%</td></tr>
-        <tr><td>PP</td><td>3,85 năm</td><td>2,13 năm</td></tr>
-      </tbody>
-    </table>
-  </aside>
-  <aside class="notes">Bài giảng tính NPV và IRR trên dòng CF phân tích có cộng giá trị sau cuối. Báo cáo nhóm lấy kết quả chính là 5 năm hoạt động, không gồm CFT. Nhóm trình bày cả hai: theo bài giảng NPV 23.302 triệu, IRR 121,19%; bản thận trọng NPV 3.124,7 triệu, IRR 64,46%. PP tính trên dòng tích lũy không gồm CFT, giống bài giảng: 2,13 năm.</aside>
+  <img src="assets/img/ud/ask-me-anything.svg" alt="" class="art div-art bob" data-anim="pop">
 </section>
 
-<section class="s" data-part="Phần 5 · Khả thi tài chính" data-src="3" data-sim>
-  <div class="s-head"><h2 class="s-title">Bước 4 (tt) · Hoàn vốn và độ nhạy của NPV</h2></div>
-  <div class="stepper stepper-mini" data-id="steps" data-stepper="4"></div>
-  <div class="s-body" style="top:170px">
-    <div class="grid col-2" style="gap:30px">
-      <div class="blk">
-        <div class="h4">Dòng tiền tích lũy, không gồm CF<sub>T</sub> (triệu đồng)</div>
-        <svg class="chart" viewBox="0 0 560 380" data-chart="ppours" style="margin-top:8px"></svg>
-      </div>
-      <div class="blk">
-        <div class="h4">Cơ cấu NPV theo suất chiết khấu r</div>
-        <div class="eslider no-print" data-eslider data-min="8" data-max="20" data-step="0.5" data-val="12" style="margin-top:10px"><div class="fill"></div><div class="ticks"></div><div class="knob"></div><span class="lab">Suất chiết khấu r</span><span class="val">12,0%</span></div>
-        <svg class="chart" id="npvComp" viewBox="0 0 560 250" data-chart="npvcomp" style="margin-top:12px"></svg>
-        <div class="grid col-2" style="gap:14px;margin-top:6px">
-          <div class="kpi"><span class="k-l">NPV gồm CF<sub>T</sub></span><span class="k-v" style="font-size:26px" data-out="npvAll">23.302,0</span></div>
-          <div class="kpi"><span class="k-l">NPV chỉ 5 năm</span><span class="k-v" style="font-size:26px" data-out="npvOps">3.124,7</span></div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <aside class="notes">Bên trái: dòng tích lũy chuyển từ âm sang dương trong năm 3, tại khoảng 2,13 năm. Bên phải là phần nhóm bổ sung: kéo thanh trượt đổi suất chiết khấu từ 8% đến 20%. Ở r bằng 12%, giá trị sau cuối chiếm khoảng 87% NPV. Kể cả khi bỏ hẳn phần này, NPV 5 năm vẫn dương ở mọi mức r trên thanh trượt.</aside>
+<section data-theme="blue" data-n="14" id="d-1" class="backup">
+  <div class="kicker">D1 · Ước lượng TAM, SAM</div>
+  <h2>Hai cách ước tính người dùng cuối</h2>
+  <img src="assets/img/excel/03_tam_sam.png" alt="Bảng ước lượng TAM SAM trong Excel" class="xl wide">
+  <div class="formula"><p class="mono">Từ trên xuống = Dân số × % 18–26 tuổi × % tập thường xuyên × % nhạy giá</p><p class="mono">Từ dưới lên = Số gym × hội viên trẻ × % sẵn sàng dùng whey nội địa</p><p class="mono">TAM = Người dùng × giá thực thu 590.250 ₫ × 10 hũ/năm</p><p class="src">Dân số 8.993.082 người: Tổng điều tra dân số 2019 (TCTK). Các tỷ lệ còn lại là giả định, sẽ khảo sát ≥ 300 người.</p></div>
 </section>
 
-<section class="s" data-part="Phần 5 · Khả thi tài chính" data-src="1,3,4">
-  <div class="s-head"><h2 class="s-title">Bước 5 · Đối chiếu ba tiêu chí khả thi</h2></div>
-  <div class="stepper stepper-mini" data-id="steps" data-stepper="5"></div>
-  <div class="s-body" style="top:170px">
-    <div class="crit blk">
-      <div class="cstroke fragment up" data-cstroke>
-        <div class="cs-in">
-          <div class="badge">NPV ≥ 0 → khả thi</div>
-          <div class="cs-v"><span class="w"><span>3.124,7</span></span></div>
-          <div class="cs-u">triệu đồng, chỉ 5 năm hoạt động</div>
-          <p class="cs-p"><span class="w"><span>Gồm CF<sub>T</sub>: 23.302,0 triệu. Dự án vượt mức sinh lợi kỳ vọng r = 12%, tạo giá trị gia tăng ròng lớn.</span></span></p>
-        </div>
-      </div>
-      <div class="cstroke fragment up" data-cstroke>
-        <div class="cs-in">
-          <div class="badge">IRR ≥ r → khả thi</div>
-          <div class="cs-v"><span class="w"><span>64,46%</span></span></div>
-          <div class="cs-u">so với r = 12%</div>
-          <p class="cs-p"><span class="w"><span>Gồm CF<sub>T</sub>: 121,19%. Suất sinh lợi vượt xa mức yêu cầu, chịu được biến động chi phí.</span></span></p>
-        </div>
-      </div>
-      <div class="cstroke fragment up" data-cstroke>
-        <div class="cs-in">
-          <div class="badge">PP ≤ yêu cầu → phù hợp</div>
-          <div class="cs-v"><span class="w"><span>2,13 năm</span></span></div>
-          <div class="cs-u">so với 3 năm</div>
-          <p class="cs-p"><span class="w"><span>Thu hồi vốn sau khoảng 2 năm 2 tháng, giải tỏa rủi ro thanh khoản, sớm tái đầu tư mở rộng xưởng.</span></span></p>
-        </div>
-      </div>
-    </div>
-    <div class="verdict blk fragment up" style="margin-top:20px"><span><b>Kết luận:</b> dự án phô mai tươi &amp; whey protein đạt mức khả thi tài chính rất cao. Kết luận vững ngay cả khi bỏ giá trị sau cuối, vốn chiếm khoảng 87% NPV theo cách bài giảng.</span></div>
-  </div>
-  <aside class="notes">Mốc 3 năm lấy từ báo cáo khả thi thị trường: một tiêu chí kiểm tra TAM là đạt dòng tiền dương trong 3 năm. Nhóm đặt số liệu thận trọng làm con số chính trên thẻ và ghi kết quả gồm CFT bên dưới.</aside>
+<section data-theme="mint" data-n="15" id="d-2" class="backup">
+  <div class="kicker">D2 · LTV</div>
+  <h2>LTV = Σ lợi nhuận gộp × 1/(1+i)<sup>t</sup> = 10,36 triệu ₫</h2>
+  <img src="assets/img/excel/05_ltv.png" alt="Bảng LTV trong Excel" class="xl tall">
+  <p class="src">Giá thực thu bình quân · 30% khách mua kèm phô mai · năm 0 tính nửa năm · r = 80%, i = 15%</p>
 </section>
 
-<section class="s" data-part="Tổng kết" data-src="3">
-  <div class="s-head"><h2 class="s-title">Tổng kết năm phần</h2></div>
-  <div class="s-body">
-    <div class="chain chain-end blk" data-id="chain">
-      <div class="chain-n"><span class="cn-i"><img src="assets/img/photo/milk.jpg" alt=""></span><span class="cn-k">Phần 1</span><span class="cn-t">Bán trực tiếp + thuê bao</span><span class="cn-d">Phô mai FMCG, whey subscription</span></div>
-      <div class="chain-n"><span class="cn-i"><img src="assets/img/photo/cheese-case.jpg" alt=""></span><span class="cn-k">Phần 2</span><span class="cn-t">120.000 ₫ · 850.000 ₫</span><span class="cn-d">Hộp 250g và hũ 1 kg, giá linh hoạt theo nhóm</span></div>
-      <div class="chain-n"><span class="cn-i"><img src="assets/img/photo/gym.jpg" alt=""></span><span class="cn-k">Phần 3</span><span class="cn-t">LTV ≈ 25 triệu</span><span class="cn-d">24.996.592 ₫ trong 5 năm, i = 15%</span></div>
-      <div class="chain-n"><span class="cn-i"><img src="assets/img/photo/team.jpg" alt=""></span><span class="cn-k">Phần 4</span><span class="cn-t">17,86 : 1</span><span class="cn-d">COCA 3,6 → 1,4 triệu, luôn trên chuẩn 3 : 1</span></div>
-      <div class="chain-n"><span class="cn-i"><img src="assets/img/photo/calculator.jpg" alt=""></span><span class="cn-k">Phần 5</span><span class="cn-t">Khả thi cao</span><span class="cn-d">NPV 3.124,7 tr · IRR 64,46% · PP 2,13 năm</span></div>
-    </div>
-    <div class="grid col-2 blk" style="margin-top:30px;gap:24px">
-      <div class="note fragment up"><span><b>Cần thống nhất giá whey:</b> báo cáo thị trường và sản phẩm dùng 500.000 ₫/kg, phần 2 đến 5 dùng 850.000 ₫/kg.</span></div>
-      <div class="note fragment up"><span><b>Giá trị sau cuối chi phối NPV:</b> nên trình nhà đầu tư cả kết quả 5 năm để tránh đánh giá quá lạc quan.</span></div>
-    </div>
-    <img class="ill" src="assets/img/undraw/successful.svg" alt="" style="position:absolute;right:20px;bottom:0;height:150px">
-  </div>
-  <aside class="notes">Chuỗi năm ô ở đầu bài giờ điền kết quả. Hai lưu ý cuối là điểm nhóm thấy khi đối chiếu các báo cáo: giá whey chưa thống nhất giữa các phần, và giá trị sau cuối chiếm phần lớn NPV.</aside>
+<section data-theme="orange" data-n="16" id="d-3" class="backup">
+  <div class="kicker">D3 · COCA</div>
+  <h2>COCA = (TMSE − IBSE) / NC · LTV : COCA = 5,7 : 1</h2>
+  <div class="b-stack"><img src="assets/img/excel/06_coca_khoan_muc.png" alt="Bảng COCA theo khoản mục" class="xl wide"><img src="assets/img/excel/07_coca_3_thoi_diem.png" alt="COCA ở 3 thời điểm" class="xl mid"></div>
 </section>
 
-<section class="s s-thanks" data-part="Kết thúc" data-src="">
-  <div class="th-sig blk" data-id="sig">
-    <svg class="sig" viewBox="0 0 638.1 210.7" width="638.1" height="210.7" role="img" aria-label="Củm ơn thầy"><defs><mask id="sigm1" maskUnits="userSpaceOnUse"><path class="sm" d="M60.39 143.34L60.39 143.34Q51.58 143.34 46.19 138.94Q40.80 134.54 38.38 127.60Q35.96 120.65 35.96 113.09L35.96 113.09Q35.96 103.29 38.94 93.37Q41.91 83.45 47.06 74.46Q52.20 65.47 58.78 58.47Q65.35 51.46 72.60 47.43Q79.86 43.40 86.92 43.40L86.92 43.40Q92.01 43.40 95.17 45.82Q98.33 48.24 98.33 54.06L98.33 54.06Q98.33 57.66 97.09 62.19Q95.85 66.71 93.74 70.87Q91.64 75.02 89.09 77.75Q86.55 80.48 83.95 80.48L83.95 80.48Q82.96 80.48 81.90 79.86Q80.85 79.24 80.10 77.62L80.10 77.62Q81.96 75.52 84.26 72.35Q86.55 69.19 88.66 65.66Q90.77 62.12 92.07 58.71Q93.37 55.30 93.37 52.70L93.37 52.70Q93.37 50.22 91.95 48.67Q90.52 47.12 87.30 47.12L87.30 47.12Q81.96 47.12 76.20 51.46Q70.43 55.80 65.04 63.05Q59.64 70.31 55.30 79.24Q50.96 88.16 48.42 97.46Q45.88 106.76 45.88 115.20L45.88 115.20Q45.88 121.27 47.62 126.79Q49.35 132.31 53.26 135.72Q57.16 139.13 63.36 139.13L63.36 139.13Q69.94 139.13 76.45 135.41Q82.96 131.69 88.41 125.61Q93.87 119.54 97.09 112.47L97.09 112.47L98.83 113.71Q94.74 121.77 88.91 128.53Q83.08 135.28 75.89 139.31Q68.70 143.34 60.39 143.34Z" pathLength="1" stroke-width="42.2" style="--d:0"/><path class="sm" d="M108.75 136.28L108.75 136.28Q104.53 136.28 101.99 132.49Q99.45 128.71 99.45 123.75L99.45 123.75Q99.45 120.16 100.63 115.44Q101.80 110.73 103.54 106.14Q105.28 101.56 107.14 98.58Q109.00 95.60 110.36 95.60L110.36 95.60Q110.98 95.60 112.47 96.29Q113.96 96.97 114.95 98.08L114.95 98.08Q113.58 100.19 111.60 104.53Q109.62 108.87 108.13 113.83Q106.64 118.79 106.64 123.01L106.64 123.01Q106.64 124.00 106.89 126.05Q107.14 128.09 108.13 129.70Q109.12 131.32 111.10 131.32L111.10 131.32Q113.46 131.32 115.94 128.90Q118.42 126.48 120.96 122.64Q123.50 118.79 125.86 114.33Q128.22 109.86 130.26 105.77Q132.31 101.68 133.67 98.95L133.67 98.95Q134.42 99.08 135.84 99.45Q137.27 99.82 138.45 100.44Q139.62 101.06 139.62 102.18L139.62 102.18Q139.62 102.67 138.38 105.46Q137.14 108.25 135.47 112.28Q133.80 116.31 132.56 120.40Q131.32 124.50 131.32 127.60L131.32 127.60Q131.32 129.83 132.25 131.19Q133.18 132.56 135.41 132.56L135.41 132.56Q138.01 132.56 141.73 130.20Q145.45 127.84 149.30 123.32Q153.14 118.79 156.12 112.47L156.12 112.47L157.73 113.58Q155.12 120.28 150.91 125.43Q146.69 130.57 141.98 133.42Q137.27 136.28 132.80 136.28L132.80 136.28Q129.58 136.28 127.66 135.04Q125.74 133.80 124.93 131.69Q124.12 129.58 124.12 127.10L124.12 127.10Q124.12 125.61 124.37 124.06Q124.62 122.51 124.99 120.90L124.99 120.90Q122.76 124.99 120.16 128.53Q117.55 132.06 114.70 134.17Q111.85 136.28 108.75 136.28ZM129.46 91.88L129.46 91.88Q127.97 91.88 126.91 91.45Q125.86 91.02 125.24 90.52L125.24 90.52Q128.59 90.27 131.19 88.97Q133.80 87.67 133.80 84.57L133.80 84.57Q133.80 81.72 130.94 80.48Q128.09 79.24 122.26 79.24L122.26 79.24Q122.26 76.88 123.88 75.21Q125.49 73.53 128.22 73.53L128.22 73.53Q132.43 73.53 135.16 76.32Q137.89 79.11 137.89 83.08L137.89 83.08Q137.89 86.92 135.53 89.40Q133.18 91.88 129.46 91.88Z" pathLength="1" stroke-width="42.2" style="--d:1"/><path class="sm" d="M216.26 136.40L216.26 136.40Q211.92 136.40 209.93 133.73Q207.95 131.07 207.95 127.35L207.95 127.35Q207.95 124.25 208.88 121.15Q209.81 118.05 210.74 115.07Q211.67 112.10 211.67 109.74L211.67 109.74Q211.67 107.26 210.55 106.27Q209.44 105.28 208.07 105.28L208.07 105.28Q204.97 105.28 201.31 110.11Q197.66 114.95 191.83 123.75L191.83 123.75Q189.84 126.73 188.48 129.77Q187.12 132.80 185.88 135.28L185.88 135.28Q184.88 135.28 183.40 135.04Q181.91 134.79 180.73 134.23Q179.55 133.67 179.55 132.80L179.55 132.80Q179.55 131.94 180.73 128.65Q181.91 125.36 183.46 120.96Q185.01 116.56 186.19 112.03Q187.36 107.51 187.36 104.28L187.36 104.28Q187.36 102.18 186.68 100.87Q186 99.57 184.26 99.57L184.26 99.57Q181.54 99.57 177.69 102.86Q173.85 106.14 169.76 111.48Q165.66 116.81 162.01 123.19Q158.35 129.58 156.12 135.90L156.12 135.90Q155 135.90 153.39 135.53Q151.78 135.16 150.60 134.54Q149.42 133.92 149.42 133.30L149.42 133.30Q149.42 132.56 150.72 128.90Q152.02 125.24 153.70 120.09Q155.37 114.95 156.67 109.62Q157.98 104.28 157.98 100.19L157.98 100.19Q158.72 99.32 160.33 98.46Q161.94 97.59 163.68 97.59L163.68 97.59Q165.42 97.59 166.22 98.46Q167.03 99.32 167.03 100.81L167.03 100.81Q167.03 102.42 166.10 106.33Q165.17 110.24 163.80 114.95L163.80 114.95Q166.28 110.98 169.45 106.83Q172.61 102.67 176.08 99.20Q179.55 95.73 183.09 93.56Q186.62 91.39 189.97 91.39L189.97 91.39Q193.81 91.39 195.24 94.18Q196.66 96.97 196.66 100.81L196.66 100.81Q196.66 103.91 195.98 107.32Q195.30 110.73 194.43 113.65Q193.56 116.56 192.82 118.30L192.82 118.30Q195.42 113.58 198.59 109.18Q201.75 104.78 205.47 101.99Q209.19 99.20 213.40 99.20L213.40 99.20Q217.37 99.20 218.92 101.56Q220.47 103.91 220.47 107.14L220.47 107.14Q220.47 110.36 219.36 114.20Q218.24 118.05 217.06 121.64Q215.88 125.24 215.88 127.84L215.88 127.84Q215.88 129.46 216.69 130.76Q217.50 132.06 219.60 132.06L219.60 132.06Q223.08 132.06 226.11 128.90Q229.15 125.74 231.76 121.21Q234.36 116.68 236.22 112.47L236.22 112.47L237.71 114.20Q235.72 119.41 232.62 124.56Q229.52 129.70 225.37 133.05Q221.22 136.40 216.26 136.40Z" pathLength="1" stroke-width="42.2" style="--d:2"/><path class="sm" d="M274.66 136.52L274.66 136.52Q269.33 136.52 267.10 133.24Q264.86 129.95 264.86 125.24L264.86 125.24Q264.86 121.40 266.10 117.30Q267.34 113.21 269.39 109.62Q271.44 106.02 273.98 103.79Q276.52 101.56 279.12 101.56L279.12 101.56Q279.74 101.56 280.43 101.74Q281.11 101.93 281.73 102.18L281.73 102.18Q280.61 103.17 279.06 105.83Q277.51 108.50 276.15 111.91Q274.78 115.32 273.85 118.67Q272.92 122.02 272.92 124.37L272.92 124.37Q272.92 128.09 274.16 129.77Q275.40 131.44 277.39 131.44L277.39 131.44Q279.99 131.44 283.59 128.65Q287.18 125.86 290.66 121.52L290.66 121.52Q287.18 118.67 285.26 114.02Q283.34 109.37 283.34 104.53L283.34 104.53Q283.34 100.44 284.77 96.84Q286.19 93.25 288.92 91.08Q291.65 88.91 295.49 88.91L295.49 88.91Q300.58 88.91 302.31 91.64Q304.05 94.36 304.05 98.46L304.05 98.46Q304.05 103.29 301.69 109.18Q299.34 115.07 295.74 120.53L295.74 120.53Q297.97 121.77 300.45 121.77L300.45 121.77Q302.44 121.77 304.92 120.96Q307.40 120.16 309.81 118.17Q312.23 116.19 313.72 112.84L313.72 112.84L315.21 114.08Q312.73 119.91 308.20 122.33Q303.68 124.74 299.58 124.74L299.58 124.74Q297.97 124.74 296.48 124.43Q295.00 124.12 293.63 123.50L293.63 123.50Q289.42 129.08 284.39 132.80Q279.37 136.52 274.66 136.52ZM292.89 118.30L292.89 118.30Q295.99 113.71 298.03 108.69Q300.08 103.66 300.08 99.20L300.08 99.20Q300.08 95.60 299.03 93.93Q297.97 92.26 296.36 92.26L296.36 92.26Q293.88 92.26 291.28 95.85Q288.67 99.45 288.67 104.90L288.67 104.90Q288.67 108.50 289.73 112.16Q290.78 115.82 292.89 118.30ZM308.51 95.85L308.51 95.85Q305.66 95.85 303.49 94.55Q301.32 93.25 299.34 92.01Q297.35 90.77 295.00 90.77L295.00 90.77L295.49 88.91Q298.47 88.91 299.89 89.65Q301.32 90.40 302.56 91.14Q303.80 91.88 306.28 91.88L306.28 91.88Q310.12 91.88 310.12 88.54L310.12 88.54Q310.12 86.06 308.64 84.51Q307.15 82.96 305.54 81.84L305.54 81.84Q306.53 80.72 307.77 80.04Q309.01 79.36 310.74 79.36L310.74 79.36Q313.22 79.36 314.90 81.59Q316.57 83.82 316.57 87.30L316.57 87.30Q316.57 90.77 314.40 93.31Q312.23 95.85 308.51 95.85Z" pathLength="1" stroke-width="42.2" style="--d:3"/><path class="sm" d="M351.42 135.04L351.42 135.04Q347.08 135.04 344.91 132.80Q342.74 130.57 342.74 127.10L342.74 127.10Q342.74 124.50 343.67 121.64Q344.60 118.79 345.46 115.75Q346.33 112.72 346.33 109.86L346.33 109.86Q346.33 106.39 344.91 105.09Q343.48 103.79 341.37 103.79L341.37 103.79Q337.53 103.79 333.56 106.95Q329.59 110.11 325.87 115.01Q322.15 119.91 318.93 125.12Q315.70 130.32 313.22 134.42L313.22 134.42Q311.24 134.42 309.44 133.73Q307.64 133.05 306.65 131.69L306.65 131.69Q306.65 131.07 307.95 127.84Q309.26 124.62 310.99 119.91Q312.73 115.20 314.09 110.24Q315.46 105.28 315.46 101.18L315.46 101.18Q316.20 100.32 317.81 99.45Q319.42 98.58 321.16 98.58L321.16 98.58Q324.51 98.58 324.51 101.80L324.51 101.80Q324.51 103.79 323.39 108.44Q322.28 113.09 320.54 118.17L320.54 118.17Q323.89 113.09 328.04 108.07Q332.20 103.04 336.91 99.70Q341.62 96.35 346.33 96.35L346.33 96.35Q351.17 96.35 353.34 99.82Q355.51 103.29 355.51 107.51L355.51 107.51Q355.51 111.35 354.27 114.64Q353.03 117.92 351.73 120.96Q350.42 124.00 350.42 127.10L350.42 127.10Q350.42 129.70 351.48 130.76Q352.53 131.81 354.14 131.81L354.14 131.81Q357.24 131.81 360.34 128.90Q363.44 125.98 366.36 121.52Q369.27 117.06 371.50 112.47L371.50 112.47L372.87 114.08Q370.26 120.16 367.04 124.87Q363.82 129.58 359.97 132.31Q356.13 135.04 351.42 135.04Z" pathLength="1" stroke-width="42.2" style="--d:4"/><path class="sm" d="M411.93 138.26L411.93 138.26Q406.60 138.26 403.74 135.16Q400.89 132.06 400.89 125.98L400.89 125.98Q400.89 122.26 401.95 117.06Q403 111.85 404.80 105.96Q406.60 100.07 408.70 94.49L408.70 94.49Q407.46 94.24 406.35 93.68Q405.23 93.12 404.24 92.75L404.24 92.75L404.24 90.52Q405.23 90.64 406.60 91.14Q407.96 91.64 409.70 91.76L409.70 91.76Q413.17 82.83 417.07 75.27Q420.98 67.70 424.58 63.12Q428.17 58.53 430.65 58.53L430.65 58.53Q431.64 58.53 432.45 59.21Q433.26 59.89 433.26 61.26L433.26 61.26Q433.26 62.50 432.26 64.79Q431.27 67.08 429.54 70.18Q427.80 73.28 425.69 77.00Q423.58 80.72 421.23 84.94Q418.87 89.16 416.76 93.74L416.76 93.74Q419.86 94.24 422.78 94.61Q425.69 94.98 428.79 94.98L428.79 94.98Q432.14 94.98 435.98 94.49Q439.83 93.99 444.79 93.00L444.79 93.00Q448.01 84.20 452.04 75.52Q456.07 66.84 460.23 59.71Q464.38 52.58 468.16 48.30Q471.94 44.02 474.67 44.02L474.67 44.02Q476.90 44.02 477.83 46.69Q478.76 49.35 478.76 51.83L478.76 51.83Q478.76 56.17 476.59 62.06Q474.42 67.95 470.70 74.21Q466.98 80.48 462.09 85.87Q457.19 91.26 451.73 94.61L451.73 94.61Q449.75 99.32 448.20 105.52Q446.65 111.72 446.03 117.74Q445.41 123.75 445.90 127.72L445.90 127.72Q448.88 119.16 452.60 111.85Q456.32 104.53 460.97 100.07Q465.62 95.60 471.08 95.60L471.08 95.60Q476.16 95.60 478.33 99.14Q480.50 102.67 480.50 106.76L480.50 106.76Q480.50 110.61 479.20 114.20Q477.90 117.80 476.53 121.15Q475.17 124.50 475.17 127.60L475.17 127.60Q475.17 130.08 476.22 131.19Q477.28 132.31 478.89 132.31L478.89 132.31Q481.74 132.31 485.27 129.58Q488.81 126.85 492.28 122.33Q495.75 117.80 498.23 112.47L498.23 112.47L499.84 113.96Q497.24 120.03 493.52 124.93Q489.80 129.83 485.34 132.68Q480.87 135.53 476.04 135.53L476.04 135.53Q471.82 135.53 469.65 133.30Q467.48 131.07 467.48 127.72L467.48 127.72Q467.48 125.12 468.47 121.89Q469.46 118.67 470.39 115.32Q471.32 111.97 471.32 109.00L471.32 109.00Q471.32 105.77 469.96 104.41Q468.60 103.04 466.61 103.04L466.61 103.04Q463.51 103.04 461.03 105.52Q458.55 108.00 456.51 111.91Q454.46 115.82 452.66 120.16Q450.86 124.50 449.25 128.40Q447.64 132.31 446.03 134.79Q444.42 137.27 442.68 137.27L442.68 137.27Q441.32 137.27 440.20 135.90Q439.08 134.54 438.40 132.06Q437.72 129.58 437.60 126.29Q437.47 123.01 437.97 119.29L437.97 119.29Q433.26 127.60 426.37 132.93Q419.49 138.26 411.93 138.26ZM415.52 133.67L415.52 133.67Q421.97 133.67 428.17 127.97Q434.37 122.26 439.08 112.47L439.08 112.47Q439.95 108.38 440.88 104.66Q441.81 100.94 443.42 96.35L443.42 96.35Q439.21 97.34 435.43 97.71Q431.64 98.08 428.17 98.08L428.17 98.08Q424.70 98.08 421.60 97.65Q418.50 97.22 415.40 96.72L415.40 96.72Q412.55 103.29 410.56 110.24Q408.58 117.18 408.58 123.75L408.58 123.75Q408.58 129.08 410.19 131.38Q411.80 133.67 415.52 133.67ZM453.34 89.78L453.34 89.78Q457.68 86.30 461.47 81.41Q465.25 76.51 468.22 71.36Q471.20 66.22 472.87 61.81Q474.55 57.41 474.55 55.06L474.55 55.06Q474.55 54.06 474.05 54.06L474.05 54.06Q473.18 54.06 470.70 56.79Q468.22 59.52 465.06 64.36Q461.90 69.19 458.80 75.70Q455.70 82.21 453.34 89.78Z" pathLength="1" stroke-width="42.2" style="--d:5"/><path class="sm" d="M501.83 138.38L501.83 138.38Q497.98 138.38 495.32 135.84Q492.65 133.30 492.65 128.09L492.65 128.09Q492.65 123.63 494.64 118.48Q496.62 113.34 500.09 108.31Q503.56 103.29 507.97 99.14Q512.37 94.98 517.27 92.50Q522.16 90.02 527 90.02L527 90.02Q531.84 90.02 535.06 92.57Q538.28 95.11 538.28 99.32L538.28 99.32Q538.28 102.42 536.61 103.54Q534.94 104.66 532.21 104.66L532.21 104.66Q532.46 103.66 532.64 102.49Q532.83 101.31 532.83 100.32L532.83 100.32Q532.83 97.46 531.46 95.42Q530.10 93.37 526.75 93.37L526.75 93.37Q523.28 93.37 519.68 95.79Q516.09 98.21 512.74 102.24Q509.39 106.27 506.79 110.98Q504.18 115.69 502.70 120.28Q501.21 124.87 501.21 128.46L501.21 128.46Q501.21 133.30 504.56 133.30L504.56 133.30Q507.41 133.30 510.76 130.63Q514.10 127.97 517.64 123.81Q521.17 119.66 524.40 115.20Q527.62 110.73 530.10 107.01L530.10 107.01Q530.60 106.27 530.72 106.27L530.72 106.27Q531.46 106.39 532.64 106.76Q533.82 107.14 534.69 107.76Q535.56 108.38 535.56 109.37L535.56 109.37Q535.56 110.48 534.44 112.41Q533.32 114.33 531.96 116.81Q530.60 119.29 529.48 121.83Q528.36 124.37 528.36 126.60L528.36 126.60Q528.36 128.46 529.36 130.26Q530.35 132.06 532.58 132.06L532.58 132.06Q535.93 132.06 541.38 127.16Q546.84 122.26 552.42 112.47L552.42 112.47L553.66 113.71Q551.06 120.40 546.96 125.49Q542.87 130.57 538.22 133.42Q533.57 136.28 529.11 136.28L529.11 136.28Q524.52 136.28 522.35 133.55Q520.18 130.82 520.18 127.60L520.18 127.60Q520.18 126.85 520.30 125.92Q520.43 124.99 520.55 124.00L520.55 124.00Q515.22 131.19 510.82 134.79Q506.42 138.38 501.83 138.38ZM548.82 76.14L548.82 76.14Q547.71 74.03 546.22 71.92Q544.73 69.81 542.93 67.58Q541.14 65.35 539.03 62.99L539.03 62.99Q539.28 60.88 540.14 60.20Q541.01 59.52 542.13 59.52L542.13 59.52Q543.62 59.52 545.29 61.01Q546.96 62.50 548.33 64.67Q549.69 66.84 550.56 68.94Q551.43 71.05 551.43 72.42L551.43 72.42Q551.43 75.14 548.82 76.14ZM542.50 87.67L542.50 87.67Q540.76 84.07 538.53 81.53Q536.30 78.99 533.32 76.26L533.32 76.26Q529.48 77.62 526.44 79.24Q523.40 80.85 520.55 83.33L520.55 83.33Q519.81 82.83 519.56 82.15Q519.31 81.47 519.31 80.97L519.31 80.97Q519.31 79.11 520.99 77.25Q522.66 75.39 525.08 73.72Q527.50 72.04 529.85 71.05Q532.21 70.06 533.45 70.06L533.45 70.06Q534.94 70.06 536.86 71.42Q538.78 72.79 540.52 74.96Q542.25 77.13 543.43 79.48Q544.61 81.84 544.61 83.82L544.61 83.82Q544.61 85.06 544.11 86.06Q543.62 87.05 542.50 87.67Z" pathLength="1" stroke-width="42.2" style="--d:6"/><path class="sm" d="M555.27 167.28L555.27 167.28Q552.17 167.28 549.82 165.60Q547.46 163.93 547.46 160.70L547.46 160.70Q547.46 156.74 549.44 153.64Q551.43 150.54 554.78 147.93Q558.12 145.33 562.46 142.97Q566.80 140.62 571.52 138.26L571.52 138.26Q573.25 133.67 575.05 128.03Q576.85 122.39 578.46 115.57L578.46 115.57Q574.49 122.02 569.97 126.67Q565.44 131.32 560.36 131.32L560.36 131.32Q558.00 131.32 555.71 130.26Q553.41 129.21 551.92 126.98Q550.44 124.74 550.44 121.27L550.44 121.27Q550.44 117.80 551.61 113.21Q552.79 108.62 554.53 104.28Q556.26 99.94 558.12 97.09Q559.98 94.24 561.35 94.24L561.35 94.24Q561.84 94.24 563.15 94.61Q564.45 94.98 565.63 95.67Q566.80 96.35 566.80 97.09L566.80 97.09Q565.69 98.70 564.32 101.68Q562.96 104.66 561.66 108.31Q560.36 111.97 559.49 115.44Q558.62 118.92 558.62 121.40L558.62 121.40Q558.62 123.63 559.61 124.99Q560.60 126.36 563.08 126.36L563.08 126.36Q565.44 126.36 568.35 124.06Q571.27 121.77 574.18 118.17Q577.10 114.58 579.58 110.48L579.58 110.48Q579.95 109.12 580.26 107.69Q580.57 106.27 580.82 104.78L580.82 104.78Q581.19 103.04 582.61 100.75Q584.04 98.46 587.14 98.46L587.14 98.46Q587.76 98.46 588.38 98.52Q589 98.58 589.74 98.83L589.74 98.83Q589.74 100.81 588.57 106.21Q587.39 111.60 585.22 118.79Q583.05 125.98 580.07 133.55L580.07 133.55Q585.90 131.32 591.48 126.17Q597.06 121.02 600.53 112.47L600.53 112.47L602.14 113.71Q600.28 119.66 596.50 124.06Q592.72 128.46 588.01 131.63Q583.30 134.79 578.71 136.90L578.71 136.90Q575.48 144.83 571.70 151.78Q567.92 158.72 563.77 163.00Q559.61 167.28 555.27 167.28ZM554.65 163.31L554.65 163.31Q556.51 163.31 560.91 158.41Q565.32 153.51 570.28 141.24L570.28 141.24Q565.19 143.96 560.85 146.63Q556.51 149.30 553.91 152.40Q551.30 155.50 551.30 159.59L551.30 159.59Q551.30 160.58 552.05 161.94Q552.79 163.31 554.65 163.31Z" pathLength="1" stroke-width="42.2" style="--d:7"/></mask></defs><g mask="url(#sigm1)" class="sig-ink"><path d="M60.39 143.34L60.39 143.34Q51.58 143.34 46.19 138.94Q40.80 134.54 38.38 127.60Q35.96 120.65 35.96 113.09L35.96 113.09Q35.96 103.29 38.94 93.37Q41.91 83.45 47.06 74.46Q52.20 65.47 58.78 58.47Q65.35 51.46 72.60 47.43Q79.86 43.40 86.92 43.40L86.92 43.40Q92.01 43.40 95.17 45.82Q98.33 48.24 98.33 54.06L98.33 54.06Q98.33 57.66 97.09 62.19Q95.85 66.71 93.74 70.87Q91.64 75.02 89.09 77.75Q86.55 80.48 83.95 80.48L83.95 80.48Q82.96 80.48 81.90 79.86Q80.85 79.24 80.10 77.62L80.10 77.62Q81.96 75.52 84.26 72.35Q86.55 69.19 88.66 65.66Q90.77 62.12 92.07 58.71Q93.37 55.30 93.37 52.70L93.37 52.70Q93.37 50.22 91.95 48.67Q90.52 47.12 87.30 47.12L87.30 47.12Q81.96 47.12 76.20 51.46Q70.43 55.80 65.04 63.05Q59.64 70.31 55.30 79.24Q50.96 88.16 48.42 97.46Q45.88 106.76 45.88 115.20L45.88 115.20Q45.88 121.27 47.62 126.79Q49.35 132.31 53.26 135.72Q57.16 139.13 63.36 139.13L63.36 139.13Q69.94 139.13 76.45 135.41Q82.96 131.69 88.41 125.61Q93.87 119.54 97.09 112.47L97.09 112.47L98.83 113.71Q94.74 121.77 88.91 128.53Q83.08 135.28 75.89 139.31Q68.70 143.34 60.39 143.34Z"/><path d="M108.75 136.28L108.75 136.28Q104.53 136.28 101.99 132.49Q99.45 128.71 99.45 123.75L99.45 123.75Q99.45 120.16 100.63 115.44Q101.80 110.73 103.54 106.14Q105.28 101.56 107.14 98.58Q109.00 95.60 110.36 95.60L110.36 95.60Q110.98 95.60 112.47 96.29Q113.96 96.97 114.95 98.08L114.95 98.08Q113.58 100.19 111.60 104.53Q109.62 108.87 108.13 113.83Q106.64 118.79 106.64 123.01L106.64 123.01Q106.64 124.00 106.89 126.05Q107.14 128.09 108.13 129.70Q109.12 131.32 111.10 131.32L111.10 131.32Q113.46 131.32 115.94 128.90Q118.42 126.48 120.96 122.64Q123.50 118.79 125.86 114.33Q128.22 109.86 130.26 105.77Q132.31 101.68 133.67 98.95L133.67 98.95Q134.42 99.08 135.84 99.45Q137.27 99.82 138.45 100.44Q139.62 101.06 139.62 102.18L139.62 102.18Q139.62 102.67 138.38 105.46Q137.14 108.25 135.47 112.28Q133.80 116.31 132.56 120.40Q131.32 124.50 131.32 127.60L131.32 127.60Q131.32 129.83 132.25 131.19Q133.18 132.56 135.41 132.56L135.41 132.56Q138.01 132.56 141.73 130.20Q145.45 127.84 149.30 123.32Q153.14 118.79 156.12 112.47L156.12 112.47L157.73 113.58Q155.12 120.28 150.91 125.43Q146.69 130.57 141.98 133.42Q137.27 136.28 132.80 136.28L132.80 136.28Q129.58 136.28 127.66 135.04Q125.74 133.80 124.93 131.69Q124.12 129.58 124.12 127.10L124.12 127.10Q124.12 125.61 124.37 124.06Q124.62 122.51 124.99 120.90L124.99 120.90Q122.76 124.99 120.16 128.53Q117.55 132.06 114.70 134.17Q111.85 136.28 108.75 136.28ZM129.46 91.88L129.46 91.88Q127.97 91.88 126.91 91.45Q125.86 91.02 125.24 90.52L125.24 90.52Q128.59 90.27 131.19 88.97Q133.80 87.67 133.80 84.57L133.80 84.57Q133.80 81.72 130.94 80.48Q128.09 79.24 122.26 79.24L122.26 79.24Q122.26 76.88 123.88 75.21Q125.49 73.53 128.22 73.53L128.22 73.53Q132.43 73.53 135.16 76.32Q137.89 79.11 137.89 83.08L137.89 83.08Q137.89 86.92 135.53 89.40Q133.18 91.88 129.46 91.88Z"/><path d="M216.26 136.40L216.26 136.40Q211.92 136.40 209.93 133.73Q207.95 131.07 207.95 127.35L207.95 127.35Q207.95 124.25 208.88 121.15Q209.81 118.05 210.74 115.07Q211.67 112.10 211.67 109.74L211.67 109.74Q211.67 107.26 210.55 106.27Q209.44 105.28 208.07 105.28L208.07 105.28Q204.97 105.28 201.31 110.11Q197.66 114.95 191.83 123.75L191.83 123.75Q189.84 126.73 188.48 129.77Q187.12 132.80 185.88 135.28L185.88 135.28Q184.88 135.28 183.40 135.04Q181.91 134.79 180.73 134.23Q179.55 133.67 179.55 132.80L179.55 132.80Q179.55 131.94 180.73 128.65Q181.91 125.36 183.46 120.96Q185.01 116.56 186.19 112.03Q187.36 107.51 187.36 104.28L187.36 104.28Q187.36 102.18 186.68 100.87Q186 99.57 184.26 99.57L184.26 99.57Q181.54 99.57 177.69 102.86Q173.85 106.14 169.76 111.48Q165.66 116.81 162.01 123.19Q158.35 129.58 156.12 135.90L156.12 135.90Q155 135.90 153.39 135.53Q151.78 135.16 150.60 134.54Q149.42 133.92 149.42 133.30L149.42 133.30Q149.42 132.56 150.72 128.90Q152.02 125.24 153.70 120.09Q155.37 114.95 156.67 109.62Q157.98 104.28 157.98 100.19L157.98 100.19Q158.72 99.32 160.33 98.46Q161.94 97.59 163.68 97.59L163.68 97.59Q165.42 97.59 166.22 98.46Q167.03 99.32 167.03 100.81L167.03 100.81Q167.03 102.42 166.10 106.33Q165.17 110.24 163.80 114.95L163.80 114.95Q166.28 110.98 169.45 106.83Q172.61 102.67 176.08 99.20Q179.55 95.73 183.09 93.56Q186.62 91.39 189.97 91.39L189.97 91.39Q193.81 91.39 195.24 94.18Q196.66 96.97 196.66 100.81L196.66 100.81Q196.66 103.91 195.98 107.32Q195.30 110.73 194.43 113.65Q193.56 116.56 192.82 118.30L192.82 118.30Q195.42 113.58 198.59 109.18Q201.75 104.78 205.47 101.99Q209.19 99.20 213.40 99.20L213.40 99.20Q217.37 99.20 218.92 101.56Q220.47 103.91 220.47 107.14L220.47 107.14Q220.47 110.36 219.36 114.20Q218.24 118.05 217.06 121.64Q215.88 125.24 215.88 127.84L215.88 127.84Q215.88 129.46 216.69 130.76Q217.50 132.06 219.60 132.06L219.60 132.06Q223.08 132.06 226.11 128.90Q229.15 125.74 231.76 121.21Q234.36 116.68 236.22 112.47L236.22 112.47L237.71 114.20Q235.72 119.41 232.62 124.56Q229.52 129.70 225.37 133.05Q221.22 136.40 216.26 136.40Z"/><path d="M274.66 136.52L274.66 136.52Q269.33 136.52 267.10 133.24Q264.86 129.95 264.86 125.24L264.86 125.24Q264.86 121.40 266.10 117.30Q267.34 113.21 269.39 109.62Q271.44 106.02 273.98 103.79Q276.52 101.56 279.12 101.56L279.12 101.56Q279.74 101.56 280.43 101.74Q281.11 101.93 281.73 102.18L281.73 102.18Q280.61 103.17 279.06 105.83Q277.51 108.50 276.15 111.91Q274.78 115.32 273.85 118.67Q272.92 122.02 272.92 124.37L272.92 124.37Q272.92 128.09 274.16 129.77Q275.40 131.44 277.39 131.44L277.39 131.44Q279.99 131.44 283.59 128.65Q287.18 125.86 290.66 121.52L290.66 121.52Q287.18 118.67 285.26 114.02Q283.34 109.37 283.34 104.53L283.34 104.53Q283.34 100.44 284.77 96.84Q286.19 93.25 288.92 91.08Q291.65 88.91 295.49 88.91L295.49 88.91Q300.58 88.91 302.31 91.64Q304.05 94.36 304.05 98.46L304.05 98.46Q304.05 103.29 301.69 109.18Q299.34 115.07 295.74 120.53L295.74 120.53Q297.97 121.77 300.45 121.77L300.45 121.77Q302.44 121.77 304.92 120.96Q307.40 120.16 309.81 118.17Q312.23 116.19 313.72 112.84L313.72 112.84L315.21 114.08Q312.73 119.91 308.20 122.33Q303.68 124.74 299.58 124.74L299.58 124.74Q297.97 124.74 296.48 124.43Q295.00 124.12 293.63 123.50L293.63 123.50Q289.42 129.08 284.39 132.80Q279.37 136.52 274.66 136.52ZM292.89 118.30L292.89 118.30Q295.99 113.71 298.03 108.69Q300.08 103.66 300.08 99.20L300.08 99.20Q300.08 95.60 299.03 93.93Q297.97 92.26 296.36 92.26L296.36 92.26Q293.88 92.26 291.28 95.85Q288.67 99.45 288.67 104.90L288.67 104.90Q288.67 108.50 289.73 112.16Q290.78 115.82 292.89 118.30ZM308.51 95.85L308.51 95.85Q305.66 95.85 303.49 94.55Q301.32 93.25 299.34 92.01Q297.35 90.77 295.00 90.77L295.00 90.77L295.49 88.91Q298.47 88.91 299.89 89.65Q301.32 90.40 302.56 91.14Q303.80 91.88 306.28 91.88L306.28 91.88Q310.12 91.88 310.12 88.54L310.12 88.54Q310.12 86.06 308.64 84.51Q307.15 82.96 305.54 81.84L305.54 81.84Q306.53 80.72 307.77 80.04Q309.01 79.36 310.74 79.36L310.74 79.36Q313.22 79.36 314.90 81.59Q316.57 83.82 316.57 87.30L316.57 87.30Q316.57 90.77 314.40 93.31Q312.23 95.85 308.51 95.85Z"/><path d="M351.42 135.04L351.42 135.04Q347.08 135.04 344.91 132.80Q342.74 130.57 342.74 127.10L342.74 127.10Q342.74 124.50 343.67 121.64Q344.60 118.79 345.46 115.75Q346.33 112.72 346.33 109.86L346.33 109.86Q346.33 106.39 344.91 105.09Q343.48 103.79 341.37 103.79L341.37 103.79Q337.53 103.79 333.56 106.95Q329.59 110.11 325.87 115.01Q322.15 119.91 318.93 125.12Q315.70 130.32 313.22 134.42L313.22 134.42Q311.24 134.42 309.44 133.73Q307.64 133.05 306.65 131.69L306.65 131.69Q306.65 131.07 307.95 127.84Q309.26 124.62 310.99 119.91Q312.73 115.20 314.09 110.24Q315.46 105.28 315.46 101.18L315.46 101.18Q316.20 100.32 317.81 99.45Q319.42 98.58 321.16 98.58L321.16 98.58Q324.51 98.58 324.51 101.80L324.51 101.80Q324.51 103.79 323.39 108.44Q322.28 113.09 320.54 118.17L320.54 118.17Q323.89 113.09 328.04 108.07Q332.20 103.04 336.91 99.70Q341.62 96.35 346.33 96.35L346.33 96.35Q351.17 96.35 353.34 99.82Q355.51 103.29 355.51 107.51L355.51 107.51Q355.51 111.35 354.27 114.64Q353.03 117.92 351.73 120.96Q350.42 124.00 350.42 127.10L350.42 127.10Q350.42 129.70 351.48 130.76Q352.53 131.81 354.14 131.81L354.14 131.81Q357.24 131.81 360.34 128.90Q363.44 125.98 366.36 121.52Q369.27 117.06 371.50 112.47L371.50 112.47L372.87 114.08Q370.26 120.16 367.04 124.87Q363.82 129.58 359.97 132.31Q356.13 135.04 351.42 135.04Z"/><path d="M411.93 138.26L411.93 138.26Q406.60 138.26 403.74 135.16Q400.89 132.06 400.89 125.98L400.89 125.98Q400.89 122.26 401.95 117.06Q403 111.85 404.80 105.96Q406.60 100.07 408.70 94.49L408.70 94.49Q407.46 94.24 406.35 93.68Q405.23 93.12 404.24 92.75L404.24 92.75L404.24 90.52Q405.23 90.64 406.60 91.14Q407.96 91.64 409.70 91.76L409.70 91.76Q413.17 82.83 417.07 75.27Q420.98 67.70 424.58 63.12Q428.17 58.53 430.65 58.53L430.65 58.53Q431.64 58.53 432.45 59.21Q433.26 59.89 433.26 61.26L433.26 61.26Q433.26 62.50 432.26 64.79Q431.27 67.08 429.54 70.18Q427.80 73.28 425.69 77.00Q423.58 80.72 421.23 84.94Q418.87 89.16 416.76 93.74L416.76 93.74Q419.86 94.24 422.78 94.61Q425.69 94.98 428.79 94.98L428.79 94.98Q432.14 94.98 435.98 94.49Q439.83 93.99 444.79 93.00L444.79 93.00Q448.01 84.20 452.04 75.52Q456.07 66.84 460.23 59.71Q464.38 52.58 468.16 48.30Q471.94 44.02 474.67 44.02L474.67 44.02Q476.90 44.02 477.83 46.69Q478.76 49.35 478.76 51.83L478.76 51.83Q478.76 56.17 476.59 62.06Q474.42 67.95 470.70 74.21Q466.98 80.48 462.09 85.87Q457.19 91.26 451.73 94.61L451.73 94.61Q449.75 99.32 448.20 105.52Q446.65 111.72 446.03 117.74Q445.41 123.75 445.90 127.72L445.90 127.72Q448.88 119.16 452.60 111.85Q456.32 104.53 460.97 100.07Q465.62 95.60 471.08 95.60L471.08 95.60Q476.16 95.60 478.33 99.14Q480.50 102.67 480.50 106.76L480.50 106.76Q480.50 110.61 479.20 114.20Q477.90 117.80 476.53 121.15Q475.17 124.50 475.17 127.60L475.17 127.60Q475.17 130.08 476.22 131.19Q477.28 132.31 478.89 132.31L478.89 132.31Q481.74 132.31 485.27 129.58Q488.81 126.85 492.28 122.33Q495.75 117.80 498.23 112.47L498.23 112.47L499.84 113.96Q497.24 120.03 493.52 124.93Q489.80 129.83 485.34 132.68Q480.87 135.53 476.04 135.53L476.04 135.53Q471.82 135.53 469.65 133.30Q467.48 131.07 467.48 127.72L467.48 127.72Q467.48 125.12 468.47 121.89Q469.46 118.67 470.39 115.32Q471.32 111.97 471.32 109.00L471.32 109.00Q471.32 105.77 469.96 104.41Q468.60 103.04 466.61 103.04L466.61 103.04Q463.51 103.04 461.03 105.52Q458.55 108.00 456.51 111.91Q454.46 115.82 452.66 120.16Q450.86 124.50 449.25 128.40Q447.64 132.31 446.03 134.79Q444.42 137.27 442.68 137.27L442.68 137.27Q441.32 137.27 440.20 135.90Q439.08 134.54 438.40 132.06Q437.72 129.58 437.60 126.29Q437.47 123.01 437.97 119.29L437.97 119.29Q433.26 127.60 426.37 132.93Q419.49 138.26 411.93 138.26ZM415.52 133.67L415.52 133.67Q421.97 133.67 428.17 127.97Q434.37 122.26 439.08 112.47L439.08 112.47Q439.95 108.38 440.88 104.66Q441.81 100.94 443.42 96.35L443.42 96.35Q439.21 97.34 435.43 97.71Q431.64 98.08 428.17 98.08L428.17 98.08Q424.70 98.08 421.60 97.65Q418.50 97.22 415.40 96.72L415.40 96.72Q412.55 103.29 410.56 110.24Q408.58 117.18 408.58 123.75L408.58 123.75Q408.58 129.08 410.19 131.38Q411.80 133.67 415.52 133.67ZM453.34 89.78L453.34 89.78Q457.68 86.30 461.47 81.41Q465.25 76.51 468.22 71.36Q471.20 66.22 472.87 61.81Q474.55 57.41 474.55 55.06L474.55 55.06Q474.55 54.06 474.05 54.06L474.05 54.06Q473.18 54.06 470.70 56.79Q468.22 59.52 465.06 64.36Q461.90 69.19 458.80 75.70Q455.70 82.21 453.34 89.78Z"/><path d="M501.83 138.38L501.83 138.38Q497.98 138.38 495.32 135.84Q492.65 133.30 492.65 128.09L492.65 128.09Q492.65 123.63 494.64 118.48Q496.62 113.34 500.09 108.31Q503.56 103.29 507.97 99.14Q512.37 94.98 517.27 92.50Q522.16 90.02 527 90.02L527 90.02Q531.84 90.02 535.06 92.57Q538.28 95.11 538.28 99.32L538.28 99.32Q538.28 102.42 536.61 103.54Q534.94 104.66 532.21 104.66L532.21 104.66Q532.46 103.66 532.64 102.49Q532.83 101.31 532.83 100.32L532.83 100.32Q532.83 97.46 531.46 95.42Q530.10 93.37 526.75 93.37L526.75 93.37Q523.28 93.37 519.68 95.79Q516.09 98.21 512.74 102.24Q509.39 106.27 506.79 110.98Q504.18 115.69 502.70 120.28Q501.21 124.87 501.21 128.46L501.21 128.46Q501.21 133.30 504.56 133.30L504.56 133.30Q507.41 133.30 510.76 130.63Q514.10 127.97 517.64 123.81Q521.17 119.66 524.40 115.20Q527.62 110.73 530.10 107.01L530.10 107.01Q530.60 106.27 530.72 106.27L530.72 106.27Q531.46 106.39 532.64 106.76Q533.82 107.14 534.69 107.76Q535.56 108.38 535.56 109.37L535.56 109.37Q535.56 110.48 534.44 112.41Q533.32 114.33 531.96 116.81Q530.60 119.29 529.48 121.83Q528.36 124.37 528.36 126.60L528.36 126.60Q528.36 128.46 529.36 130.26Q530.35 132.06 532.58 132.06L532.58 132.06Q535.93 132.06 541.38 127.16Q546.84 122.26 552.42 112.47L552.42 112.47L553.66 113.71Q551.06 120.40 546.96 125.49Q542.87 130.57 538.22 133.42Q533.57 136.28 529.11 136.28L529.11 136.28Q524.52 136.28 522.35 133.55Q520.18 130.82 520.18 127.60L520.18 127.60Q520.18 126.85 520.30 125.92Q520.43 124.99 520.55 124.00L520.55 124.00Q515.22 131.19 510.82 134.79Q506.42 138.38 501.83 138.38ZM548.82 76.14L548.82 76.14Q547.71 74.03 546.22 71.92Q544.73 69.81 542.93 67.58Q541.14 65.35 539.03 62.99L539.03 62.99Q539.28 60.88 540.14 60.20Q541.01 59.52 542.13 59.52L542.13 59.52Q543.62 59.52 545.29 61.01Q546.96 62.50 548.33 64.67Q549.69 66.84 550.56 68.94Q551.43 71.05 551.43 72.42L551.43 72.42Q551.43 75.14 548.82 76.14ZM542.50 87.67L542.50 87.67Q540.76 84.07 538.53 81.53Q536.30 78.99 533.32 76.26L533.32 76.26Q529.48 77.62 526.44 79.24Q523.40 80.85 520.55 83.33L520.55 83.33Q519.81 82.83 519.56 82.15Q519.31 81.47 519.31 80.97L519.31 80.97Q519.31 79.11 520.99 77.25Q522.66 75.39 525.08 73.72Q527.50 72.04 529.85 71.05Q532.21 70.06 533.45 70.06L533.45 70.06Q534.94 70.06 536.86 71.42Q538.78 72.79 540.52 74.96Q542.25 77.13 543.43 79.48Q544.61 81.84 544.61 83.82L544.61 83.82Q544.61 85.06 544.11 86.06Q543.62 87.05 542.50 87.67Z"/><path d="M555.27 167.28L555.27 167.28Q552.17 167.28 549.82 165.60Q547.46 163.93 547.46 160.70L547.46 160.70Q547.46 156.74 549.44 153.64Q551.43 150.54 554.78 147.93Q558.12 145.33 562.46 142.97Q566.80 140.62 571.52 138.26L571.52 138.26Q573.25 133.67 575.05 128.03Q576.85 122.39 578.46 115.57L578.46 115.57Q574.49 122.02 569.97 126.67Q565.44 131.32 560.36 131.32L560.36 131.32Q558.00 131.32 555.71 130.26Q553.41 129.21 551.92 126.98Q550.44 124.74 550.44 121.27L550.44 121.27Q550.44 117.80 551.61 113.21Q552.79 108.62 554.53 104.28Q556.26 99.94 558.12 97.09Q559.98 94.24 561.35 94.24L561.35 94.24Q561.84 94.24 563.15 94.61Q564.45 94.98 565.63 95.67Q566.80 96.35 566.80 97.09L566.80 97.09Q565.69 98.70 564.32 101.68Q562.96 104.66 561.66 108.31Q560.36 111.97 559.49 115.44Q558.62 118.92 558.62 121.40L558.62 121.40Q558.62 123.63 559.61 124.99Q560.60 126.36 563.08 126.36L563.08 126.36Q565.44 126.36 568.35 124.06Q571.27 121.77 574.18 118.17Q577.10 114.58 579.58 110.48L579.58 110.48Q579.95 109.12 580.26 107.69Q580.57 106.27 580.82 104.78L580.82 104.78Q581.19 103.04 582.61 100.75Q584.04 98.46 587.14 98.46L587.14 98.46Q587.76 98.46 588.38 98.52Q589 98.58 589.74 98.83L589.74 98.83Q589.74 100.81 588.57 106.21Q587.39 111.60 585.22 118.79Q583.05 125.98 580.07 133.55L580.07 133.55Q585.90 131.32 591.48 126.17Q597.06 121.02 600.53 112.47L600.53 112.47L602.14 113.71Q600.28 119.66 596.50 124.06Q592.72 128.46 588.01 131.63Q583.30 134.79 578.71 136.90L578.71 136.90Q575.48 144.83 571.70 151.78Q567.92 158.72 563.77 163.00Q559.61 167.28 555.27 167.28ZM554.65 163.31L554.65 163.31Q556.51 163.31 560.91 158.41Q565.32 153.51 570.28 141.24L570.28 141.24Q565.19 143.96 560.85 146.63Q556.51 149.30 553.91 152.40Q551.30 155.50 551.30 159.59L551.30 159.59Q551.30 160.58 552.05 161.94Q552.79 163.31 554.65 163.31Z"/></g></svg>
-    <svg class="sig" viewBox="0 0 888.6 210.8" width="888.6" height="210.8" role="img" aria-label="và các pạn đã xem"><defs><mask id="sigm2" maskUnits="userSpaceOnUse"><path class="sm" d="M42.78 137.52L42.78 137.52Q38.94 137.52 37.45 133.73Q35.96 129.95 35.96 123.88L35.96 123.88Q35.96 123.63 36.08 119.97Q36.21 116.31 36.70 107.63L36.70 107.63Q36.95 104.28 37.45 103.04Q37.94 101.80 40.67 101.80L40.67 101.80Q42.78 101.80 43.34 102.61Q43.90 103.42 43.90 105.77L43.90 105.77Q43.90 109.86 43.34 115.38Q42.78 120.90 42.78 125.74L42.78 125.74Q42.78 129.33 43.40 131.01Q44.02 132.68 45.63 132.68L45.63 132.68Q47.86 132.68 50.59 130.14Q53.32 127.60 56.17 123.44Q59.02 119.29 61.57 114.58Q64.11 109.86 66.09 105.52L66.09 105.52Q66.34 97.09 67.89 94.30Q69.44 91.51 71.80 91.51L71.80 91.51Q74.15 91.51 75.21 93.19Q76.26 94.86 76.26 96.22L76.26 96.22Q76.26 97.84 75.21 99.57Q74.15 101.31 73.04 104.28Q71.92 107.26 71.92 112.84L71.92 112.84Q71.92 114.82 72.29 117.06Q72.66 119.29 73.90 120.78Q75.14 122.26 77.75 122.26L77.75 122.26Q80.35 122.26 82.77 120.22Q85.19 118.17 87.54 113.09L87.54 113.09L89.16 114.33Q86.43 120.53 83.14 122.64Q79.86 124.74 76.88 124.74L76.88 124.74Q72.79 124.74 70.06 121.77Q67.33 118.79 66.46 112.72L66.46 112.72Q63.49 118.79 59.46 124.43Q55.43 130.08 51.09 133.80Q46.75 137.52 42.78 137.52Z" pathLength="1" stroke-width="42.2" style="--d:8"/><path class="sm" d="M91.14 138.51L91.14 138.51Q87.30 138.51 84.63 135.97Q81.96 133.42 81.96 128.22L81.96 128.22Q81.96 123.75 83.95 118.61Q85.93 113.46 89.40 108.44Q92.88 103.42 97.28 99.26Q101.68 95.11 106.58 92.63Q111.48 90.15 116.31 90.15L116.31 90.15Q121.15 90.15 124.37 92.69Q127.60 95.23 127.60 99.45L127.60 99.45Q127.60 102.55 125.92 103.66Q124.25 104.78 121.52 104.78L121.52 104.78Q121.77 103.79 121.95 102.61Q122.14 101.43 122.14 100.44L122.14 100.44Q122.14 97.59 120.78 95.54Q119.41 93.50 116.06 93.50L116.06 93.50Q112.59 93.50 109.00 95.91Q105.40 98.33 102.05 102.36Q98.70 106.39 96.10 111.10Q93.50 115.82 92.01 120.40Q90.52 124.99 90.52 128.59L90.52 128.59Q90.52 133.42 93.87 133.42L93.87 133.42Q96.72 133.42 100.07 130.76Q103.42 128.09 106.95 123.94Q110.48 119.78 113.71 115.32Q116.93 110.86 119.41 107.14L119.41 107.14Q119.91 106.39 120.03 106.39L120.03 106.39Q120.78 106.52 121.95 106.89Q123.13 107.26 124.00 107.88Q124.87 108.50 124.87 109.49L124.87 109.49Q124.87 110.61 123.75 112.53Q122.64 114.45 121.27 116.93Q119.91 119.41 118.79 121.95Q117.68 124.50 117.68 126.73L117.68 126.73Q117.68 128.59 118.67 130.39Q119.66 132.18 121.89 132.18L121.89 132.18Q125.24 132.18 130.70 127.29Q136.15 122.39 141.73 112.59L141.73 112.59L142.97 113.83Q140.37 120.53 136.28 125.61Q132.18 130.70 127.53 133.55Q122.88 136.40 118.42 136.40L118.42 136.40Q113.83 136.40 111.66 133.67Q109.49 130.94 109.49 127.72L109.49 127.72Q109.49 126.98 109.62 126.05Q109.74 125.12 109.86 124.12L109.86 124.12Q104.53 131.32 100.13 134.91Q95.73 138.51 91.14 138.51ZM125.49 81.84L125.49 81.84Q122.76 78.24 119.41 74.77Q116.06 71.30 111.60 67.46L111.60 67.46Q111.85 65.22 112.59 64.42Q113.34 63.61 114.33 63.61L114.33 63.61Q116.19 63.61 118.42 65.47Q120.65 67.33 122.64 70.00Q124.62 72.66 125.92 75.08Q127.22 77.50 127.22 78.62L127.22 78.62Q127.22 79.11 126.85 80.23Q126.48 81.34 125.49 81.84Z" pathLength="1" stroke-width="42.2" style="--d:9"/><path class="sm" d="M184.76 139.62L184.76 139.62Q178.81 139.62 174.84 135.66Q170.87 131.69 170.87 123.75L170.87 123.75Q170.87 117.55 173.29 111.66Q175.71 105.77 179.68 101.06Q183.64 96.35 188.48 93.56Q193.32 90.77 198.03 90.77L198.03 90.77Q203.11 90.77 204.97 93.74Q206.83 96.72 206.83 99.94L206.83 99.94Q206.83 103.54 205.16 106.27Q203.48 109.00 200.63 109.00L200.63 109.00Q198.52 109.00 197.04 107.14L197.04 107.14Q198.90 106.14 200.26 103.11Q201.62 100.07 201.62 97.34L201.62 97.34Q201.62 95.85 201.07 95.05Q200.51 94.24 198.90 94.24L198.90 94.24Q195.55 94.24 192.01 97.22Q188.48 100.19 185.44 104.90Q182.40 109.62 180.48 114.82Q178.56 120.03 178.56 124.62L178.56 124.62Q178.56 128.46 180.42 131.69Q182.28 134.91 187.61 134.91L187.61 134.91Q192.57 134.91 197.59 132.18Q202.62 129.46 206.96 124.37Q211.30 119.29 213.90 112.47L213.90 112.47L215.51 113.71Q212.66 121.15 207.70 127.04Q202.74 132.93 196.79 136.28Q190.84 139.62 184.76 139.62Z" pathLength="1" stroke-width="42.2" style="--d:10"/><path class="sm" d="M217.50 138.51L217.50 138.51Q213.65 138.51 210.99 135.97Q208.32 133.42 208.32 128.22L208.32 128.22Q208.32 123.75 210.30 118.61Q212.29 113.46 215.76 108.44Q219.23 103.42 223.63 99.26Q228.04 95.11 232.93 92.63Q237.83 90.15 242.67 90.15L242.67 90.15Q247.50 90.15 250.73 92.69Q253.95 95.23 253.95 99.45L253.95 99.45Q253.95 102.55 252.28 103.66Q250.60 104.78 247.88 104.78L247.88 104.78Q248.12 103.79 248.31 102.61Q248.50 101.43 248.50 100.44L248.50 100.44Q248.50 97.59 247.13 95.54Q245.77 93.50 242.42 93.50L242.42 93.50Q238.95 93.50 235.35 95.91Q231.76 98.33 228.41 102.36Q225.06 106.39 222.46 111.10Q219.85 115.82 218.36 120.40Q216.88 124.99 216.88 128.59L216.88 128.59Q216.88 133.42 220.22 133.42L220.22 133.42Q223.08 133.42 226.42 130.76Q229.77 128.09 233.31 123.94Q236.84 119.78 240.06 115.32Q243.29 110.86 245.77 107.14L245.77 107.14Q246.26 106.39 246.39 106.39L246.39 106.39Q247.13 106.52 248.31 106.89Q249.49 107.26 250.36 107.88Q251.22 108.50 251.22 109.49L251.22 109.49Q251.22 110.61 250.11 112.53Q248.99 114.45 247.63 116.93Q246.26 119.41 245.15 121.95Q244.03 124.50 244.03 126.73L244.03 126.73Q244.03 128.59 245.02 130.39Q246.02 132.18 248.25 132.18L248.25 132.18Q251.60 132.18 257.05 127.29Q262.51 122.39 268.09 112.59L268.09 112.59L269.33 113.83Q266.72 120.53 262.63 125.61Q258.54 130.70 253.89 133.55Q249.24 136.40 244.78 136.40L244.78 136.40Q240.19 136.40 238.02 133.67Q235.85 130.94 235.85 127.72L235.85 127.72Q235.85 126.98 235.97 126.05Q236.10 125.12 236.22 124.12L236.22 124.12Q230.89 131.32 226.49 134.91Q222.08 138.51 217.50 138.51ZM248 81.84L248 81.84Q247.13 81.34 246.70 80.23Q246.26 79.11 246.26 78.62L246.26 78.62Q246.26 77.50 247.57 75.08Q248.87 72.66 250.85 70.00Q252.84 67.33 255.07 65.47Q257.30 63.61 259.16 63.61L259.16 63.61Q260.15 63.61 260.96 64.42Q261.76 65.22 261.89 67.46L261.89 67.46Q257.42 71.30 254.08 74.77Q250.73 78.24 248 81.84Z" pathLength="1" stroke-width="42.2" style="--d:11"/><path class="sm" d="M278.88 139.62L278.88 139.62Q272.92 139.62 268.96 135.66Q264.99 131.69 264.99 123.75L264.99 123.75Q264.99 117.55 267.41 111.66Q269.82 105.77 273.79 101.06Q277.76 96.35 282.60 93.56Q287.43 90.77 292.14 90.77L292.14 90.77Q297.23 90.77 299.09 93.74Q300.95 96.72 300.95 99.94L300.95 99.94Q300.95 103.54 299.27 106.27Q297.60 109.00 294.75 109.00L294.75 109.00Q292.64 109.00 291.15 107.14L291.15 107.14Q293.01 106.14 294.38 103.11Q295.74 100.07 295.74 97.34L295.74 97.34Q295.74 95.85 295.18 95.05Q294.62 94.24 293.01 94.24L293.01 94.24Q289.66 94.24 286.13 97.22Q282.60 100.19 279.56 104.90Q276.52 109.62 274.60 114.82Q272.68 120.03 272.68 124.62L272.68 124.62Q272.68 128.46 274.54 131.69Q276.40 134.91 281.73 134.91L281.73 134.91Q286.69 134.91 291.71 132.18Q296.73 129.46 301.07 124.37Q305.41 119.29 308.02 112.47L308.02 112.47L309.63 113.71Q306.78 121.15 301.82 127.04Q296.86 132.93 290.90 136.28Q284.95 139.62 278.88 139.62Z" pathLength="1" stroke-width="42.2" style="--d:12"/><path class="sm" d="M330.09 167.40L330.09 167.40Q329.10 167.40 328.17 166.35Q327.24 165.29 326.74 164.11Q326.24 162.94 326.24 162.69L326.24 162.69Q327.98 156.61 329.65 151.84Q331.33 147.06 333.00 142.04Q334.68 137.02 336.29 130.26Q337.90 123.50 339.64 113.46Q341.37 103.42 343.11 88.54L343.11 88.54Q343.23 87.42 343.60 86.92Q343.98 86.43 345.46 86.43L345.46 86.43Q348.69 86.43 350.05 88.23Q351.42 90.02 351.42 92.13L351.42 92.13Q351.42 93.87 350.67 98.33Q349.93 102.80 348.56 108.87L348.56 108.87Q350.67 104.78 353.83 100.56Q357.00 96.35 361.09 93.50Q365.18 90.64 370.02 90.64L370.02 90.64Q375.47 90.64 379.01 94.55Q382.54 98.46 382.54 104.78L382.54 104.78Q382.54 109.62 380.37 115.01Q378.20 120.40 374.29 125.18Q370.39 129.95 365.06 132.93Q359.72 135.90 353.28 135.90L353.28 135.90Q350.05 135.90 348.07 135.16Q346.08 134.42 346.08 133.67L346.08 133.67Q346.08 133.18 347.01 133.11Q347.94 133.05 349.18 133.05L349.18 133.05Q354.14 133.05 358.67 130.63Q363.20 128.22 366.79 124.25Q370.39 120.28 372.43 115.44Q374.48 110.61 374.48 105.90L374.48 105.90Q374.48 101.93 372.81 99.14Q371.13 96.35 367.41 96.35L367.41 96.35Q364.19 96.35 361.03 98.39Q357.86 100.44 355.07 103.60Q352.28 106.76 350.11 110.17Q347.94 113.58 346.83 116.31L346.83 116.31Q344.60 125.61 342.36 134.23Q340.13 142.85 338.09 149.85Q336.04 156.86 334.37 161.32Q332.69 165.79 331.58 166.78L331.58 166.78Q330.96 167.40 330.09 167.40Z" pathLength="1" stroke-width="42.2" style="--d:13"/><path class="sm" d="M392.34 138.51L392.34 138.51Q388.49 138.51 385.83 135.97Q383.16 133.42 383.16 128.22L383.16 128.22Q383.16 123.75 385.14 118.61Q387.13 113.46 390.60 108.44Q394.07 103.42 398.47 99.26Q402.88 95.11 407.77 92.63Q412.67 90.15 417.51 90.15L417.51 90.15Q422.34 90.15 425.57 92.69Q428.79 95.23 428.79 99.45L428.79 99.45Q428.79 102.55 427.12 103.66Q425.44 104.78 422.72 104.78L422.72 104.78Q422.96 103.79 423.15 102.61Q423.34 101.43 423.34 100.44L423.34 100.44Q423.34 97.59 421.97 95.54Q420.61 93.50 417.26 93.50L417.26 93.50Q413.79 93.50 410.19 95.91Q406.60 98.33 403.25 102.36Q399.90 106.39 397.30 111.10Q394.69 115.82 393.20 120.40Q391.72 124.99 391.72 128.59L391.72 128.59Q391.72 133.42 395.06 133.42L395.06 133.42Q397.92 133.42 401.26 130.76Q404.61 128.09 408.15 123.94Q411.68 119.78 414.90 115.32Q418.13 110.86 420.61 107.14L420.61 107.14Q421.10 106.39 421.23 106.39L421.23 106.39Q421.97 106.52 423.15 106.89Q424.33 107.26 425.20 107.88Q426.06 108.50 426.06 109.49L426.06 109.49Q426.06 110.61 424.95 112.53Q423.83 114.45 422.47 116.93Q421.10 119.41 419.99 121.95Q418.87 124.50 418.87 126.73L418.87 126.73Q418.87 128.59 419.86 130.39Q420.86 132.18 423.09 132.18L423.09 132.18Q426.44 132.18 431.89 127.29Q437.35 122.39 442.93 112.59L442.93 112.59L444.17 113.83Q441.56 120.53 437.47 125.61Q433.38 130.70 428.73 133.55Q424.08 136.40 419.62 136.40L419.62 136.40Q415.03 136.40 412.86 133.67Q410.69 130.94 410.69 127.72L410.69 127.72Q410.69 126.98 410.81 126.05Q410.94 125.12 411.06 124.12L411.06 124.12Q405.73 131.32 401.33 134.91Q396.92 138.51 392.34 138.51ZM397.67 158.60L397.67 158.60Q395.44 158.60 394.07 157.54Q392.71 156.49 392.71 154.50L392.71 154.50Q392.71 151.78 395.37 150.10Q398.04 148.43 400.77 148.43L400.77 148.43Q402.88 148.43 403.99 149.48Q405.11 150.54 405.11 152.52L405.11 152.52Q405.11 154.88 402.75 156.74Q400.40 158.60 397.67 158.60Z" pathLength="1" stroke-width="42.2" style="--d:14"/><path class="sm" d="M480.50 135.16L480.50 135.16Q476.16 135.16 473.99 132.93Q471.82 130.70 471.82 127.22L471.82 127.22Q471.82 124.62 472.75 121.77Q473.68 118.92 474.55 115.88Q475.42 112.84 475.42 109.99L475.42 109.99Q475.42 106.52 473.99 105.21Q472.56 103.91 470.46 103.91L470.46 103.91Q466.61 103.91 462.64 107.07Q458.68 110.24 454.96 115.13Q451.24 120.03 448.01 125.24Q444.79 130.45 442.31 134.54L442.31 134.54Q440.32 134.54 438.53 133.86Q436.73 133.18 435.74 131.81L435.74 131.81Q435.74 131.19 437.04 127.97Q438.34 124.74 440.08 120.03Q441.81 115.32 443.18 110.36Q444.54 105.40 444.54 101.31L444.54 101.31Q445.28 100.44 446.90 99.57Q448.51 98.70 450.24 98.70L450.24 98.70Q453.59 98.70 453.59 101.93L453.59 101.93Q453.59 103.91 452.48 108.56Q451.36 113.21 449.62 118.30L449.62 118.30Q452.97 113.21 457.13 108.19Q461.28 103.17 465.99 99.82Q470.70 96.47 475.42 96.47L475.42 96.47Q480.25 96.47 482.42 99.94Q484.59 103.42 484.59 107.63L484.59 107.63Q484.59 111.48 483.35 114.76Q482.11 118.05 480.81 121.09Q479.51 124.12 479.51 127.22L479.51 127.22Q479.51 129.83 480.56 130.88Q481.62 131.94 483.23 131.94L483.23 131.94Q486.33 131.94 489.43 129.02Q492.53 126.11 495.44 121.64Q498.36 117.18 500.59 112.59L500.59 112.59L501.95 114.20Q499.35 120.28 496.12 124.99Q492.90 129.70 489.06 132.43Q485.21 135.16 480.50 135.16Z" pathLength="1" stroke-width="42.2" style="--d:15"/><path class="sm" d="M564.45 67.70L564.45 67.70Q565.56 64.48 570.83 63.12Q576.10 61.75 585.90 61.63L585.90 61.63Q590.61 61.50 595.08 61.69Q599.54 61.88 603.14 62.12Q606.73 62.37 608.72 62.74L608.72 62.74Q605.62 64.98 602.08 65.66Q598.55 66.34 595.94 66.34L595.94 66.34Q589.99 66.34 585.65 66.34Q581.31 66.34 577.84 66.46Q574.37 66.59 571.21 66.84Q568.04 67.08 564.45 67.70ZM537.79 136.40L537.79 136.40Q535.68 136.40 533.51 135.35Q531.34 134.29 529.91 131.94Q528.49 129.58 528.49 125.98L528.49 125.98Q528.49 121.89 530.47 116.81Q532.46 111.72 535.80 106.70Q539.15 101.68 543.49 97.40Q547.83 93.12 552.54 90.58Q557.26 88.04 561.84 88.04L561.84 88.04Q564.45 88.04 565.87 88.97Q567.30 89.90 567.30 91.88L567.30 91.88Q567.30 92.38 567.24 92.75Q567.18 93.12 567.05 93.62L567.05 93.62Q566.43 92.63 565.25 92.19Q564.08 91.76 562.34 91.76L562.34 91.76Q558.37 91.76 554.59 94.18Q550.81 96.60 547.65 100.50Q544.48 104.41 542.13 108.87Q539.77 113.34 538.47 117.49Q537.17 121.64 537.17 124.50L537.17 124.50Q537.17 127.22 538.41 128.84Q539.65 130.45 541.63 130.45L541.63 130.45Q544.98 130.45 549.75 126.23Q554.53 122.02 559.49 114.33Q564.45 106.64 568.42 96.35L568.42 96.35Q571.14 89.16 574.06 81.72Q576.97 74.28 579.95 67.39Q582.92 60.51 585.71 55.12Q588.50 49.72 591.05 46.56Q593.59 43.40 595.57 43.40L595.57 43.40Q596.56 43.40 597.31 44.21Q598.05 45.01 598.05 46.25L598.05 46.25Q598.05 48.24 596.01 53.01Q593.96 57.78 590.67 64.42Q587.39 71.05 583.79 78.86Q580.20 86.68 576.91 94.74Q573.62 102.80 571.58 110.30Q569.53 117.80 569.53 124L569.53 124Q569.53 127.47 569.90 129.21Q570.28 130.94 572.38 130.94L572.38 130.94Q574.99 130.94 578.46 128.71Q581.93 126.48 585.40 122.39Q588.88 118.30 591.48 112.59L591.48 112.59L592.97 113.71Q590.61 120.03 586.52 125.05Q582.43 130.08 577.78 132.99Q573.13 135.90 568.91 135.90L568.91 135.90Q564.32 135.90 562.53 132.87Q560.73 129.83 560.73 126.60L560.73 126.60Q560.73 124.50 561.35 121.02Q561.97 117.55 563.08 113.34L563.08 113.34Q559.12 119.91 554.65 125.18Q550.19 130.45 545.91 133.42Q541.63 136.40 537.79 136.40Z" pathLength="1" stroke-width="42.2" style="--d:16"/><path class="sm" d="M595.20 138.51L595.20 138.51Q591.36 138.51 588.69 135.97Q586.02 133.42 586.02 128.22L586.02 128.22Q586.02 123.75 588.01 118.61Q589.99 113.46 593.46 108.44Q596.94 103.42 601.34 99.26Q605.74 95.11 610.64 92.63Q615.54 90.15 620.37 90.15L620.37 90.15Q625.21 90.15 628.43 92.69Q631.66 95.23 631.66 99.45L631.66 99.45Q631.66 102.55 629.98 103.66Q628.31 104.78 625.58 104.78L625.58 104.78Q625.83 103.79 626.01 102.61Q626.20 101.43 626.20 100.44L626.20 100.44Q626.20 97.59 624.84 95.54Q623.47 93.50 620.12 93.50L620.12 93.50Q616.65 93.50 613.06 95.91Q609.46 98.33 606.11 102.36Q602.76 106.39 600.16 111.10Q597.56 115.82 596.07 120.40Q594.58 124.99 594.58 128.59L594.58 128.59Q594.58 133.42 597.93 133.42L597.93 133.42Q600.78 133.42 604.13 130.76Q607.48 128.09 611.01 123.94Q614.54 119.78 617.77 115.32Q620.99 110.86 623.47 107.14L623.47 107.14Q623.97 106.39 624.09 106.39L624.09 106.39Q624.84 106.52 626.01 106.89Q627.19 107.26 628.06 107.88Q628.93 108.50 628.93 109.49L628.93 109.49Q628.93 110.61 627.81 112.53Q626.70 114.45 625.33 116.93Q623.97 119.41 622.85 121.95Q621.74 124.50 621.74 126.73L621.74 126.73Q621.74 128.59 622.73 130.39Q623.72 132.18 625.95 132.18L625.95 132.18Q629.30 132.18 634.76 127.29Q640.21 122.39 645.79 112.59L645.79 112.59L647.03 113.83Q644.43 120.53 640.34 125.61Q636.24 130.70 631.59 133.55Q626.94 136.40 622.48 136.40L622.48 136.40Q617.89 136.40 615.72 133.67Q613.55 130.94 613.55 127.72L613.55 127.72Q613.55 126.98 613.68 126.05Q613.80 125.12 613.92 124.12L613.92 124.12Q608.59 131.32 604.19 134.91Q599.79 138.51 595.20 138.51ZM637.48 82.83L637.48 82.83Q634.14 82.83 630.54 81.41Q626.94 79.98 623.29 78.55Q619.63 77.13 615.78 77.13L615.78 77.13Q614.17 77.13 612.44 77.56Q610.70 78.00 609.09 78.99L609.09 78.99Q611.57 75.52 614.30 74.15Q617.02 72.79 619.88 72.79L619.88 72.79Q623.35 72.79 627.07 74.28Q630.79 75.76 634.88 77.25Q638.97 78.74 643.44 78.74L643.44 78.74Q645.42 78.74 647.65 77.75L647.65 77.75Q645.30 80.60 642.75 81.72Q640.21 82.83 637.48 82.83Z" pathLength="1" stroke-width="42.2" style="--d:17"/><path class="sm" d="M681.01 140.00L681.01 140.00Q680.51 140.00 680.14 139.50Q679.77 139.00 679.77 138.14L679.77 138.14Q679.77 136.65 682.37 132.87Q684.98 129.08 689.13 123.88Q693.28 118.67 698.12 113.34L698.12 113.34Q697.50 107.51 696.51 103.23Q695.52 98.95 692.66 98.95L692.66 98.95Q689.69 98.95 687.33 101.49Q684.98 104.04 682.74 108.07Q680.51 112.10 677.91 116.68L677.91 116.68L676.79 114.70Q678.53 111.35 680.08 107.76Q681.63 104.16 683.49 101.06Q685.35 97.96 688.01 96.04Q690.68 94.12 694.65 94.12L694.65 94.12Q699.48 94.12 701.78 97.53Q704.07 100.94 704.94 105.90L704.94 105.90Q710.77 99.82 715.48 95.67Q720.19 91.51 721.80 91.51L721.80 91.51Q722.42 91.51 723.66 91.88Q724.90 92.26 724.90 92.88L724.90 92.88Q723.54 92.88 720.56 95.29Q717.59 97.71 713.74 101.80Q709.90 105.90 705.68 110.73L705.68 110.73Q706.06 114.45 706.30 118.17Q706.55 121.89 707.11 124.87Q707.67 127.84 708.91 129.64Q710.15 131.44 712.38 131.44L712.38 131.44Q714.61 131.44 717.15 129.58Q719.70 127.72 722.11 124.81Q724.53 121.89 726.58 118.67Q728.62 115.44 729.86 112.72L729.86 112.72L731.10 113.96Q729.37 119.29 725.83 124.31Q722.30 129.33 717.96 132.62Q713.62 135.90 709.28 135.90L709.28 135.90Q705.68 135.90 703.58 133.49Q701.47 131.07 700.41 127.16Q699.36 123.26 698.74 118.92L698.74 118.92Q693.53 125.12 689.13 130.70Q684.73 136.28 682.50 139.13L682.50 139.13Q681.75 140.00 681.01 140.00Z" pathLength="1" stroke-width="42.2" style="--d:18"/><path class="sm" d="M740.78 138.14L740.78 138.14Q733.21 138.14 729.43 133.98Q725.65 129.83 725.65 123.75L725.65 123.75Q725.65 118.17 728.44 111.97Q731.23 105.77 735.88 100.32Q740.53 94.86 746.11 91.45Q751.69 88.04 757.14 88.04L757.14 88.04Q760.00 88.04 762.41 89.53Q764.83 91.02 764.83 95.60L764.83 95.60Q764.83 100.32 762.04 104.47Q759.25 108.62 754.73 111.85Q750.20 115.07 744.81 117.12Q739.41 119.16 734.08 119.66L734.08 119.66Q733.83 120.90 733.71 122.02Q733.58 123.13 733.58 124.12L733.58 124.12Q733.58 125.98 734.02 127.84Q734.45 129.70 735.57 131.25Q736.68 132.80 738.61 133.67Q740.53 134.54 743.38 134.54L743.38 134.54Q748.71 134.54 753.92 131.50Q759.13 128.46 763.59 123.50Q768.06 118.54 771.16 112.59L771.16 112.59L772.64 113.71Q769.30 121.15 764.15 126.60Q759.00 132.06 752.99 135.10Q746.98 138.14 740.78 138.14ZM734.70 117.30L734.70 117.30Q738.05 116.19 742.26 114.02Q746.48 111.85 750.39 108.87Q754.29 105.90 756.83 102.30Q759.38 98.70 759.38 94.74L759.38 94.74Q759.38 93.37 758.88 92.63Q758.38 91.88 756.77 91.88L756.77 91.88Q753.80 91.88 750.45 94.18Q747.10 96.47 744.00 100.19Q740.90 103.91 738.42 108.38Q735.94 112.84 734.70 117.30Z" pathLength="1" stroke-width="42.2" style="--d:19"/><path class="sm" d="M831.17 136.52L831.17 136.52Q826.83 136.52 824.85 133.86Q822.86 131.19 822.86 127.47L822.86 127.47Q822.86 124.37 823.79 121.27Q824.72 118.17 825.65 115.20Q826.58 112.22 826.58 109.86L826.58 109.86Q826.58 107.38 825.47 106.39Q824.35 105.40 822.99 105.40L822.99 105.40Q819.89 105.40 816.23 110.24Q812.57 115.07 806.74 123.88L806.74 123.88Q804.76 126.85 803.40 129.89Q802.03 132.93 800.79 135.41L800.79 135.41Q799.80 135.41 798.31 135.16Q796.82 134.91 795.65 134.35Q794.47 133.80 794.47 132.93L794.47 132.93Q794.47 132.06 795.65 128.77Q796.82 125.49 798.37 121.09Q799.92 116.68 801.10 112.16Q802.28 107.63 802.28 104.41L802.28 104.41Q802.28 102.30 801.60 101.00Q800.92 99.70 799.18 99.70L799.18 99.70Q796.45 99.70 792.61 102.98Q788.76 106.27 784.67 111.60Q780.58 116.93 776.92 123.32Q773.26 129.70 771.03 136.03L771.03 136.03Q769.92 136.03 768.30 135.66Q766.69 135.28 765.51 134.66Q764.34 134.04 764.34 133.42L764.34 133.42Q764.34 132.68 765.64 129.02Q766.94 125.36 768.61 120.22Q770.29 115.07 771.59 109.74Q772.89 104.41 772.89 100.32L772.89 100.32Q773.64 99.45 775.25 98.58Q776.86 97.71 778.60 97.71L778.60 97.71Q780.33 97.71 781.14 98.58Q781.94 99.45 781.94 100.94L781.94 100.94Q781.94 102.55 781.01 106.45Q780.08 110.36 778.72 115.07L778.72 115.07Q781.20 111.10 784.36 106.95Q787.52 102.80 791.00 99.32Q794.47 95.85 798.00 93.68Q801.54 91.51 804.88 91.51L804.88 91.51Q808.73 91.51 810.15 94.30Q811.58 97.09 811.58 100.94L811.58 100.94Q811.58 104.04 810.90 107.45Q810.22 110.86 809.35 113.77Q808.48 116.68 807.74 118.42L807.74 118.42Q810.34 113.71 813.50 109.31Q816.66 104.90 820.38 102.11Q824.10 99.32 828.32 99.32L828.32 99.32Q832.29 99.32 833.84 101.68Q835.39 104.04 835.39 107.26L835.39 107.26Q835.39 110.48 834.27 114.33Q833.16 118.17 831.98 121.77Q830.80 125.36 830.80 127.97L830.80 127.97Q830.80 129.58 831.61 130.88Q832.41 132.18 834.52 132.18L834.52 132.18Q837.99 132.18 841.03 129.02Q844.07 125.86 846.67 121.33Q849.28 116.81 851.14 112.59L851.14 112.59L852.62 114.33Q850.64 119.54 847.54 124.68Q844.44 129.83 840.29 133.18Q836.13 136.52 831.17 136.52Z" pathLength="1" stroke-width="42.2" style="--d:20"/></mask></defs><g mask="url(#sigm2)" class="sig-ink"><path d="M42.78 137.52L42.78 137.52Q38.94 137.52 37.45 133.73Q35.96 129.95 35.96 123.88L35.96 123.88Q35.96 123.63 36.08 119.97Q36.21 116.31 36.70 107.63L36.70 107.63Q36.95 104.28 37.45 103.04Q37.94 101.80 40.67 101.80L40.67 101.80Q42.78 101.80 43.34 102.61Q43.90 103.42 43.90 105.77L43.90 105.77Q43.90 109.86 43.34 115.38Q42.78 120.90 42.78 125.74L42.78 125.74Q42.78 129.33 43.40 131.01Q44.02 132.68 45.63 132.68L45.63 132.68Q47.86 132.68 50.59 130.14Q53.32 127.60 56.17 123.44Q59.02 119.29 61.57 114.58Q64.11 109.86 66.09 105.52L66.09 105.52Q66.34 97.09 67.89 94.30Q69.44 91.51 71.80 91.51L71.80 91.51Q74.15 91.51 75.21 93.19Q76.26 94.86 76.26 96.22L76.26 96.22Q76.26 97.84 75.21 99.57Q74.15 101.31 73.04 104.28Q71.92 107.26 71.92 112.84L71.92 112.84Q71.92 114.82 72.29 117.06Q72.66 119.29 73.90 120.78Q75.14 122.26 77.75 122.26L77.75 122.26Q80.35 122.26 82.77 120.22Q85.19 118.17 87.54 113.09L87.54 113.09L89.16 114.33Q86.43 120.53 83.14 122.64Q79.86 124.74 76.88 124.74L76.88 124.74Q72.79 124.74 70.06 121.77Q67.33 118.79 66.46 112.72L66.46 112.72Q63.49 118.79 59.46 124.43Q55.43 130.08 51.09 133.80Q46.75 137.52 42.78 137.52Z"/><path d="M91.14 138.51L91.14 138.51Q87.30 138.51 84.63 135.97Q81.96 133.42 81.96 128.22L81.96 128.22Q81.96 123.75 83.95 118.61Q85.93 113.46 89.40 108.44Q92.88 103.42 97.28 99.26Q101.68 95.11 106.58 92.63Q111.48 90.15 116.31 90.15L116.31 90.15Q121.15 90.15 124.37 92.69Q127.60 95.23 127.60 99.45L127.60 99.45Q127.60 102.55 125.92 103.66Q124.25 104.78 121.52 104.78L121.52 104.78Q121.77 103.79 121.95 102.61Q122.14 101.43 122.14 100.44L122.14 100.44Q122.14 97.59 120.78 95.54Q119.41 93.50 116.06 93.50L116.06 93.50Q112.59 93.50 109.00 95.91Q105.40 98.33 102.05 102.36Q98.70 106.39 96.10 111.10Q93.50 115.82 92.01 120.40Q90.52 124.99 90.52 128.59L90.52 128.59Q90.52 133.42 93.87 133.42L93.87 133.42Q96.72 133.42 100.07 130.76Q103.42 128.09 106.95 123.94Q110.48 119.78 113.71 115.32Q116.93 110.86 119.41 107.14L119.41 107.14Q119.91 106.39 120.03 106.39L120.03 106.39Q120.78 106.52 121.95 106.89Q123.13 107.26 124.00 107.88Q124.87 108.50 124.87 109.49L124.87 109.49Q124.87 110.61 123.75 112.53Q122.64 114.45 121.27 116.93Q119.91 119.41 118.79 121.95Q117.68 124.50 117.68 126.73L117.68 126.73Q117.68 128.59 118.67 130.39Q119.66 132.18 121.89 132.18L121.89 132.18Q125.24 132.18 130.70 127.29Q136.15 122.39 141.73 112.59L141.73 112.59L142.97 113.83Q140.37 120.53 136.28 125.61Q132.18 130.70 127.53 133.55Q122.88 136.40 118.42 136.40L118.42 136.40Q113.83 136.40 111.66 133.67Q109.49 130.94 109.49 127.72L109.49 127.72Q109.49 126.98 109.62 126.05Q109.74 125.12 109.86 124.12L109.86 124.12Q104.53 131.32 100.13 134.91Q95.73 138.51 91.14 138.51ZM125.49 81.84L125.49 81.84Q122.76 78.24 119.41 74.77Q116.06 71.30 111.60 67.46L111.60 67.46Q111.85 65.22 112.59 64.42Q113.34 63.61 114.33 63.61L114.33 63.61Q116.19 63.61 118.42 65.47Q120.65 67.33 122.64 70.00Q124.62 72.66 125.92 75.08Q127.22 77.50 127.22 78.62L127.22 78.62Q127.22 79.11 126.85 80.23Q126.48 81.34 125.49 81.84Z"/><path d="M184.76 139.62L184.76 139.62Q178.81 139.62 174.84 135.66Q170.87 131.69 170.87 123.75L170.87 123.75Q170.87 117.55 173.29 111.66Q175.71 105.77 179.68 101.06Q183.64 96.35 188.48 93.56Q193.32 90.77 198.03 90.77L198.03 90.77Q203.11 90.77 204.97 93.74Q206.83 96.72 206.83 99.94L206.83 99.94Q206.83 103.54 205.16 106.27Q203.48 109.00 200.63 109.00L200.63 109.00Q198.52 109.00 197.04 107.14L197.04 107.14Q198.90 106.14 200.26 103.11Q201.62 100.07 201.62 97.34L201.62 97.34Q201.62 95.85 201.07 95.05Q200.51 94.24 198.90 94.24L198.90 94.24Q195.55 94.24 192.01 97.22Q188.48 100.19 185.44 104.90Q182.40 109.62 180.48 114.82Q178.56 120.03 178.56 124.62L178.56 124.62Q178.56 128.46 180.42 131.69Q182.28 134.91 187.61 134.91L187.61 134.91Q192.57 134.91 197.59 132.18Q202.62 129.46 206.96 124.37Q211.30 119.29 213.90 112.47L213.90 112.47L215.51 113.71Q212.66 121.15 207.70 127.04Q202.74 132.93 196.79 136.28Q190.84 139.62 184.76 139.62Z"/><path d="M217.50 138.51L217.50 138.51Q213.65 138.51 210.99 135.97Q208.32 133.42 208.32 128.22L208.32 128.22Q208.32 123.75 210.30 118.61Q212.29 113.46 215.76 108.44Q219.23 103.42 223.63 99.26Q228.04 95.11 232.93 92.63Q237.83 90.15 242.67 90.15L242.67 90.15Q247.50 90.15 250.73 92.69Q253.95 95.23 253.95 99.45L253.95 99.45Q253.95 102.55 252.28 103.66Q250.60 104.78 247.88 104.78L247.88 104.78Q248.12 103.79 248.31 102.61Q248.50 101.43 248.50 100.44L248.50 100.44Q248.50 97.59 247.13 95.54Q245.77 93.50 242.42 93.50L242.42 93.50Q238.95 93.50 235.35 95.91Q231.76 98.33 228.41 102.36Q225.06 106.39 222.46 111.10Q219.85 115.82 218.36 120.40Q216.88 124.99 216.88 128.59L216.88 128.59Q216.88 133.42 220.22 133.42L220.22 133.42Q223.08 133.42 226.42 130.76Q229.77 128.09 233.31 123.94Q236.84 119.78 240.06 115.32Q243.29 110.86 245.77 107.14L245.77 107.14Q246.26 106.39 246.39 106.39L246.39 106.39Q247.13 106.52 248.31 106.89Q249.49 107.26 250.36 107.88Q251.22 108.50 251.22 109.49L251.22 109.49Q251.22 110.61 250.11 112.53Q248.99 114.45 247.63 116.93Q246.26 119.41 245.15 121.95Q244.03 124.50 244.03 126.73L244.03 126.73Q244.03 128.59 245.02 130.39Q246.02 132.18 248.25 132.18L248.25 132.18Q251.60 132.18 257.05 127.29Q262.51 122.39 268.09 112.59L268.09 112.59L269.33 113.83Q266.72 120.53 262.63 125.61Q258.54 130.70 253.89 133.55Q249.24 136.40 244.78 136.40L244.78 136.40Q240.19 136.40 238.02 133.67Q235.85 130.94 235.85 127.72L235.85 127.72Q235.85 126.98 235.97 126.05Q236.10 125.12 236.22 124.12L236.22 124.12Q230.89 131.32 226.49 134.91Q222.08 138.51 217.50 138.51ZM248 81.84L248 81.84Q247.13 81.34 246.70 80.23Q246.26 79.11 246.26 78.62L246.26 78.62Q246.26 77.50 247.57 75.08Q248.87 72.66 250.85 70.00Q252.84 67.33 255.07 65.47Q257.30 63.61 259.16 63.61L259.16 63.61Q260.15 63.61 260.96 64.42Q261.76 65.22 261.89 67.46L261.89 67.46Q257.42 71.30 254.08 74.77Q250.73 78.24 248 81.84Z"/><path d="M278.88 139.62L278.88 139.62Q272.92 139.62 268.96 135.66Q264.99 131.69 264.99 123.75L264.99 123.75Q264.99 117.55 267.41 111.66Q269.82 105.77 273.79 101.06Q277.76 96.35 282.60 93.56Q287.43 90.77 292.14 90.77L292.14 90.77Q297.23 90.77 299.09 93.74Q300.95 96.72 300.95 99.94L300.95 99.94Q300.95 103.54 299.27 106.27Q297.60 109.00 294.75 109.00L294.75 109.00Q292.64 109.00 291.15 107.14L291.15 107.14Q293.01 106.14 294.38 103.11Q295.74 100.07 295.74 97.34L295.74 97.34Q295.74 95.85 295.18 95.05Q294.62 94.24 293.01 94.24L293.01 94.24Q289.66 94.24 286.13 97.22Q282.60 100.19 279.56 104.90Q276.52 109.62 274.60 114.82Q272.68 120.03 272.68 124.62L272.68 124.62Q272.68 128.46 274.54 131.69Q276.40 134.91 281.73 134.91L281.73 134.91Q286.69 134.91 291.71 132.18Q296.73 129.46 301.07 124.37Q305.41 119.29 308.02 112.47L308.02 112.47L309.63 113.71Q306.78 121.15 301.82 127.04Q296.86 132.93 290.90 136.28Q284.95 139.62 278.88 139.62Z"/><path d="M330.09 167.40L330.09 167.40Q329.10 167.40 328.17 166.35Q327.24 165.29 326.74 164.11Q326.24 162.94 326.24 162.69L326.24 162.69Q327.98 156.61 329.65 151.84Q331.33 147.06 333.00 142.04Q334.68 137.02 336.29 130.26Q337.90 123.50 339.64 113.46Q341.37 103.42 343.11 88.54L343.11 88.54Q343.23 87.42 343.60 86.92Q343.98 86.43 345.46 86.43L345.46 86.43Q348.69 86.43 350.05 88.23Q351.42 90.02 351.42 92.13L351.42 92.13Q351.42 93.87 350.67 98.33Q349.93 102.80 348.56 108.87L348.56 108.87Q350.67 104.78 353.83 100.56Q357.00 96.35 361.09 93.50Q365.18 90.64 370.02 90.64L370.02 90.64Q375.47 90.64 379.01 94.55Q382.54 98.46 382.54 104.78L382.54 104.78Q382.54 109.62 380.37 115.01Q378.20 120.40 374.29 125.18Q370.39 129.95 365.06 132.93Q359.72 135.90 353.28 135.90L353.28 135.90Q350.05 135.90 348.07 135.16Q346.08 134.42 346.08 133.67L346.08 133.67Q346.08 133.18 347.01 133.11Q347.94 133.05 349.18 133.05L349.18 133.05Q354.14 133.05 358.67 130.63Q363.20 128.22 366.79 124.25Q370.39 120.28 372.43 115.44Q374.48 110.61 374.48 105.90L374.48 105.90Q374.48 101.93 372.81 99.14Q371.13 96.35 367.41 96.35L367.41 96.35Q364.19 96.35 361.03 98.39Q357.86 100.44 355.07 103.60Q352.28 106.76 350.11 110.17Q347.94 113.58 346.83 116.31L346.83 116.31Q344.60 125.61 342.36 134.23Q340.13 142.85 338.09 149.85Q336.04 156.86 334.37 161.32Q332.69 165.79 331.58 166.78L331.58 166.78Q330.96 167.40 330.09 167.40Z"/><path d="M392.34 138.51L392.34 138.51Q388.49 138.51 385.83 135.97Q383.16 133.42 383.16 128.22L383.16 128.22Q383.16 123.75 385.14 118.61Q387.13 113.46 390.60 108.44Q394.07 103.42 398.47 99.26Q402.88 95.11 407.77 92.63Q412.67 90.15 417.51 90.15L417.51 90.15Q422.34 90.15 425.57 92.69Q428.79 95.23 428.79 99.45L428.79 99.45Q428.79 102.55 427.12 103.66Q425.44 104.78 422.72 104.78L422.72 104.78Q422.96 103.79 423.15 102.61Q423.34 101.43 423.34 100.44L423.34 100.44Q423.34 97.59 421.97 95.54Q420.61 93.50 417.26 93.50L417.26 93.50Q413.79 93.50 410.19 95.91Q406.60 98.33 403.25 102.36Q399.90 106.39 397.30 111.10Q394.69 115.82 393.20 120.40Q391.72 124.99 391.72 128.59L391.72 128.59Q391.72 133.42 395.06 133.42L395.06 133.42Q397.92 133.42 401.26 130.76Q404.61 128.09 408.15 123.94Q411.68 119.78 414.90 115.32Q418.13 110.86 420.61 107.14L420.61 107.14Q421.10 106.39 421.23 106.39L421.23 106.39Q421.97 106.52 423.15 106.89Q424.33 107.26 425.20 107.88Q426.06 108.50 426.06 109.49L426.06 109.49Q426.06 110.61 424.95 112.53Q423.83 114.45 422.47 116.93Q421.10 119.41 419.99 121.95Q418.87 124.50 418.87 126.73L418.87 126.73Q418.87 128.59 419.86 130.39Q420.86 132.18 423.09 132.18L423.09 132.18Q426.44 132.18 431.89 127.29Q437.35 122.39 442.93 112.59L442.93 112.59L444.17 113.83Q441.56 120.53 437.47 125.61Q433.38 130.70 428.73 133.55Q424.08 136.40 419.62 136.40L419.62 136.40Q415.03 136.40 412.86 133.67Q410.69 130.94 410.69 127.72L410.69 127.72Q410.69 126.98 410.81 126.05Q410.94 125.12 411.06 124.12L411.06 124.12Q405.73 131.32 401.33 134.91Q396.92 138.51 392.34 138.51ZM397.67 158.60L397.67 158.60Q395.44 158.60 394.07 157.54Q392.71 156.49 392.71 154.50L392.71 154.50Q392.71 151.78 395.37 150.10Q398.04 148.43 400.77 148.43L400.77 148.43Q402.88 148.43 403.99 149.48Q405.11 150.54 405.11 152.52L405.11 152.52Q405.11 154.88 402.75 156.74Q400.40 158.60 397.67 158.60Z"/><path d="M480.50 135.16L480.50 135.16Q476.16 135.16 473.99 132.93Q471.82 130.70 471.82 127.22L471.82 127.22Q471.82 124.62 472.75 121.77Q473.68 118.92 474.55 115.88Q475.42 112.84 475.42 109.99L475.42 109.99Q475.42 106.52 473.99 105.21Q472.56 103.91 470.46 103.91L470.46 103.91Q466.61 103.91 462.64 107.07Q458.68 110.24 454.96 115.13Q451.24 120.03 448.01 125.24Q444.79 130.45 442.31 134.54L442.31 134.54Q440.32 134.54 438.53 133.86Q436.73 133.18 435.74 131.81L435.74 131.81Q435.74 131.19 437.04 127.97Q438.34 124.74 440.08 120.03Q441.81 115.32 443.18 110.36Q444.54 105.40 444.54 101.31L444.54 101.31Q445.28 100.44 446.90 99.57Q448.51 98.70 450.24 98.70L450.24 98.70Q453.59 98.70 453.59 101.93L453.59 101.93Q453.59 103.91 452.48 108.56Q451.36 113.21 449.62 118.30L449.62 118.30Q452.97 113.21 457.13 108.19Q461.28 103.17 465.99 99.82Q470.70 96.47 475.42 96.47L475.42 96.47Q480.25 96.47 482.42 99.94Q484.59 103.42 484.59 107.63L484.59 107.63Q484.59 111.48 483.35 114.76Q482.11 118.05 480.81 121.09Q479.51 124.12 479.51 127.22L479.51 127.22Q479.51 129.83 480.56 130.88Q481.62 131.94 483.23 131.94L483.23 131.94Q486.33 131.94 489.43 129.02Q492.53 126.11 495.44 121.64Q498.36 117.18 500.59 112.59L500.59 112.59L501.95 114.20Q499.35 120.28 496.12 124.99Q492.90 129.70 489.06 132.43Q485.21 135.16 480.50 135.16Z"/><path d="M564.45 67.70L564.45 67.70Q565.56 64.48 570.83 63.12Q576.10 61.75 585.90 61.63L585.90 61.63Q590.61 61.50 595.08 61.69Q599.54 61.88 603.14 62.12Q606.73 62.37 608.72 62.74L608.72 62.74Q605.62 64.98 602.08 65.66Q598.55 66.34 595.94 66.34L595.94 66.34Q589.99 66.34 585.65 66.34Q581.31 66.34 577.84 66.46Q574.37 66.59 571.21 66.84Q568.04 67.08 564.45 67.70ZM537.79 136.40L537.79 136.40Q535.68 136.40 533.51 135.35Q531.34 134.29 529.91 131.94Q528.49 129.58 528.49 125.98L528.49 125.98Q528.49 121.89 530.47 116.81Q532.46 111.72 535.80 106.70Q539.15 101.68 543.49 97.40Q547.83 93.12 552.54 90.58Q557.26 88.04 561.84 88.04L561.84 88.04Q564.45 88.04 565.87 88.97Q567.30 89.90 567.30 91.88L567.30 91.88Q567.30 92.38 567.24 92.75Q567.18 93.12 567.05 93.62L567.05 93.62Q566.43 92.63 565.25 92.19Q564.08 91.76 562.34 91.76L562.34 91.76Q558.37 91.76 554.59 94.18Q550.81 96.60 547.65 100.50Q544.48 104.41 542.13 108.87Q539.77 113.34 538.47 117.49Q537.17 121.64 537.17 124.50L537.17 124.50Q537.17 127.22 538.41 128.84Q539.65 130.45 541.63 130.45L541.63 130.45Q544.98 130.45 549.75 126.23Q554.53 122.02 559.49 114.33Q564.45 106.64 568.42 96.35L568.42 96.35Q571.14 89.16 574.06 81.72Q576.97 74.28 579.95 67.39Q582.92 60.51 585.71 55.12Q588.50 49.72 591.05 46.56Q593.59 43.40 595.57 43.40L595.57 43.40Q596.56 43.40 597.31 44.21Q598.05 45.01 598.05 46.25L598.05 46.25Q598.05 48.24 596.01 53.01Q593.96 57.78 590.67 64.42Q587.39 71.05 583.79 78.86Q580.20 86.68 576.91 94.74Q573.62 102.80 571.58 110.30Q569.53 117.80 569.53 124L569.53 124Q569.53 127.47 569.90 129.21Q570.28 130.94 572.38 130.94L572.38 130.94Q574.99 130.94 578.46 128.71Q581.93 126.48 585.40 122.39Q588.88 118.30 591.48 112.59L591.48 112.59L592.97 113.71Q590.61 120.03 586.52 125.05Q582.43 130.08 577.78 132.99Q573.13 135.90 568.91 135.90L568.91 135.90Q564.32 135.90 562.53 132.87Q560.73 129.83 560.73 126.60L560.73 126.60Q560.73 124.50 561.35 121.02Q561.97 117.55 563.08 113.34L563.08 113.34Q559.12 119.91 554.65 125.18Q550.19 130.45 545.91 133.42Q541.63 136.40 537.79 136.40Z"/><path d="M595.20 138.51L595.20 138.51Q591.36 138.51 588.69 135.97Q586.02 133.42 586.02 128.22L586.02 128.22Q586.02 123.75 588.01 118.61Q589.99 113.46 593.46 108.44Q596.94 103.42 601.34 99.26Q605.74 95.11 610.64 92.63Q615.54 90.15 620.37 90.15L620.37 90.15Q625.21 90.15 628.43 92.69Q631.66 95.23 631.66 99.45L631.66 99.45Q631.66 102.55 629.98 103.66Q628.31 104.78 625.58 104.78L625.58 104.78Q625.83 103.79 626.01 102.61Q626.20 101.43 626.20 100.44L626.20 100.44Q626.20 97.59 624.84 95.54Q623.47 93.50 620.12 93.50L620.12 93.50Q616.65 93.50 613.06 95.91Q609.46 98.33 606.11 102.36Q602.76 106.39 600.16 111.10Q597.56 115.82 596.07 120.40Q594.58 124.99 594.58 128.59L594.58 128.59Q594.58 133.42 597.93 133.42L597.93 133.42Q600.78 133.42 604.13 130.76Q607.48 128.09 611.01 123.94Q614.54 119.78 617.77 115.32Q620.99 110.86 623.47 107.14L623.47 107.14Q623.97 106.39 624.09 106.39L624.09 106.39Q624.84 106.52 626.01 106.89Q627.19 107.26 628.06 107.88Q628.93 108.50 628.93 109.49L628.93 109.49Q628.93 110.61 627.81 112.53Q626.70 114.45 625.33 116.93Q623.97 119.41 622.85 121.95Q621.74 124.50 621.74 126.73L621.74 126.73Q621.74 128.59 622.73 130.39Q623.72 132.18 625.95 132.18L625.95 132.18Q629.30 132.18 634.76 127.29Q640.21 122.39 645.79 112.59L645.79 112.59L647.03 113.83Q644.43 120.53 640.34 125.61Q636.24 130.70 631.59 133.55Q626.94 136.40 622.48 136.40L622.48 136.40Q617.89 136.40 615.72 133.67Q613.55 130.94 613.55 127.72L613.55 127.72Q613.55 126.98 613.68 126.05Q613.80 125.12 613.92 124.12L613.92 124.12Q608.59 131.32 604.19 134.91Q599.79 138.51 595.20 138.51ZM637.48 82.83L637.48 82.83Q634.14 82.83 630.54 81.41Q626.94 79.98 623.29 78.55Q619.63 77.13 615.78 77.13L615.78 77.13Q614.17 77.13 612.44 77.56Q610.70 78.00 609.09 78.99L609.09 78.99Q611.57 75.52 614.30 74.15Q617.02 72.79 619.88 72.79L619.88 72.79Q623.35 72.79 627.07 74.28Q630.79 75.76 634.88 77.25Q638.97 78.74 643.44 78.74L643.44 78.74Q645.42 78.74 647.65 77.75L647.65 77.75Q645.30 80.60 642.75 81.72Q640.21 82.83 637.48 82.83Z"/><path d="M681.01 140.00L681.01 140.00Q680.51 140.00 680.14 139.50Q679.77 139.00 679.77 138.14L679.77 138.14Q679.77 136.65 682.37 132.87Q684.98 129.08 689.13 123.88Q693.28 118.67 698.12 113.34L698.12 113.34Q697.50 107.51 696.51 103.23Q695.52 98.95 692.66 98.95L692.66 98.95Q689.69 98.95 687.33 101.49Q684.98 104.04 682.74 108.07Q680.51 112.10 677.91 116.68L677.91 116.68L676.79 114.70Q678.53 111.35 680.08 107.76Q681.63 104.16 683.49 101.06Q685.35 97.96 688.01 96.04Q690.68 94.12 694.65 94.12L694.65 94.12Q699.48 94.12 701.78 97.53Q704.07 100.94 704.94 105.90L704.94 105.90Q710.77 99.82 715.48 95.67Q720.19 91.51 721.80 91.51L721.80 91.51Q722.42 91.51 723.66 91.88Q724.90 92.26 724.90 92.88L724.90 92.88Q723.54 92.88 720.56 95.29Q717.59 97.71 713.74 101.80Q709.90 105.90 705.68 110.73L705.68 110.73Q706.06 114.45 706.30 118.17Q706.55 121.89 707.11 124.87Q707.67 127.84 708.91 129.64Q710.15 131.44 712.38 131.44L712.38 131.44Q714.61 131.44 717.15 129.58Q719.70 127.72 722.11 124.81Q724.53 121.89 726.58 118.67Q728.62 115.44 729.86 112.72L729.86 112.72L731.10 113.96Q729.37 119.29 725.83 124.31Q722.30 129.33 717.96 132.62Q713.62 135.90 709.28 135.90L709.28 135.90Q705.68 135.90 703.58 133.49Q701.47 131.07 700.41 127.16Q699.36 123.26 698.74 118.92L698.74 118.92Q693.53 125.12 689.13 130.70Q684.73 136.28 682.50 139.13L682.50 139.13Q681.75 140.00 681.01 140.00Z"/><path d="M740.78 138.14L740.78 138.14Q733.21 138.14 729.43 133.98Q725.65 129.83 725.65 123.75L725.65 123.75Q725.65 118.17 728.44 111.97Q731.23 105.77 735.88 100.32Q740.53 94.86 746.11 91.45Q751.69 88.04 757.14 88.04L757.14 88.04Q760.00 88.04 762.41 89.53Q764.83 91.02 764.83 95.60L764.83 95.60Q764.83 100.32 762.04 104.47Q759.25 108.62 754.73 111.85Q750.20 115.07 744.81 117.12Q739.41 119.16 734.08 119.66L734.08 119.66Q733.83 120.90 733.71 122.02Q733.58 123.13 733.58 124.12L733.58 124.12Q733.58 125.98 734.02 127.84Q734.45 129.70 735.57 131.25Q736.68 132.80 738.61 133.67Q740.53 134.54 743.38 134.54L743.38 134.54Q748.71 134.54 753.92 131.50Q759.13 128.46 763.59 123.50Q768.06 118.54 771.16 112.59L771.16 112.59L772.64 113.71Q769.30 121.15 764.15 126.60Q759.00 132.06 752.99 135.10Q746.98 138.14 740.78 138.14ZM734.70 117.30L734.70 117.30Q738.05 116.19 742.26 114.02Q746.48 111.85 750.39 108.87Q754.29 105.90 756.83 102.30Q759.38 98.70 759.38 94.74L759.38 94.74Q759.38 93.37 758.88 92.63Q758.38 91.88 756.77 91.88L756.77 91.88Q753.80 91.88 750.45 94.18Q747.10 96.47 744.00 100.19Q740.90 103.91 738.42 108.38Q735.94 112.84 734.70 117.30Z"/><path d="M831.17 136.52L831.17 136.52Q826.83 136.52 824.85 133.86Q822.86 131.19 822.86 127.47L822.86 127.47Q822.86 124.37 823.79 121.27Q824.72 118.17 825.65 115.20Q826.58 112.22 826.58 109.86L826.58 109.86Q826.58 107.38 825.47 106.39Q824.35 105.40 822.99 105.40L822.99 105.40Q819.89 105.40 816.23 110.24Q812.57 115.07 806.74 123.88L806.74 123.88Q804.76 126.85 803.40 129.89Q802.03 132.93 800.79 135.41L800.79 135.41Q799.80 135.41 798.31 135.16Q796.82 134.91 795.65 134.35Q794.47 133.80 794.47 132.93L794.47 132.93Q794.47 132.06 795.65 128.77Q796.82 125.49 798.37 121.09Q799.92 116.68 801.10 112.16Q802.28 107.63 802.28 104.41L802.28 104.41Q802.28 102.30 801.60 101.00Q800.92 99.70 799.18 99.70L799.18 99.70Q796.45 99.70 792.61 102.98Q788.76 106.27 784.67 111.60Q780.58 116.93 776.92 123.32Q773.26 129.70 771.03 136.03L771.03 136.03Q769.92 136.03 768.30 135.66Q766.69 135.28 765.51 134.66Q764.34 134.04 764.34 133.42L764.34 133.42Q764.34 132.68 765.64 129.02Q766.94 125.36 768.61 120.22Q770.29 115.07 771.59 109.74Q772.89 104.41 772.89 100.32L772.89 100.32Q773.64 99.45 775.25 98.58Q776.86 97.71 778.60 97.71L778.60 97.71Q780.33 97.71 781.14 98.58Q781.94 99.45 781.94 100.94L781.94 100.94Q781.94 102.55 781.01 106.45Q780.08 110.36 778.72 115.07L778.72 115.07Q781.20 111.10 784.36 106.95Q787.52 102.80 791.00 99.32Q794.47 95.85 798.00 93.68Q801.54 91.51 804.88 91.51L804.88 91.51Q808.73 91.51 810.15 94.30Q811.58 97.09 811.58 100.94L811.58 100.94Q811.58 104.04 810.90 107.45Q810.22 110.86 809.35 113.77Q808.48 116.68 807.74 118.42L807.74 118.42Q810.34 113.71 813.50 109.31Q816.66 104.90 820.38 102.11Q824.10 99.32 828.32 99.32L828.32 99.32Q832.29 99.32 833.84 101.68Q835.39 104.04 835.39 107.26L835.39 107.26Q835.39 110.48 834.27 114.33Q833.16 118.17 831.98 121.77Q830.80 125.36 830.80 127.97L830.80 127.97Q830.80 129.58 831.61 130.88Q832.41 132.18 834.52 132.18L834.52 132.18Q837.99 132.18 841.03 129.02Q844.07 125.86 846.67 121.33Q849.28 116.81 851.14 112.59L851.14 112.59L852.62 114.33Q850.64 119.54 847.54 124.68Q844.44 129.83 840.29 133.18Q836.13 136.52 831.17 136.52Z"/></g></svg>
+<section data-theme="yellow" data-n="17" id="d-4" class="backup">
+  <div class="kicker">D4 · Dòng tiền &amp; NPV, IRR, PP</div>
+  <h2>CFT(5) = CF<sub>6</sub> / (r − g) · NPV = C7 + NPV(12%; D7:H7)</h2>
+  <div class="b-stack"><img src="assets/img/excel/12_dong_tien_phan_tich.png" alt="Dòng tiền phân tích" class="xl wide"><img src="assets/img/excel/14_npv_irr_pp.png" alt="Kết quả NPV IRR PP" class="xl mid"></div>
+</section>
+
+<section data-theme="rose" data-n="18" id="d-5" class="backup">
+  <div class="kicker">D5 · Độ nhạy &amp; kịch bản</div>
+  <h2>Ba biến cần kiểm chứng: giữ chân, mua kèm phô mai, số tiệm B2B</h2>
+  <div class="b-stack"><img src="assets/img/excel/14b_do_nhay_r.png" alt="Độ nhạy theo tỷ lệ giữ chân" class="xl wide"><img src="assets/img/excel/14c_kich_ban.png" alt="Kịch bản cải thiện" class="xl wide"></div>
+</section>
+
+<section data-theme="blue" data-n="19" id="d-6" class="backup">
+  <div class="kicker">D6 · Nguồn nước whey &amp; công suất</div>
+  <h2>Nước whey tự có chỉ đủ 26% năm 1, 8,6% năm 5</h2>
+  <img src="assets/img/excel/09b_can_doi_nguyen_lieu.png" alt="Cân đối nguyên liệu" class="xl tall">
+  <p class="src">Phần thiếu mua của cơ sở phô mai khác (giả định 300 ₫/lít, đã tính trong giá vốn 195.000 ₫/hũ). Hệ số kỹ thuật cần cố vấn kiểm chứng.</p>
+</section>
+
+<section data-theme="mint" data-n="20" id="d-7" class="backup">
+  <div class="kicker">D7 · Số dư tiền &amp; vay</div>
+  <h2>Vốn huy động đủ: số dư thấp nhất +216,7 triệu ₫</h2>
+  <div class="b-stack"><img src="assets/img/excel/15_nguon_von.png" alt="Cơ cấu nguồn vốn" class="xl mid"><img src="assets/img/excel/17_so_du_tien.png" alt="Số dư tiền và trả nợ" class="xl wide"></div>
+</section>
+
+<section data-theme="yellow" data-n="21" id="d-8" class="backup">
+  <div class="kicker">D8 · SWOT</div>
+  <h2>Dùng giá và minh bạch để vượt tâm lý chuộng hàng ngoại</h2>
+  <div class="swot">
+    <div class="q s"><b>Điểm mạnh</b>Nước whey phụ phẩm · chi phí thấp · chuỗi cung ứng ngắn · hiểu giới trẻ</div>
+    <div class="q w"><b>Điểm yếu</b>Vốn, thiết bị hạn chế · thương hiệu mới · thiếu kinh nghiệm sản xuất</div>
+    <div class="q o"><b>Cơ hội</b>Xu hướng tập gym · hàng nhập đắt · phô mai cho F&amp;B tăng · hỗ trợ khởi nghiệp</div>
+    <div class="q t"><b>Thách thức</b>Thương hiệu ngoại lâu đời · chuộng hàng ngoại · giá sữa, quy định ATTP</div>
   </div>
-  <div class="th-meta blk">
-    <div class="th-group">Nhóm 5 · HK261 · Phân tích tài chính dự án Phô mai tươi &amp; Whey Protein</div>
-    <ul class="th-team"><li><span class="avatar ph" role="img" aria-label="Ảnh Đặng Hải Minh Tâm" style="background-image:url(assets/img/photo/danghaiminhtam.jpg);background-size:200% auto;background-position:46% 0%"></span><b>Đặng Hải Minh Tâm</b><span>2213010</span></li><li><span class="avatar ph" role="img" aria-label="Ảnh Nguyễn Văn Quyến" style="background-image:url(assets/img/photo/nguyenvanquyen.jpg);background-size:100% auto;background-position:50% 50%"></span><b>Nguyễn Văn Quyến</b><span>2412953</span></li><li><span class="avatar ph" role="img" aria-label="Ảnh Nguyễn Ngọc Mỹ Đình" style="background-image:url(assets/img/photo/nguyenngocmydinh.jpg);background-size:380% auto;background-position:47% 47%"></span><b>Nguyễn Ngọc Mỹ Đình</b><span>2410774</span></li><li><span class="avatar ph" role="img" aria-label="Ảnh Mai Nguyễn Quốc Bình" style="background-image:url(assets/img/photo/mainguyenquocbinh.jpg);background-size:600% auto;background-position:47.6% 62.6%"></span><b>Mai Nguyễn Quốc Bình</b><span>2513896</span></li><li><span class="avatar ph" role="img" aria-label="Ảnh Trần Đăng Khoa" style="background-image:url(assets/img/photo/trandangkhoa.jpg);background-size:350% auto;background-position:58% 41%"></span><b>Trần Đăng Khoa</b><span>2211648</span></li></ul>
-  </div>
-  <aside class="notes">Phần trình bày của nhóm đến đây là hết. Nhóm em cảm ơn thầy và các bạn đã lắng nghe, mời mọi người đặt câu hỏi.</aside>
+  <p class="so"><b>Chiến lược chính:</b> SO tập trung gymer sinh viên với whey giá tốt · ST công khai COA, mã QR · WO tìm vốn qua cuộc thi, cố vấn · WT chạy MVP nhỏ, ký hợp đồng sữa dài hạn</p>
 </section>
 
 </div>
+</div>
+
+<div class="chrome" aria-hidden="true">
+  <div class="brandmark"><img src="assets/img/logo-bk.png" alt=""><b>MilkLoop</b><span>Nhóm 5 · HK261</span></div>
+  <div class="pageno"><span id="pg">01</span><i>/</i><span id="pgt">12</span></div>
+  <div class="progress"><i id="prog"></i></div>
 </div>
 
 <script src="lib/reveal/reveal.js"></script>
 <script src="lib/reveal/notes.js"></script>
+<script src="lib/gsap/gsap.min.js"></script>
+<script src="lib/gsap/SplitText.min.js"></script>
+<script src="lib/gsap/DrawSVGPlugin.min.js"></script>
+<script src="lib/gsap/ScrambleTextPlugin.min.js"></script>
 <script src="app.js"></script>
 </body>
 </html>
