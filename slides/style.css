@@ -382,3 +382,32 @@ html.reveal-print *,html.reveal-print *::before,html.reveal-print *::after{anima
   *,*::before,*::after{animation-duration:.001s!important;animation-iteration-count:1!important;transition-duration:.001s!important}
   .wipe{display:none}
 }
+
+/* ---------- nút minh chứng, thuật ngữ, popup ---------- */
+.ev{display:inline-grid;place-items:center;width:22px;height:22px;margin:0 0 0 6px;padding:0;vertical-align:middle;border-radius:50%;border:2px solid var(--ink);background:var(--yellow);color:var(--ink);font:800 13px/1 var(--mono);font-style:italic;cursor:pointer;box-shadow:2px 2px 0 var(--ink);transition:transform .2s var(--ease),box-shadow .2s;text-transform:none;letter-spacing:0;position:relative;z-index:6}
+.ev:hover,.ev:focus-visible{transform:translate(-1px,-1px) scale(1.15);box-shadow:3px 3px 0 var(--ink);outline:none}
+.ev::after{content:"";position:absolute;inset:-4px;border-radius:50%;border:2px solid var(--yellow);opacity:0;animation:evping 2.6s ease-out infinite}
+@keyframes evping{0%{transform:scale(.8);opacity:.9}70%,100%{transform:scale(1.6);opacity:0}}
+.kicker .ev{margin-left:4px}
+.term{position:relative;cursor:help;border-bottom:2px dotted currentColor;text-decoration:none}
+.term:hover,.term:focus-visible{outline:none;background:var(--yellow);color:var(--ink);border-radius:4px}
+.term::after{content:attr(data-def);position:absolute;left:50%;bottom:calc(100% + 10px);width:max-content;max-width:280px;transform:translate(-50%,6px);padding:9px 12px;border-radius:10px;border:2px solid var(--ink);background:var(--paper);color:var(--ink);box-shadow:var(--shadow-s);font:600 13.5px/1.4 var(--font);letter-spacing:0;text-transform:none;white-space:normal;text-align:left;opacity:0;pointer-events:none;transition:opacity .2s,transform .2s var(--ease);z-index:30}
+.term:hover::after,.term:focus-visible::after{opacity:1;transform:translate(-50%,0)}
+.ev-dlg{width:min(860px,92vw);max-height:86vh;overflow:auto;padding:26px 30px 22px;border-radius:20px;border:3px solid var(--ink);background:var(--bg);color:var(--ink);box-shadow:10px 10px 0 var(--ink);font-family:var(--font)}
+.ev-dlg::backdrop{background:rgba(29,31,51,.55)}
+.ev-dlg h3{margin:4px 0 12px;font-size:28px;font-weight:800;letter-spacing:-.02em;color:var(--ink)}
+.ev-kind{display:inline-block;padding:4px 10px;border-radius:8px;border:2px solid var(--ink);background:var(--orange);color:#fff;font:800 12px var(--mono);letter-spacing:.08em;text-transform:uppercase}
+.ev-close{position:absolute;right:16px;top:14px;width:38px;height:38px;border-radius:50%;border:2px solid var(--ink);background:var(--paper);font:800 22px/1 var(--font);cursor:pointer;box-shadow:3px 3px 0 var(--ink)}
+.ev-close:hover{background:var(--yellow)}
+.ev-body{font-size:16.5px;line-height:1.55;color:var(--ink2)}
+.ev-body p{margin:0 0 10px}
+.ev-body b{color:var(--ink)}
+.ev-lead{font-size:19px;font-weight:700;color:var(--ink)!important}
+.ev-f{font-family:var(--mono);font-size:14.5px;background:var(--paper);border:2px solid var(--ink);border-radius:10px;padding:10px 12px;color:var(--ink)}
+.ev-img{display:block;max-width:100%;margin:10px 0;border:2px solid var(--ink);border-radius:10px;background:#fff}
+.ev-src{font-size:13.5px;color:var(--ink3);border-top:2px dashed var(--ink3);padding-top:8px;margin-top:6px}
+.ev-t{width:100%;border-collapse:collapse;font-size:14.5px;margin-bottom:10px}
+.ev-t th,.ev-t td{border:1.5px solid var(--ink);padding:6px 8px;text-align:left}
+.ev-t th{background:var(--yellow);color:var(--ink)}
+html.reveal-print .ev{display:none}
+html.reveal-print .term::after{display:none}

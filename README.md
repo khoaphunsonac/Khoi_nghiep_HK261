@@ -10,7 +10,8 @@ Deck HTML cho bài thực hành 3.2 Nguồn vốn & Pitching (On-Stage Pitch) c�
 |---|---|
 | `slides/index.html` | 12 slide chính + 1 slide mở phần hỏi đáp + 8 slide dự phòng (Reveal.js 5.1.0) |
 | `slides/style.css` | Màu, bố cục, trạng thái cuối của mọi phần tử (dùng khi in PDF) |
-| `slides/app.js` | Khởi tạo Reveal, hiệu ứng GSAP, biểu đồ tài chính, số đếm |
+| `slides/app.js` | Khởi tạo Reveal, hiệu ứng GSAP, biểu đồ tài chính, số đếm, popup |
+| `slides/evidence.js` | Nội dung minh chứng cho từng nút ⓘ và định nghĩa thuật ngữ |
 | `slides/lib/` | Reveal.js và GSAP 3.13 (SplitText, DrawSVG, ScrambleText), đã tải về để chạy offline |
 | `slides/assets/img/` | Logo trường, ảnh Unsplash (`photo/`), minh họa unDraw (`ud/`), Open Doodles (`od/`), ảnh chụp bảng Excel (`excel/`) |
 | `Slides_Pitch_MilkLoop.pdf` | Bản PDF để nộp, 21 trang |
@@ -38,6 +39,13 @@ Nhấp đúp `slides/index.html` hoặc mở bản trực tuyến. Nên dùng Ch
 **Hai màn hình:** nhấn `S`, kéo cửa sổ ghi chú sang màn hình laptop, để cửa sổ slide trên máy chiếu rồi nhấn `F`.
 
 Slide dự phòng (D1–D8) nằm sau slide 12; khi hội đồng hỏi, nhấn `O` để nhảy tới slide cần mở.
+
+## Minh chứng số liệu và thuật ngữ
+
+- **Nút ⓘ màu vàng** cạnh các con số: bấm để mở popup gồm công thức, ảnh chụp bảng Excel và nguồn (sheet Excel, mục trong báo cáo). Khi popup mở, phím mũi tên không chuyển slide; nhấn Esc hoặc bấm ra ngoài để đóng.
+- **Thuật ngữ gạch chân chấm** (COA, WPC 80, TAM, SAM, SOM, LTV, COCA, NPV, IRR, PP, CFT, CPM, BMC, MVP…): rê chuột hoặc Tab tới để xem định nghĩa ngắn, bấm để xem giải thích đầy đủ.
+- Sửa nội dung trong `slides/evidence.js`: `MILK_EV` cho nút ⓘ (khóa = `data-ev`), `MILK_TERMS` cho thuật ngữ (khóa = `data-term`).
+- Bản PDF ẩn các nút ⓘ.
 
 ## Hiệu ứng
 

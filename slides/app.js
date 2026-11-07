@@ -162,6 +162,36 @@
     }, { passive: true });
   }
 
+  /* ---------- minh chứng và thuật ngữ ---------- */
+  const dlg = $('#evDlg');
+  function openDlg(kind, title, html) {
+    $('#evKind').textContent = kind; $('#evTitle').textContent = title; $('#evBody').innerHTML = html;
+    Reveal.configure({ keyboard: false });
+    if (dlg.showModal) dlg.showModal(); else dlg.setAttribute('open', '');
+    if (MOTION) gsap.fromTo(dlg, { scale: .85, rotation: -2, opacity: 0 }, { scale: 1, rotation: 0, opacity: 1, duration: .45, ease: 'back.out(1.8)' });
+  }
+  function closeDlg() { if (dlg.open) dlg.close(); }
+  if (dlg) {
+    dlg.addEventListener('close', () => Reveal.configure({ keyboard: true }));
+    dlg.addEventListener('click', e => { if (e.target === dlg) closeDlg(); });
+    $('.ev-close', dlg).addEventListener('click', closeDlg);
+  }
+  $$('.ev').forEach(b => b.addEventListener('click', e => {
+    e.stopPropagation(); const d = (window.MILK_EV || {})[b.dataset.ev]; if (!d) return;
+    let html = d.b || '';
+    if (d.img) html += `<img src="${d.img}" alt="Ảnh bảng Excel minh chứng" class="ev-img">`;
+    if (d.img2) html += `<img src="${d.img2}" alt="Ảnh bảng Excel minh chứng" class="ev-img">`;
+    if (d.s) html += `<p class="ev-src">Nguồn: ${d.s}</p>`;
+    openDlg('Minh chứng số liệu', d.t, html);
+  }));
+  $$('.term').forEach(t => {
+    const d = (window.MILK_TERMS || {})[t.dataset.term]; if (!d) return;
+    t.setAttribute('data-def', d[1]); t.setAttribute('role', 'button'); t.setAttribute('aria-label', d[0] + ': ' + d[1]);
+    const open = e => { e.stopPropagation(); openDlg('Thuật ngữ', d[0], `<p class="ev-lead">${d[1]}</p><p>${d[2]}</p>`); };
+    t.addEventListener('click', open);
+    t.addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); open(e); } });
+  });
+
   /* ---------- khung chung ---------- */
   function chrome(sec) {
     const n = parseInt(sec.dataset.n || '1', 10);
