@@ -30,11 +30,11 @@ Khi làm phô mai, sữa tách ra khối phô mai và phần nước còn lại 
 
 ## Người 2 · Quyến
 
-### Slide 04 · Giải pháp · 32 giây · 0 bấm
-*(Cầm hũ mẫu lên.)* Đây là hũ mẫu của MilkLoop. Giá 650 nghìn một ký, rẻ hơn 35 đến 49 phần trăm so với hàng chính hãng; đăng ký gói định kỳ còn 590 nghìn. Mỗi khẩu phần 30 gam có 24 gam đạm. Quét mã QR trên hũ là thấy phiếu kiểm nghiệm của đúng lô đó. Cùng mẻ sữa, phô mai tươi được giao lạnh trong ngày cho tiệm bánh.
+### Slide 04 · Giải pháp · 28 giây · 0 bấm
+*(Cầm hũ mẫu lên.)* Đây là hũ mẫu của MilkLoop. Giá 650 nghìn một ký, rẻ hơn 35 đến 49 phần trăm so với hàng chính hãng; đăng ký gói định kỳ còn 590 nghìn. Mỗi khẩu phần 30 gam có 24 gam đạm. Quét mã QR trên hũ là thấy phiếu kiểm nghiệm của lô đó. Phô mai cùng mẻ sữa thì giao lạnh cho tiệm bánh.
 
-### Slide 05 · Thị trường · 28 giây · 0 bấm
-Thị trường tiền tiêu là sinh viên và người trẻ tập gym ở TP.HCM, khoảng 137 nghìn người. Tổng thị trường khả dụng khoảng 811 tỷ đồng mỗi năm; phần kênh của nhóm phủ được ở các quận quanh cụm đại học là 243 tỷ. Đến năm thứ năm, doanh thu whey của chúng em đạt 5,47 tỷ, chỉ 1,65 phần trăm thị trường này. Bạn Đình nói tiếp cách tìm khách.
+### Slide 05 · Thị trường · 32 giây · 0 bấm
+Thị trường tiền tiêu là sinh viên và người trẻ tập gym ở TP.HCM. Cộng đồng này rất đông: chỉ hai nhóm Facebook “Tổng cục phòng chống ức gà” và “SmallGym” đã có 96 nghìn và 255 nghìn thành viên, và đây cũng là nơi chúng em tìm khách. Ở TP.HCM có khoảng 137 nghìn người dùng cuối, tổng thị trường khoảng 811 tỷ đồng mỗi năm; phần kênh nhóm phủ được là 243 tỷ. Năm thứ năm, doanh thu whey đạt 5,47 tỷ, chỉ 1,65 phần trăm thị trường này. Bạn Đình nói tiếp cách tìm khách.
 
 ## Người 3 · Đình
 
@@ -74,6 +74,7 @@ Chúng em cần huy động 3,05 tỷ đồng, trong đó kêu gọi nhà đầu
 |---|---|---|
 | Vì sao NPV có CFT lớn mà NPV 5 năm âm? | Giá trị sau cuối chiếm hơn 100% NPV theo cách bài giảng; 5 năm chưa đủ thu hồi giá trị ở suất 12%. Kịch bản KB2 cho thấy điều kiện để 5 năm có lãi. | D4, D5 |
 | 137 nghìn người dùng cuối lấy ở đâu? | Trung bình hai cách: từ trên xuống (dân số TCTK 2019 × các tỷ lệ) và từ dưới lên (số gym × hội viên). Các tỷ lệ là giả định, sẽ khảo sát 300 người. | D1 |
+| Sao không lấy luôn số thành viên nhóm Facebook? | Hai nhóm có 96,2K và 255,0K thành viên nhưng là toàn quốc và có thể trùng nhau; nhóm dùng làm bằng chứng cộng đồng đông và kênh tiếp cận, còn người dùng cuối ở TP.HCM vẫn tính theo dân số và khảo sát. | 05 (nút ⓘ) |
 | LTV 10,36 triệu tính thế nào? | Theo bảng slide 14 bài 3.1: giá thực thu, 30% khách mua kèm phô mai, giữ chân 80%/năm, chiết khấu 15%, năm 0 tính nửa năm. | D2 |
 | COCA tính những gì? | Lương sale, quảng cáo, mẫu thử, thưởng giới thiệu, sự kiện, web, chăm sóc khách cũ; trừ phần chăm sóc khách cũ rồi chia cho số khách mới. | D3 |
 | Tỷ lệ giữ chân 80% có thực tế? | Chưa kiểm chứng. Với 60%, LTV:COCA vẫn 3,7:1 nhưng NPV 5 năm âm sâu hơn. Lô MVP sẽ đo tỷ lệ mua lại sau 30/60/90 ngày. | D5 |

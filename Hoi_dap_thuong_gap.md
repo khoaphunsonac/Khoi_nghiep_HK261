@@ -35,6 +35,9 @@ Chưa kiểm chứng. Ở 60%, LTV : COCA vẫn 3,7 : 1 nhưng NPV 5 năm giảm
 **9. 137.448 người dùng cuối lấy từ đâu?** (D1)
 Trung bình hai cách ước tính: từ trên xuống (dân số TP.HCM 8.993.082 người theo Tổng điều tra 2019 × các tỷ lệ) và từ dưới lên (số phòng gym × hội viên trẻ × tỷ lệ sẵn sàng). Các tỷ lệ là giả định, sẽ kiểm chứng bằng khảo sát ít nhất 300 người.
 
+**9b. Sao không dùng luôn số thành viên các nhóm Facebook làm quy mô thị trường?** (slide 05, nút ⓘ)
+Nhóm “Tổng cục phòng chống ức gà” có 96,2K thành viên, “SmallGym · Đơn Giản Là Đam Mê” có 255,0K (ảnh chụp 11/2026). Đây là bằng chứng cộng đồng tập gym rất đông và là kênh tiếp cận khách. Nhưng thành viên đến từ cả nước, có thể trùng giữa hai nhóm, và không phải ai cũng mua whey, nên không cộng vào số người dùng cuối ở TP.HCM.
+
 **10. Nước whey của xưởng có đủ làm bột whey không?** (D6)
 Không. Nước whey tự có chỉ đáp ứng 26,3% nhu cầu năm 1 và 8,6% năm 5. Phần thiếu mua của các cơ sở làm phô mai khác (giả định 300 ₫/lít, đã tính trong giá vốn 195.000 ₫/hũ). Lợi thế là gom phụ phẩm của nhiều nơi với giá thấp.
 

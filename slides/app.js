@@ -60,10 +60,14 @@
   /* ---------- hiệu ứng vào slide ---------- */
   let tl = null, splits = [];
   function cleanup() {
-    if (tl) { tl.kill(); tl = null; }
+    if (tl) { tl.revert(); tl = null; }
     splits.forEach(s => s.revert()); splits = [];
   }
+  let lastSec = null, lastAt = 0;
   function enter(sec, delay) {
+    const now = performance.now();
+    if (sec === lastSec && now - lastAt < 400) return;   // Reveal có thể báo hai lần khi mở bằng link #/n
+    lastSec = sec; lastAt = now;
     document.body.dataset.theme = sec.dataset.theme || 'orange';
     document.body.classList.toggle('on-title', sec.id === 's-title');
     if (!MOTION) { $$('.count', sec).filter(c => !c.closest('.fragment')).forEach(c => countUp(c)); return; }
