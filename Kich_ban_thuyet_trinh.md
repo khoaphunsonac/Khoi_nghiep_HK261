@@ -6,10 +6,10 @@ Năm người, mỗi người khoảng 60 giây (khoảng 150 chữ). Dấu **(b
 
 | Người | Thành viên | Slide | Thời gian |
 |---|---|---|---|
-| Người 1 | Đặng Hải Minh Tâm | 01 Tiêu đề · 02 Công ty · 03 Vấn đề | 1:00 |
+| Người 1 | Trần Đăng Khoa | 01 Tiêu đề · 02 Công ty · 03 Vấn đề | 1:00 |
 | Người 2 | Nguyễn Văn Quyến | 04 Giải pháp (demo) · 05 Thị trường | 1:00 |
 | Người 3 | Nguyễn Ngọc Mỹ Đình | 06 Thu hút khách · 07 Cạnh tranh · 08 Mô hình kinh doanh | 1:00 |
-| Người 4 | Trần Đăng Khoa | 09 Cột mốc · 10 Tài chính | 1:00 |
+| Người 4 | Đặng Hải Minh Tâm | 09 Cột mốc · 10 Tài chính | 1:00 |
 | Người 5 | Mai Nguyễn Quốc Bình | 11 Đội ngũ · 12 Kêu gọi vốn | 1:00 |
 | **Tổng** | | 12 slide chính + 9 slide dự phòng | **5:00** |
 
@@ -17,7 +17,7 @@ Năm người, mỗi người khoảng 60 giây (khoảng 150 chữ). Dấu **(b
 
 ---
 
-## Người 1 · Tâm
+## Người 1 · Khoa
 
 ### Slide 01 · Tiêu đề · 12 giây · 0 bấm
 Chào thầy và các bạn. Nhóm 5 xin giới thiệu MilkLoop: một mẻ sữa, hai giá trị. Chúng em làm whey protein và phô mai tươi từ cùng một mẻ sữa bò Việt Nam.
@@ -45,9 +45,9 @@ Ba bước. Đầu tiên là PT và người tập lâu năm: dùng thử, làm 
 Hàng chính hãng minh bạch nhưng đắt, hàng xách tay rẻ nhưng không kiểm chứng. Góc giá thấp mà minh bạch cao đang trống. Đó là chỗ của MilkLoop. Có phiếu kiểm nghiệm từng lô, điểm cạnh tranh tăng từ 3,05 lên 3,50.
 
 ### Slide 08 · Mô hình kinh doanh · 18 giây · 0 bấm
-Chúng em tự sản xuất và tự bán. Doanh thu có ba dòng: whey bán lẻ, gói định kỳ và qua đại lý; phô mai hộp cho khách whey; và phô mai sỉ cho tiệm bánh, là dòng tiền nền ngay từ năm đầu. Bạn Khoa sẽ nói về lộ trình và tài chính.
+Chúng em tự sản xuất và tự bán. Doanh thu có ba dòng: whey bán lẻ, gói định kỳ và qua đại lý; phô mai hộp cho khách whey; và phô mai sỉ cho tiệm bánh, là dòng tiền nền ngay từ năm đầu. Bạn Tâm sẽ nói về lộ trình và tài chính.
 
-## Người 4 · Khoa
+## Người 4 · Tâm
 
 ### Slide 09 · Cột mốc · 20 giây · 0 bấm
 Nhóm đã xong phân tích khả thi, cờ cắm ở đây. Việc tiếp theo là khảo sát 300 người và 20 phòng gym để kiểm chứng giả định. Sau đó gọi vốn, dựng xưởng, chạy lô thử 100 hũ. Năm 3 mở rộng máy sấy, năm 4 dòng tiền dương, năm 5 hoàn vốn.
