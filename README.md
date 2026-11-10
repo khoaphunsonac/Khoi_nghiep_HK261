@@ -8,7 +8,7 @@ Deck HTML cho bài thực hành 3.2 Nguồn vốn & Pitching (On-Stage Pitch) c�
 
 | Đường dẫn | Nội dung |
 |---|---|
-| `slides/index.html` | 12 slide chính + 1 slide mở phần hỏi đáp + 8 slide dự phòng (Reveal.js 5.1.0) |
+| `slides/index.html` | 12 slide chính + 1 slide mở phần hỏi đáp + 9 slide dự phòng D1–D9 (Reveal.js 5.1.0) |
 | `slides/style.css` | Màu, bố cục, trạng thái cuối của mọi phần tử (dùng khi in PDF) |
 | `slides/app.js` | Khởi tạo Reveal, hiệu ứng GSAP, biểu đồ tài chính, số đếm, popup |
 | `slides/evidence.js` | Nội dung minh chứng cho từng nút ⓘ và định nghĩa thuật ngữ |
@@ -38,7 +38,7 @@ Nhấp đúp `slides/index.html` hoặc mở bản trực tuyến. Nên dùng Ch
 
 **Hai màn hình:** nhấn `S`, kéo cửa sổ ghi chú sang màn hình laptop, để cửa sổ slide trên máy chiếu rồi nhấn `F`.
 
-Slide dự phòng (D1–D8) nằm sau slide 12; khi hội đồng hỏi, nhấn `O` để nhảy tới slide cần mở.
+Slide dự phòng (D1–D9, D9 là tóm tắt kế hoạch kinh doanh) nằm sau slide 12; khi hội đồng hỏi, nhấn `O` để nhảy tới slide cần mở.
 
 ## Minh chứng số liệu và thuật ngữ
 

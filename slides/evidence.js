@@ -59,6 +59,9 @@ window.MILK_EV = {
   von: { t: 'Nhu cầu vốn và cơ cấu nguồn vốn', img: 'assets/img/excel/15a_nhu_cau_von.png', img2: 'assets/img/excel/15_nguon_von.png',
     b: '<p>Nhu cầu tối thiểu = |CF tích lũy âm nhất| = <b>2.773,3 triệu</b> (cuối năm 3). Huy động 3.050 triệu: nhóm 250, thiên thần 2.400, tài trợ 150, vay ưu đãi 250. Số dư tiền thấp nhất sau khi trả nợ: +216,7 triệu.</p><p class="pending">Mức 30% cổ phần là đề xuất tạm, nhóm cần duyệt.</p>',
     s: 'Excel, sheet Nguon_von · Báo cáo 07, mục 2–4' },
+  kehoach: { t: 'Kế hoạch kinh doanh', img: 'assets/img/excel/14c_kich_ban.png',
+    b: '<p>Bài giảng 1.1 xếp “phát triển kế hoạch kinh doanh” là giai đoạn 6, giai đoạn cuối của quy trình khởi nghiệp: tổng hợp mọi phân tích trước đó thành một tài liệu chính thức để trình nhà đầu tư, đối tác, ngân hàng.</p><p>Báo cáo <b>08_Ke_hoach_kinh_doanh.docx</b> gom báo cáo 01–07 và bổ sung hai phần mới: <b>kế hoạch vận hành</b> (địa điểm, quy trình sản xuất, nguyên liệu và công suất, nhân sự theo năm, pháp lý ATTP) và <b>quản trị rủi ro</b> (8 rủi ro kèm cách giảm thiểu). Mọi số liệu lấy từ file Excel.</p>',
+    s: 'Báo cáo 08 · Bài giảng 1.1, slide 12 và 16' },
   dungvon: { t: 'Dùng vốn vào đâu', img: 'assets/img/excel/10_dau_tu_nam0.png', img2: 'assets/img/excel/17_so_du_tien.png',
     b: '<p>1.200 triệu đầu tư năm 0 (máy phô mai 220, lọc màng và sấy whey 430, kho lạnh 160, cải tạo xưởng 110, giấy phép ATTP 60, thương hiệu và MVP 70, vốn lưu động 150); 1.573,3 triệu bù dòng tiền âm năm 1–3; 276,7 triệu dự phòng.</p>',
     s: 'Excel, sheet CF và Nguon_von · Báo cáo 07, mục 4' }
