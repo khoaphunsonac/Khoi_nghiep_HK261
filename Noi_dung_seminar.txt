@@ -196,7 +196,7 @@ Ghi chú người nói: Kết thúc bằng lời kêu gọi và ba điểm xin g
 SLIDE DỰ PHÒNG · MỞ ĐẦU
 Slide dự phòng
 Hỏi & đáp
-D1 · TAM, SAM D2 · LTV D3 · COCA D4 · Dòng tiền & NPV D5 · Độ nhạy & kịch bản D6 · Nguồn nước whey D7 · Số dư tiền & vay D8 · SWOT
+D1 · TAM, SAM D2 · LTV D3 · COCA D4 · Dòng tiền & NPV D5 · Độ nhạy & kịch bản D6 · Nguồn nước whey D7 · Số dư tiền & vay D8 · SWOT D9 · Kế hoạch kinh doanh
 
 ======================================================================
 SLIDE DỰ PHÒNG D1
@@ -248,6 +248,21 @@ Dùng giá và minh bạch để vượt tâm lý chuộng hàng ngoại
 Cơ hội Xu hướng tập gym · hàng nhập đắt · phô mai cho F&B tăng · hỗ trợ khởi nghiệp
 Thách thức Thương hiệu ngoại lâu đời · chuộng hàng ngoại · giá sữa, quy định ATTP
 Chiến lược chính: SO tập trung gymer sinh viên với whey giá tốt · ST công khai COA, mã QR · WO tìm vốn qua cuộc thi, cố vấn · WT chạy MVP nhỏ, ký hợp đồng sữa dài hạn
+
+======================================================================
+SLIDE DỰ PHÒNG D9
+D9 · Kế hoạch kinh doanh
+Tóm tắt kế hoạch kinh doanh (bài 1.1, giai đoạn 6 · báo cáo 08)
+1 Doanh nghiệp: Xưởng phô mai + sấy whey tại TP.HCM; công ty TNHH (đề xuất)
+2 Sản phẩm: Whey 650.000 ₫/kg, gói định kỳ 590.000 ₫; phô mai 120.000 ₫/hộp, 320.000 ₫/kg sỉ
+3 Thị trường: 137.448 người dùng cuối · TAM 811,3 tỷ · SOM năm 5 5,47 tỷ
+4 Cạnh tranh: Ngành hấp dẫn trung bình · CPM 3,05 → 3,50 khi có COA
+5 Marketing: PT, KOL → sinh viên → người mới tập · LTV : COCA 5,7 : 1
+6 Vận hành: 4 → 8 NV sản xuất · mua thêm nước whey · mở rộng máy sấy năm 3
+7 Tài chính: DT 1,4 → 9,5 tỷ · NPV 14.460,9 tr (có CFT) · −892,1 tr (5 năm)
+8 Nguồn vốn: 3.050 tr: thiên thần 2.400 (30%, chờ duyệt), nhóm 250, tài trợ 150, vay 250
+9 Lộ trình: Khảo sát → gọi vốn, MVP → bán năm 1 → hoàn vốn năm 5
+10 Rủi ro chính: Nhu cầu thấp hơn giả định · thiếu nước whey · chuộng hàng ngoại
 
 ======================================================================
 NGUỒN SỐ LIỆU VÀ GHI CÔNG

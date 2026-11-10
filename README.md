@@ -14,7 +14,7 @@ Deck HTML cho bài thực hành 3.2 Nguồn vốn & Pitching (On-Stage Pitch) c�
 | `slides/evidence.js` | Nội dung minh chứng cho từng nút ⓘ và định nghĩa thuật ngữ |
 | `slides/lib/` | Reveal.js và GSAP 3.13 (SplitText, DrawSVG, ScrambleText), đã tải về để chạy offline |
 | `slides/assets/img/` | Logo trường, ảnh Unsplash (`photo/`), minh họa unDraw (`ud/`), Open Doodles (`od/`), ảnh chụp bảng Excel (`excel/`) |
-| `Slides_Pitch_MilkLoop.pdf` | Bản PDF để nộp, 21 trang |
+| `Slides_Pitch_MilkLoop.pdf` | Bản PDF để nộp, 22 trang |
 | `Kich_ban_thuyet_trinh.md` | Kịch bản 5 người, khoảng 5 phút, kèm bảng hỏi đáp |
 | `Hoi_dap_thuong_gap.md` | Câu hỏi dự kiến, gợi ý trả lời, slide dự phòng tương ứng |
 | `Noi_dung_seminar.txt` | Chữ trên từng slide, nguồn số liệu, ghi công hình ảnh |
