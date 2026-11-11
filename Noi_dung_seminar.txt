@@ -252,14 +252,14 @@ Chiến lược chính: SO tập trung gymer sinh viên với whey giá tốt ·
 ======================================================================
 SLIDE DỰ PHÒNG D9
 D9 · Kế hoạch kinh doanh
-Tóm tắt kế hoạch kinh doanh (bài 1.1, giai đoạn 6 · báo cáo 08)
+Tóm tắt kế hoạch kinh doanh (bài 3.3 · báo cáo 08)
 1 Doanh nghiệp: Xưởng phô mai + sấy whey tại TP.HCM; công ty TNHH (đề xuất)
 2 Sản phẩm: Whey 650.000 ₫/kg, gói định kỳ 590.000 ₫; phô mai 120.000 ₫/hộp, 320.000 ₫/kg sỉ
 3 Thị trường: 137.448 người dùng cuối · TAM 820,2 tỷ · SOM năm 5 5,53 tỷ
 4 Cạnh tranh: Ngành hấp dẫn trung bình · CPM 3,05 → 3,50 khi có COA
 5 Marketing: PT, KOL → sinh viên → người mới tập · LTV : COCA 6,9 : 1
 6 Vận hành: 4 → 8 NV sản xuất · mua thêm nước whey · mở rộng máy sấy năm 3
-7 Tài chính: DT 1,4 → 9,5 tỷ · NPV 19.503,5 tr (có CFT) · +148,1 tr (5 năm)
+7 Tài chính: DT 1,4 → 9,5 tỷ · hòa vốn và có lãi từ năm 3 · NPV 19.503,5 tr (có CFT) · +148,1 tr (5 năm)
 8 Nguồn vốn: 2.650 tr: thiên thần 2.000 (25%, chờ duyệt), nhóm 250, tài trợ 150, vay 250
 9 Lộ trình: Khảo sát → gọi vốn, MVP → bán năm 1 → hoàn vốn năm 5
 10 Rủi ro chính: Nhu cầu thấp hơn giả định · thiếu nước whey · chuộng hàng ngoại

@@ -59,9 +59,9 @@ window.MILK_EV = {
   von: { t: 'Nhu cầu vốn và cơ cấu nguồn vốn', img: 'assets/img/excel/15a_nhu_cau_von.png', img2: 'assets/img/excel/15_nguon_von.png',
     b: '<p>Nhu cầu tối thiểu = |CF tích lũy âm nhất| = <b>2.302,4 triệu</b> (cuối năm 2). Huy động 2.650 triệu: nhóm 250, thiên thần 2.000, tài trợ 150, vay ưu đãi 250; dự phòng 347,6 triệu (15,1%). Số dư tiền thấp nhất sau khi trả nợ: +307,6 triệu.</p><p class="pending">Mức 25% cổ phần là đề xuất tạm, nhóm cần duyệt.</p>',
     s: 'Excel, sheet Nguon_von · Báo cáo 07, mục 2–4' },
-  kehoach: { t: 'Kế hoạch kinh doanh', img: 'assets/img/excel/14c_kich_ban.png',
-    b: '<p>Bài giảng 1.1 xếp “phát triển kế hoạch kinh doanh” là giai đoạn 6, giai đoạn cuối của quy trình khởi nghiệp: tổng hợp mọi phân tích trước đó thành một tài liệu chính thức để trình nhà đầu tư, đối tác, ngân hàng.</p><p>Báo cáo <b>08_Ke_hoach_kinh_doanh.docx</b> gom báo cáo 01–07 và bổ sung hai phần mới: <b>kế hoạch vận hành</b> (địa điểm, quy trình sản xuất, nguyên liệu và công suất, nhân sự theo năm, pháp lý ATTP) và <b>quản trị rủi ro</b> (8 rủi ro kèm cách giảm thiểu). Mọi số liệu lấy từ file Excel.</p>',
-    s: 'Báo cáo 08 · Bài giảng 1.1, slide 12 và 16' },
+  kehoach: { t: 'Kế hoạch kinh doanh', img: 'assets/img/excel/20_hoa_von.png', img2: 'assets/img/excel/18_kqkd.png',
+    b: '<p>Báo cáo <b>08_Ke_hoach_kinh_doanh.docx</b> là bản kế hoạch kinh doanh đầy đủ theo bài giảng 3.3, cấu trúc Barringer &amp; Ireland (2024): tóm tắt, phân tích ngành, mô tả công ty, phân tích thị trường, khía cạnh kinh tế, tiếp thị, phát triển sản phẩm, vận hành, đội ngũ và cơ cấu tổ chức, lịch trình tổng thể, dự báo tài chính, rủi ro, phụ lục.</p><p>Phần mới so với các báo cáo trước: <b>điểm hòa vốn</b> (doanh thu vượt hòa vốn kế toán từ năm 3), <b>báo cáo kết quả kinh doanh</b> có khấu hao và thuế TNDN (lợi nhuận sau thuế dương từ năm 3), <b>bảng cân đối kế toán</b> dự kiến. Báo cáo <b>09</b> gộp toàn bộ 01–08 thành báo cáo cuối khóa.</p>',
+    s: 'Báo cáo 08, 09 · Excel, sheet Hoa_von và KQKD · Bài giảng 3.3' },
   dungvon: { t: 'Dùng vốn vào đâu', img: 'assets/img/excel/10_dau_tu_nam0.png', img2: 'assets/img/excel/17_so_du_tien.png',
     b: '<p>1.200 triệu đầu tư năm 0 (máy phô mai 220, lọc màng và sấy whey 430, kho lạnh 160, cải tạo xưởng 110, giấy phép ATTP 60, thương hiệu và MVP 70, vốn lưu động 150); 1.102,4 triệu bù dòng tiền âm năm 1–2; 347,6 triệu dự phòng.</p>',
     s: 'Excel, sheet CF và Nguon_von · Báo cáo 07, mục 4' }

@@ -1,6 +1,6 @@
 # Hỏi đáp dự kiến: Pitch MilkLoop
 
-Câu hỏi hội đồng hay hỏi sau bài pitch, kèm gợi ý trả lời và slide dự phòng cần mở. Số liệu lấy từ file Excel `Tai_chinh_Pho_mai_Whey.xlsx` và bộ báo cáo 00–07 của nhóm.
+Câu hỏi hội đồng hay hỏi sau bài pitch, kèm gợi ý trả lời và slide dự phòng cần mở. Số liệu lấy từ file Excel `Tai_chinh_Pho_mai_Whey.xlsx` và bộ báo cáo 00–09 của nhóm (09 là báo cáo cuối khóa gộp 01–08).
 
 ## Tài chính
 
