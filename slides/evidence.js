@@ -57,7 +57,7 @@ window.MILK_EV = {
     b: '<p>Excel tính lại toàn bộ mô hình khi đổi các giả định chưa có số liệu. Tỷ lệ giữ chân r = 70% → NPV 5 năm <b>−614,8 triệu</b>, IRR 5 năm 3,33%; r = 60% → −1.282,4 triệu. Chiều tốt: KB1 (50% khách mua kèm phô mai) → +628,2 triệu; KB2 (thêm 8/14/20/26/32 tiệm) → <b>+2.068,5 triệu</b>, IRR 5 năm 35,91%.</p>',
     s: 'Excel, sheet Do_nhay · Báo cáo 06, Bài tập 5 bước 5' },
   von: { t: 'Nhu cầu vốn và cơ cấu nguồn vốn', img: 'assets/img/excel/15a_nhu_cau_von.png', img2: 'assets/img/excel/15_nguon_von.png',
-    b: '<p>Nhu cầu tối thiểu = |CF tích lũy âm nhất| = <b>2.302,4 triệu</b> (cuối năm 2). Huy động 2.650 triệu: nhóm 250, thiên thần 2.000, tài trợ 150, vay ưu đãi 250; dự phòng 347,6 triệu (15,1%). Số dư tiền thấp nhất sau khi trả nợ: +307,6 triệu.</p><p class="pending">Mức 25% cổ phần là đề xuất tạm, nhóm cần duyệt.</p>',
+    b: '<p>Nhu cầu tối thiểu = |CF tích lũy âm nhất| = <b>2.302,4 triệu</b> (cuối năm 2). Huy động 2.650 triệu: nhóm 250, thiên thần 2.000, tài trợ 150, vay ưu đãi 250; dự phòng 347,6 triệu (15,1%). Số dư tiền thấp nhất sau khi trả nợ: +307,6 triệu.</p>',
     s: 'Excel, sheet Nguon_von · Báo cáo 07, mục 2–4' },
   kehoach: { t: 'Kế hoạch kinh doanh', img: 'assets/img/excel/20_hoa_von.png', img2: 'assets/img/excel/18_kqkd.png',
     b: '<p>Báo cáo <b>08_Ke_hoach_kinh_doanh.docx</b> là bản kế hoạch kinh doanh đầy đủ theo bài giảng 3.3, cấu trúc Barringer &amp; Ireland (2024): tóm tắt, phân tích ngành, mô tả công ty, phân tích thị trường, khía cạnh kinh tế, tiếp thị, phát triển sản phẩm, vận hành, đội ngũ và cơ cấu tổ chức, lịch trình tổng thể, dự báo tài chính, rủi ro, phụ lục.</p><p>Phần mới so với các báo cáo trước: <b>điểm hòa vốn</b> (doanh thu vượt hòa vốn kế toán từ năm 3), <b>báo cáo kết quả kinh doanh</b> có khấu hao và thuế TNDN (lợi nhuận sau thuế dương từ năm 3), <b>bảng cân đối kế toán</b> dự kiến. Báo cáo <b>09</b> gộp toàn bộ 01–08 thành báo cáo cuối khóa.</p>',
@@ -92,5 +92,5 @@ window.MILK_TERMS = {
   pp: ['PP (Payback Period)', 'Thời gian hoàn vốn.', 'PP = năm trước khi hoàn vốn + |CF tích lũy năm đó| / dòng tiền năm sau (bài giảng 3.1, slide 25).'],
   attp: ['ATTP', 'An toàn thực phẩm.', 'Xưởng cần giấy chứng nhận cơ sở đủ điều kiện ATTP và hồ sơ công bố sản phẩm trước khi bán.'],
   angel: ['Nhà đầu tư thiên thần (business angel)', 'Cá nhân góp vốn cho startup giai đoạn đầu để đổi lấy cổ phần.', 'Là loại vốn chủ sở hữu trong bài giảng 3.2, phù hợp khi dự án chưa có doanh thu và chưa vay ngân hàng được.'],
-  postmoney: ['Định giá sau đầu tư (post-money)', 'Giá trị công ty ngay sau khi nhận vốn.', 'Post-money = số vốn góp / tỷ lệ cổ phần = 2.000 / 25% = 8.000 triệu ₫; pre-money = 8.000 − 2.000 = 6.000 triệu ₫. Mức 25% đang chờ nhóm duyệt.']
+  postmoney: ['Định giá sau đầu tư (post-money)', 'Giá trị công ty ngay sau khi nhận vốn.', 'Post-money = số vốn góp / tỷ lệ cổ phần = 2.000 / 25% = 8.000 triệu ₫; pre-money = 8.000 − 2.000 = 6.000 triệu ₫.']
 };

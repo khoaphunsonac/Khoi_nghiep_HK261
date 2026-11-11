@@ -80,5 +80,5 @@ Chúng em cần huy động 2,65 tỷ đồng, trong đó kêu gọi nhà đầu
 | Tỷ lệ giữ chân 80% có thực tế? | Chưa kiểm chứng. Ở 70%, NPV 5 năm đã âm 614,8 triệu; ở 60%, LTV:COCA vẫn 4,4:1. Lô MVP sẽ đo tỷ lệ mua lại sau 30/60/90 ngày. | D5 |
 | Nước whey của xưởng có đủ? | Không: tự có chỉ đủ 26% năm 1, 8,6% năm 5. Phần thiếu mua của cơ sở phô mai khác, đã tính trong giá vốn. | D6 |
 | Tại sao gọi 2,65 tỷ, không phải 1,2 tỷ? | 1,2 tỷ là đầu tư năm 0. Dòng tiền tích lũy xuống thấp nhất −2,30 tỷ ở cuối năm 2; số dư tiền sau khi trả nợ vẫn còn 307,6 triệu. | D7 |
-| Định giá dựa trên gì? | Hiện là đề xuất để đàm phán, nằm giữa NPV 5 năm và NPV có CFT; mức 25% đang chờ nhóm duyệt. | D7 |
+| Định giá dựa trên gì? | Định giá sau đầu tư 8 tỷ (2 tỷ đổi 25%), nằm giữa NPV 5 năm và NPV có CFT; là mức nhóm đưa ra để đàm phán. | D7 |
 | Vượt tâm lý chuộng hàng ngoại thế nào? | Phiếu COA từng lô, mã QR, gói dùng thử 30 g, review của PT. | D8 |

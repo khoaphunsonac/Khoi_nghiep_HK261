@@ -17,7 +17,7 @@ Theo dòng tiền không có CFT là 4,31 năm, tức hoàn vốn trong năm th�
 1.200 triệu là đầu tư năm 0. Dòng tiền năm 1–2 còn âm, nên dòng tiền tích lũy xuống thấp nhất −2.302,4 triệu ở cuối năm 2; năm 3 dòng tiền đã dương dù có 400 triệu mở rộng máy sấy. Huy động 2.650 triệu để còn dự phòng 347,6 triệu; sau khi trả lãi và gốc vay, số dư tiền thấp nhất vẫn là +307,6 triệu.
 
 **5. Định giá 8.000 triệu sau đầu tư dựa trên gì?** (D7)
-Hiện là mức đề xuất để đàm phán (2.000 triệu đổi 25%), nằm giữa NPV 5 năm và NPV có CFT. Mức 25% cổ phần đang chờ nhóm duyệt.
+Nhóm gọi 2.000 triệu đổi 25% cổ phần, tức định giá sau đầu tư 8.000 triệu. Mức này nằm giữa NPV 5 năm và NPV có CFT, là điểm khởi đầu để đàm phán với nhà đầu tư.
 
 ## Khách hàng
 

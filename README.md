@@ -72,7 +72,7 @@ Khi in, hiệu ứng tắt, mọi ý hiện ở trạng thái cuối, mỗi slid
 - **Hiệu ứng vào slide:** gắn `data-anim` = `fade-up`, `pop`, `drop`, `slide-r`, `slide-l`, `flip`, `stagger`; tiêu đề dùng class `split-words` hoặc `split-chars`; số đếm dùng `class="count" data-to="..." data-d="số chữ số thập phân"`.
 - **Ý hiện dần:** `class="fragment fade-up"`; nhớ sửa số `(bấm)` trong kịch bản.
 - **Biểu đồ tài chính:** số nằm ở biến `FIN` trong `app.js` (lấy từ sheet CF của file Excel).
-- **Mục chờ nhóm duyệt:** class `pending` (chữ đỏ), hiện là mức 25% cổ phần ở slide 12.
+- **Mục chờ duyệt:** gắn class `pending` để tô chữ đỏ; hiện không còn mục nào.
 
 ## Ảnh và minh họa
 
