@@ -6,7 +6,7 @@
    ========================================================= */
 window.MILK_EV = {
   gia: { t: 'Giá whey 650.000 ₫/kg', img: 'assets/img/excel/01_gia_dinh.png',
-    b: '<p>Giá niêm yết do nhóm đặt (chính sách giá, Bài tập 2 bài 3.1). Gói định kỳ 590.000 ₫; đại lý phòng gym chiết khấu 27,5%.</p><p>Giá thực thu bình quân dùng trong mô hình: <b>590.250 ₫/hũ</b> = 40% × 650.000 + 40% × 590.000 + 20% × 650.000 × (1 − 27,5%).</p>',
+    b: '<p>Giá niêm yết do nhóm đặt (chính sách giá, Bài tập 2 bài 3.1). Gói định kỳ 590.000 ₫; đại lý phòng gym chiết khấu 22,5% (khoảng phổ biến 20–25%).</p><p>Giá thực thu bình quân dùng trong mô hình: <b>596.750 ₫/hũ</b> = 40% × 650.000 + 40% × 590.000 + 20% × 650.000 × (1 − 22,5%).</p>',
     s: 'Excel, sheet Gia_dinh · Báo cáo 06, Bài tập 2' },
   on: { t: 'Giá whey chính hãng', b: '<p>Optimum Nutrition 100% Whey Gold Standard 5 lbs (≈2,27 kg): <b>2.290.000 ₫</b> (wheytot.com) đến <b>2.900.000 ₫</b> (whey.vn), tức khoảng 1,0–1,28 triệu ₫/kg; 24 g đạm mỗi khẩu phần.</p><p>Thanh “hàng xách tay” chỉ minh họa định tính: chưa có số liệu giá đáng tin.</p>',
     s: 'wheytot.com, whey.vn, truy cập 11/2026 · Báo cáo 02, mục V' },
@@ -23,11 +23,11 @@ window.MILK_EV = {
   nguoidung: { t: '137.448 người dùng cuối', img: 'assets/img/excel/03_tam_sam.png',
     b: '<p class="ev-f">Từ trên xuống = 8.993.082 × 20% × 15% × 50% · Từ dưới lên = 400 gym × 500 hội viên × 70%</p><p>Kết quả là trung bình hai cách. Dân số TP.HCM theo Tổng điều tra dân số và nhà ở 2019 (TCTK); các tỷ lệ còn lại là giả định, sẽ khảo sát ≥ 300 người.</p>',
     s: 'Excel, sheet Gia_dinh và Thi_truong · Báo cáo 02' },
-  som: { t: 'SOM 0,44 → 5,47 tỷ ₫', img: 'assets/img/excel/09_doanh_thu.png',
+  som: { t: 'SOM 0,45 → 5,53 tỷ ₫', img: 'assets/img/excel/09_doanh_thu.png',
     b: '<p>SOM lấy đúng doanh thu whey của dự án (dòng “Doanh thu whey”), tính từ số khách mới mỗi năm 150/300/300/400/400, tỷ lệ giữ chân 80% và giá thực thu. Năm 5 bằng 1,65% SAM.</p>',
     s: 'Excel, sheet Doanh_thu · Báo cáo 02, mục III.2' },
-  ltvcoca: { t: 'LTV : COCA = 5,7 : 1', img: 'assets/img/excel/05_ltv.png', img2: 'assets/img/excel/07_coca_3_thoi_diem.png',
-    b: '<p class="ev-f">LTV = Σ lợi nhuận gộp(t) × 1/(1+i)<sup>t</sup> = 10.364.078 ₫ · COCA = (TMSE − IBSE) / NC</p><p>COCA: 2.453.333 ₫ (năm 1) → 1.805.000 ₫ (năm 2–3) → 1.815.000 ₫ (năm 4–5). Chuẩn David Skok: LTV : COCA ≥ 3 : 1.</p>',
+  ltvcoca: { t: 'LTV : COCA = 6,9 : 1', img: 'assets/img/excel/05_ltv.png', img2: 'assets/img/excel/07_coca_3_thoi_diem.png',
+    b: '<p class="ev-f">LTV = Σ lợi nhuận gộp(t) × 1/(1+i)<sup>t</sup> = 10.868.465 ₫ · COCA = (TMSE − IBSE) / NC</p><p>COCA: 2.233.333 ₫ (năm 1) → 1.585.000 ₫ (năm 2–3) → 1.580.000 ₫ (năm 4–5). Nhân viên bán hàng nhận lương cơ bản 5,5 triệu + thưởng KPI 3 triệu ₫/tháng; không có thưởng giới thiệu riêng cho PT. Chuẩn David Skok: LTV : COCA ≥ 3 : 1.</p>',
     s: 'Excel, sheet LTV và COCA · Báo cáo 06, Bài tập 3–4' },
   forces: { t: '5 áp lực cạnh tranh', b: '<table class="ev-t"><tr><th>Áp lực</th><th>Mức</th><th>Lý do chính</th></tr><tr><td>Đối thủ hiện tại</td><td>Cao</td><td>Nhiều nhãn nhập khẩu và hàng xách tay cạnh tranh bằng giá</td></tr><tr><td>Khách hàng</td><td>Cao</td><td>Nhạy giá, chi phí chuyển đổi thấp, dễ so giá trên sàn</td></tr><tr><td>Đối thủ tiềm năng</td><td>TB</td><td>Cần giấy phép ATTP, thiết bị; hãng sữa lớn có thể gia nhập</td></tr><tr><td>Sản phẩm thay thế</td><td>TB</td><td>Ức gà, trứng, sữa rẻ nhưng bất tiện</td></tr><tr><td>Nhà cung cấp</td><td>TB</td><td>Giá sữa biến động; nước whey là phụ phẩm cơ sở phô mai muốn bán</td></tr></table>',
     s: 'Báo cáo 04, mục I (theo bài giảng 2.2)' },
@@ -45,25 +45,25 @@ window.MILK_EV = {
     b: '<p>Năm 5 cần <b>1.324.343 lít</b> nước whey để làm 9.270 kg bột WPC (7 kg WPC/1.000 lít). Nước whey tự có chỉ đủ 8,6%; phần còn lại mua của cơ sở phô mai khác. Hệ số kỹ thuật là giả định, cần cố vấn kiểm chứng.</p>',
     s: 'Excel, sheet Nguyen_lieu · Báo cáo 03, mục II.3' },
   cf: { t: 'Doanh thu, chi phí, dòng tiền 5 năm', img: 'assets/img/excel/11_dong_tien_5nam.png',
-    b: '<p>Chi phí gồm thuê xưởng, lương, tiện ích, nguyên liệu và bao bì, MKT & bán hàng (TMSE), phí sàn và giao hàng, chào hàng B2B, đầu tư mở rộng máy sấy 400 triệu ở năm 3.</p>',
+    b: '<p>Chi phí gồm thuê xưởng, lương, tiện ích, nguyên liệu và bao bì, MKT & bán hàng (TMSE), phí sàn và giao hàng, sampling tại siêu thị, đầu tư mở rộng máy sấy 400 triệu ở năm 3.</p>',
     s: 'Excel, sheet CF · Báo cáo 06, Bài tập 5 bước 2–3' },
   npv: { t: 'NPV, IRR theo bài giảng', img: 'assets/img/excel/14_npv_irr_pp.png', img2: 'assets/img/excel/12_dong_tien_phan_tich.png',
     b: '<p class="ev-f">CFT(5) = CF<sub>6</sub> / (r − g) · NPV = C7 + NPV(12%; D7:H7) · IRR = IRR(C7:H7)</p><p>Công thức giữ nguyên file mẫu “3.1 XÁC ĐỊNH NPV, IRR, PP.xlsx” của bài giảng. Kiểm tra: điền số ví dụ của bài giảng vào file ra đúng NPV 4.208,2; IRR 73,77%; PP 3,85.</p>',
     s: 'Excel, sheet CF và NPV, IRR, PP · Báo cáo 06, Bài tập 5 bước 4' },
   npv5: { t: 'Chỉ 5 năm hoạt động', img: 'assets/img/excel/13_cf_tich_luy.png',
-    b: '<p class="ev-f">NPV 5 năm = C5 + NPV(12%; D5:H5) = −892,1 triệu · IRR 5 năm = 0,22%</p><p>PP theo dòng tiền không có CFT: CF tích lũy năm 4 còn −1.779,8 triệu, năm 5 dương → <b>4,99 năm</b>. Giá trị sau cuối chiếm 106,2% NPV theo cách bài giảng.</p>',
+    b: '<p class="ev-f">NPV 5 năm = C5 + NPV(12%; D5:H5) = +148,1 triệu · IRR 5 năm = 13,88%</p><p>PP theo dòng tiền không có CFT: CF tích lũy năm 4 còn −714,6 triệu, năm 5 dương → <b>4,31 năm</b>. Dương nhưng biên mỏng: giá trị sau cuối chiếm 99,2% NPV theo cách bài giảng.</p>',
     s: 'Excel, sheet NPV, IRR, PP · Báo cáo 06, Bài tập 5 bước 5' },
-  kb2: { t: 'Kịch bản cải thiện', img: 'assets/img/excel/14c_kich_ban.png', img2: 'assets/img/excel/14b_do_nhay_r.png',
-    b: '<p>Excel tính lại toàn bộ mô hình khi đổi các giả định chưa có số liệu. KB2: tỷ lệ mua kèm phô mai 30% → 50% và số tiệm 8/14/20/26/32 → NPV 5 năm <b>+852,6 triệu</b>, IRR 5 năm 22,18%.</p>',
+  kb2: { t: 'Độ nhạy và kịch bản', img: 'assets/img/excel/14c_kich_ban.png', img2: 'assets/img/excel/14b_do_nhay_r.png',
+    b: '<p>Excel tính lại toàn bộ mô hình khi đổi các giả định chưa có số liệu. Tỷ lệ giữ chân r = 70% → NPV 5 năm <b>−614,8 triệu</b>, IRR 5 năm 3,33%; r = 60% → −1.282,4 triệu. Chiều tốt: KB1 (50% khách mua kèm phô mai) → +628,2 triệu; KB2 (thêm 8/14/20/26/32 tiệm) → <b>+2.068,5 triệu</b>, IRR 5 năm 35,91%.</p>',
     s: 'Excel, sheet Do_nhay · Báo cáo 06, Bài tập 5 bước 5' },
   von: { t: 'Nhu cầu vốn và cơ cấu nguồn vốn', img: 'assets/img/excel/15a_nhu_cau_von.png', img2: 'assets/img/excel/15_nguon_von.png',
-    b: '<p>Nhu cầu tối thiểu = |CF tích lũy âm nhất| = <b>2.773,3 triệu</b> (cuối năm 3). Huy động 3.050 triệu: nhóm 250, thiên thần 2.400, tài trợ 150, vay ưu đãi 250. Số dư tiền thấp nhất sau khi trả nợ: +216,7 triệu.</p><p class="pending">Mức 30% cổ phần là đề xuất tạm, nhóm cần duyệt.</p>',
+    b: '<p>Nhu cầu tối thiểu = |CF tích lũy âm nhất| = <b>2.302,4 triệu</b> (cuối năm 2). Huy động 2.650 triệu: nhóm 250, thiên thần 2.000, tài trợ 150, vay ưu đãi 250; dự phòng 347,6 triệu (15,1%). Số dư tiền thấp nhất sau khi trả nợ: +307,6 triệu.</p><p class="pending">Mức 25% cổ phần là đề xuất tạm, nhóm cần duyệt.</p>',
     s: 'Excel, sheet Nguon_von · Báo cáo 07, mục 2–4' },
   kehoach: { t: 'Kế hoạch kinh doanh', img: 'assets/img/excel/14c_kich_ban.png',
     b: '<p>Bài giảng 1.1 xếp “phát triển kế hoạch kinh doanh” là giai đoạn 6, giai đoạn cuối của quy trình khởi nghiệp: tổng hợp mọi phân tích trước đó thành một tài liệu chính thức để trình nhà đầu tư, đối tác, ngân hàng.</p><p>Báo cáo <b>08_Ke_hoach_kinh_doanh.docx</b> gom báo cáo 01–07 và bổ sung hai phần mới: <b>kế hoạch vận hành</b> (địa điểm, quy trình sản xuất, nguyên liệu và công suất, nhân sự theo năm, pháp lý ATTP) và <b>quản trị rủi ro</b> (8 rủi ro kèm cách giảm thiểu). Mọi số liệu lấy từ file Excel.</p>',
     s: 'Báo cáo 08 · Bài giảng 1.1, slide 12 và 16' },
   dungvon: { t: 'Dùng vốn vào đâu', img: 'assets/img/excel/10_dau_tu_nam0.png', img2: 'assets/img/excel/17_so_du_tien.png',
-    b: '<p>1.200 triệu đầu tư năm 0 (máy phô mai 220, lọc màng và sấy whey 430, kho lạnh 160, cải tạo xưởng 110, giấy phép ATTP 60, thương hiệu và MVP 70, vốn lưu động 150); 1.573,3 triệu bù dòng tiền âm năm 1–3; 276,7 triệu dự phòng.</p>',
+    b: '<p>1.200 triệu đầu tư năm 0 (máy phô mai 220, lọc màng và sấy whey 430, kho lạnh 160, cải tạo xưởng 110, giấy phép ATTP 60, thương hiệu và MVP 70, vốn lưu động 150); 1.102,4 triệu bù dòng tiền âm năm 1–2; 347,6 triệu dự phòng.</p>',
     s: 'Excel, sheet CF và Nguon_von · Báo cáo 07, mục 4' }
 };
 
@@ -92,5 +92,5 @@ window.MILK_TERMS = {
   pp: ['PP (Payback Period)', 'Thời gian hoàn vốn.', 'PP = năm trước khi hoàn vốn + |CF tích lũy năm đó| / dòng tiền năm sau (bài giảng 3.1, slide 25).'],
   attp: ['ATTP', 'An toàn thực phẩm.', 'Xưởng cần giấy chứng nhận cơ sở đủ điều kiện ATTP và hồ sơ công bố sản phẩm trước khi bán.'],
   angel: ['Nhà đầu tư thiên thần (business angel)', 'Cá nhân góp vốn cho startup giai đoạn đầu để đổi lấy cổ phần.', 'Là loại vốn chủ sở hữu trong bài giảng 3.2, phù hợp khi dự án chưa có doanh thu và chưa vay ngân hàng được.'],
-  postmoney: ['Định giá sau đầu tư (post-money)', 'Giá trị công ty ngay sau khi nhận vốn.', 'Post-money = số vốn góp / tỷ lệ cổ phần = 2.400 / 30% = 8.000 triệu ₫; pre-money = 8.000 − 2.400 = 5.600 triệu ₫. Mức 30% đang chờ nhóm duyệt.']
+  postmoney: ['Định giá sau đầu tư (post-money)', 'Giá trị công ty ngay sau khi nhận vốn.', 'Post-money = số vốn góp / tỷ lệ cổ phần = 2.000 / 25% = 8.000 triệu ₫; pre-money = 8.000 − 2.000 = 6.000 triệu ₫. Mức 25% đang chờ nhóm duyệt.']
 };

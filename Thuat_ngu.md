@@ -17,7 +17,7 @@ Tổng lợi nhuận gộp một khách hàng mang lại trong suốt thời gia
 LTV = Σ (t = 0 → 5)  Lợi nhuận gộp(t) / (1 + i)^t
 ```
 
-- **Dự án:** LTV = **24.996.592 ₫** (làm tròn 25 triệu) cho một khách mua cả phô mai và whey. Whey đóng góp khoảng 83%.
+- **Dự án:** LTV = **10.868.465 ₫** cho một khách whey (30% khách mua kèm phô mai). Ở năm 0, whey đóng góp khoảng 89% lợi nhuận gộp.
 - **Ý nghĩa:** cho biết doanh nghiệp được phép chi tối đa bao nhiêu để có một khách mà vẫn có lời.
 - Slide 19–21.
 
@@ -31,7 +31,7 @@ COCA(t) = [TMSE(t) − IBSE(t)] / NC(t)
 ```
 
 - **COCA càng nhỏ càng tốt.** Chỉ số này thay đổi theo thời gian và không phải thước đo duy nhất của hiệu quả tiếp thị.
-- **Dự án:** 3,6 triệu (năm 1) → 1,91 triệu (năm 2–3) → 1,4 triệu (năm 4–5).
+- **Dự án:** 2,23 triệu (năm 1) → 1,59 triệu (năm 2–3) → 1,58 triệu (năm 4–5).
 - Slide 23–24.
 
 ### Tỷ số LTV : COCA
@@ -53,7 +53,7 @@ NPV = Σ (t = 0 → N)  CF(t) / (1 + r)^t
 - **NPV ≥ 0:** dự án đạt mức sinh lời kỳ vọng r, đáng đầu tư.
 - **NPV < 0:** chưa đạt mức kỳ vọng.
 - Trong Excel: `=CF0 + NPV(r; CF1:CFN)`.
-- **Dự án** (r = 12%): **3.124,7 triệu** nếu chỉ tính 5 năm hoạt động; **23.302,0 triệu** nếu cộng giá trị sau cuối CFT.
+- **Dự án** (r = 12%): **148,1 triệu** nếu chỉ tính 5 năm hoạt động; **19.503,5 triệu** nếu cộng giá trị sau cuối CFT (cách của bài giảng).
 - Slide 27, 34–35.
 
 ### IRR: Suất sinh lợi nội tại
@@ -67,7 +67,7 @@ Mức chiết khấu làm cho NPV đúng bằng 0, tức tỷ suất lợi nhu�
 
 - **IRR ≥ r:** khả thi về tài chính.
 - Không giải tay được, phải thử dần hoặc dùng hàm `IRR()` trong Excel.
-- **Dự án:** **64,46%** (5 năm) hoặc 121,19% (gồm CFT), đều lớn hơn r = 12%.
+- **Dự án:** **13,88%** (5 năm) hoặc 86,81% (gồm CFT), đều lớn hơn r = 12%.
 - Slide 27, 34.
 
 ### PP: Thời gian hoàn vốn
@@ -82,7 +82,7 @@ PP = Năm t + (Chi phí còn phải thu hồi / Dòng tiền năm t+1)
 - **Năm t:** năm cuối cùng mà dòng tiền tích lũy còn âm.
 - **Phân số:** phần lẻ của năm.
 - **PP ≤ thời gian hoàn vốn yêu cầu:** dự án được xem là phù hợp.
-- **Dự án:** PP = 2 + 174,0 / 1.300,6 ≈ **2,13 năm** (khoảng 2 năm 2 tháng), nhỏ hơn yêu cầu 3 năm.
+- **Dự án:** PP = 4 + 714,6 / 2.274,1 ≈ **4,31 năm** theo dòng tiền không gồm CFT (khoảng 4 năm 4 tháng), trong thời kỳ phân tích 5 năm.
 - Slide 28, 35.
 
 ---
@@ -99,8 +99,8 @@ PP = Năm t + (Chi phí còn phải thu hồi / Dòng tiền năm t+1)
 | **1/(1+i)ᵗ** | Hệ số giá trị hiện tại (PV factor) | Giá trị hôm nay của 1 đồng nhận ở năm t | 1,0000 → 0,4972 |
 | **r** (trong NPV) | Suất chiết khấu, suất sinh lợi yêu cầu | Lãi suất nhà đầu tư mong muốn; cũng phản ánh chi phí cơ hội của vốn | 12%/năm |
 | **g** | Tốc độ tăng trưởng vĩnh viễn | Mức tăng dòng tiền mỗi năm sau năm cuối phân tích | 5%/năm |
-| **TMSE** | Total Marketing & Sales Expenses | Tổng chi phí tiếp thị và bán hàng trong kỳ | 600 / 850 / 1.100 triệu |
-| **IBSE** | Install Base Support Expense | Chi phí chăm sóc, hỗ trợ khách hàng đã có; bị trừ ra vì không dùng để kéo khách mới | 60 / 180 / 400 triệu |
+| **TMSE** | Total Marketing & Sales Expenses | Tổng chi phí tiếp thị và bán hàng trong kỳ | 335,0 / 1.019,4 / 1.449,4 triệu (3 thời điểm) |
+| **IBSE** | Install Base Support Expense | Chi phí chăm sóc, hỗ trợ khách hàng đã có; bị trừ ra vì không dùng để kéo khách mới | 0 / 68,4 / 185,4 triệu |
 | **NC** | New Customers | Số khách hàng mới có được trong kỳ | 150 / 350 / 500 khách |
 
 > **Lưu ý:** chữ **r** mang hai nghĩa khác nhau. Trong LTV, r là *tỷ lệ duy trì khách hàng*. Trong NPV, r là *suất chiết khấu*. Bài giảng dùng cùng một chữ cho cả hai.
@@ -121,7 +121,7 @@ PP = Năm t + (Chi phí còn phải thu hồi / Dòng tiền năm t+1)
 *Cash Flow.* Tiền mặt thực thu trừ tiền mặt thực chi trong một năm, tính vào cuối năm.
 
 - **Dòng tiền hoạt động** = Doanh thu − Chi phí vận hành.
-- **Dự án:** +300 triệu (năm 1) → +2.370,6 triệu (năm 5).
+- **Dự án:** −916,0 triệu (năm 1), −186,4 triệu (năm 2), dương từ năm 3, +2.274,1 triệu (năm 5).
 
 ### Chi phí đầu tư ban đầu
 Khoản chi một lần ở năm 0 để bắt đầu hoạt động: máy đông tụ, máy ly tâm, hệ thống cô đặc và sấy lạnh, kho lạnh, giấy phép, thương hiệu, bao bì.
@@ -136,19 +136,19 @@ CF(N+1) = CF(N) × (1 + g)
 CFT     = CF(N+1) / (r − g)        (chỉ có nghĩa khi r > g)
 ```
 
-- **Dự án:** CF6 = 2.370,6 × 1,05 = 2.489,13 triệu; CFT = 2.489,13 / 7% = **35.559,0 triệu**.
-- CFT chiếm khoảng 87% NPV, nên nhóm trình bày thêm kết quả không gồm CFT cho thận trọng.
+- **Dự án:** CF6 = 2.274,1 × 1,05 = 2.387,8 triệu; CFT = 2.387,8 / 7% = **34.110,9 triệu**.
+- CFT chiếm khoảng 99% NPV, nên nhóm trình bày thêm kết quả không gồm CFT cho thận trọng.
 - Slide 33.
 
 ### CF phân tích
 Dòng tiền dùng để tính NPV và IRR: vốn đầu tư năm 0, dòng tiền hoạt động các năm, và cộng CFT vào năm cuối.
 
-- **Dự án:** năm 5 = 2.370,6 + 35.559,0 = 37.929,6 triệu.
+- **Dự án:** năm 5 = 2.274,1 + 34.110,9 = 36.385,0 triệu.
 
 ### CF tích lũy
 Cộng dồn dòng tiền từ năm 0 đến năm đang xét. Năm đầu tiên CF tích lũy chuyển từ âm sang dương là năm thu hồi đủ vốn. Bài giảng tính PP trên dòng tích lũy **không gồm** CFT.
 
-- **Dự án:** −1.200 → −900 → −174 → **+1.126,6** (năm 3).
+- **Dự án:** −1.200 → −2.116,0 → −2.302,4 → −2.104,5 → −714,6 → **+1.559,5** (năm 5).
 
 ### Chiết khấu
 Quy đổi tiền tương lai về giá trị hôm nay bằng cách chia cho (1 + suất chiết khấu)ᵗ. Lý do: tiền hôm nay có thể đem đầu tư sinh lời, nên đáng giá hơn cùng số tiền đó trong tương lai.
@@ -211,7 +211,7 @@ Lặp lại hằng tháng, quý hoặc năm. Dự án có 5 khoản: thuê xư�
 |---|---|---|
 | **Định giá theo giá trị** (Value-based pricing) | Đặt giá theo giá trị khách nhận được, không cộng lãi trên chi phí | Định vị phô mai tươi cao cấp |
 | **Định giá cao trước, giảm sau** | Niêm yết cao để định vị, sau đó chiết khấu linh hoạt | Bài giảng khuyên tránh định giá thấp rồi phải tăng giá |
-| **Giá neo** (Anchor price) | Mức giá tham chiếu để khách so sánh | Whey 850.000 ₫/kg, dưới hàng nhập 0,9–1,2 triệu |
+| **Giá neo** (Anchor price) | Mức giá tham chiếu để khách so sánh | Whey 650.000 ₫/kg, dưới ON Gold Standard 1,0–1,28 triệu ₫/kg |
 | **Giá theo khối lượng** (Volume pricing) | Mua càng nhiều đơn giá càng thấp | B2B: 320.000 ₫/kg (5–19 kg), 280.000 ₫/kg (từ 20 kg) |
 | **Combo** (Bundling) | Bán gộp nhiều sản phẩm với giá rẻ hơn mua lẻ | Phô mai + whey 880.000 ₫, tiết kiệm 90.000 ₫ |
 | **Tiếp thị liên kết** (Affiliate) | Người giới thiệu có mã giảm giá riêng cho người theo dõi | Mã giảm 10% cho học viên của PT, KOL |
@@ -252,7 +252,7 @@ Người hoặc nhóm người thực sự quyết định việc mua hàng. Ví
 | Thuật ngữ | Nghĩa | Trong dự án |
 |---|---|---|
 | **Thị trường tiền tiêu** (Beachhead market) | Thị trường đầu tiên được chọn để chiếm lĩnh, làm bàn đạp sang thị trường lân cận | Gymer và sinh viên tập thể thao tại TP.HCM dùng whey nội địa giá tốt |
-| **TAM** (Total Addressable Market) | Tổng doanh thu tiềm năng nếu chiếm 100% thị trường tiền tiêu | Khoảng 725 tỷ đồng/năm (báo cáo khả thi thị trường) |
+| **TAM** (Total Addressable Market) | Tổng doanh thu tiềm năng nếu chiếm 100% thị trường tiền tiêu | Khoảng 820,2 tỷ đồng/năm (báo cáo khả thi thị trường) |
 | **Người dùng cuối** (End user) | Người thực sự dùng sản phẩm | |
 | **Chân dung khách hàng** (Persona) | Một khách hàng điển hình được mô tả cụ thể | Minh, sinh viên năm 3, tập gym 5 buổi/tuần |
 | **Truyền miệng** (Word-of-mouth) | Khách tự giới thiệu cho nhau, giúp COCA giảm theo thời gian | |
@@ -280,9 +280,9 @@ Người hoặc nhóm người thực sự quyết định việc mua hàng. Ví
 
 | Chỉ số | Hỏi điều gì | Tiêu chí đạt | Kết quả dự án | Đạt? |
 |---|---|---|---|---|
-| **LTV** | Một khách mang lại bao nhiêu lợi nhuận gộp trong 5 năm? | Càng cao càng tốt | 24.996.592 ₫ | |
-| **COCA** | Có một khách mới tốn bao nhiêu? | Càng thấp càng tốt | 3,6 → 1,4 triệu ₫ | |
-| **LTV : COCA** | Khách mang về gấp mấy lần chi phí có khách? | ≥ 3 : 1 | 6,94 → 17,86 : 1 | Đạt |
-| **NPV** | Sau khi chiết khấu, dự án tạo thêm bao nhiêu giá trị? | ≥ 0 | 3.124,7 triệu (5 năm) | Đạt |
-| **IRR** | Dự án sinh lời bao nhiêu % mỗi năm? | ≥ r = 12% | 64,46% (5 năm) | Đạt |
-| **PP** | Bao lâu thì thu hồi đủ vốn? | ≤ 3 năm | 2,13 năm | Đạt |
+| **LTV** | Một khách mang lại bao nhiêu lợi nhuận gộp trong 5 năm? | Càng cao càng tốt | 10.868.465 ₫ | |
+| **COCA** | Có một khách mới tốn bao nhiêu? | Càng thấp càng tốt | 2,23 → 1,58 triệu ₫ | |
+| **LTV : COCA** | Khách mang về gấp mấy lần chi phí có khách? | ≥ 3 : 1 | 4,9 → 6,9 : 1 | Đạt |
+| **NPV** | Sau khi chiết khấu, dự án tạo thêm bao nhiêu giá trị? | ≥ 0 | 19.503,5 triệu (có CFT); 148,1 triệu (5 năm) | Đạt |
+| **IRR** | Dự án sinh lời bao nhiêu % mỗi năm? | ≥ r = 12% | 86,81% (có CFT); 13,88% (5 năm) | Đạt |
+| **PP** | Bao lâu thì thu hồi đủ vốn? | ≤ 5 năm (thời kỳ phân tích) | 4,31 năm | Đạt |

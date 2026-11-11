@@ -4,31 +4,31 @@ Câu hỏi hội đồng hay hỏi sau bài pitch, kèm gợi ý trả lời và
 
 ## Tài chính
 
-**1. Vì sao NPV theo bài giảng là 14.460,9 triệu mà NPV 5 năm lại âm 892,1 triệu?** (D4)
-Cách tính của bài giảng cộng giá trị sau cuối CFT vào năm 5, phần này còn lớn hơn cả NPV (106,2%). Nếu chỉ tính 5 năm hoạt động, dự án chưa thu hồi đủ giá trị ở suất chiết khấu 12%. Nhóm nói thẳng con số này và chỉ ra điều kiện để 5 năm có lãi (câu 2).
+**1. Vì sao NPV theo bài giảng là 19.503,5 triệu mà NPV 5 năm chỉ 148,1 triệu?** (D4)
+Cách tính của bài giảng cộng giá trị sau cuối CFT vào năm 5, phần này chiếm 99,2% NPV. Chỉ tính 5 năm hoạt động, NPV vẫn dương (148,1 triệu) và IRR 13,88% vượt suất chiết khấu 12%, nhưng biên an toàn mỏng.
 
-**2. Cần gì để NPV 5 năm dương?** (D5)
-Kịch bản KB2: 50% khách whey mua kèm phô mai (cơ sở là 30%) và ký 8 tiệm bánh năm 1, lên 32 tiệm năm 5. Khi đó NPV 5 năm là 852,6 triệu, IRR 5 năm 22,18%. Thêm giá whey 690.000 ₫ (KB3) thì NPV 5 năm là 1.185,6 triệu.
+**2. Biến nào làm NPV 5 năm đổi dấu?** (D5)
+Tỷ lệ giữ chân khách. Ở 70%/năm (cơ sở 80%), NPV 5 năm còn −614,8 triệu, IRR 5 năm 3,33%. Chiều tốt: 50% khách mua kèm phô mai (KB1) cho +628,2 triệu; thêm 8 → 32 tiệm bánh (KB2) cho +2.068,5 triệu, IRR 5 năm 35,91%.
 
 **3. PP là bao nhiêu?** (D4)
-Theo dòng tiền không có CFT là 4,99 năm, tức gần hết năm thứ 5. Công thức bài giảng trên dòng CF phân tích cho 4,06 năm nhưng con số đó đã cộng CFT.
+Theo dòng tiền không có CFT là 4,31 năm, tức hoàn vốn trong năm thứ 5. Công thức bài giảng trên dòng CF phân tích cho 4,02 năm nhưng con số đó đã cộng CFT.
 
-**4. Vì sao cần 3.050 triệu, không phải 1,2 tỷ?** (D7)
-1.200 triệu là đầu tư năm 0. Dòng tiền năm 1–3 còn âm, năm 3 có thêm 400 triệu mở rộng máy sấy, nên dòng tiền tích lũy xuống thấp nhất −2.773,3 triệu. Huy động 3.050 triệu để còn dự phòng; sau khi trả lãi và gốc vay, số dư tiền thấp nhất vẫn là +216,7 triệu.
+**4. Vì sao cần 2.650 triệu, không phải 1,2 tỷ?** (D7)
+1.200 triệu là đầu tư năm 0. Dòng tiền năm 1–2 còn âm, nên dòng tiền tích lũy xuống thấp nhất −2.302,4 triệu ở cuối năm 2; năm 3 dòng tiền đã dương dù có 400 triệu mở rộng máy sấy. Huy động 2.650 triệu để còn dự phòng 347,6 triệu; sau khi trả lãi và gốc vay, số dư tiền thấp nhất vẫn là +307,6 triệu.
 
 **5. Định giá 8.000 triệu sau đầu tư dựa trên gì?** (D7)
-Hiện là mức đề xuất để đàm phán, nằm giữa NPV 5 năm và NPV có CFT. Mức 30% cổ phần đang chờ nhóm duyệt.
+Hiện là mức đề xuất để đàm phán (2.000 triệu đổi 25%), nằm giữa NPV 5 năm và NPV có CFT. Mức 25% cổ phần đang chờ nhóm duyệt.
 
 ## Khách hàng
 
-**6. LTV 10,36 triệu tính thế nào?** (D2)
-Theo bảng ở slide 14 bài 3.1: giá thực thu bình quân 590.250 ₫/hũ, 10 hũ/năm, 30% khách mua kèm phô mai, giữ chân 80%/năm, suất chiết khấu 15%, năm 0 tính nửa năm.
+**6. LTV 10,87 triệu tính thế nào?** (D2)
+Theo bảng ở slide 14 bài 3.1: giá thực thu bình quân 596.750 ₫/hũ (đại lý phòng gym chiết khấu 22,5%), giá vốn phô mai 40.000 ₫/hộp, 10 hũ/năm, 30% khách mua kèm phô mai, giữ chân 80%/năm, suất chiết khấu 15%, năm 0 tính nửa năm.
 
 **7. COCA gồm những khoản nào?** (D3)
-Lương nhân viên bán hàng, quảng cáo TikTok/Facebook, mẫu thử, thưởng giới thiệu 100.000 ₫/khách mới, sự kiện ở gym, website, tư vấn thương hiệu, chăm sóc khách cũ. Trừ phần chăm sóc khách cũ (IBSE) rồi chia cho số khách mới. COCA đi từ 2,45 triệu xuống khoảng 1,8 triệu; LTV : COCA ở thời điểm 3 là 5,7 : 1.
+Lương cơ bản nhân viên bán hàng 5,5 triệu và thưởng KPI, chuyên cần 3 triệu ₫/tháng, quảng cáo TikTok/Facebook, mẫu thử, sự kiện ở gym, website, tư vấn thương hiệu, chăm sóc khách cũ. Trừ phần chăm sóc khách cũ (IBSE) rồi chia cho số khách mới. COCA đi từ 2,23 triệu xuống khoảng 1,58 triệu; LTV : COCA ở thời điểm 3 là 6,9 : 1. Không có thưởng giới thiệu riêng cho PT vì phòng gym đã hưởng chiết khấu đại lý; sampling tại siêu thị là marketing thương hiệu, tính riêng trong dòng tiền.
 
 **8. Giữ chân 80%/năm có thực tế không?** (D5)
-Chưa kiểm chứng. Ở 60%, LTV : COCA vẫn 3,7 : 1 nhưng NPV 5 năm giảm còn −2.243,7 triệu. Lô MVP 100 hũ sẽ đo tỷ lệ mua lại sau 30/60/90 ngày.
+Chưa kiểm chứng. Ở 70%, NPV 5 năm đã âm (−614,8 triệu); ở 60%, LTV : COCA vẫn 4,4 : 1 nhưng NPV 5 năm còn −1.282,4 triệu. Lô MVP 100 hũ sẽ đo tỷ lệ mua lại sau 30/60/90 ngày.
 
 ## Thị trường và sản phẩm
 

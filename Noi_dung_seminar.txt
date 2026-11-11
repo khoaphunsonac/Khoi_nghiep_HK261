@@ -65,9 +65,9 @@ SLIDE 05
 05 · Cơ hội thị trường
 Cộng đồng gym trên Facebook: Tổng cục phòng chống ức gà 96,2K thành viên · SmallGym 255,0K thành viên
 Thị trường tiền tiêu: gymer sinh viên TP.HCM
-TAM 811,3 tỷ
-SAM 243,4 tỷ
-SOM năm 5 5,47 tỷ
+TAM 820,2 tỷ
+SAM 246,1 tỷ
+SOM năm 5 5,53 tỷ
 137.448 người dùng cuối ở TP.HCM (trung bình cách tính từ trên xuống và từ dưới lên; dân số TCTK 2019)
 SOM = doanh thu whey của dự án (tỷ ₫)
 chỉ 1,65% SAM ở năm 5: không cần giành thị phần lớn
@@ -77,13 +77,13 @@ Ghi chú người nói: TAM 811 tỷ, SAM 243 tỷ ở các quận quanh cụm �
 SLIDE 06
 06 · Thu hút & giữ khách hàng
 Đi qua PT và cộng đồng, giữ chân bằng gói định kỳ
-1 PT, KOL, gymer lâu năm dùng thử trước, làm đại lý 25–30%
+1 PT, KOL, gymer lâu năm dùng thử trước, làm đại lý 20–25%
 2 Sinh viên như Minh tin nhờ phiếu COA và review của PT
 3 Người mới tập, hộ gia đình gói thử 30 g, combo, mua trên sàn
-PT giới thiệu TikTok Quầy ở gym Shopee Fanpage
-Giữ chân 590.000 ₫ gói định kỳ · thưởng giới thiệu 100.000 ₫
-LTV : COCA (thời điểm 3) 5,7 : 1 LTV 10,36 tr · COCA 2,45 → 1,82 tr · chuẩn ≥ 3 : 1
-Ghi chú người nói: Ba nhóm khách theo thứ tự. Nhấn LTV:COCA 5,7:1, trên chuẩn 3:1.
+PT làm đại lý TikTok Quầy ở gym Shopee Fanpage
+Giữ chân 590.000 ₫ gói định kỳ · nhóm cộng đồng gym
+LTV : COCA (thời điểm 3) 6,9 : 1 LTV 10,87 tr · COCA 2,23 → 1,58 tr · chuẩn ≥ 3 : 1
+Ghi chú người nói: Ba nhóm khách theo thứ tự. Nhấn LTV:COCA 6,9:1, trên chuẩn 3:1.
 
 ======================================================================
 SLIDE 07
@@ -136,8 +136,8 @@ HK261 Phân tích khả thi xong đang ở đây
 Trước gọi vốn Khảo sát ≥ 300 người, 20 phòng gym
 Năm 0 Gọi vốn · xưởng · MVP 100 hũ
 Năm 1 150 khách whey · 6 tiệm bánh
-Năm 3 Mở rộng máy sấy (400 tr)
-Năm 4 Dòng tiền dương
+Năm 3 Dòng tiền dương · mở rộng máy sấy
+Năm 4 Phủ toàn TP.HCM
 Năm 5 Hoàn vốn · 1.127 khách · 22 tiệm
 Khách whey đang dùng 150 → 1.127
 Tiệm bánh B2B 6 → 22
@@ -147,18 +147,18 @@ Ghi chú người nói: Cờ cắm ở HK261. Việc tiếp theo là khảo sát
 ======================================================================
 SLIDE 10
 10 · Tài chính Excel: Tai_chinh_Pho_mai_Whey.xlsx
-Doanh thu 1,4 → 9,5 tỷ , dòng tiền dương từ năm 4
+Doanh thu 1,4 → 9,5 tỷ , dòng tiền dương từ năm 3
 Doanh thu Chi phí Dòng tiền
 Theo bài giảng (có giá trị sau cuối CFT)
-NPV 14.460,9 tr
-IRR 73,07 %
-Chỉ 5 năm hoạt động (không CFT)
-NPV −892,1 tr
-PP 4,99 năm
-Kịch bản KB2: 50% khách mua kèm phô mai, 8 → 32 tiệm
-NPV 5 năm + 852,6 tr
-IRR 5 năm 22,18 %
-Ghi chú người nói: Bấm 1: NPV theo bài giảng. Bấm 2: con số 5 năm, nói thẳng là chưa hoàn vốn đủ trong 5 năm. Bấm 3: điều kiện để 5 năm có lãi.
+NPV 19.503,5 tr
+IRR 86,81 %
+Chỉ 5 năm hoạt động (không CFT): vẫn dương, biên mỏng
+NPV + 148,1 tr
+PP 4,31 năm
+Nếu giữ chân khách chỉ 70%/năm (thay vì 80%)
+NPV 5 năm −614,8 tr
+IRR 5 năm 3,33 %
+Ghi chú người nói: Bấm 1: NPV theo bài giảng. Bấm 2: chỉ tính 5 năm vẫn dương nhưng biên mỏng. Bấm 3: tỷ lệ giữ chân là biến phải kiểm chứng đầu tiên.
 
 ======================================================================
 SLIDE 11
@@ -177,14 +177,14 @@ SLIDE 12
 12 · Kêu gọi hành động
 Cùng MilkLoop đưa hũ whey đầu tiên ra thị trường
 Nhà đầu tư thiên thần
-2.400 triệu ₫
-đổi 30% cổ phần *
-Thiên thần 2.400 Nhóm 250 Tài trợ 150 Vay 250
-Tổng huy động 3.050 triệu ₫ · nhu cầu tối thiểu 2.773 triệu ₫
+2.000 triệu ₫
+đổi 25% cổ phần *
+Thiên thần 2.000 Nhóm 250 Tài trợ 150 Vay 250
+Tổng huy động 2.650 triệu ₫ · nhu cầu tối thiểu 2.302 triệu ₫
 Dùng vốn vào
 1.200 xưởng, máy sấy, kho lạnh, giấy phép ATTP
-1.573 bù dòng tiền âm năm 1–3, gồm mở rộng máy sấy
-277 dự phòng
+1.102 bù dòng tiền âm năm 1–2
+348 dự phòng
 Xin hội đồng góp ý
 Nguồn nước whey khi mở rộng
 Tỷ lệ giữ chân khách thực tế
@@ -204,19 +204,19 @@ D1 · Ước lượng TAM, SAM
 Hai cách ước tính người dùng cuối
 Từ trên xuống = Dân số × % 18–26 tuổi × % tập thường xuyên × % nhạy giá
 Từ dưới lên = Số gym × hội viên trẻ × % sẵn sàng dùng whey nội địa
-TAM = Người dùng × giá thực thu 590.250 ₫ × 10 hũ/năm
+TAM = Người dùng × giá thực thu 596.750 ₫ × 10 hũ/năm
 Dân số 8.993.082 người: Tổng điều tra dân số 2019 (TCTK). Các tỷ lệ còn lại là giả định, sẽ khảo sát ≥ 300 người.
 
 ======================================================================
 SLIDE DỰ PHÒNG D2
 D2 · LTV
-LTV = Σ lợi nhuận gộp × 1/(1+i) t = 10,36 triệu ₫
+LTV = Σ lợi nhuận gộp × 1/(1+i) t = 10,87 triệu ₫
 Giá thực thu bình quân · 30% khách mua kèm phô mai · năm 0 tính nửa năm · r = 80%, i = 15%
 
 ======================================================================
 SLIDE DỰ PHÒNG D3
 D3 · COCA
-COCA = (TMSE − IBSE) / NC · LTV : COCA = 5,7 : 1
+COCA = (TMSE − IBSE) / NC · LTV : COCA = 6,9 : 1
 
 ======================================================================
 SLIDE DỰ PHÒNG D4
@@ -237,7 +237,7 @@ Phần thiếu mua của cơ sở phô mai khác (giả định 300 ₫/lít, đ
 ======================================================================
 SLIDE DỰ PHÒNG D7
 D7 · Số dư tiền & vay
-Vốn huy động đủ: số dư thấp nhất +216,7 triệu ₫
+Vốn huy động đủ: số dư thấp nhất +307,6 triệu ₫
 
 ======================================================================
 SLIDE DỰ PHÒNG D8
@@ -255,12 +255,12 @@ D9 · Kế hoạch kinh doanh
 Tóm tắt kế hoạch kinh doanh (bài 1.1, giai đoạn 6 · báo cáo 08)
 1 Doanh nghiệp: Xưởng phô mai + sấy whey tại TP.HCM; công ty TNHH (đề xuất)
 2 Sản phẩm: Whey 650.000 ₫/kg, gói định kỳ 590.000 ₫; phô mai 120.000 ₫/hộp, 320.000 ₫/kg sỉ
-3 Thị trường: 137.448 người dùng cuối · TAM 811,3 tỷ · SOM năm 5 5,47 tỷ
+3 Thị trường: 137.448 người dùng cuối · TAM 820,2 tỷ · SOM năm 5 5,53 tỷ
 4 Cạnh tranh: Ngành hấp dẫn trung bình · CPM 3,05 → 3,50 khi có COA
-5 Marketing: PT, KOL → sinh viên → người mới tập · LTV : COCA 5,7 : 1
+5 Marketing: PT, KOL → sinh viên → người mới tập · LTV : COCA 6,9 : 1
 6 Vận hành: 4 → 8 NV sản xuất · mua thêm nước whey · mở rộng máy sấy năm 3
-7 Tài chính: DT 1,4 → 9,5 tỷ · NPV 14.460,9 tr (có CFT) · −892,1 tr (5 năm)
-8 Nguồn vốn: 3.050 tr: thiên thần 2.400 (30%, chờ duyệt), nhóm 250, tài trợ 150, vay 250
+7 Tài chính: DT 1,4 → 9,5 tỷ · NPV 19.503,5 tr (có CFT) · +148,1 tr (5 năm)
+8 Nguồn vốn: 2.650 tr: thiên thần 2.000 (25%, chờ duyệt), nhóm 250, tài trợ 150, vay 250
 9 Lộ trình: Khảo sát → gọi vốn, MVP → bán năm 1 → hoàn vốn năm 5
 10 Rủi ro chính: Nhu cầu thấp hơn giả định · thiếu nước whey · chuộng hàng ngoại
 
@@ -275,4 +275,4 @@ NGUỒN SỐ LIỆU VÀ GHI CÔNG
 [6] Minh họa unDraw (undraw.co), đổi màu nhấn sang #FF5A1F.
 [7] Open Doodles (opendoodles.com, Pablo Stanley, CC0), đổi màu sang #FF5A1F và #12B886.
 
-CHỖ CẦN NHÓM DUYỆT: mức 30% cổ phần (slide 12, chữ đỏ); tên MilkLoop, slogan và vai trò thành viên là đề xuất.
+CHỖ CẦN NHÓM DUYỆT: mức 25% cổ phần (slide 12, chữ đỏ); tên MilkLoop, slogan và vai trò thành viên là đề xuất.

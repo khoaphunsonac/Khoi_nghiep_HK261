@@ -34,12 +34,12 @@ Khi làm phô mai, sữa tách ra khối phô mai và phần nước còn lại 
 *(Cầm hũ mẫu lên.)* Đây là hũ mẫu của MilkLoop. Giá 650 nghìn một ký, rẻ hơn 35 đến 49 phần trăm so với hàng chính hãng; đăng ký gói định kỳ còn 590 nghìn. Mỗi khẩu phần 30 gam có 24 gam đạm. Quét mã QR trên hũ là thấy phiếu kiểm nghiệm của lô đó. Phô mai cùng mẻ sữa thì giao lạnh cho tiệm bánh.
 
 ### Slide 05 · Thị trường · 32 giây · 0 bấm
-Thị trường tiền tiêu là sinh viên và người trẻ tập gym ở TP.HCM. Cộng đồng này rất đông: chỉ hai nhóm Facebook “Tổng cục phòng chống ức gà” và “SmallGym” đã có 96 nghìn và 255 nghìn thành viên, và đây cũng là nơi chúng em tìm khách. Ở TP.HCM có khoảng 137 nghìn người dùng cuối, tổng thị trường khoảng 811 tỷ đồng mỗi năm; phần kênh nhóm phủ được là 243 tỷ. Năm thứ năm, doanh thu whey đạt 5,47 tỷ, chỉ 1,65 phần trăm thị trường này. Bạn Đình nói tiếp cách tìm khách.
+Thị trường tiền tiêu là sinh viên và người trẻ tập gym ở TP.HCM. Cộng đồng này rất đông: chỉ hai nhóm Facebook “Tổng cục phòng chống ức gà” và “SmallGym” đã có 96 nghìn và 255 nghìn thành viên, và đây cũng là nơi chúng em tìm khách. Ở TP.HCM có khoảng 137 nghìn người dùng cuối, tổng thị trường khoảng 820 tỷ đồng mỗi năm; phần kênh nhóm phủ được là 246 tỷ. Năm thứ năm, doanh thu whey đạt 5,53 tỷ, chỉ 1,65 phần trăm thị trường này. Bạn Đình nói tiếp cách tìm khách.
 
 ## Người 3 · Đình
 
 ### Slide 06 · Thu hút khách · 22 giây · 0 bấm
-Ba bước. Đầu tiên là PT và người tập lâu năm: dùng thử, làm đại lý. Tiếp theo là sinh viên như Minh, tin nhờ phiếu kiểm nghiệm và lời giới thiệu của PT. Sau cùng là người mới tập. Giữ khách bằng gói định kỳ. Mỗi khách mang lại giá trị gấp 5,7 lần chi phí để có họ, trên mức chuẩn 3 lần.
+Ba bước. Đầu tiên là PT và người tập lâu năm: dùng thử, làm đại lý. Tiếp theo là sinh viên như Minh, tin nhờ phiếu kiểm nghiệm và lời giới thiệu của PT. Sau cùng là người mới tập. Giữ khách bằng gói định kỳ. Mỗi khách mang lại giá trị gấp 6,9 lần chi phí để có họ, trên mức chuẩn 3 lần.
 
 ### Slide 07 · Cạnh tranh · 20 giây · 0 bấm
 Hàng chính hãng minh bạch nhưng đắt, hàng xách tay rẻ nhưng không kiểm chứng. Góc giá thấp mà minh bạch cao đang trống. Đó là chỗ của MilkLoop. Có phiếu kiểm nghiệm từng lô, điểm cạnh tranh tăng từ 3,05 lên 3,50.
@@ -50,13 +50,13 @@ Chúng em tự sản xuất và tự bán. Doanh thu có ba dòng: whey bán l�
 ## Người 4 · Tâm
 
 ### Slide 09 · Cột mốc · 20 giây · 0 bấm
-Nhóm đã xong phân tích khả thi, cờ cắm ở đây. Việc tiếp theo là khảo sát 300 người và 20 phòng gym để kiểm chứng giả định. Sau đó gọi vốn, dựng xưởng, chạy lô thử 100 hũ. Năm 3 mở rộng máy sấy, năm 4 dòng tiền dương, năm 5 hoàn vốn.
+Nhóm đã xong phân tích khả thi, cờ cắm ở đây. Việc tiếp theo là khảo sát 300 người và 20 phòng gym để kiểm chứng giả định. Sau đó gọi vốn, dựng xưởng, chạy lô thử 100 hũ. Năm 3 dòng tiền dương và mở rộng máy sấy, năm 5 hoàn vốn.
 
 ### Slide 10 · Tài chính · 40 giây · 3 bấm
-Doanh thu tăng từ 1,4 tỷ năm đầu lên 9,5 tỷ năm thứ năm, dòng tiền dương từ năm thứ tư.
-(bấm) Theo cách tính của bài giảng, NPV là 14,5 tỷ, IRR 73 phần trăm.
-(bấm) Nhưng chúng em nói thẳng: nếu chỉ tính năm năm hoạt động, NPV còn âm 892 triệu và gần hết năm thứ năm mới hoàn vốn.
-(bấm) Nếu một nửa khách whey mua thêm phô mai và ký được 32 tiệm bánh, NPV năm năm thành dương 853 triệu. Đó là hai điều nhóm sẽ kiểm chứng trước. Bạn Bình xin mời.
+Doanh thu tăng từ 1,4 tỷ năm đầu lên 9,5 tỷ năm thứ năm, dòng tiền dương từ năm thứ ba.
+(bấm) Theo cách tính của bài giảng, NPV là 19,5 tỷ, IRR 87 phần trăm.
+(bấm) Chỉ tính năm năm hoạt động, NPV vẫn dương 148 triệu và hoàn vốn sau 4,3 năm, nhưng biên còn mỏng.
+(bấm) Nếu tỷ lệ giữ chân khách chỉ 70 thay vì 80 phần trăm, NPV năm năm thành âm 615 triệu. Vì vậy đây là con số đầu tiên nhóm sẽ đo bằng lô thử. Bạn Bình xin mời.
 
 ## Người 5 · Bình
 
@@ -64,7 +64,7 @@ Doanh thu tăng từ 1,4 tỷ năm đầu lên 9,5 tỷ năm thứ năm, dòng t
 Đội có năm người, mỗi người một mảng: Tâm điều phối và gọi vốn, Quyến lo quy trình và an toàn thực phẩm, Đình làm cộng đồng và marketing, em lo xưởng và cung ứng, Khoa làm tài chính. Phần còn thiếu là kinh nghiệm sản xuất, nhóm bù bằng cố vấn công nghệ thực phẩm.
 
 ### Slide 12 · Kêu gọi vốn · 40 giây · 0 bấm
-Chúng em cần huy động 3,05 tỷ đồng, trong đó kêu gọi nhà đầu tư thiên thần 2,4 tỷ, đổi 30 phần trăm cổ phần. Vốn dùng cho xưởng và máy sấy, bù dòng tiền ba năm đầu, còn lại dự phòng. Ngoài vốn, chúng em mong thầy và các bạn góp ý ba điểm: nguồn nước whey khi mở rộng, tỷ lệ giữ chân khách thực tế, và cách vượt tâm lý chuộng hàng ngoại. MilkLoop, một mẻ sữa, hai giá trị. Cảm ơn thầy và các bạn đã lắng nghe.
+Chúng em cần huy động 2,65 tỷ đồng, trong đó kêu gọi nhà đầu tư thiên thần 2 tỷ, đổi 25 phần trăm cổ phần. Vốn dùng cho xưởng và máy sấy, bù dòng tiền hai năm đầu, còn lại dự phòng. Ngoài vốn, chúng em mong thầy và các bạn góp ý ba điểm: nguồn nước whey khi mở rộng, tỷ lệ giữ chân khách thực tế, và cách vượt tâm lý chuộng hàng ngoại. MilkLoop, một mẻ sữa, hai giá trị. Cảm ơn thầy và các bạn đã lắng nghe.
 
 ---
 
@@ -72,13 +72,13 @@ Chúng em cần huy động 3,05 tỷ đồng, trong đó kêu gọi nhà đầu
 
 | Câu hỏi | Trả lời ngắn | Slide |
 |---|---|---|
-| Vì sao NPV có CFT lớn mà NPV 5 năm âm? | Giá trị sau cuối chiếm hơn 100% NPV theo cách bài giảng; 5 năm chưa đủ thu hồi giá trị ở suất 12%. Kịch bản KB2 cho thấy điều kiện để 5 năm có lãi. | D4, D5 |
+| Vì sao NPV có CFT lớn hơn nhiều NPV 5 năm? | Giá trị sau cuối chiếm 99,2% NPV theo cách bài giảng; chỉ 5 năm thì NPV vẫn dương 148,1 triệu, IRR 13,88%, nhưng biên mỏng. | D4, D5 |
 | 137 nghìn người dùng cuối lấy ở đâu? | Trung bình hai cách: từ trên xuống (dân số TCTK 2019 × các tỷ lệ) và từ dưới lên (số gym × hội viên). Các tỷ lệ là giả định, sẽ khảo sát 300 người. | D1 |
 | Sao không lấy luôn số thành viên nhóm Facebook? | Hai nhóm có 96,2K và 255,0K thành viên nhưng là toàn quốc và có thể trùng nhau; nhóm dùng làm bằng chứng cộng đồng đông và kênh tiếp cận, còn người dùng cuối ở TP.HCM vẫn tính theo dân số và khảo sát. | 05 (nút ⓘ) |
-| LTV 10,36 triệu tính thế nào? | Theo bảng slide 14 bài 3.1: giá thực thu, 30% khách mua kèm phô mai, giữ chân 80%/năm, chiết khấu 15%, năm 0 tính nửa năm. | D2 |
-| COCA tính những gì? | Lương sale, quảng cáo, mẫu thử, thưởng giới thiệu, sự kiện, web, chăm sóc khách cũ; trừ phần chăm sóc khách cũ rồi chia cho số khách mới. | D3 |
-| Tỷ lệ giữ chân 80% có thực tế? | Chưa kiểm chứng. Với 60%, LTV:COCA vẫn 3,7:1 nhưng NPV 5 năm âm sâu hơn. Lô MVP sẽ đo tỷ lệ mua lại sau 30/60/90 ngày. | D5 |
+| LTV 10,87 triệu tính thế nào? | Theo bảng slide 14 bài 3.1: giá thực thu, 30% khách mua kèm phô mai, giữ chân 80%/năm, chiết khấu 15%, năm 0 tính nửa năm. | D2 |
+| COCA tính những gì? | Lương và thưởng KPI của sale, quảng cáo, mẫu thử, sự kiện, web, chăm sóc khách cũ; trừ phần chăm sóc khách cũ rồi chia cho số khách mới. | D3 |
+| Tỷ lệ giữ chân 80% có thực tế? | Chưa kiểm chứng. Ở 70%, NPV 5 năm đã âm 614,8 triệu; ở 60%, LTV:COCA vẫn 4,4:1. Lô MVP sẽ đo tỷ lệ mua lại sau 30/60/90 ngày. | D5 |
 | Nước whey của xưởng có đủ? | Không: tự có chỉ đủ 26% năm 1, 8,6% năm 5. Phần thiếu mua của cơ sở phô mai khác, đã tính trong giá vốn. | D6 |
-| Tại sao gọi 3,05 tỷ, không phải 1,2 tỷ? | 1,2 tỷ là đầu tư năm 0. Dòng tiền tích lũy xuống thấp nhất −2,77 tỷ ở năm 3; số dư tiền sau khi trả nợ vẫn còn 216,7 triệu. | D7 |
-| Định giá dựa trên gì? | Hiện là đề xuất để đàm phán, nằm giữa NPV 5 năm và NPV có CFT; mức 30% đang chờ nhóm duyệt. | D7 |
+| Tại sao gọi 2,65 tỷ, không phải 1,2 tỷ? | 1,2 tỷ là đầu tư năm 0. Dòng tiền tích lũy xuống thấp nhất −2,30 tỷ ở cuối năm 2; số dư tiền sau khi trả nợ vẫn còn 307,6 triệu. | D7 |
+| Định giá dựa trên gì? | Hiện là đề xuất để đàm phán, nằm giữa NPV 5 năm và NPV có CFT; mức 25% đang chờ nhóm duyệt. | D7 |
 | Vượt tâm lý chuộng hàng ngoại thế nào? | Phiếu COA từng lô, mã QR, gói dùng thử 30 g, review của PT. | D8 |
